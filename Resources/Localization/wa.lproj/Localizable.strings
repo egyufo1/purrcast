@@ -1,0 +1,203 @@
+/* Ratournaedje e walon. Keys are the English texts; check: Resources/Localization/check.sh */
+
+/* Errors */
+"timed out" = "tins dipassé";
+"Not found: %@. Install it with: brew install ffmpeg" = "Nén trové: %@. Astalez-l avou: brew install ffmpeg";
+"Couldn't read the file: %@" = "Li fitchî n’ a nén polou esse lèyou: %@";
+"The file has no video track." = "I gn a nole tracete videyo dins l’ fitchî.";
+"ffmpeg stopped with an error:\n%@" = "ffmpeg s’ a arestê avou ene aroke:\n%@";
+"Not enough free space for the temporary stream files (needs about %@, free: %@)." = "Nén assez d’ plaece libe po les fitchîs d’ flux timporaires (i fåt åd triviè %@, libe: %@).";
+"The local stream server didn't start: %@" = "Li sierveu d’ flux locå n’ a nén ataké: %@";
+"Didn't start with the previous settings, retrying in a safer mode…" = "Ç’ n’ a nén ataké avou les tchuzes di dvant, on rsaye dins on môde pus seur…";
+"Couldn't start playback:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log" = "Li djouwaedje n’ a nén polou ataker:\n%@\n\nDetays: ~/Library/Logs/Purrcast.log";
+"player error: %@" = "aroke do djouweu: %@";
+"playback didn't start within 20 seconds" = "li djouwaedje n’ a nén ataké dins les 20 segondes";
+"Error" = "Aroke";
+
+/* Tracks */
+"Audio %@" = "Son %@";
+"Subtitle %@" = "Dizo-tite %@";
+"(forced)" = "(forcî)";
+"External subtitle" = "Dizo-tite di dfoû";
+"(external)" = "(di dfoû)";
+"unknown" = "nén cnoxhou";
+"mono" = "mono";
+"stereo" = "stereyo";
+"%@ channels" = "%@ canås";
+
+/* Conversion summary */
+"%@ → H.264, plays on every TV" = "%@ → H.264, djouwé so tos les televizeus";
+"%@ H.264 → 8-bit H.264" = "%@ H.264 → H.264 8 bits";
+"interlaced → progressive" = "eterlacî → progressif";
+"re-encoded for reliable playback" = "rencôdé po on djouwaedje seur";
+"Video: %@ – passed through in original quality" = "Videyo: %@ – passêye dins l’ cwålité d’ oridjine";
+"Video: %@ → H.264 %@ (%@)" = "Videyo: %@ → H.264 %@ (%@)";
+"Audio: %@ – original" = "Son: %@ – d’ oridjine";
+"Audio: %@ → %@ %@" = "Son: %@ → %@ %@";
+"Subtitle: %@ – on by default" = "Dizo-tite: %@ – en alaedje d’ ofice";
+"Subtitle: %@" = "Dizo-tite: %@";
+"Subtitle skipped: %@ (%@ is image-based and can't be converted)" = "Dizo-tite passé: %@ (%@ est fwait d’ imådjes et n’ pout nén esse cviersé)";
+
+/* Status */
+"Preparing…" = "Apontiaedje…";
+"Playing via AirPlay" = "Djouwaedje pa AirPlay";
+"Conversion stopped: %@" = "Li cviersaedje s’ a arestê: %@";
+"Prepared: %@ / %@" = "Apontyî: %@ / %@";
+
+/* Window */
+"Open…" = "Drovi…";
+"Open" = "Drovi";
+"Open another file…" = "Drovi on ôte fitchî…";
+"AirPlay – choose your TV" = "AirPlay – tchoezixhoz vosse televizeu";
+"Drop a video here (MKV, MP4, AVI…)" = "Lachîz ene videyo chal (MKV, MP4, AVI…)";
+"or open one with ⌘O, then pick your TV with the AirPlay button" = "ou drovoz-ent ene avou ⌘O, pwis tchoezixhoz vosse televizeu avou l’ boton AirPlay";
+
+/* Menus */
+"Playback" = "Djouwaedje";
+"Original quality (HEVC, HDR, surround – for Apple TV 4K)" = "Cwålité d’ oridjine (HEVC, HDR, son tot åtoû – po Apple TV 4K)";
+"Language" = "Lingaedje";
+"System default" = "Pa dfôt do sistinme";
+"The new language takes effect after a restart." = "Li novea lingaedje serè eployî après on renondaedje.";
+"Restart Purrcast now? Playback stops." = "Renonder Purrcast asteure? Li djouwaedje si va arester.";
+"Restart" = "Renonder";
+"Later" = "Pus tård";
+
+/* Player, menus, playlist, media information */
+"Chapter %@" = "Tchapite %@";
+"File" = "Fitchî";
+"Format" = "Cogne";
+"Duration" = "Durêye";
+"Size" = "Grandeu";
+"Bitrate" = "Debit";
+"General" = "Djenerå";
+"Codec" = "Codec";
+"Title" = "Tite";
+"Resolution" = "Finté";
+"Frame rate" = "Imådjes pa segonde";
+"Pixel format" = "Cogne des picsels";
+"Dynamic range" = "Ranjhe dinamike";
+"Channels" = "Canås";
+"Sample rate" = "Frecwince d’ purnaedje";
+"Video" = "Videyo";
+"Audio" = "Son";
+"Subtitle" = "Dizo-tite";
+"Stream %@: %@" = "Flux %@: %@";
+"Purrcast" = "Purrcast";
+"Media Information" = "Informåcions sol media";
+"Open Network Stream…" = "Drovi on flux del rantoele…";
+"Open Recent" = "Drovi on dierin";
+"Clear Menu" = "Vudî l’ menu";
+"Add Subtitle File…" = "Radjouter on fitchî di dizo-tites…";
+"Save Playlist…" = "Schaper l’ djivêye di djouwaedje…";
+"Play/Pause" = "Djouwer/Pôzer";
+"Stop" = "Arester";
+"Previous" = "Di dvant";
+"Next" = "Shuvant";
+"Jump Back 10 Seconds" = "Potchî 10 segondes en erî";
+"Jump Forward 10 Seconds" = "Potchî 10 segondes en avant";
+"Jump Back 1 Minute" = "Potchî 1 minute en erî";
+"Jump Forward 1 Minute" = "Potchî 1 minute en avant";
+"Jump to Time…" = "Potchî a on moumint…";
+"Next Frame" = "Imådje shuvante";
+"Chapters" = "Tchapites";
+"Faster" = "Pus vite";
+"Slower" = "Pus doûcmint";
+"Normal Speed" = "Vitesse normåle";
+"Set Loop Start (A)" = "Defini l’ cmince del boukele (A)";
+"Set Loop End (B)" = "Defini l’ fén del boukele (B)";
+"Loop Off" = "Dismete li boukele";
+"Repeat" = "Ricmincî";
+"Off" = "Dismetou";
+"All" = "Tot";
+"One" = "Onk";
+"Shuffle" = "A l’ astcheyance";
+"Volume Up" = "Mete pus fwert";
+"Volume Down" = "Mete pus bas";
+"Mute" = "Fé tais";
+"Audio Track" = "Pisse di son";
+"Full Screen" = "Plin waitroûle";
+"Float on Top" = "Tofer pa dzeur";
+"Aspect" = "Raport";
+"Fit" = "Ahiner";
+"Fill (Crop)" = "Rimpli (côper)";
+"Stretch" = "Stirer";
+"Snapshot" = "Imådjete";
+"Show Snapshots Folder" = "Mostrer l’ ridant des imådjetes";
+"Subtitles" = "Dizo-tites";
+"Subtitle Track" = "Pisse di dizo-tites";
+"Next Subtitle Track" = "Pisse di dizo-tites shuvante";
+"Subtitles Earlier (G)" = "Dizo-tites pus timpe (G)";
+"Subtitles Later (H)" = "Dizo-tites pus tård (H)";
+"Reset Subtitle Delay" = "Rimete a zero l’ tårdjaedje des dizo-tites";
+"Playlist" = "Djivêye di djouwaedje";
+"%@ items" = "%@ elemints";
+"Close" = "Clôre";
+"Play" = "Djouwer";
+"Show in Finder" = "Mostrer dins Finder";
+"Remove from Playlist" = "Oister del djivêye";
+"Drop videos or folders here" = "Lachîz des videyos ou des ridants chal";
+"Add files or folders…" = "Radjouter des fitchîs ou des ridants…";
+"Clear Playlist" = "Vudî l’ djivêye";
+"Repeat: off" = "Ricmincî: dismetou";
+"Repeat: all" = "Ricmincî: tot";
+"Repeat: one" = "Ricmincî: onk";
+"Streaming" = "Evoyaedje e flux";
+"Nothing is playing." = "Rén n’ est djouwé.";
+"Open Network Stream" = "Drovi on flux del rantoele";
+"HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – anything ffmpeg can open." = "HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – tot çou k’ ffmpeg pout drovi.";
+"Cancel" = "Rinoncî";
+"Jump to Time" = "Potchî a on moumint";
+"Jump" = "Potchî";
+"Resumed at %@" = "Rataker a %@";
+"Speed: %@" = "Vitesse: %@";
+"Volume: %@" = "Volume: %@";
+"Loop start: %@" = "Cmince del boukele: %@";
+"Looping %@ – %@" = "Boukele %@ – %@";
+"Loop off" = "Boukele dismetowe";
+"Snapshot saved: %@" = "Imådjete schapêye: %@";
+"Couldn't save the snapshot." = "L’ imådjete n’ a nén polou esse schapêye.";
+"Subtitles off" = "Dizo-tites dismetous";
+"Adding subtitles…" = "Radjoutaedje des dizo-tites…";
+"Subtitle delay: %@ ms" = "Tårdjaedje des dizo-tites: %@ ms";
+"Play Playlist" = "Djouwer l’ djivêye";
+"Recent" = "Dierins";
+"Next in Playlist" = "Shuvant dins l’ djivêye";
+"Start Over" = "Rataker do cmince";
+"Jump back 10 seconds" = "10 segondes en erî";
+"Play/Pause (Space)" = "Djouwer/Pôzer (Espåce)";
+"Jump forward 10 seconds" = "10 segondes en avant";
+"Playback speed" = "Vitesse di djouwaedje";
+"Playlist (⌘L)" = "Djivêye di djouwaedje (⌘L)";
+"Full Screen (⌘F)" = "Plin waitroûle (⌘F)";
+"No audio tracks" = "Nole pisse di son";
+"Audio track" = "Pisse di son";
+
+/* Network streams */
+"network stream – seekable anywhere" = "flux rantoele – on pout potchî n’ importe wice";
+"Network HLS stream – played directly, without conversion" = "Flux HLS rantoele – djouwé direk, sins cviersion";
+
+/* Chapters */
+"Previous Chapter" = "Tchapite di dvant";
+"Next Chapter" = "Tchapite shuvant";
+"Chapter: %@" = "Tchapite: %@";
+"Previous Chapter (⇧P)" = "Tchapite di dvant (⇧P)";
+"Next Chapter (⇧N)" = "Tchapite shuvant (⇧N)";
+
+/* Auto-hiding controls */
+"Hide Controls" = "Catchî les contrôles";
+"After %@ seconds" = "Après %@ segondes";
+"Never" = "Måy";
+
+/* Time display */
+"Show total length" = "Mostrer l’ durêye totåle";
+"Show remaining time" = "Mostrer l’ tins ki d’meure";
+
+/* Picture in Picture, appearance */
+"Picture in Picture" = "Imådje e l’ imådje";
+"Playing in Picture in Picture" = "Djouwé e môde imådje e l’ imådje";
+"Appearance" = "Rivnance";
+"Light" = "Clair";
+"Dark" = "Noer";
+
+/* Help menu */
+"Open-Source Licenses" = "Licinces di libes programes";

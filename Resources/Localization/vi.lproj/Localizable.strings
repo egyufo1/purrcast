@@ -1,0 +1,203 @@
+/* Tiếng Việt – keys are the English texts; check: Resources/Localization/check.sh */
+
+/* Errors */
+"timed out" = "hết thời gian chờ";
+"Not found: %@. Install it with: brew install ffmpeg" = "Không tìm thấy %@. Hãy cài đặt bằng lệnh: brew install ffmpeg";
+"Couldn't read the file: %@" = "Không thể đọc tệp: %@";
+"The file has no video track." = "Tệp không có rãnh video.";
+"ffmpeg stopped with an error:\n%@" = "ffmpeg đã dừng do lỗi:\n%@";
+"Not enough free space for the temporary stream files (needs about %@, free: %@)." = "Không đủ dung lượng trống cho các tệp stream tạm thời (cần khoảng %@, còn trống: %@).";
+"The local stream server didn't start: %@" = "Không khởi động được máy chủ stream cục bộ: %@";
+"Didn't start with the previous settings, retrying in a safer mode…" = "Không khởi động được với cài đặt trước đó, đang thử lại ở chế độ an toàn hơn…";
+"Couldn't start playback:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log" = "Không thể bắt đầu phát:\n%@\n\nChi tiết: ~/Library/Logs/Purrcast.log";
+"player error: %@" = "lỗi trình phát: %@";
+"playback didn't start within 20 seconds" = "không bắt đầu phát được trong vòng 20 giây";
+"Error" = "Lỗi";
+
+/* Tracks */
+"Audio %@" = "Âm thanh %@";
+"Subtitle %@" = "Phụ đề %@";
+"(forced)" = "(bắt buộc)";
+"External subtitle" = "Phụ đề ngoài";
+"(external)" = "(ngoài)";
+"unknown" = "không xác định";
+"mono" = "mono";
+"stereo" = "stereo";
+"%@ channels" = "%@ kênh";
+
+/* Conversion summary */
+"%@ → H.264, plays on every TV" = "%@ → H.264, phát được trên mọi TV";
+"%@ H.264 → 8-bit H.264" = "%@ H.264 → H.264 8-bit";
+"interlaced → progressive" = "xen kẽ → lũy tiến";
+"re-encoded for reliable playback" = "mã hóa lại để phát ổn định";
+"Video: %@ – passed through in original quality" = "Video: %@ – giữ nguyên chất lượng gốc";
+"Video: %@ → H.264 %@ (%@)" = "Video: %@ → H.264 %@ (%@)";
+"Audio: %@ – original" = "Âm thanh: %@ – gốc";
+"Audio: %@ → %@ %@" = "Âm thanh: %@ → %@ %@";
+"Subtitle: %@ – on by default" = "Phụ đề: %@ – bật theo mặc định";
+"Subtitle: %@" = "Phụ đề: %@";
+"Subtitle skipped: %@ (%@ is image-based and can't be converted)" = "Đã bỏ qua phụ đề: %@ (%@ là phụ đề dạng hình ảnh, không thể chuyển đổi)";
+
+/* Status */
+"Preparing…" = "Đang chuẩn bị…";
+"Playing via AirPlay" = "Đang phát qua AirPlay";
+"Conversion stopped: %@" = "Đã dừng chuyển đổi: %@";
+"Prepared: %@ / %@" = "Đã chuẩn bị: %@ / %@";
+
+/* Window */
+"Open…" = "Mở…";
+"Open" = "Mở";
+"Open another file…" = "Mở tệp khác…";
+"AirPlay – choose your TV" = "AirPlay – chọn TV của bạn";
+"Drop a video here (MKV, MP4, AVI…)" = "Thả video vào đây (MKV, MP4, AVI…)";
+"or open one with ⌘O, then pick your TV with the AirPlay button" = "hoặc mở bằng ⌘O, rồi chọn TV bằng nút AirPlay";
+
+/* Menus */
+"Playback" = "Phát lại";
+"Original quality (HEVC, HDR, surround – for Apple TV 4K)" = "Chất lượng gốc (HEVC, HDR, âm thanh vòm – cho Apple TV 4K)";
+"Language" = "Ngôn ngữ";
+"System default" = "Mặc định hệ thống";
+"The new language takes effect after a restart." = "Ngôn ngữ mới sẽ có hiệu lực sau khi khởi động lại.";
+"Restart Purrcast now? Playback stops." = "Khởi động lại Purrcast ngay bây giờ? Video đang phát sẽ dừng.";
+"Restart" = "Khởi động lại";
+"Later" = "Để sau";
+
+/* Player, menus, playlist, media information */
+"Chapter %@" = "Chương %@";
+"File" = "Tệp";
+"Format" = "Định dạng";
+"Duration" = "Thời lượng";
+"Size" = "Kích thước";
+"Bitrate" = "Tốc độ bit";
+"General" = "Chung";
+"Codec" = "Codec";
+"Title" = "Tiêu đề";
+"Resolution" = "Độ phân giải";
+"Frame rate" = "Tốc độ khung hình";
+"Pixel format" = "Định dạng điểm ảnh";
+"Dynamic range" = "Dải động";
+"Channels" = "Kênh";
+"Sample rate" = "Tần số lấy mẫu";
+"Video" = "Video";
+"Audio" = "Âm thanh";
+"Subtitle" = "Phụ đề";
+"Stream %@: %@" = "Luồng %@: %@";
+"Purrcast" = "Purrcast";
+"Media Information" = "Thông tin phương tiện";
+"Open Network Stream…" = "Mở luồng mạng…";
+"Open Recent" = "Mở mục gần đây";
+"Clear Menu" = "Xóa menu";
+"Add Subtitle File…" = "Thêm tệp phụ đề…";
+"Save Playlist…" = "Lưu danh sách phát…";
+"Play/Pause" = "Phát/Tạm dừng";
+"Stop" = "Dừng";
+"Previous" = "Trước";
+"Next" = "Tiếp theo";
+"Jump Back 10 Seconds" = "Lùi 10 giây";
+"Jump Forward 10 Seconds" = "Tới 10 giây";
+"Jump Back 1 Minute" = "Lùi 1 phút";
+"Jump Forward 1 Minute" = "Tới 1 phút";
+"Jump to Time…" = "Đi tới thời điểm…";
+"Next Frame" = "Khung hình tiếp theo";
+"Chapters" = "Chương";
+"Faster" = "Nhanh hơn";
+"Slower" = "Chậm hơn";
+"Normal Speed" = "Tốc độ bình thường";
+"Set Loop Start (A)" = "Đặt điểm đầu vòng lặp (A)";
+"Set Loop End (B)" = "Đặt điểm cuối vòng lặp (B)";
+"Loop Off" = "Tắt vòng lặp";
+"Repeat" = "Lặp lại";
+"Off" = "Tắt";
+"All" = "Tất cả";
+"One" = "Một mục";
+"Shuffle" = "Phát ngẫu nhiên";
+"Volume Up" = "Tăng âm lượng";
+"Volume Down" = "Giảm âm lượng";
+"Mute" = "Tắt tiếng";
+"Audio Track" = "Rãnh âm thanh";
+"Full Screen" = "Toàn màn hình";
+"Float on Top" = "Luôn ở trên cùng";
+"Aspect" = "Tỷ lệ khung hình";
+"Fit" = "Vừa khít";
+"Fill (Crop)" = "Lấp đầy (cắt xén)";
+"Stretch" = "Kéo giãn";
+"Snapshot" = "Chụp nhanh";
+"Show Snapshots Folder" = "Hiển thị thư mục ảnh chụp";
+"Subtitles" = "Phụ đề";
+"Subtitle Track" = "Rãnh phụ đề";
+"Next Subtitle Track" = "Rãnh phụ đề tiếp theo";
+"Subtitles Earlier (G)" = "Phụ đề sớm hơn (G)";
+"Subtitles Later (H)" = "Phụ đề muộn hơn (H)";
+"Reset Subtitle Delay" = "Đặt lại độ trễ phụ đề";
+"Playlist" = "Danh sách phát";
+"%@ items" = "%@ mục";
+"Close" = "Đóng";
+"Play" = "Phát";
+"Show in Finder" = "Hiển thị trong Finder";
+"Remove from Playlist" = "Xóa khỏi danh sách phát";
+"Drop videos or folders here" = "Thả video hoặc thư mục vào đây";
+"Add files or folders…" = "Thêm tệp hoặc thư mục…";
+"Clear Playlist" = "Xóa danh sách phát";
+"Repeat: off" = "Lặp lại: tắt";
+"Repeat: all" = "Lặp lại: tất cả";
+"Repeat: one" = "Lặp lại: một mục";
+"Streaming" = "Truyền phát";
+"Nothing is playing." = "Không có gì đang phát.";
+"Open Network Stream" = "Mở luồng mạng";
+"HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – anything ffmpeg can open." = "HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – mọi thứ ffmpeg mở được.";
+"Cancel" = "Hủy";
+"Jump to Time" = "Đi tới thời điểm";
+"Jump" = "Đi tới";
+"Resumed at %@" = "Tiếp tục từ %@";
+"Speed: %@" = "Tốc độ: %@";
+"Volume: %@" = "Âm lượng: %@";
+"Loop start: %@" = "Điểm đầu vòng lặp: %@";
+"Looping %@ – %@" = "Đang lặp %@ – %@";
+"Loop off" = "Đã tắt vòng lặp";
+"Snapshot saved: %@" = "Đã lưu ảnh chụp: %@";
+"Couldn't save the snapshot." = "Không thể lưu ảnh chụp.";
+"Subtitles off" = "Đã tắt phụ đề";
+"Adding subtitles…" = "Đang thêm phụ đề…";
+"Subtitle delay: %@ ms" = "Độ trễ phụ đề: %@ ms";
+"Play Playlist" = "Phát danh sách phát";
+"Recent" = "Gần đây";
+"Next in Playlist" = "Tiếp theo trong danh sách phát";
+"Start Over" = "Phát lại từ đầu";
+"Jump back 10 seconds" = "Lùi 10 giây";
+"Play/Pause (Space)" = "Phát/Tạm dừng (Phím cách)";
+"Jump forward 10 seconds" = "Tới 10 giây";
+"Playback speed" = "Tốc độ phát";
+"Playlist (⌘L)" = "Danh sách phát (⌘L)";
+"Full Screen (⌘F)" = "Toàn màn hình (⌘F)";
+"No audio tracks" = "Không có rãnh âm thanh";
+"Audio track" = "Rãnh âm thanh";
+
+/* Network streams */
+"network stream – seekable anywhere" = "luồng mạng – tua đến bất kỳ đâu";
+"Network HLS stream – played directly, without conversion" = "Luồng HLS qua mạng – phát trực tiếp, không chuyển đổi";
+
+/* Chapters */
+"Previous Chapter" = "Chương trước";
+"Next Chapter" = "Chương sau";
+"Chapter: %@" = "Chương: %@";
+"Previous Chapter (⇧P)" = "Chương trước (⇧P)";
+"Next Chapter (⇧N)" = "Chương sau (⇧N)";
+
+/* Auto-hiding controls */
+"Hide Controls" = "Ẩn điều khiển";
+"After %@ seconds" = "Sau %@ giây";
+"Never" = "Không bao giờ";
+
+/* Time display */
+"Show total length" = "Hiện tổng thời lượng";
+"Show remaining time" = "Hiện thời gian còn lại";
+
+/* Picture in Picture, appearance */
+"Picture in Picture" = "Hình trong hình";
+"Playing in Picture in Picture" = "Đang phát ở chế độ hình trong hình";
+"Appearance" = "Giao diện";
+"Light" = "Sáng";
+"Dark" = "Tối";
+
+/* Help menu */
+"Open-Source Licenses" = "Giấy phép mã nguồn mở";

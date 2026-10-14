@@ -1,0 +1,203 @@
+/* Kannada translation. Keys are the English texts; check: Resources/Localization/check.sh */
+
+/* Errors */
+"timed out" = "ಸಮಯ ಮೀರಿದೆ";
+"Not found: %@. Install it with: brew install ffmpeg" = "ಕಂಡುಬಂದಿಲ್ಲ: %@. ಇದನ್ನು ಇನ್‌ಸ್ಟಾಲ್ ಮಾಡಿ: brew install ffmpeg";
+"Couldn't read the file: %@" = "ಫೈಲ್ ಓದಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ: %@";
+"The file has no video track." = "ಫೈಲ್‌ನಲ್ಲಿ ವೀಡಿಯೊ ಟ್ರ್ಯಾಕ್ ಇಲ್ಲ.";
+"ffmpeg stopped with an error:\n%@" = "ffmpeg ದೋಷದೊಂದಿಗೆ ನಿಂತಿತು:\n%@";
+"Not enough free space for the temporary stream files (needs about %@, free: %@)." = "ತಾತ್ಕಾಲಿಕ ಸ್ಟ್ರೀಮ್ ಫೈಲ್‌ಗಳಿಗೆ ಸಾಕಷ್ಟು ಖಾಲಿ ಸ್ಥಳವಿಲ್ಲ (ಸುಮಾರು %@ ಬೇಕು, ಖಾಲಿ: %@).";
+"The local stream server didn't start: %@" = "ಸ್ಥಳೀಯ ಸ್ಟ್ರೀಮ್ ಸರ್ವರ್ ಪ್ರಾರಂಭವಾಗಲಿಲ್ಲ: %@";
+"Didn't start with the previous settings, retrying in a safer mode…" = "ಹಿಂದಿನ ಸೆಟ್ಟಿಂಗ್‌ಗಳಿಂದ ಪ್ರಾರಂಭವಾಗಲಿಲ್ಲ, ಹೆಚ್ಚು ಸುರಕ್ಷಿತ ಮೋಡ್‌ನಲ್ಲಿ ಮತ್ತೆ ಪ್ರಯತ್ನಿಸಲಾಗುತ್ತಿದೆ…";
+"Couldn't start playback:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log" = "ಪ್ಲೇಬ್ಯಾಕ್ ಪ್ರಾರಂಭಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ:\n%@\n\nವಿವರಗಳು: ~/Library/Logs/Purrcast.log";
+"player error: %@" = "ಪ್ಲೇಯರ್ ದೋಷ: %@";
+"playback didn't start within 20 seconds" = "20 ಸೆಕೆಂಡುಗಳಲ್ಲಿ ಪ್ಲೇಬ್ಯಾಕ್ ಪ್ರಾರಂಭವಾಗಲಿಲ್ಲ";
+"Error" = "ದೋಷ";
+
+/* Tracks */
+"Audio %@" = "ಆಡಿಯೊ %@";
+"Subtitle %@" = "ಉಪಶೀರ್ಷಿಕೆ %@";
+"(forced)" = "(ಕಡ್ಡಾಯ)";
+"External subtitle" = "ಬಾಹ್ಯ ಉಪಶೀರ್ಷಿಕೆ";
+"(external)" = "(ಬಾಹ್ಯ)";
+"unknown" = "ಅಜ್ಞಾತ";
+"mono" = "ಮೋನೋ";
+"stereo" = "ಸ್ಟೀರಿಯೋ";
+"%@ channels" = "%@ ಚಾನಲ್‌ಗಳು";
+
+/* Conversion summary */
+"%@ → H.264, plays on every TV" = "%@ → H.264, ಎಲ್ಲಾ TV ಗಳಲ್ಲಿ ಪ್ಲೇ ಆಗುತ್ತದೆ";
+"%@ H.264 → 8-bit H.264" = "%@ H.264 → 8-ಬಿಟ್ H.264";
+"interlaced → progressive" = "ಇಂಟರ್‌ಲೇಸ್ಡ್ → ಪ್ರೋಗ್ರೆಸಿವ್";
+"re-encoded for reliable playback" = "ವಿಶ್ವಾಸಾರ್ಹ ಪ್ಲೇಬ್ಯಾಕ್‌ಗಾಗಿ ಮರು-ಎನ್‌ಕೋಡ್ ಮಾಡಲಾಗಿದೆ";
+"Video: %@ – passed through in original quality" = "ವೀಡಿಯೊ: %@ – ಮೂಲ ಗುಣಮಟ್ಟದಲ್ಲಿ, ಬದಲಾವಣೆ ಇಲ್ಲದೆ";
+"Video: %@ → H.264 %@ (%@)" = "ವೀಡಿಯೊ: %@ → H.264 %@ (%@)";
+"Audio: %@ – original" = "ಆಡಿಯೊ: %@ – ಮೂಲ";
+"Audio: %@ → %@ %@" = "ಆಡಿಯೊ: %@ → %@ %@";
+"Subtitle: %@ – on by default" = "ಉಪಶೀರ್ಷಿಕೆ: %@ – ಡೀಫಾಲ್ಟ್ ಆಗಿ ಆನ್";
+"Subtitle: %@" = "ಉಪಶೀರ್ಷಿಕೆ: %@";
+"Subtitle skipped: %@ (%@ is image-based and can't be converted)" = "ಉಪಶೀರ್ಷಿಕೆ ಬಿಡಲಾಗಿದೆ: %@ (%@ ಚಿತ್ರ ಆಧಾರಿತವಾಗಿದೆ, ಪರಿವರ್ತಿಸಲು ಸಾಧ್ಯವಿಲ್ಲ)";
+
+/* Status */
+"Preparing…" = "ಸಿದ್ಧಪಡಿಸಲಾಗುತ್ತಿದೆ…";
+"Playing via AirPlay" = "AirPlay ಮೂಲಕ ಪ್ಲೇ ಆಗುತ್ತಿದೆ";
+"Conversion stopped: %@" = "ಪರಿವರ್ತನೆ ನಿಂತಿದೆ: %@";
+"Prepared: %@ / %@" = "ಸಿದ್ಧ: %@ / %@";
+
+/* Window */
+"Open…" = "ತೆರೆಯಿರಿ…";
+"Open" = "ತೆರೆಯಿರಿ";
+"Open another file…" = "ಬೇರೆ ಫೈಲ್ ತೆರೆಯಿರಿ…";
+"AirPlay – choose your TV" = "AirPlay – ನಿಮ್ಮ TV ಆಯ್ಕೆಮಾಡಿ";
+"Drop a video here (MKV, MP4, AVI…)" = "ವೀಡಿಯೊವನ್ನು ಇಲ್ಲಿಗೆ ಎಳೆದು ಬಿಡಿ (MKV, MP4, AVI…)";
+"or open one with ⌘O, then pick your TV with the AirPlay button" = "ಅಥವಾ ⌘O ಮೂಲಕ ತೆರೆಯಿರಿ, ನಂತರ AirPlay ಬಟನ್‌ನಿಂದ ನಿಮ್ಮ TV ಆಯ್ಕೆಮಾಡಿ";
+
+/* Menus */
+"Playback" = "ಪ್ಲೇಬ್ಯಾಕ್";
+"Original quality (HEVC, HDR, surround – for Apple TV 4K)" = "ಮೂಲ ಗುಣಮಟ್ಟ (HEVC, HDR, ಸರೌಂಡ್ – Apple TV 4K ಗಾಗಿ)";
+"Language" = "ಭಾಷೆ";
+"System default" = "ಸಿಸ್ಟಂ ಡೀಫಾಲ್ಟ್";
+"The new language takes effect after a restart." = "ಮರುಪ್ರಾರಂಭಿಸಿದ ನಂತರ ಹೊಸ ಭಾಷೆ ಜಾರಿಗೆ ಬರುತ್ತದೆ.";
+"Restart Purrcast now? Playback stops." = "Purrcast ಅನ್ನು ಈಗ ಮರುಪ್ರಾರಂಭಿಸಬೇಕೆ? ಪ್ಲೇಬ್ಯಾಕ್ ನಿಲ್ಲುತ್ತದೆ.";
+"Restart" = "ಮರುಪ್ರಾರಂಭಿಸಿ";
+"Later" = "ನಂತರ";
+
+/* Player, menus, playlist, media information */
+"Chapter %@" = "ಅಧ್ಯಾಯ %@";
+"File" = "ಫೈಲ್";
+"Format" = "ಫಾರ್ಮ್ಯಾಟ್";
+"Duration" = "ಅವಧಿ";
+"Size" = "ಗಾತ್ರ";
+"Bitrate" = "ಬಿಟ್‌ರೇಟ್";
+"General" = "ಸಾಮಾನ್ಯ";
+"Codec" = "ಕೋಡೆಕ್";
+"Title" = "ಶೀರ್ಷಿಕೆ";
+"Resolution" = "ರೆಸಲ್ಯೂಶನ್";
+"Frame rate" = "ಫ್ರೇಮ್ ದರ";
+"Pixel format" = "ಪಿಕ್ಸೆಲ್ ಫಾರ್ಮ್ಯಾಟ್";
+"Dynamic range" = "ಡೈನಾಮಿಕ್ ರೇಂಜ್";
+"Channels" = "ಚಾನಲ್‌ಗಳು";
+"Sample rate" = "ಸ್ಯಾಂಪಲ್ ದರ";
+"Video" = "ವೀಡಿಯೊ";
+"Audio" = "ಆಡಿಯೊ";
+"Subtitle" = "ಉಪಶೀರ್ಷಿಕೆ";
+"Stream %@: %@" = "ಸ್ಟ್ರೀಮ್ %@: %@";
+"Purrcast" = "Purrcast";
+"Media Information" = "ಮೀಡಿಯಾ ಮಾಹಿತಿ";
+"Open Network Stream…" = "ನೆಟ್‌ವರ್ಕ್ ಸ್ಟ್ರೀಮ್ ತೆರೆಯಿರಿ…";
+"Open Recent" = "ಇತ್ತೀಚಿನದನ್ನು ತೆರೆಯಿರಿ";
+"Clear Menu" = "ಮೆನು ತೆರವುಗೊಳಿಸಿ";
+"Add Subtitle File…" = "ಉಪಶೀರ್ಷಿಕೆ ಫೈಲ್ ಸೇರಿಸಿ…";
+"Save Playlist…" = "ಪ್ಲೇಲಿಸ್ಟ್ ಉಳಿಸಿ…";
+"Play/Pause" = "ಪ್ಲೇ/ವಿರಾಮ";
+"Stop" = "ನಿಲ್ಲಿಸಿ";
+"Previous" = "ಹಿಂದಿನದು";
+"Next" = "ಮುಂದಿನದು";
+"Jump Back 10 Seconds" = "10 ಸೆಕೆಂಡ್ ಹಿಂದಕ್ಕೆ ಹೋಗಿ";
+"Jump Forward 10 Seconds" = "10 ಸೆಕೆಂಡ್ ಮುಂದಕ್ಕೆ ಹೋಗಿ";
+"Jump Back 1 Minute" = "1 ನಿಮಿಷ ಹಿಂದಕ್ಕೆ ಹೋಗಿ";
+"Jump Forward 1 Minute" = "1 ನಿಮಿಷ ಮುಂದಕ್ಕೆ ಹೋಗಿ";
+"Jump to Time…" = "ಸಮಯಕ್ಕೆ ಹೋಗಿ…";
+"Next Frame" = "ಮುಂದಿನ ಫ್ರೇಮ್";
+"Chapters" = "ಅಧ್ಯಾಯಗಳು";
+"Faster" = "ವೇಗವಾಗಿ";
+"Slower" = "ನಿಧಾನವಾಗಿ";
+"Normal Speed" = "ಸಾಮಾನ್ಯ ವೇಗ";
+"Set Loop Start (A)" = "ಲೂಪ್ ಆರಂಭ ಹೊಂದಿಸಿ (A)";
+"Set Loop End (B)" = "ಲೂಪ್ ಅಂತ್ಯ ಹೊಂದಿಸಿ (B)";
+"Loop Off" = "ಲೂಪ್ ಆಫ್ ಮಾಡಿ";
+"Repeat" = "ಪುನರಾವರ್ತನೆ";
+"Off" = "ಆಫ್";
+"All" = "ಎಲ್ಲಾ";
+"One" = "ಒಂದು";
+"Shuffle" = "ಷಫಲ್";
+"Volume Up" = "ವಾಲ್ಯೂಮ್ ಹೆಚ್ಚಿಸಿ";
+"Volume Down" = "ವಾಲ್ಯೂಮ್ ಕಡಿಮೆ ಮಾಡಿ";
+"Mute" = "ಮ್ಯೂಟ್";
+"Audio Track" = "ಆಡಿಯೊ ಟ್ರ್ಯಾಕ್";
+"Full Screen" = "ಪೂರ್ಣ ಪರದೆ";
+"Float on Top" = "ಯಾವಾಗಲೂ ಮೇಲೆ";
+"Aspect" = "ಆಕಾರ ಅನುಪಾತ";
+"Fit" = "ಫಿಟ್";
+"Fill (Crop)" = "ತುಂಬಿಸಿ (ಕ್ರಾಪ್)";
+"Stretch" = "ಹಿಗ್ಗಿಸಿ";
+"Snapshot" = "ಸ್ನ್ಯಾಪ್‌ಶಾಟ್";
+"Show Snapshots Folder" = "ಸ್ನ್ಯಾಪ್‌ಶಾಟ್ ಫೋಲ್ಡರ್ ತೋರಿಸಿ";
+"Subtitles" = "ಉಪಶೀರ್ಷಿಕೆಗಳು";
+"Subtitle Track" = "ಉಪಶೀರ್ಷಿಕೆ ಟ್ರ್ಯಾಕ್";
+"Next Subtitle Track" = "ಮುಂದಿನ ಉಪಶೀರ್ಷಿಕೆ ಟ್ರ್ಯಾಕ್";
+"Subtitles Earlier (G)" = "ಉಪಶೀರ್ಷಿಕೆ ಮುಂಚಿತವಾಗಿ (G)";
+"Subtitles Later (H)" = "ಉಪಶೀರ್ಷಿಕೆ ತಡವಾಗಿ (H)";
+"Reset Subtitle Delay" = "ಉಪಶೀರ್ಷಿಕೆ ವಿಳಂಬ ಮರುಹೊಂದಿಸಿ";
+"Playlist" = "ಪ್ಲೇಲಿಸ್ಟ್";
+"%@ items" = "%@ ಐಟಂಗಳು";
+"Close" = "ಮುಚ್ಚಿ";
+"Play" = "ಪ್ಲೇ ಮಾಡಿ";
+"Show in Finder" = "Finder ನಲ್ಲಿ ತೋರಿಸಿ";
+"Remove from Playlist" = "ಪ್ಲೇಲಿಸ್ಟ್‌ನಿಂದ ತೆಗೆದುಹಾಕಿ";
+"Drop videos or folders here" = "ವೀಡಿಯೊಗಳು ಅಥವಾ ಫೋಲ್ಡರ್‌ಗಳನ್ನು ಇಲ್ಲಿಗೆ ಎಳೆದು ಬಿಡಿ";
+"Add files or folders…" = "ಫೈಲ್‌ಗಳು ಅಥವಾ ಫೋಲ್ಡರ್‌ಗಳನ್ನು ಸೇರಿಸಿ…";
+"Clear Playlist" = "ಪ್ಲೇಲಿಸ್ಟ್ ತೆರವುಗೊಳಿಸಿ";
+"Repeat: off" = "ಪುನರಾವರ್ತನೆ: ಆಫ್";
+"Repeat: all" = "ಪುನರಾವರ್ತನೆ: ಎಲ್ಲಾ";
+"Repeat: one" = "ಪುನರಾವರ್ತನೆ: ಒಂದು";
+"Streaming" = "ಸ್ಟ್ರೀಮಿಂಗ್";
+"Nothing is playing." = "ಸದ್ಯ ಏನೂ ಪ್ಲೇ ಆಗುತ್ತಿಲ್ಲ.";
+"Open Network Stream" = "ನೆಟ್‌ವರ್ಕ್ ಸ್ಟ್ರೀಮ್ ತೆರೆಯಿರಿ";
+"HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – anything ffmpeg can open." = "HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – ffmpeg ತೆರೆಯಬಲ್ಲ ಯಾವುದಾದರೂ.";
+"Cancel" = "ರದ್ದುಮಾಡಿ";
+"Jump to Time" = "ಸಮಯಕ್ಕೆ ಹೋಗಿ";
+"Jump" = "ಹೋಗಿ";
+"Resumed at %@" = "%@ ರಿಂದ ಮುಂದುವರಿಸಲಾಗಿದೆ";
+"Speed: %@" = "ವೇಗ: %@";
+"Volume: %@" = "ವಾಲ್ಯೂಮ್: %@";
+"Loop start: %@" = "ಲೂಪ್ ಆರಂಭ: %@";
+"Looping %@ – %@" = "ಲೂಪ್: %@ – %@";
+"Loop off" = "ಲೂಪ್ ಆಫ್";
+"Snapshot saved: %@" = "ಸ್ನ್ಯಾಪ್‌ಶಾಟ್ ಉಳಿಸಲಾಗಿದೆ: %@";
+"Couldn't save the snapshot." = "ಸ್ನ್ಯಾಪ್‌ಶಾಟ್ ಉಳಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.";
+"Subtitles off" = "ಉಪಶೀರ್ಷಿಕೆ ಆಫ್";
+"Adding subtitles…" = "ಉಪಶೀರ್ಷಿಕೆ ಸೇರಿಸಲಾಗುತ್ತಿದೆ…";
+"Subtitle delay: %@ ms" = "ಉಪಶೀರ್ಷಿಕೆ ವಿಳಂಬ: %@ ms";
+"Play Playlist" = "ಪ್ಲೇಲಿಸ್ಟ್ ಪ್ಲೇ ಮಾಡಿ";
+"Recent" = "ಇತ್ತೀಚಿನವು";
+"Next in Playlist" = "ಪ್ಲೇಲಿಸ್ಟ್‌ನಲ್ಲಿ ಮುಂದಿನದು";
+"Start Over" = "ಮೊದಲಿನಿಂದ ಪ್ಲೇ ಮಾಡಿ";
+"Jump back 10 seconds" = "10 ಸೆಕೆಂಡ್ ಹಿಂದಕ್ಕೆ";
+"Play/Pause (Space)" = "ಪ್ಲೇ/ವಿರಾಮ (ಸ್ಪೇಸ್)";
+"Jump forward 10 seconds" = "10 ಸೆಕೆಂಡ್ ಮುಂದಕ್ಕೆ";
+"Playback speed" = "ಪ್ಲೇಬ್ಯಾಕ್ ವೇಗ";
+"Playlist (⌘L)" = "ಪ್ಲೇಲಿಸ್ಟ್ (⌘L)";
+"Full Screen (⌘F)" = "ಪೂರ್ಣ ಪರದೆ (⌘F)";
+"No audio tracks" = "ಆಡಿಯೊ ಟ್ರ್ಯಾಕ್‌ಗಳಿಲ್ಲ";
+"Audio track" = "ಆಡಿಯೊ ಟ್ರ್ಯಾಕ್";
+
+/* Network streams */
+"network stream – seekable anywhere" = "ನೆಟ್‌ವರ್ಕ್ ಸ್ಟ್ರೀಮ್ – ಎಲ್ಲಿಗೆ ಬೇಕಾದರೂ ಹೋಗಬಹುದು";
+"Network HLS stream – played directly, without conversion" = "ನೆಟ್‌ವರ್ಕ್ HLS ಸ್ಟ್ರೀಮ್ – ಪರಿವರ್ತನೆ ಇಲ್ಲದೆ ನೇರವಾಗಿ ಪ್ಲೇ ಆಗುತ್ತಿದೆ";
+
+/* Chapters */
+"Previous Chapter" = "ಹಿಂದಿನ ಅಧ್ಯಾಯ";
+"Next Chapter" = "ಮುಂದಿನ ಅಧ್ಯಾಯ";
+"Chapter: %@" = "ಅಧ್ಯಾಯ: %@";
+"Previous Chapter (⇧P)" = "ಹಿಂದಿನ ಅಧ್ಯಾಯ (⇧P)";
+"Next Chapter (⇧N)" = "ಮುಂದಿನ ಅಧ್ಯಾಯ (⇧N)";
+
+/* Auto-hiding controls */
+"Hide Controls" = "ನಿಯಂತ್ರಣಗಳನ್ನು ಮರೆಮಾಡಿ";
+"After %@ seconds" = "%@ ಸೆಕೆಂಡ್ ನಂತರ";
+"Never" = "ಎಂದಿಗೂ ಇಲ್ಲ";
+
+/* Time display */
+"Show total length" = "ಒಟ್ಟು ಅವಧಿ ತೋರಿಸಿ";
+"Show remaining time" = "ಉಳಿದ ಸಮಯ ತೋರಿಸಿ";
+
+/* Picture in Picture, appearance */
+"Picture in Picture" = "ಪಿಕ್ಚರ್-ಇನ್-ಪಿಕ್ಚರ್";
+"Playing in Picture in Picture" = "ಪಿಕ್ಚರ್-ಇನ್-ಪಿಕ್ಚರ್‌ನಲ್ಲಿ ಪ್ಲೇ ಆಗುತ್ತಿದೆ";
+"Appearance" = "ನೋಟ";
+"Light" = "ತಿಳಿ";
+"Dark" = "ಗಾಢ";
+
+/* Help menu */
+"Open-Source Licenses" = "ಮುಕ್ತ ಮೂಲ ಪರವಾನಗಿಗಳು";

@@ -1,0 +1,203 @@
+/* Arabic translation. Keys are the English texts; check: Resources/Localization/check.sh */
+
+/* Errors */
+"timed out" = "انتهت المهلة";
+"Not found: %@. Install it with: brew install ffmpeg" = "غير موجود: %@. ثبّته باستخدام: brew install ffmpeg";
+"Couldn't read the file: %@" = "تعذّرت قراءة الملف: %@";
+"The file has no video track." = "لا يحتوي الملف على مسار فيديو.";
+"ffmpeg stopped with an error:\n%@" = "توقف ffmpeg بسبب خطأ:\n%@";
+"Not enough free space for the temporary stream files (needs about %@, free: %@)." = "لا توجد مساحة خالية كافية لملفات البث المؤقتة (المطلوب نحو %@، المتاح: %@).";
+"The local stream server didn't start: %@" = "لم يبدأ خادم البث المحلي: %@";
+"Didn't start with the previous settings, retrying in a safer mode…" = "تعذّر البدء بالإعدادات السابقة، جارٍ إعادة المحاولة بوضع أكثر أمانًا…";
+"Couldn't start playback:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log" = "تعذّر بدء التشغيل:\n%@\n\nالتفاصيل: ~/Library/Logs/Purrcast.log";
+"player error: %@" = "خطأ في المشغّل: %@";
+"playback didn't start within 20 seconds" = "لم يبدأ التشغيل خلال 20 ثانية";
+"Error" = "خطأ";
+
+/* Tracks */
+"Audio %@" = "صوت %@";
+"Subtitle %@" = "ترجمة %@";
+"(forced)" = "(إجبارية)";
+"External subtitle" = "ترجمة خارجية";
+"(external)" = "(خارجية)";
+"unknown" = "غير معروفة";
+"mono" = "أحادي";
+"stereo" = "ستيريو";
+"%@ channels" = "%@ قنوات";
+
+/* Conversion summary */
+"%@ → H.264, plays on every TV" = "%@ → H.264، يعمل على أي تلفاز";
+"%@ H.264 → 8-bit H.264" = "%@ H.264 → H.264 بعمق 8 بت";
+"interlaced → progressive" = "متداخل → تدريجي";
+"re-encoded for reliable playback" = "أُعيد ترميزه لتشغيل موثوق";
+"Video: %@ – passed through in original quality" = "الفيديو: %@ – يُمرَّر بجودته الأصلية";
+"Video: %@ → H.264 %@ (%@)" = "الفيديو: %@ → H.264 %@ (%@)";
+"Audio: %@ – original" = "الصوت: %@ – الأصلي";
+"Audio: %@ → %@ %@" = "الصوت: %@ → %@ %@";
+"Subtitle: %@ – on by default" = "الترجمة: %@ – مفعّلة افتراضيًا";
+"Subtitle: %@" = "الترجمة: %@";
+"Subtitle skipped: %@ (%@ is image-based and can't be converted)" = "تم تخطي الترجمة: %@ (%@ قائم على الصور ولا يمكن تحويله)";
+
+/* Status */
+"Preparing…" = "جارٍ التحضير…";
+"Playing via AirPlay" = "التشغيل عبر AirPlay";
+"Conversion stopped: %@" = "توقّف التحويل: %@";
+"Prepared: %@ / %@" = "جاهز: %@ / %@";
+
+/* Window */
+"Open…" = "فتح…";
+"Open" = "فتح";
+"Open another file…" = "فتح ملف آخر…";
+"AirPlay – choose your TV" = "AirPlay – اختر التلفاز";
+"Drop a video here (MKV, MP4, AVI…)" = "أفلِت فيديو هنا (MKV، MP4، AVI…)";
+"or open one with ⌘O, then pick your TV with the AirPlay button" = "أو افتحه عبر ⌘O، ثم اختر التلفاز بزر AirPlay";
+
+/* Menus */
+"Playback" = "التشغيل";
+"Original quality (HEVC, HDR, surround – for Apple TV 4K)" = "الجودة الأصلية (HEVC، HDR، صوت محيطي – لـ Apple TV 4K)";
+"Language" = "اللغة";
+"System default" = "لغة النظام";
+"The new language takes effect after a restart." = "ستُطبَّق اللغة الجديدة بعد إعادة التشغيل.";
+"Restart Purrcast now? Playback stops." = "هل تريد إعادة تشغيل Purrcast الآن؟ سيتوقف عرض الفيديو.";
+"Restart" = "إعادة التشغيل";
+"Later" = "لاحقًا";
+
+/* Player, menus, playlist, media information */
+"Chapter %@" = "الفصل %@";
+"File" = "الملف";
+"Format" = "التنسيق";
+"Duration" = "المدة";
+"Size" = "الحجم";
+"Bitrate" = "معدل البت";
+"General" = "عام";
+"Codec" = "الترميز";
+"Title" = "العنوان";
+"Resolution" = "الدقة";
+"Frame rate" = "معدل الإطارات";
+"Pixel format" = "تنسيق البكسل";
+"Dynamic range" = "النطاق الديناميكي";
+"Channels" = "القنوات";
+"Sample rate" = "معدل العينات";
+"Video" = "الفيديو";
+"Audio" = "الصوت";
+"Subtitle" = "الترجمة";
+"Stream %@: %@" = "التدفق %@: %@";
+"Purrcast" = "Purrcast";
+"Media Information" = "معلومات الوسائط";
+"Open Network Stream…" = "فتح تدفق شبكة…";
+"Open Recent" = "فتح الأخير";
+"Clear Menu" = "مسح القائمة";
+"Add Subtitle File…" = "إضافة ملف ترجمة…";
+"Save Playlist…" = "حفظ قائمة التشغيل…";
+"Play/Pause" = "تشغيل/إيقاف مؤقت";
+"Stop" = "إيقاف";
+"Previous" = "السابق";
+"Next" = "التالي";
+"Jump Back 10 Seconds" = "الرجوع 10 ثوانٍ";
+"Jump Forward 10 Seconds" = "التقدم 10 ثوانٍ";
+"Jump Back 1 Minute" = "الرجوع دقيقة واحدة";
+"Jump Forward 1 Minute" = "التقدم دقيقة واحدة";
+"Jump to Time…" = "الانتقال إلى وقت…";
+"Next Frame" = "الإطار التالي";
+"Chapters" = "الفصول";
+"Faster" = "أسرع";
+"Slower" = "أبطأ";
+"Normal Speed" = "السرعة العادية";
+"Set Loop Start (A)" = "تعيين بداية الحلقة (A)";
+"Set Loop End (B)" = "تعيين نهاية الحلقة (B)";
+"Loop Off" = "إيقاف الحلقة";
+"Repeat" = "التكرار";
+"Off" = "إيقاف";
+"All" = "الكل";
+"One" = "واحد";
+"Shuffle" = "ترتيب عشوائي";
+"Volume Up" = "رفع مستوى الصوت";
+"Volume Down" = "خفض مستوى الصوت";
+"Mute" = "كتم الصوت";
+"Audio Track" = "مسار الصوت";
+"Full Screen" = "ملء الشاشة";
+"Float on Top" = "دائمًا في المقدمة";
+"Aspect" = "نسبة العرض إلى الارتفاع";
+"Fit" = "ملاءمة";
+"Fill (Crop)" = "ملء (مع اقتصاص)";
+"Stretch" = "تمديد";
+"Snapshot" = "لقطة";
+"Show Snapshots Folder" = "إظهار مجلد اللقطات";
+"Subtitles" = "الترجمات";
+"Subtitle Track" = "مسار الترجمة";
+"Next Subtitle Track" = "مسار الترجمة التالي";
+"Subtitles Earlier (G)" = "تقديم الترجمة (G)";
+"Subtitles Later (H)" = "تأخير الترجمة (H)";
+"Reset Subtitle Delay" = "إعادة ضبط تأخير الترجمة";
+"Playlist" = "قائمة التشغيل";
+"%@ items" = "%@ عنصر";
+"Close" = "إغلاق";
+"Play" = "تشغيل";
+"Show in Finder" = "إظهار في Finder";
+"Remove from Playlist" = "إزالة من قائمة التشغيل";
+"Drop videos or folders here" = "أفلِت مقاطع فيديو أو مجلدات هنا";
+"Add files or folders…" = "إضافة ملفات أو مجلدات…";
+"Clear Playlist" = "مسح قائمة التشغيل";
+"Repeat: off" = "التكرار: إيقاف";
+"Repeat: all" = "التكرار: الكل";
+"Repeat: one" = "التكرار: واحد";
+"Streaming" = "البث";
+"Nothing is playing." = "لا يوجد ما يُشغَّل الآن.";
+"Open Network Stream" = "فتح تدفق شبكة";
+"HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – anything ffmpeg can open." = "‏HTTP، HTTPS، HLS، RTSP، RTMP، UDP… – أي شيء يستطيع ffmpeg فتحه.";
+"Cancel" = "إلغاء";
+"Jump to Time" = "الانتقال إلى وقت";
+"Jump" = "انتقال";
+"Resumed at %@" = "الاستئناف من %@";
+"Speed: %@" = "السرعة: %@";
+"Volume: %@" = "مستوى الصوت: %@";
+"Loop start: %@" = "بداية الحلقة: %@";
+"Looping %@ – %@" = "حلقة %@ – %@";
+"Loop off" = "الحلقة متوقفة";
+"Snapshot saved: %@" = "تم حفظ اللقطة: %@";
+"Couldn't save the snapshot." = "تعذّر حفظ اللقطة.";
+"Subtitles off" = "الترجمة متوقفة";
+"Adding subtitles…" = "جارٍ إضافة الترجمة…";
+"Subtitle delay: %@ ms" = "تأخير الترجمة: %@ مللي ثانية";
+"Play Playlist" = "تشغيل القائمة";
+"Recent" = "الأخيرة";
+"Next in Playlist" = "التالي في القائمة";
+"Start Over" = "البدء من جديد";
+"Jump back 10 seconds" = "الرجوع 10 ثوانٍ";
+"Play/Pause (Space)" = "تشغيل/إيقاف مؤقت (مسافة)";
+"Jump forward 10 seconds" = "التقدم 10 ثوانٍ";
+"Playback speed" = "سرعة التشغيل";
+"Playlist (⌘L)" = "قائمة التشغيل (⌘L)";
+"Full Screen (⌘F)" = "ملء الشاشة (⌘F)";
+"No audio tracks" = "لا توجد مسارات صوت";
+"Audio track" = "مسار الصوت";
+
+/* Network streams */
+"network stream – seekable anywhere" = "بث عبر الشبكة – يمكن الانتقال إلى أي موضع";
+"Network HLS stream – played directly, without conversion" = "‏بث HLS عبر الشبكة – يُشغَّل مباشرةً دون تحويل";
+
+/* Chapters */
+"Previous Chapter" = "الفصل السابق";
+"Next Chapter" = "الفصل التالي";
+"Chapter: %@" = "الفصل: %@";
+"Previous Chapter (⇧P)" = "الفصل السابق (⇧P)";
+"Next Chapter (⇧N)" = "الفصل التالي (⇧N)";
+
+/* Auto-hiding controls */
+"Hide Controls" = "إخفاء عناصر التحكم";
+"After %@ seconds" = "بعد %@ ثوانٍ";
+"Never" = "أبدًا";
+
+/* Time display */
+"Show total length" = "عرض المدة الكاملة";
+"Show remaining time" = "عرض الوقت المتبقي";
+
+/* Picture in Picture, appearance */
+"Picture in Picture" = "صورة داخل صورة";
+"Playing in Picture in Picture" = "يُشغَّل بوضع صورة داخل صورة";
+"Appearance" = "المظهر";
+"Light" = "فاتح";
+"Dark" = "داكن";
+
+/* Help menu */
+"Open-Source Licenses" = "تراخيص المصادر المفتوحة";

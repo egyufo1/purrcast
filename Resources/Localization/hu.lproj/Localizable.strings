@@ -1,0 +1,203 @@
+/* Magyar fordítás. A kulcsok az angol szövegek; ellenőrzés: Resources/Localization/check.sh */
+
+/* Hibák */
+"timed out" = "időtúllépés";
+"Not found: %@. Install it with: brew install ffmpeg" = "Nem található: %@. Telepítsd: brew install ffmpeg";
+"Couldn't read the file: %@" = "Nem sikerült beolvasni a fájlt: %@";
+"The file has no video track." = "A fájlban nincs videósáv.";
+"ffmpeg stopped with an error:\n%@" = "Az ffmpeg hibával leállt:\n%@";
+"Not enough free space for the temporary stream files (needs about %@, free: %@)." = "Nincs elég szabad hely az ideiglenes stream fájloknak (kell kb. %@, szabad: %@).";
+"The local stream server didn't start: %@" = "A helyi stream szerver nem indult el: %@";
+"Didn't start with the previous settings, retrying in a safer mode…" = "Az előző beállítással nem indult el, biztonságosabb módban újrapróbálom…";
+"Couldn't start playback:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log" = "Nem sikerült elindítani a lejátszást:\n%@\n\nRészletek: ~/Library/Logs/Purrcast.log";
+"player error: %@" = "lejátszó hiba: %@";
+"playback didn't start within 20 seconds" = "20 másodperc alatt sem indult el a lejátszás";
+"Error" = "Hiba";
+
+/* Sávok */
+"Audio %@" = "Hang %@";
+"Subtitle %@" = "Felirat %@";
+"(forced)" = "(kényszerített)";
+"External subtitle" = "Külső felirat";
+"(external)" = "(külső)";
+"unknown" = "ismeretlen";
+"mono" = "mono";
+"stereo" = "sztereó";
+"%@ channels" = "%@ csatorna";
+
+/* Konvertálás összefoglaló */
+"%@ → H.264, plays on every TV" = "%@ → H.264, ezt minden TV lejátssza";
+"%@ H.264 → 8-bit H.264" = "%@ H.264 → 8 bites H.264";
+"interlaced → progressive" = "váltottsoros → progresszív";
+"re-encoded for reliable playback" = "újrakódolás a biztos lejátszásért";
+"Video: %@ – passed through in original quality" = "Videó: %@ – eredeti minőségben továbbítva";
+"Video: %@ → H.264 %@ (%@)" = "Videó: %@ → H.264 %@ (%@)";
+"Audio: %@ – original" = "Hang: %@ – eredeti";
+"Audio: %@ → %@ %@" = "Hang: %@ → %@ %@";
+"Subtitle: %@ – on by default" = "Felirat: %@ – alapból bekapcsolva";
+"Subtitle: %@" = "Felirat: %@";
+"Subtitle skipped: %@ (%@ is image-based and can't be converted)" = "Felirat kihagyva: %@ (%@ képalapú, nem konvertálható)";
+
+/* Állapot */
+"Preparing…" = "Előkészítés…";
+"Playing via AirPlay" = "Lejátszás AirPlay-en";
+"Conversion stopped: %@" = "Konvertálás megszakadt: %@";
+"Prepared: %@ / %@" = "Előkészítve: %@ / %@";
+
+/* Ablak */
+"Open…" = "Megnyitás…";
+"Open" = "Megnyitás";
+"Open another file…" = "Másik fájl megnyitása…";
+"AirPlay – choose your TV" = "AirPlay – válaszd ki a TV-t";
+"Drop a video here (MKV, MP4, AVI…)" = "Húzz ide egy videót (MKV, MP4, AVI…)";
+"or open one with ⌘O, then pick your TV with the AirPlay button" = "vagy nyisd meg: ⌘O, majd válaszd ki a TV-t az AirPlay gombbal";
+
+/* Menük */
+"Playback" = "Lejátszás";
+"Original quality (HEVC, HDR, surround – for Apple TV 4K)" = "Eredeti minőség (HEVC, HDR, térhang – Apple TV 4K-hoz)";
+"Language" = "Nyelv";
+"System default" = "Rendszer nyelve";
+"The new language takes effect after a restart." = "Az új nyelv újraindítás után lép életbe.";
+"Restart Purrcast now? Playback stops." = "Újraindítod most a Purrcastot? A lejátszás leáll.";
+"Restart" = "Újraindítás";
+"Later" = "Később";
+
+/* Lejátszó, menük, lista, médiainformáció */
+"Chapter %@" = "%@. fejezet";
+"File" = "Fájl";
+"Format" = "Formátum";
+"Duration" = "Hossz";
+"Size" = "Méret";
+"Bitrate" = "Bitráta";
+"General" = "Általános";
+"Codec" = "Kodek";
+"Title" = "Cím";
+"Resolution" = "Felbontás";
+"Frame rate" = "Képkockasebesség";
+"Pixel format" = "Pixelformátum";
+"Dynamic range" = "Dinamikatartomány";
+"Channels" = "Csatornák";
+"Sample rate" = "Mintavétel";
+"Video" = "Videó";
+"Audio" = "Hang";
+"Subtitle" = "Felirat";
+"Stream %@: %@" = "%@. sáv: %@";
+"Purrcast" = "Purrcast";
+"Media Information" = "Médiainformáció";
+"Open Network Stream…" = "Hálózati stream megnyitása…";
+"Open Recent" = "Legutóbbiak";
+"Clear Menu" = "Menü törlése";
+"Add Subtitle File…" = "Feliratfájl hozzáadása…";
+"Save Playlist…" = "Lejátszási lista mentése…";
+"Play/Pause" = "Lejátszás/szünet";
+"Stop" = "Leállítás";
+"Previous" = "Előző";
+"Next" = "Következő";
+"Jump Back 10 Seconds" = "Ugrás vissza 10 mp-et";
+"Jump Forward 10 Seconds" = "Ugrás előre 10 mp-et";
+"Jump Back 1 Minute" = "Ugrás vissza 1 percet";
+"Jump Forward 1 Minute" = "Ugrás előre 1 percet";
+"Jump to Time…" = "Ugrás időpontra…";
+"Next Frame" = "Következő képkocka";
+"Chapters" = "Fejezetek";
+"Faster" = "Gyorsabban";
+"Slower" = "Lassabban";
+"Normal Speed" = "Normál sebesség";
+"Set Loop Start (A)" = "Ismétlés kezdete (A)";
+"Set Loop End (B)" = "Ismétlés vége (B)";
+"Loop Off" = "Ismétlés kikapcsolása";
+"Repeat" = "Ismétlés";
+"Off" = "Ki";
+"All" = "Mind";
+"One" = "Egy";
+"Shuffle" = "Keverés";
+"Volume Up" = "Hangosabban";
+"Volume Down" = "Halkabban";
+"Mute" = "Némítás";
+"Audio Track" = "Hangsáv";
+"Full Screen" = "Teljes képernyő";
+"Float on Top" = "Mindig felül";
+"Aspect" = "Képarány";
+"Fit" = "Beigazítás";
+"Fill (Crop)" = "Kitöltés (vágással)";
+"Stretch" = "Nyújtás";
+"Snapshot" = "Pillanatkép";
+"Show Snapshots Folder" = "Pillanatképek mappája";
+"Subtitles" = "Feliratok";
+"Subtitle Track" = "Feliratsáv";
+"Next Subtitle Track" = "Következő feliratsáv";
+"Subtitles Earlier (G)" = "Felirat korábban (G)";
+"Subtitles Later (H)" = "Felirat később (H)";
+"Reset Subtitle Delay" = "Feliratkésleltetés nullázása";
+"Playlist" = "Lejátszási lista";
+"%@ items" = "%@ elem";
+"Close" = "Bezárás";
+"Play" = "Lejátszás";
+"Show in Finder" = "Megjelenítés a Finderben";
+"Remove from Playlist" = "Eltávolítás a listáról";
+"Drop videos or folders here" = "Húzz ide videókat vagy mappákat";
+"Add files or folders…" = "Fájlok vagy mappák hozzáadása…";
+"Clear Playlist" = "Lista ürítése";
+"Repeat: off" = "Ismétlés: ki";
+"Repeat: all" = "Ismétlés: mind";
+"Repeat: one" = "Ismétlés: egy";
+"Streaming" = "Streamelés";
+"Nothing is playing." = "Most nem szól semmi.";
+"Open Network Stream" = "Hálózati stream megnyitása";
+"HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – anything ffmpeg can open." = "HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – bármi, amit az ffmpeg meg tud nyitni.";
+"Cancel" = "Mégsem";
+"Jump to Time" = "Ugrás időpontra";
+"Jump" = "Ugrás";
+"Resumed at %@" = "Folytatás innen: %@";
+"Speed: %@" = "Sebesség: %@";
+"Volume: %@" = "Hangerő: %@";
+"Loop start: %@" = "Ismétlés kezdete: %@";
+"Looping %@ – %@" = "Ismétlés: %@ – %@";
+"Loop off" = "Ismétlés ki";
+"Snapshot saved: %@" = "Pillanatkép mentve: %@";
+"Couldn't save the snapshot." = "Nem sikerült menteni a pillanatképet.";
+"Subtitles off" = "Felirat ki";
+"Adding subtitles…" = "Felirat hozzáadása…";
+"Subtitle delay: %@ ms" = "Feliratkésleltetés: %@ ms";
+"Play Playlist" = "Lista lejátszása";
+"Recent" = "Legutóbbiak";
+"Next in Playlist" = "Következő a listán";
+"Start Over" = "Elölről";
+"Jump back 10 seconds" = "Vissza 10 mp-et";
+"Play/Pause (Space)" = "Lejátszás/szünet (szóköz)";
+"Jump forward 10 seconds" = "Előre 10 mp-et";
+"Playback speed" = "Lejátszási sebesség";
+"Playlist (⌘L)" = "Lejátszási lista (⌘L)";
+"Full Screen (⌘F)" = "Teljes képernyő (⌘F)";
+"No audio tracks" = "Nincs hangsáv";
+"Audio track" = "Hangsáv";
+
+/* Network streams */
+"network stream – seekable anywhere" = "hálózati stream – bárhova tekerhető";
+"Network HLS stream – played directly, without conversion" = "Hálózati HLS stream – közvetlen lejátszás, átalakítás nélkül";
+
+/* Chapters */
+"Previous Chapter" = "Előző fejezet";
+"Next Chapter" = "Következő fejezet";
+"Chapter: %@" = "Fejezet: %@";
+"Previous Chapter (⇧P)" = "Előző fejezet (⇧P)";
+"Next Chapter (⇧N)" = "Következő fejezet (⇧N)";
+
+/* Auto-hiding controls */
+"Hide Controls" = "Kezelőszervek elrejtése";
+"After %@ seconds" = "%@ mp után";
+"Never" = "Soha";
+
+/* Time display */
+"Show total length" = "Teljes hossz mutatása";
+"Show remaining time" = "Hátralévő idő mutatása";
+
+/* Picture in Picture, appearance */
+"Picture in Picture" = "Kép a képben";
+"Playing in Picture in Picture" = "Lejátszás kép a képben módban";
+"Appearance" = "Megjelenés";
+"Light" = "Világos";
+"Dark" = "Sötét";
+
+/* Help menu */
+"Open-Source Licenses" = "Nyílt forrású licencek";

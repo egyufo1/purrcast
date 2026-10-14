@@ -1,0 +1,203 @@
+/* Čeština (cs). Keys are the English texts; check: Resources/Localization/check.sh */
+
+/* Errors */
+"timed out" = "vypršel časový limit";
+"Not found: %@. Install it with: brew install ffmpeg" = "Nenalezeno: %@. Nainstaluj ho příkazem: brew install ffmpeg";
+"Couldn't read the file: %@" = "Soubor nelze načíst: %@";
+"The file has no video track." = "Soubor neobsahuje video stopu.";
+"ffmpeg stopped with an error:\n%@" = "ffmpeg skončil s chybou:\n%@";
+"Not enough free space for the temporary stream files (needs about %@, free: %@)." = "Nedostatek volného místa pro dočasné soubory streamu (potřeba asi %@, volné: %@).";
+"The local stream server didn't start: %@" = "Místní streamovací server se nespustil: %@";
+"Didn't start with the previous settings, retrying in a safer mode…" = "S předchozím nastavením se nespustilo, zkouším to znovu v bezpečnějším režimu…";
+"Couldn't start playback:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log" = "Přehrávání se nepodařilo spustit:\n%@\n\nPodrobnosti: ~/Library/Logs/Purrcast.log";
+"player error: %@" = "chyba přehrávače: %@";
+"playback didn't start within 20 seconds" = "přehrávání se nespustilo do 20 sekund";
+"Error" = "Chyba";
+
+/* Tracks */
+"Audio %@" = "Zvuk %@";
+"Subtitle %@" = "Titulky %@";
+"(forced)" = "(vynucené)";
+"External subtitle" = "Externí titulky";
+"(external)" = "(externí)";
+"unknown" = "neznámý";
+"mono" = "mono";
+"stereo" = "stereo";
+"%@ channels" = "%@ kan.";
+
+/* Conversion summary */
+"%@ → H.264, plays on every TV" = "%@ → H.264, přehraje ho každá televize";
+"%@ H.264 → 8-bit H.264" = "%@ H.264 → 8bitový H.264";
+"interlaced → progressive" = "prokládané → progresivní";
+"re-encoded for reliable playback" = "překódováno pro spolehlivé přehrávání";
+"Video: %@ – passed through in original quality" = "Video: %@ – přenášeno v původní kvalitě";
+"Video: %@ → H.264 %@ (%@)" = "Video: %@ → H.264 %@ (%@)";
+"Audio: %@ – original" = "Zvuk: %@ – původní";
+"Audio: %@ → %@ %@" = "Zvuk: %@ → %@ %@";
+"Subtitle: %@ – on by default" = "Titulky: %@ – ve výchozím stavu zapnuté";
+"Subtitle: %@" = "Titulky: %@";
+"Subtitle skipped: %@ (%@ is image-based and can't be converted)" = "Titulky vynechány: %@ (%@ je obrazový formát a nelze ho převést)";
+
+/* Status */
+"Preparing…" = "Příprava…";
+"Playing via AirPlay" = "Přehrávání přes AirPlay";
+"Conversion stopped: %@" = "Převod přerušen: %@";
+"Prepared: %@ / %@" = "Připraveno: %@ / %@";
+
+/* Window */
+"Open…" = "Otevřít…";
+"Open" = "Otevřít";
+"Open another file…" = "Otevřít jiný soubor…";
+"AirPlay – choose your TV" = "AirPlay – vyber televizi";
+"Drop a video here (MKV, MP4, AVI…)" = "Přetáhni sem video (MKV, MP4, AVI…)";
+"or open one with ⌘O, then pick your TV with the AirPlay button" = "nebo ho otevři pomocí ⌘O a pak tlačítkem AirPlay vyber televizi";
+
+/* Menus */
+"Playback" = "Přehrávání";
+"Original quality (HEVC, HDR, surround – for Apple TV 4K)" = "Původní kvalita (HEVC, HDR, prostorový zvuk – pro Apple TV 4K)";
+"Language" = "Jazyk";
+"System default" = "Jazyk systému";
+"The new language takes effect after a restart." = "Nový jazyk se projeví po restartu.";
+"Restart Purrcast now? Playback stops." = "Restartovat Purrcast teď? Přehrávání se zastaví.";
+"Restart" = "Restartovat";
+"Later" = "Později";
+
+/* Player, menus, playlist, media information */
+"Chapter %@" = "Kapitola %@";
+"File" = "Soubor";
+"Format" = "Formát";
+"Duration" = "Délka";
+"Size" = "Velikost";
+"Bitrate" = "Datový tok";
+"General" = "Obecné";
+"Codec" = "Kodek";
+"Title" = "Název";
+"Resolution" = "Rozlišení";
+"Frame rate" = "Snímková frekvence";
+"Pixel format" = "Formát pixelů";
+"Dynamic range" = "Dynamický rozsah";
+"Channels" = "Kanály";
+"Sample rate" = "Vzorkovací frekvence";
+"Video" = "Video";
+"Audio" = "Zvuk";
+"Subtitle" = "Titulky";
+"Stream %@: %@" = "Proud %@: %@";
+"Purrcast" = "Purrcast";
+"Media Information" = "Informace o médiu";
+"Open Network Stream…" = "Otevřít síťový proud…";
+"Open Recent" = "Otevřít nedávné";
+"Clear Menu" = "Vymazat nabídku";
+"Add Subtitle File…" = "Přidat soubor s titulky…";
+"Save Playlist…" = "Uložit seznam skladeb…";
+"Play/Pause" = "Přehrát/pozastavit";
+"Stop" = "Zastavit";
+"Previous" = "Předchozí";
+"Next" = "Další";
+"Jump Back 10 Seconds" = "Přeskočit o 10 sekund zpět";
+"Jump Forward 10 Seconds" = "Přeskočit o 10 sekund vpřed";
+"Jump Back 1 Minute" = "Přeskočit o 1 minutu zpět";
+"Jump Forward 1 Minute" = "Přeskočit o 1 minutu vpřed";
+"Jump to Time…" = "Přejít na čas…";
+"Next Frame" = "Další snímek";
+"Chapters" = "Kapitoly";
+"Faster" = "Rychleji";
+"Slower" = "Pomaleji";
+"Normal Speed" = "Normální rychlost";
+"Set Loop Start (A)" = "Nastavit začátek smyčky (A)";
+"Set Loop End (B)" = "Nastavit konec smyčky (B)";
+"Loop Off" = "Vypnout smyčku";
+"Repeat" = "Opakování";
+"Off" = "Vypnuto";
+"All" = "Vše";
+"One" = "Jedna položka";
+"Shuffle" = "Náhodně";
+"Volume Up" = "Zesílit";
+"Volume Down" = "Zeslabit";
+"Mute" = "Ztlumit";
+"Audio Track" = "Zvuková stopa";
+"Full Screen" = "Celá obrazovka";
+"Float on Top" = "Vždy navrchu";
+"Aspect" = "Poměr stran";
+"Fit" = "Přizpůsobit";
+"Fill (Crop)" = "Vyplnit (oříznout)";
+"Stretch" = "Roztáhnout";
+"Snapshot" = "Pořídit snímek";
+"Show Snapshots Folder" = "Zobrazit složku se snímky";
+"Subtitles" = "Titulky";
+"Subtitle Track" = "Stopa titulků";
+"Next Subtitle Track" = "Další stopa titulků";
+"Subtitles Earlier (G)" = "Titulky dříve (G)";
+"Subtitles Later (H)" = "Titulky později (H)";
+"Reset Subtitle Delay" = "Vynulovat zpoždění titulků";
+"Playlist" = "Seznam skladeb";
+"%@ items" = "%@ pol.";
+"Close" = "Zavřít";
+"Play" = "Přehrát";
+"Show in Finder" = "Zobrazit ve Finderu";
+"Remove from Playlist" = "Odstranit ze seznamu skladeb";
+"Drop videos or folders here" = "Přetáhni sem videa nebo složky";
+"Add files or folders…" = "Přidat soubory nebo složky…";
+"Clear Playlist" = "Vymazat seznam skladeb";
+"Repeat: off" = "Opakování: vypnuto";
+"Repeat: all" = "Opakování: vše";
+"Repeat: one" = "Opakování: jedna položka";
+"Streaming" = "Streamování";
+"Nothing is playing." = "Nic se nepřehrává.";
+"Open Network Stream" = "Otevřít síťový proud";
+"HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – anything ffmpeg can open." = "HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – cokoli, co ffmpeg dokáže otevřít.";
+"Cancel" = "Zrušit";
+"Jump to Time" = "Přejít na čas";
+"Jump" = "Přejít";
+"Resumed at %@" = "Pokračování od %@";
+"Speed: %@" = "Rychlost: %@";
+"Volume: %@" = "Hlasitost: %@";
+"Loop start: %@" = "Začátek smyčky: %@";
+"Looping %@ – %@" = "Smyčka %@ – %@";
+"Loop off" = "Smyčka vypnuta";
+"Snapshot saved: %@" = "Snímek uložen: %@";
+"Couldn't save the snapshot." = "Snímek se nepodařilo uložit.";
+"Subtitles off" = "Titulky vypnuty";
+"Adding subtitles…" = "Přidávání titulků…";
+"Subtitle delay: %@ ms" = "Zpoždění titulků: %@ ms";
+"Play Playlist" = "Přehrát seznam skladeb";
+"Recent" = "Nedávné";
+"Next in Playlist" = "Další v seznamu";
+"Start Over" = "Od začátku";
+"Jump back 10 seconds" = "O 10 sekund zpět";
+"Play/Pause (Space)" = "Přehrát/pozastavit (mezerník)";
+"Jump forward 10 seconds" = "O 10 sekund vpřed";
+"Playback speed" = "Rychlost přehrávání";
+"Playlist (⌘L)" = "Seznam skladeb (⌘L)";
+"Full Screen (⌘F)" = "Celá obrazovka (⌘F)";
+"No audio tracks" = "Žádné zvukové stopy";
+"Audio track" = "Zvuková stopa";
+
+/* Network streams */
+"network stream – seekable anywhere" = "síťový proud – lze přetáčet kamkoli";
+"Network HLS stream – played directly, without conversion" = "Síťový proud HLS – přehráván přímo, bez převodu";
+
+/* Chapters */
+"Previous Chapter" = "Předchozí kapitola";
+"Next Chapter" = "Další kapitola";
+"Chapter: %@" = "Kapitola: %@";
+"Previous Chapter (⇧P)" = "Předchozí kapitola (⇧P)";
+"Next Chapter (⇧N)" = "Další kapitola (⇧N)";
+
+/* Auto-hiding controls */
+"Hide Controls" = "Skrývat ovládací prvky";
+"After %@ seconds" = "Po %@ s";
+"Never" = "Nikdy";
+
+/* Time display */
+"Show total length" = "Zobrazit celkovou délku";
+"Show remaining time" = "Zobrazit zbývající čas";
+
+/* Picture in Picture, appearance */
+"Picture in Picture" = "Obraz v obraze";
+"Playing in Picture in Picture" = "Přehrávání v režimu obraz v obraze";
+"Appearance" = "Vzhled";
+"Light" = "Světlý";
+"Dark" = "Tmavý";
+
+/* Help menu */
+"Open-Source Licenses" = "Licence open source";

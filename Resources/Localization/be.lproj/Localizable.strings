@@ -1,0 +1,203 @@
+/* Беларуская (be). Keys are the English texts; check: Resources/Localization/check.sh */
+
+/* Errors */
+"timed out" = "час чакання скончыўся";
+"Not found: %@. Install it with: brew install ffmpeg" = "Не знойдзена: %@. Усталюйце камандай: brew install ffmpeg";
+"Couldn't read the file: %@" = "Не ўдалося прачытаць файл: %@";
+"The file has no video track." = "У файле няма відэадарожкі.";
+"ffmpeg stopped with an error:\n%@" = "ffmpeg спыніўся з памылкай:\n%@";
+"Not enough free space for the temporary stream files (needs about %@, free: %@)." = "Недастаткова вольнага месца для часовых файлаў патоку (трэба каля %@, вольна: %@).";
+"The local stream server didn't start: %@" = "Не ўдалося запусціць лакальны сервер трансляцыі: %@";
+"Didn't start with the previous settings, retrying in a safer mode…" = "З папярэднімі наладамі запуск не ўдаўся, паўторная спроба ў больш бяспечным рэжыме…";
+"Couldn't start playback:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log" = "Не ўдалося пачаць прайграванне:\n%@\n\nПадрабязнасці: ~/Library/Logs/Purrcast.log";
+"player error: %@" = "памылка прайгравальніка: %@";
+"playback didn't start within 20 seconds" = "прайграванне не пачалося за 20 секунд";
+"Error" = "Памылка";
+
+/* Tracks */
+"Audio %@" = "Аўдыя %@";
+"Subtitle %@" = "Субцітры %@";
+"(forced)" = "(прымусовыя)";
+"External subtitle" = "Знешнія субцітры";
+"(external)" = "(знешнія)";
+"unknown" = "невядома";
+"mono" = "мона";
+"stereo" = "стэрэа";
+"%@ channels" = "%@ кан.";
+
+/* Conversion summary */
+"%@ → H.264, plays on every TV" = "%@ → H.264, прайграецца на любым тэлевізары";
+"%@ H.264 → 8-bit H.264" = "%@ H.264 → 8-бітны H.264";
+"interlaced → progressive" = "чарэзрадковая → прагрэсіўная";
+"re-encoded for reliable playback" = "перакадавана для надзейнага прайгравання";
+"Video: %@ – passed through in original quality" = "Відэа: %@ – перадаецца ў арыгінальнай якасці";
+"Video: %@ → H.264 %@ (%@)" = "Відэа: %@ → H.264 %@ (%@)";
+"Audio: %@ – original" = "Аўдыя: %@ – арыгінал";
+"Audio: %@ → %@ %@" = "Аўдыя: %@ → %@ %@";
+"Subtitle: %@ – on by default" = "Субцітры: %@ – уключаны па змаўчанні";
+"Subtitle: %@" = "Субцітры: %@";
+"Subtitle skipped: %@ (%@ is image-based and can't be converted)" = "Субцітры прапушчаны: %@ (%@ – графічны фармат, яго нельга канвертаваць)";
+
+/* Status */
+"Preparing…" = "Падрыхтоўка…";
+"Playing via AirPlay" = "Прайграванне праз AirPlay";
+"Conversion stopped: %@" = "Канвертаванне перапынена: %@";
+"Prepared: %@ / %@" = "Падрыхтавана: %@ / %@";
+
+/* Window */
+"Open…" = "Адкрыць…";
+"Open" = "Адкрыць";
+"Open another file…" = "Адкрыць іншы файл…";
+"AirPlay – choose your TV" = "AirPlay – выберыце тэлевізар";
+"Drop a video here (MKV, MP4, AVI…)" = "Перацягніце відэа сюды (MKV, MP4, AVI…)";
+"or open one with ⌘O, then pick your TV with the AirPlay button" = "або адкрыйце яго праз ⌘O, потым выберыце тэлевізар кнопкай AirPlay";
+
+/* Menus */
+"Playback" = "Прайграванне";
+"Original quality (HEVC, HDR, surround – for Apple TV 4K)" = "Арыгінальная якасць (HEVC, HDR, аб’ёмны гук – для Apple TV 4K)";
+"Language" = "Мова";
+"System default" = "Мова сістэмы";
+"The new language takes effect after a restart." = "Новая мова пачне дзейнічаць пасля перазапуску.";
+"Restart Purrcast now? Playback stops." = "Перазапусціць Purrcast зараз? Прайграванне спыніцца.";
+"Restart" = "Перазапусціць";
+"Later" = "Пазней";
+
+/* Player, menus, playlist, media information */
+"Chapter %@" = "Раздзел %@";
+"File" = "Файл";
+"Format" = "Фармат";
+"Duration" = "Працягласць";
+"Size" = "Памер";
+"Bitrate" = "Бітрэйт";
+"General" = "Агульнае";
+"Codec" = "Кодэк";
+"Title" = "Назва";
+"Resolution" = "Раздзяляльнасць";
+"Frame rate" = "Частата кадраў";
+"Pixel format" = "Фармат пікселяў";
+"Dynamic range" = "Дынамічны дыяпазон";
+"Channels" = "Каналы";
+"Sample rate" = "Частата дыскрэтызацыі";
+"Video" = "Відэа";
+"Audio" = "Аўдыя";
+"Subtitle" = "Субцітры";
+"Stream %@: %@" = "Струмень %@: %@";
+"Purrcast" = "Purrcast";
+"Media Information" = "Інфармацыя пра медыяфайл";
+"Open Network Stream…" = "Адкрыць сеткавы струмень…";
+"Open Recent" = "Адкрыць нядаўнія";
+"Clear Menu" = "Ачысціць меню";
+"Add Subtitle File…" = "Дадаць файл субцітраў…";
+"Save Playlist…" = "Захаваць спіс прайгравання…";
+"Play/Pause" = "Прайграць/паўза";
+"Stop" = "Спыніць";
+"Previous" = "Папярэдні";
+"Next" = "Наступны";
+"Jump Back 10 Seconds" = "Назад на 10 секунд";
+"Jump Forward 10 Seconds" = "Наперад на 10 секунд";
+"Jump Back 1 Minute" = "Назад на 1 хвіліну";
+"Jump Forward 1 Minute" = "Наперад на 1 хвіліну";
+"Jump to Time…" = "Перайсці да часу…";
+"Next Frame" = "Наступны кадр";
+"Chapters" = "Раздзелы";
+"Faster" = "Хутчэй";
+"Slower" = "Павольней";
+"Normal Speed" = "Звычайная хуткасць";
+"Set Loop Start (A)" = "Задаць пачатак фрагмента (A)";
+"Set Loop End (B)" = "Задаць канец фрагмента (B)";
+"Loop Off" = "Выключыць паўтор фрагмента";
+"Repeat" = "Паўтор";
+"Off" = "Выкл.";
+"All" = "Усе";
+"One" = "Адзін";
+"Shuffle" = "Перамяшаць";
+"Volume Up" = "Гучней";
+"Volume Down" = "Цішэй";
+"Mute" = "Выключыць гук";
+"Audio Track" = "Аўдыядарожка";
+"Full Screen" = "Поўнаэкранны рэжым";
+"Float on Top" = "Па-над усімі вокнамі";
+"Aspect" = "Суадносіны бакоў";
+"Fit" = "Упісаць";
+"Fill (Crop)" = "Запоўніць (абрэзаць)";
+"Stretch" = "Расцягнуць";
+"Snapshot" = "Здымак кадра";
+"Show Snapshots Folder" = "Паказаць папку са здымкамі";
+"Subtitles" = "Субцітры";
+"Subtitle Track" = "Дарожка субцітраў";
+"Next Subtitle Track" = "Наступная дарожка субцітраў";
+"Subtitles Earlier (G)" = "Субцітры раней (G)";
+"Subtitles Later (H)" = "Субцітры пазней (H)";
+"Reset Subtitle Delay" = "Скінуць затрымку субцітраў";
+"Playlist" = "Спіс прайгравання";
+"%@ items" = "Элементаў: %@";
+"Close" = "Закрыць";
+"Play" = "Прайграць";
+"Show in Finder" = "Паказаць у Finder";
+"Remove from Playlist" = "Выдаліць са спіса прайгравання";
+"Drop videos or folders here" = "Перацягніце сюды відэа або папкі";
+"Add files or folders…" = "Дадаць файлы або папкі…";
+"Clear Playlist" = "Ачысціць спіс прайгравання";
+"Repeat: off" = "Паўтор: выкл.";
+"Repeat: all" = "Паўтор: усе";
+"Repeat: one" = "Паўтор: адзін";
+"Streaming" = "Трансляцыя";
+"Nothing is playing." = "Нічога не прайграецца.";
+"Open Network Stream" = "Адкрыць сеткавы струмень";
+"HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – anything ffmpeg can open." = "HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – усё, што можа адкрыць ffmpeg.";
+"Cancel" = "Скасаваць";
+"Jump to Time" = "Перайсці да часу";
+"Jump" = "Перайсці";
+"Resumed at %@" = "Працягнута з %@";
+"Speed: %@" = "Хуткасць: %@";
+"Volume: %@" = "Гучнасць: %@";
+"Loop start: %@" = "Пачатак фрагмента: %@";
+"Looping %@ – %@" = "Паўтор фрагмента %@ – %@";
+"Loop off" = "Паўтор фрагмента выключаны";
+"Snapshot saved: %@" = "Здымак захаваны: %@";
+"Couldn't save the snapshot." = "Не ўдалося захаваць здымак.";
+"Subtitles off" = "Субцітры выключаны";
+"Adding subtitles…" = "Даданне субцітраў…";
+"Subtitle delay: %@ ms" = "Затрымка субцітраў: %@ мс";
+"Play Playlist" = "Прайграць спіс";
+"Recent" = "Нядаўнія";
+"Next in Playlist" = "Далей у спісе";
+"Start Over" = "Спачатку";
+"Jump back 10 seconds" = "Назад на 10 секунд";
+"Play/Pause (Space)" = "Прайграць/паўза (прабел)";
+"Jump forward 10 seconds" = "Наперад на 10 секунд";
+"Playback speed" = "Хуткасць прайгравання";
+"Playlist (⌘L)" = "Спіс прайгравання (⌘L)";
+"Full Screen (⌘F)" = "Поўнаэкранны рэжым (⌘F)";
+"No audio tracks" = "Няма аўдыядарожак";
+"Audio track" = "Аўдыядарожка";
+
+/* Network streams */
+"network stream – seekable anywhere" = "сеткавы струмень – перамотка ў любое месца";
+"Network HLS stream – played directly, without conversion" = "Сеткавы струмень HLS – прайграецца напрамую, без канвертацыі";
+
+/* Chapters */
+"Previous Chapter" = "Папярэдні раздзел";
+"Next Chapter" = "Наступны раздзел";
+"Chapter: %@" = "Раздзел: %@";
+"Previous Chapter (⇧P)" = "Папярэдні раздзел (⇧P)";
+"Next Chapter (⇧N)" = "Наступны раздзел (⇧N)";
+
+/* Auto-hiding controls */
+"Hide Controls" = "Хаваць элементы кіравання";
+"After %@ seconds" = "Праз %@ с";
+"Never" = "Ніколі";
+
+/* Time display */
+"Show total length" = "Паказаць агульную працягласць";
+"Show remaining time" = "Паказаць астатні час";
+
+/* Picture in Picture, appearance */
+"Picture in Picture" = "Карцінка ў карцінцы";
+"Playing in Picture in Picture" = "Прайграванне ў рэжыме «карцінка ў карцінцы»";
+"Appearance" = "Выгляд";
+"Light" = "Светлы";
+"Dark" = "Цёмны";
+
+/* Help menu */
+"Open-Source Licenses" = "Ліцэнзіі адкрытага ПЗ";

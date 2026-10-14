@@ -1,0 +1,203 @@
+/* සිංහල – keys are the English texts; check: Resources/Localization/check.sh */
+
+/* Errors */
+"timed out" = "කාලය ඉක්මවිය";
+"Not found: %@. Install it with: brew install ffmpeg" = "%@ හමු නොවීය. ස්ථාපනය කරන්න: brew install ffmpeg";
+"Couldn't read the file: %@" = "ගොනුව කියවිය නොහැකි විය: %@";
+"The file has no video track." = "මෙම ගොනුවේ වීඩියෝ පථයක් නැත.";
+"ffmpeg stopped with an error:\n%@" = "ffmpeg දෝෂයක් සමඟ නතර විය:\n%@";
+"Not enough free space for the temporary stream files (needs about %@, free: %@)." = "තාවකාලික ප්‍රවාහ ගොනු සඳහා ප්‍රමාණවත් ඉඩ නැත (ආසන්න වශයෙන් %@ අවශ්‍යයි, නිදහස් ඉඩ: %@).";
+"The local stream server didn't start: %@" = "ස්ථානීය ප්‍රවාහ සේවාදායකය ආරම්භ නොවීය: %@";
+"Didn't start with the previous settings, retrying in a safer mode…" = "පෙර සැකසීම් සමඟ ආරම්භ නොවීය, වඩා ආරක්ෂිත ප්‍රකාරයකින් නැවත උත්සාහ කරමින්…";
+"Couldn't start playback:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log" = "ධාවනය ආරම්භ කළ නොහැකි විය:\n%@\n\nවිස්තර: ~/Library/Logs/Purrcast.log";
+"player error: %@" = "ධාවක දෝෂය: %@";
+"playback didn't start within 20 seconds" = "තත්පර 20ක් ඇතුළත ධාවනය ආරම්භ නොවීය";
+"Error" = "දෝෂය";
+
+/* Tracks */
+"Audio %@" = "ශ්‍රව්‍ය %@";
+"Subtitle %@" = "උපසිරැසි %@";
+"(forced)" = "(බලහත්කාර)";
+"External subtitle" = "බාහිර උපසිරැසි";
+"(external)" = "(බාහිර)";
+"unknown" = "නොදනී";
+"mono" = "මොනෝ";
+"stereo" = "ස්ටීරියෝ";
+"%@ channels" = "නාලිකා %@";
+
+/* Conversion summary */
+"%@ → H.264, plays on every TV" = "%@ → H.264, ඕනෑම රූපවාහිනියක ධාවනය වේ";
+"%@ H.264 → 8-bit H.264" = "%@ H.264 → බිටු 8 H.264";
+"interlaced → progressive" = "interlaced → progressive";
+"re-encoded for reliable playback" = "විශ්වාසදායක ධාවනය සඳහා නැවත කේතනය කළා";
+"Video: %@ – passed through in original quality" = "වීඩියෝ: %@ – මුල් ගුණත්වයෙන්ම යවයි";
+"Video: %@ → H.264 %@ (%@)" = "වීඩියෝ: %@ → H.264 %@ (%@)";
+"Audio: %@ – original" = "ශ්‍රව්‍ය: %@ – මුල්";
+"Audio: %@ → %@ %@" = "ශ්‍රව්‍ය: %@ → %@ %@";
+"Subtitle: %@ – on by default" = "උපසිරැසි: %@ – පෙරනිමියෙන් සක්‍රියයි";
+"Subtitle: %@" = "උපසිරැසි: %@";
+"Subtitle skipped: %@ (%@ is image-based and can't be converted)" = "උපසිරැසි මඟ හැරිණි: %@ (%@ රූප මත පදනම් වූ බැවින් පරිවර්තනය කළ නොහැක)";
+
+/* Status */
+"Preparing…" = "සූදානම් කරමින්…";
+"Playing via AirPlay" = "AirPlay හරහා ධාවනය වේ";
+"Conversion stopped: %@" = "පරිවර්තනය නතර විය: %@";
+"Prepared: %@ / %@" = "සූදානම්: %@ / %@";
+
+/* Window */
+"Open…" = "විවෘත කරන්න…";
+"Open" = "විවෘත කරන්න";
+"Open another file…" = "වෙනත් ගොනුවක් විවෘත කරන්න…";
+"AirPlay – choose your TV" = "AirPlay – ඔබේ රූපවාහිනිය තෝරන්න";
+"Drop a video here (MKV, MP4, AVI…)" = "වීඩියෝවක් මෙතැනට ඇද දමන්න (MKV, MP4, AVI…)";
+"or open one with ⌘O, then pick your TV with the AirPlay button" = "නැතහොත් ⌘O මඟින් විවෘත කර, AirPlay බොත්තමෙන් රූපවාහිනිය තෝරන්න";
+
+/* Menus */
+"Playback" = "ධාවනය";
+"Original quality (HEVC, HDR, surround – for Apple TV 4K)" = "මුල් ගුණත්වය (HEVC, HDR, වටරවුම් ශබ්දය – Apple TV 4K සඳහා)";
+"Language" = "භාෂාව";
+"System default" = "පද්ධති පෙරනිමිය";
+"The new language takes effect after a restart." = "නව භාෂාව යෙදෙන්නේ නැවත ආරම්භ කිරීමෙන් පසුවයි.";
+"Restart Purrcast now? Playback stops." = "Purrcast දැන් නැවත ආරම්භ කරන්නද? ධාවනය නතර වේ.";
+"Restart" = "නැවත ආරම්භ කරන්න";
+"Later" = "පසුව";
+
+/* Player, menus, playlist, media information */
+"Chapter %@" = "පරිච්ඡේදය %@";
+"File" = "ගොනුව";
+"Format" = "ආකෘතිය";
+"Duration" = "කාලසීමාව";
+"Size" = "ප්‍රමාණය";
+"Bitrate" = "බිටු අනුපාතය";
+"General" = "සාමාන්‍ය";
+"Codec" = "කෝඩෙක්";
+"Title" = "මාතෘකාව";
+"Resolution" = "විභේදනය";
+"Frame rate" = "රාමු අනුපාතය";
+"Pixel format" = "පික්සල ආකෘතිය";
+"Dynamic range" = "ගතික පරාසය";
+"Channels" = "නාලිකා";
+"Sample rate" = "නියැදි අනුපාතය";
+"Video" = "වීඩියෝ";
+"Audio" = "ශ්‍රව්‍ය";
+"Subtitle" = "උපසිරැසි";
+"Stream %@: %@" = "ප්‍රවාහය %@: %@";
+"Purrcast" = "Purrcast";
+"Media Information" = "මාධ්‍ය තොරතුරු";
+"Open Network Stream…" = "ජාල ප්‍රවාහයක් විවෘත කරන්න…";
+"Open Recent" = "මෑතකාලීන ඒවා විවෘත කරන්න";
+"Clear Menu" = "මෙනුව හිස් කරන්න";
+"Add Subtitle File…" = "උපසිරැසි ගොනුවක් එක් කරන්න…";
+"Save Playlist…" = "ධාවන ලැයිස්තුව සුරකින්න…";
+"Play/Pause" = "ධාවනය/විරාමය";
+"Stop" = "නවත්වන්න";
+"Previous" = "පෙර";
+"Next" = "ඊළඟ";
+"Jump Back 10 Seconds" = "තත්පර 10ක් පසුපසට";
+"Jump Forward 10 Seconds" = "තත්පර 10ක් ඉදිරියට";
+"Jump Back 1 Minute" = "මිනිත්තු 1ක් පසුපසට";
+"Jump Forward 1 Minute" = "මිනිත්තු 1ක් ඉදිරියට";
+"Jump to Time…" = "වේලාවකට පනින්න…";
+"Next Frame" = "ඊළඟ රාමුව";
+"Chapters" = "පරිච්ඡේද";
+"Faster" = "වේගවත්ව";
+"Slower" = "සෙමින්";
+"Normal Speed" = "සාමාන්‍ය වේගය";
+"Set Loop Start (A)" = "ලූපයේ ආරම්භය සකසන්න (A)";
+"Set Loop End (B)" = "ලූපයේ අවසානය සකසන්න (B)";
+"Loop Off" = "ලූපය අක්‍රිය කරන්න";
+"Repeat" = "පුනරාවර්තනය";
+"Off" = "අක්‍රිය";
+"All" = "සියල්ල";
+"One" = "එකක්";
+"Shuffle" = "කලවම් කරන්න";
+"Volume Up" = "ශබ්දය වැඩි කරන්න";
+"Volume Down" = "ශබ්දය අඩු කරන්න";
+"Mute" = "නිහඬ කරන්න";
+"Audio Track" = "ශ්‍රව්‍ය පථය";
+"Full Screen" = "පූර්ණ තිරය";
+"Float on Top" = "සැමවිටම ඉහළින්";
+"Aspect" = "දර්ශන අනුපාතය";
+"Fit" = "ගැළපෙන්න";
+"Fill (Crop)" = "පුරවන්න (කපා හැර)";
+"Stretch" = "දිගු කරන්න";
+"Snapshot" = "ස්නැප්ෂොට්";
+"Show Snapshots Folder" = "ස්නැප්ෂොට් ෆෝල්ඩරය පෙන්වන්න";
+"Subtitles" = "උපසිරැසි";
+"Subtitle Track" = "උපසිරැසි පථය";
+"Next Subtitle Track" = "ඊළඟ උපසිරැසි පථය";
+"Subtitles Earlier (G)" = "උපසිරැසි කලින් (G)";
+"Subtitles Later (H)" = "උපසිරැසි පසුව (H)";
+"Reset Subtitle Delay" = "උපසිරැසි ප්‍රමාදය යළි සකසන්න";
+"Playlist" = "ධාවන ලැයිස්තුව";
+"%@ items" = "අයිතම %@";
+"Close" = "වසන්න";
+"Play" = "ධාවනය කරන්න";
+"Show in Finder" = "Finder හි පෙන්වන්න";
+"Remove from Playlist" = "ධාවන ලැයිස්තුවෙන් ඉවත් කරන්න";
+"Drop videos or folders here" = "වීඩියෝ හෝ ෆෝල්ඩර මෙතැනට ඇද දමන්න";
+"Add files or folders…" = "ගොනු හෝ ෆෝල්ඩර එක් කරන්න…";
+"Clear Playlist" = "ධාවන ලැයිස්තුව හිස් කරන්න";
+"Repeat: off" = "පුනරාවර්තනය: අක්‍රිය";
+"Repeat: all" = "පුනරාවර්තනය: සියල්ල";
+"Repeat: one" = "පුනරාවර්තනය: එකක්";
+"Streaming" = "ප්‍රවාහ කිරීම";
+"Nothing is playing." = "කිසිවක් ධාවනය නොවේ.";
+"Open Network Stream" = "ජාල ප්‍රවාහයක් විවෘත කරන්න";
+"HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – anything ffmpeg can open." = "HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – ffmpeg හට විවෘත කළ හැකි ඕනෑම දෙයක්.";
+"Cancel" = "අවලංගු කරන්න";
+"Jump to Time" = "වේලාවකට පනින්න";
+"Jump" = "පනින්න";
+"Resumed at %@" = "%@ සිට නැවත ආරම්භ විය";
+"Speed: %@" = "වේගය: %@";
+"Volume: %@" = "ශබ්දය: %@";
+"Loop start: %@" = "ලූප ආරම්භය: %@";
+"Looping %@ – %@" = "ලූප කරමින් %@ – %@";
+"Loop off" = "ලූපය අක්‍රියයි";
+"Snapshot saved: %@" = "ස්නැප්ෂොට් සුරැකිණි: %@";
+"Couldn't save the snapshot." = "ස්නැප්ෂොට් සුරැකිය නොහැකි විය.";
+"Subtitles off" = "උපසිරැසි අක්‍රියයි";
+"Adding subtitles…" = "උපසිරැසි එක් කරමින්…";
+"Subtitle delay: %@ ms" = "උපසිරැසි ප්‍රමාදය: %@ ms";
+"Play Playlist" = "ධාවන ලැයිස්තුව ධාවනය කරන්න";
+"Recent" = "මෑත";
+"Next in Playlist" = "ධාවන ලැයිස්තුවේ ඊළඟ";
+"Start Over" = "මුල සිට";
+"Jump back 10 seconds" = "තත්පර 10ක් පසුපසට";
+"Play/Pause (Space)" = "ධාවනය/විරාමය (Space)";
+"Jump forward 10 seconds" = "තත්පර 10ක් ඉදිරියට";
+"Playback speed" = "ධාවන වේගය";
+"Playlist (⌘L)" = "ධාවන ලැයිස්තුව (⌘L)";
+"Full Screen (⌘F)" = "පූර්ණ තිරය (⌘F)";
+"No audio tracks" = "ශ්‍රව්‍ය පථ නැත";
+"Audio track" = "ශ්‍රව්‍ය පථය";
+
+/* Network streams */
+"network stream – seekable anywhere" = "ජාල ප්‍රවාහය – ඕනෑම තැනකට පනින්න පුළුවන්";
+"Network HLS stream – played directly, without conversion" = "ජාල HLS ප්‍රවාහය – පරිවර්තනයකින් තොරව සෘජුව වාදනය වේ";
+
+/* Chapters */
+"Previous Chapter" = "පෙර පරිච්ඡේදය";
+"Next Chapter" = "ඊළඟ පරිච්ඡේදය";
+"Chapter: %@" = "පරිච්ඡේදය: %@";
+"Previous Chapter (⇧P)" = "පෙර පරිච්ඡේදය (⇧P)";
+"Next Chapter (⇧N)" = "ඊළඟ පරිච්ඡේදය (⇧N)";
+
+/* Auto-hiding controls */
+"Hide Controls" = "පාලන සඟවන්න";
+"After %@ seconds" = "තත්පර %@ කට පසු";
+"Never" = "කිසිදා නැත";
+
+/* Time display */
+"Show total length" = "මුළු දිග පෙන්වන්න";
+"Show remaining time" = "ඉතිරි කාලය පෙන්වන්න";
+
+/* Picture in Picture, appearance */
+"Picture in Picture" = "පින්තූරය තුළ පින්තූරය";
+"Playing in Picture in Picture" = "පින්තූරය තුළ පින්තූරයේ වාදනය වේ";
+"Appearance" = "පෙනුම";
+"Light" = "ආලෝකමත්";
+"Dark" = "අඳුරු";
+
+/* Help menu */
+"Open-Source Licenses" = "විවෘත කේත බලපත්‍ර";

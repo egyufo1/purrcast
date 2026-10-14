@@ -1,0 +1,203 @@
+/* Turkish translation. Keys are the English texts; check: Resources/Localization/check.sh */
+
+/* Errors */
+"timed out" = "zaman aşımı";
+"Not found: %@. Install it with: brew install ffmpeg" = "Bulunamadı: %@. Şu komutla yükleyin: brew install ffmpeg";
+"Couldn't read the file: %@" = "Dosya okunamadı: %@";
+"The file has no video track." = "Dosyada video izi yok.";
+"ffmpeg stopped with an error:\n%@" = "ffmpeg bir hatayla durdu:\n%@";
+"Not enough free space for the temporary stream files (needs about %@, free: %@)." = "Geçici akış dosyaları için yeterli boş alan yok (yaklaşık %@ gerekli, boş: %@).";
+"The local stream server didn't start: %@" = "Yerel akış sunucusu başlatılamadı: %@";
+"Didn't start with the previous settings, retrying in a safer mode…" = "Önceki ayarlarla başlamadı, daha güvenli bir modda yeniden deneniyor…";
+"Couldn't start playback:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log" = "Oynatma başlatılamadı:\n%@\n\nAyrıntılar: ~/Library/Logs/Purrcast.log";
+"player error: %@" = "oynatıcı hatası: %@";
+"playback didn't start within 20 seconds" = "oynatma 20 saniye içinde başlamadı";
+"Error" = "Hata";
+
+/* Tracks */
+"Audio %@" = "Ses %@";
+"Subtitle %@" = "Altyazı %@";
+"(forced)" = "(zorunlu)";
+"External subtitle" = "Harici altyazı";
+"(external)" = "(harici)";
+"unknown" = "bilinmiyor";
+"mono" = "mono";
+"stereo" = "stereo";
+"%@ channels" = "%@ kanal";
+
+/* Conversion summary */
+"%@ → H.264, plays on every TV" = "%@ → H.264, her televizyonda oynatılır";
+"%@ H.264 → 8-bit H.264" = "%@ H.264 → 8 bit H.264";
+"interlaced → progressive" = "geçmeli → aşamalı";
+"re-encoded for reliable playback" = "güvenilir oynatma için yeniden kodlandı";
+"Video: %@ – passed through in original quality" = "Video: %@ – orijinal kalitede aktarılıyor";
+"Video: %@ → H.264 %@ (%@)" = "Video: %@ → H.264 %@ (%@)";
+"Audio: %@ – original" = "Ses: %@ – orijinal";
+"Audio: %@ → %@ %@" = "Ses: %@ → %@ %@";
+"Subtitle: %@ – on by default" = "Altyazı: %@ – varsayılan olarak açık";
+"Subtitle: %@" = "Altyazı: %@";
+"Subtitle skipped: %@ (%@ is image-based and can't be converted)" = "Altyazı atlandı: %@ (%@ görüntü tabanlıdır, dönüştürülemez)";
+
+/* Status */
+"Preparing…" = "Hazırlanıyor…";
+"Playing via AirPlay" = "AirPlay ile oynatılıyor";
+"Conversion stopped: %@" = "Dönüştürme durdu: %@";
+"Prepared: %@ / %@" = "Hazır: %@ / %@";
+
+/* Window */
+"Open…" = "Aç…";
+"Open" = "Aç";
+"Open another file…" = "Başka bir dosya aç…";
+"AirPlay – choose your TV" = "AirPlay – TV’nizi seçin";
+"Drop a video here (MKV, MP4, AVI…)" = "Bir videoyu buraya sürükleyin (MKV, MP4, AVI…)";
+"or open one with ⌘O, then pick your TV with the AirPlay button" = "ya da ⌘O ile açın, ardından AirPlay düğmesiyle TV’nizi seçin";
+
+/* Menus */
+"Playback" = "Oynatma";
+"Original quality (HEVC, HDR, surround – for Apple TV 4K)" = "Orijinal kalite (HEVC, HDR, surround – Apple TV 4K için)";
+"Language" = "Dil";
+"System default" = "Sistem varsayılanı";
+"The new language takes effect after a restart." = "Yeni dil, yeniden başlatmanın ardından etkin olur.";
+"Restart Purrcast now? Playback stops." = "Purrcast şimdi yeniden başlatılsın mı? Oynatma durur.";
+"Restart" = "Yeniden Başlat";
+"Later" = "Daha Sonra";
+
+/* Player, menus, playlist, media information */
+"Chapter %@" = "Bölüm %@";
+"File" = "Dosya";
+"Format" = "Biçim";
+"Duration" = "Süre";
+"Size" = "Boyut";
+"Bitrate" = "Bit Hızı";
+"General" = "Genel";
+"Codec" = "Kodek";
+"Title" = "Başlık";
+"Resolution" = "Çözünürlük";
+"Frame rate" = "Kare Hızı";
+"Pixel format" = "Piksel Biçimi";
+"Dynamic range" = "Dinamik Aralık";
+"Channels" = "Kanallar";
+"Sample rate" = "Örnekleme Hızı";
+"Video" = "Video";
+"Audio" = "Ses";
+"Subtitle" = "Altyazı";
+"Stream %@: %@" = "Akış %@: %@";
+"Purrcast" = "Purrcast";
+"Media Information" = "Ortam Bilgisi";
+"Open Network Stream…" = "Ağ Akışını Aç…";
+"Open Recent" = "Son Kullanılanı Aç";
+"Clear Menu" = "Menüyü Temizle";
+"Add Subtitle File…" = "Altyazı Dosyası Ekle…";
+"Save Playlist…" = "Oynatma Listesini Kaydet…";
+"Play/Pause" = "Oynat/Duraklat";
+"Stop" = "Durdur";
+"Previous" = "Önceki";
+"Next" = "Sonraki";
+"Jump Back 10 Seconds" = "10 Saniye Geri Atla";
+"Jump Forward 10 Seconds" = "10 Saniye İleri Atla";
+"Jump Back 1 Minute" = "1 Dakika Geri Atla";
+"Jump Forward 1 Minute" = "1 Dakika İleri Atla";
+"Jump to Time…" = "Zamana Atla…";
+"Next Frame" = "Sonraki Kare";
+"Chapters" = "Bölümler";
+"Faster" = "Daha Hızlı";
+"Slower" = "Daha Yavaş";
+"Normal Speed" = "Normal Hız";
+"Set Loop Start (A)" = "Döngü Başlangıcını Ayarla (A)";
+"Set Loop End (B)" = "Döngü Sonunu Ayarla (B)";
+"Loop Off" = "Döngüyü Kapat";
+"Repeat" = "Tekrarla";
+"Off" = "Kapalı";
+"All" = "Tümü";
+"One" = "Tek";
+"Shuffle" = "Karıştır";
+"Volume Up" = "Sesi Artır";
+"Volume Down" = "Sesi Azalt";
+"Mute" = "Sessiz";
+"Audio Track" = "Ses İzi";
+"Full Screen" = "Tam Ekran";
+"Float on Top" = "Her Zaman Üstte";
+"Aspect" = "En Boy Oranı";
+"Fit" = "Sığdır";
+"Fill (Crop)" = "Doldur (Kırp)";
+"Stretch" = "Uzat";
+"Snapshot" = "Anlık Görüntü";
+"Show Snapshots Folder" = "Anlık Görüntü Klasörünü Göster";
+"Subtitles" = "Altyazılar";
+"Subtitle Track" = "Altyazı İzi";
+"Next Subtitle Track" = "Sonraki Altyazı İzi";
+"Subtitles Earlier (G)" = "Altyazıyı Öne Al (G)";
+"Subtitles Later (H)" = "Altyazıyı Geciktir (H)";
+"Reset Subtitle Delay" = "Altyazı Gecikmesini Sıfırla";
+"Playlist" = "Oynatma Listesi";
+"%@ items" = "%@ öğe";
+"Close" = "Kapat";
+"Play" = "Oynat";
+"Show in Finder" = "Finder’da Göster";
+"Remove from Playlist" = "Oynatma Listesinden Kaldır";
+"Drop videos or folders here" = "Videoları veya klasörleri buraya sürükleyin";
+"Add files or folders…" = "Dosya veya klasör ekle…";
+"Clear Playlist" = "Oynatma Listesini Temizle";
+"Repeat: off" = "Tekrar: kapalı";
+"Repeat: all" = "Tekrar: tümü";
+"Repeat: one" = "Tekrar: tek";
+"Streaming" = "Akış";
+"Nothing is playing." = "Hiçbir şey oynatılmıyor.";
+"Open Network Stream" = "Ağ Akışını Aç";
+"HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – anything ffmpeg can open." = "HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – ffmpeg’in açabildiği her şey.";
+"Cancel" = "Vazgeç";
+"Jump to Time" = "Zamana Atla";
+"Jump" = "Atla";
+"Resumed at %@" = "%@ konumundan devam ediliyor";
+"Speed: %@" = "Hız: %@";
+"Volume: %@" = "Ses düzeyi: %@";
+"Loop start: %@" = "Döngü başlangıcı: %@";
+"Looping %@ – %@" = "Döngü %@ – %@";
+"Loop off" = "Döngü kapalı";
+"Snapshot saved: %@" = "Anlık görüntü kaydedildi: %@";
+"Couldn't save the snapshot." = "Anlık görüntü kaydedilemedi.";
+"Subtitles off" = "Altyazı kapalı";
+"Adding subtitles…" = "Altyazı ekleniyor…";
+"Subtitle delay: %@ ms" = "Altyazı gecikmesi: %@ ms";
+"Play Playlist" = "Listeyi Oynat";
+"Recent" = "Son Kullanılanlar";
+"Next in Playlist" = "Listede Sıradaki";
+"Start Over" = "Baştan Başlat";
+"Jump back 10 seconds" = "10 saniye geri atla";
+"Play/Pause (Space)" = "Oynat/Duraklat (Boşluk)";
+"Jump forward 10 seconds" = "10 saniye ileri atla";
+"Playback speed" = "Oynatma hızı";
+"Playlist (⌘L)" = "Oynatma Listesi (⌘L)";
+"Full Screen (⌘F)" = "Tam Ekran (⌘F)";
+"No audio tracks" = "Ses izi yok";
+"Audio track" = "Ses izi";
+
+/* Network streams */
+"network stream – seekable anywhere" = "ağ akışı – istediğiniz yere atlanabilir";
+"Network HLS stream – played directly, without conversion" = "HLS ağ akışı – dönüştürülmeden doğrudan oynatılıyor";
+
+/* Chapters */
+"Previous Chapter" = "Önceki Bölüm";
+"Next Chapter" = "Sonraki Bölüm";
+"Chapter: %@" = "Bölüm: %@";
+"Previous Chapter (⇧P)" = "Önceki Bölüm (⇧P)";
+"Next Chapter (⇧N)" = "Sonraki Bölüm (⇧N)";
+
+/* Auto-hiding controls */
+"Hide Controls" = "Denetimleri Gizle";
+"After %@ seconds" = "%@ saniye sonra";
+"Never" = "Asla";
+
+/* Time display */
+"Show total length" = "Toplam Süreyi Göster";
+"Show remaining time" = "Kalan Süreyi Göster";
+
+/* Picture in Picture, appearance */
+"Picture in Picture" = "Resim İçinde Resim";
+"Playing in Picture in Picture" = "Resim İçinde Resim olarak oynatılıyor";
+"Appearance" = "Görünüm";
+"Light" = "Açık";
+"Dark" = "Koyu";
+
+/* Help menu */
+"Open-Source Licenses" = "Açık Kaynak Lisansları";

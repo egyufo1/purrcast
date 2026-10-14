@@ -1,0 +1,203 @@
+/* Eadar-theangachadh Gàidhlig. Keys are the English texts; check: Resources/Localization/check.sh */
+
+/* Errors */
+"timed out" = "dh’fhalbh an ùine";
+"Not found: %@. Install it with: brew install ffmpeg" = "Cha deach a lorg: %@. Stàlaich e le: brew install ffmpeg";
+"Couldn't read the file: %@" = "Cha b’ urrainn dhuinn am faidhle a leughadh: %@";
+"The file has no video track." = "Chan eil traca video san fhaidhle.";
+"ffmpeg stopped with an error:\n%@" = "Stad ffmpeg le mearachd:\n%@";
+"Not enough free space for the temporary stream files (needs about %@, free: %@)." = "Chan eil àite saor gu leòr ann airson nam faidhlichean sruthaidh sealach (feumar mu %@, saor: %@).";
+"The local stream server didn't start: %@" = "Cha do thòisich am frithealaiche sruthaidh ionadail: %@";
+"Didn't start with the previous settings, retrying in a safer mode…" = "Cha do thòisich e leis na roghainnean roimhe, a’ feuchainn a-rithist ann am modh nas sàbhailte…";
+"Couldn't start playback:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log" = "Cha b’ urrainn dhuinn a’ chluich a thòiseachadh:\n%@\n\nMion-fhiosrachadh: ~/Library/Logs/Purrcast.log";
+"player error: %@" = "mearachd a’ chluicheadair: %@";
+"playback didn't start within 20 seconds" = "cha do thòisich a’ chluich taobh a-staigh 20 diog";
+"Error" = "Mearachd";
+
+/* Tracks */
+"Audio %@" = "Fuaim %@";
+"Subtitle %@" = "Fo-thiotal %@";
+"(forced)" = "(èignichte)";
+"External subtitle" = "Fo-thiotal on taobh a-muigh";
+"(external)" = "(on taobh a-muigh)";
+"unknown" = "neo-aithnichte";
+"mono" = "mono";
+"stereo" = "stereo";
+"%@ channels" = "%@ seanailean";
+
+/* Conversion summary */
+"%@ → H.264, plays on every TV" = "%@ → H.264, cluichidh e air gach TBh";
+"%@ H.264 → 8-bit H.264" = "%@ H.264 → H.264 8-biod";
+"interlaced → progressive" = "eadar-fhighte → adhartach";
+"re-encoded for reliable playback" = "air ath-chòdachadh airson cluich earbsach";
+"Video: %@ – passed through in original quality" = "Video: %@ – air a chur air adhart sa chàileachd thùsail";
+"Video: %@ → H.264 %@ (%@)" = "Video: %@ → H.264 %@ (%@)";
+"Audio: %@ – original" = "Fuaim: %@ – tùsail";
+"Audio: %@ → %@ %@" = "Fuaim: %@ → %@ %@";
+"Subtitle: %@ – on by default" = "Fo-thiotal: %@ – air a ghnàth";
+"Subtitle: %@" = "Fo-thiotal: %@";
+"Subtitle skipped: %@ (%@ is image-based and can't be converted)" = "Fo-thiotal air a leum: %@ (tha %@ stèidhichte air dealbhan is cha ghabh a thionndadh)";
+
+/* Status */
+"Preparing…" = "Ga ullachadh…";
+"Playing via AirPlay" = "Ga chluich slighe AirPlay";
+"Conversion stopped: %@" = "Stad an tionndadh: %@";
+"Prepared: %@ / %@" = "Deiseil: %@ / %@";
+
+/* Window */
+"Open…" = "Fosgail…";
+"Open" = "Fosgail";
+"Open another file…" = "Fosgail faidhle eile…";
+"AirPlay – choose your TV" = "AirPlay – tagh an TBh agad";
+"Drop a video here (MKV, MP4, AVI…)" = "Leig às video an-seo (MKV, MP4, AVI…)";
+"or open one with ⌘O, then pick your TV with the AirPlay button" = "no fosgail fear le ⌘O, an uairsin tagh an TBh agad leis a’ phutan AirPlay";
+
+/* Menus */
+"Playback" = "Cluich";
+"Original quality (HEVC, HDR, surround – for Apple TV 4K)" = "Càileachd thùsail (HEVC, HDR, fuaim cuairteachaidh – airson Apple TV 4K)";
+"Language" = "Cànan";
+"System default" = "Bun-roghainn an t-siostaim";
+"The new language takes effect after a restart." = "Thèid an cànan ùr an sàs an dèidh ath-thòiseachadh.";
+"Restart Purrcast now? Playback stops." = "An ath-thòisich thu Purrcast an-dràsta? Stadaidh a’ chluich.";
+"Restart" = "Ath-thòisich";
+"Later" = "Uaireigin eile";
+
+/* Player, menus, playlist, media information */
+"Chapter %@" = "Caibideil %@";
+"File" = "Faidhle";
+"Format" = "Fòrmat";
+"Duration" = "Faid";
+"Size" = "Meud";
+"Bitrate" = "Reat bhiodan";
+"General" = "Coitcheann";
+"Codec" = "Codec";
+"Title" = "Tiotal";
+"Resolution" = "Dùmhlachd-bhreacaidh";
+"Frame rate" = "Reat fhrèamaichean";
+"Pixel format" = "Fòrmat piogsail";
+"Dynamic range" = "Raon daineamaigeach";
+"Channels" = "Seanailean";
+"Sample rate" = "Reat samplachaidh";
+"Video" = "Video";
+"Audio" = "Fuaim";
+"Subtitle" = "Fo-thiotal";
+"Stream %@: %@" = "Sruth %@: %@";
+"Purrcast" = "Purrcast";
+"Media Information" = "Fiosrachadh a’ mheadhain";
+"Open Network Stream…" = "Fosgail sruth lìonraidh…";
+"Open Recent" = "Fosgail o chionn goirid";
+"Clear Menu" = "Falamhaich an clàr-taice";
+"Add Subtitle File…" = "Cuir faidhle fo-thiotail ris…";
+"Save Playlist…" = "Sàbhail an liosta-chluich…";
+"Play/Pause" = "Cluich/Cuir ’na stad";
+"Stop" = "Sguir";
+"Previous" = "Am fear roimhe";
+"Next" = "Am fear as ath";
+"Jump Back 10 Seconds" = "Leum 10 diogan air ais";
+"Jump Forward 10 Seconds" = "Leum 10 diogan air adhart";
+"Jump Back 1 Minute" = "Leum 1 mhionaid air ais";
+"Jump Forward 1 Minute" = "Leum 1 mhionaid air adhart";
+"Jump to Time…" = "Leum gu àm…";
+"Next Frame" = "An ath-fhrèam";
+"Chapters" = "Caibideilean";
+"Faster" = "Nas luaithe";
+"Slower" = "Nas slaodaiche";
+"Normal Speed" = "Astar àbhaisteach";
+"Set Loop Start (A)" = "Suidhich toiseach na lùib (A)";
+"Set Loop End (B)" = "Suidhich deireadh na lùib (B)";
+"Loop Off" = "Cuir dheth an lùb";
+"Repeat" = "Ath-dhèan";
+"Off" = "Dheth";
+"All" = "Na h-uile";
+"One" = "Aon";
+"Shuffle" = "Air thuaiream";
+"Volume Up" = "Àrdaich an fhuaim";
+"Volume Down" = "Lùghdaich an fhuaim";
+"Mute" = "Mùch";
+"Audio Track" = "Traca fuaime";
+"Full Screen" = "Làn-sgrìn";
+"Float on Top" = "Air uachdar an-còmhnaidh";
+"Aspect" = "Co-mheas deilbh";
+"Fit" = "Co-fhreagair";
+"Fill (Crop)" = "Lìon (bearr)";
+"Stretch" = "Sìn";
+"Snapshot" = "Dealbh-sgrìn";
+"Show Snapshots Folder" = "Seall pasgan nan dealbhan-sgrìn";
+"Subtitles" = "Fo-thiotalan";
+"Subtitle Track" = "Traca fo-thiotail";
+"Next Subtitle Track" = "An ath-thraca fo-thiotail";
+"Subtitles Earlier (G)" = "Fo-thiotalan nas tràithe (G)";
+"Subtitles Later (H)" = "Fo-thiotalan nas anmoiche (H)";
+"Reset Subtitle Delay" = "Ath-shuidhich dàil nam fo-thiotalan";
+"Playlist" = "Liosta-chluich";
+"%@ items" = "%@ nithean";
+"Close" = "Dùin";
+"Play" = "Cluich";
+"Show in Finder" = "Seall san Finder";
+"Remove from Playlist" = "Thoir air falbh on liosta-chluich";
+"Drop videos or folders here" = "Leig às videothan no pasganan an-seo";
+"Add files or folders…" = "Cuir faidhlichean no pasganan ris…";
+"Clear Playlist" = "Falamhaich an liosta-chluich";
+"Repeat: off" = "Ath-dhèan: dheth";
+"Repeat: all" = "Ath-dhèan: na h-uile";
+"Repeat: one" = "Ath-dhèan: aon";
+"Streaming" = "Sruthadh";
+"Nothing is playing." = "Chan eil dad ga chluich.";
+"Open Network Stream" = "Fosgail sruth lìonraidh";
+"HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – anything ffmpeg can open." = "HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – rud sam bith as urrainn do ffmpeg fhosgladh.";
+"Cancel" = "Sguir dheth";
+"Jump to Time" = "Leum gu àm";
+"Jump" = "Leum";
+"Resumed at %@" = "Ga leantainn o %@";
+"Speed: %@" = "Astar: %@";
+"Volume: %@" = "Àirde na fuaime: %@";
+"Loop start: %@" = "Toiseach na lùib: %@";
+"Looping %@ – %@" = "Lùb %@ – %@";
+"Loop off" = "Lùb dheth";
+"Snapshot saved: %@" = "Chaidh an dealbh-sgrìn a shàbhaladh: %@";
+"Couldn't save the snapshot." = "Cha b’ urrainn dhuinn an dealbh-sgrìn a shàbhaladh.";
+"Subtitles off" = "Fo-thiotalan dheth";
+"Adding subtitles…" = "A’ cur fo-thiotalan ris…";
+"Subtitle delay: %@ ms" = "Dàil nam fo-thiotalan: %@ ms";
+"Play Playlist" = "Cluich an liosta-chluich";
+"Recent" = "O chionn goirid";
+"Next in Playlist" = "An ath-fhear san liosta-chluich";
+"Start Over" = "Tòisich às ùr";
+"Jump back 10 seconds" = "10 diogan air ais";
+"Play/Pause (Space)" = "Cluich/Cuir ’na stad (Spàs)";
+"Jump forward 10 seconds" = "10 diogan air adhart";
+"Playback speed" = "Astar na cluiche";
+"Playlist (⌘L)" = "Liosta-chluich (⌘L)";
+"Full Screen (⌘F)" = "Làn-sgrìn (⌘F)";
+"No audio tracks" = "Chan eil traca fuaime ann";
+"Audio track" = "Traca fuaime";
+
+/* Network streams */
+"network stream – seekable anywhere" = "sruth lìonraidh – gabhaidh leum gu àite sam bith";
+"Network HLS stream – played directly, without conversion" = "Sruth HLS lìonraidh – ga chluich gu dìreach, gun iompachadh";
+
+/* Chapters */
+"Previous Chapter" = "An caibideil roimhe";
+"Next Chapter" = "An ath-chaibideil";
+"Chapter: %@" = "Caibideil: %@";
+"Previous Chapter (⇧P)" = "An caibideil roimhe (⇧P)";
+"Next Chapter (⇧N)" = "An ath-chaibideil (⇧N)";
+
+/* Auto-hiding controls */
+"Hide Controls" = "Falaich na h-uidheaman-smachd";
+"After %@ seconds" = "Às dèidh %@ diogan";
+"Never" = "Chan ann idir";
+
+/* Time display */
+"Show total length" = "Seall an fhaid iomlan";
+"Show remaining time" = "Seall an ùine air fhàgail";
+
+/* Picture in Picture, appearance */
+"Picture in Picture" = "Dealbh am broinn deilbh";
+"Playing in Picture in Picture" = "Ga chluich mar dhealbh am broinn deilbh";
+"Appearance" = "Coltas";
+"Light" = "Soilleir";
+"Dark" = "Dorcha";
+
+/* Help menu */
+"Open-Source Licenses" = "Ceadachasan bun-tùs fosgailte";

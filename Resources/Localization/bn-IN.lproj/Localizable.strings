@@ -1,0 +1,203 @@
+/* Bengali (India) translation. Keys are the English texts; check: Resources/Localization/check.sh */
+
+/* Errors */
+"timed out" = "সময়সীমা পেরিয়ে গেছে";
+"Not found: %@. Install it with: brew install ffmpeg" = "পাওয়া যায়নি: %@। ইনস্টল করুন: brew install ffmpeg";
+"Couldn't read the file: %@" = "ফাইলটি পড়া যায়নি: %@";
+"The file has no video track." = "ফাইলটিতে কোনো ভিডিও ট্র্যাক নেই।";
+"ffmpeg stopped with an error:\n%@" = "ffmpeg ত্রুটি দিয়ে থেমে গেছে:\n%@";
+"Not enough free space for the temporary stream files (needs about %@, free: %@)." = "অস্থায়ী স্ট্রিম ফাইলের জন্য যথেষ্ট খালি জায়গা নেই (প্রায় %@ লাগবে, খালি আছে: %@)।";
+"The local stream server didn't start: %@" = "লোকাল স্ট্রিম সার্ভার চালু হয়নি: %@";
+"Didn't start with the previous settings, retrying in a safer mode…" = "আগের সেটিংসে চালু হয়নি, আরও নিরাপদ মোডে আবার চেষ্টা করা হচ্ছে…";
+"Couldn't start playback:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log" = "প্লেব্যাক শুরু করা যায়নি:\n%@\n\nবিস্তারিত: ~/Library/Logs/Purrcast.log";
+"player error: %@" = "প্লেয়ার ত্রুটি: %@";
+"playback didn't start within 20 seconds" = "২০ সেকেন্ডের মধ্যে প্লেব্যাক শুরু হয়নি";
+"Error" = "ত্রুটি";
+
+/* Tracks */
+"Audio %@" = "অডিও %@";
+"Subtitle %@" = "সাবটাইটেল %@";
+"(forced)" = "(বাধ্যতামূলক)";
+"External subtitle" = "বাহ্যিক সাবটাইটেল";
+"(external)" = "(বাহ্যিক)";
+"unknown" = "অজানা";
+"mono" = "মোনো";
+"stereo" = "স্টেরিও";
+"%@ channels" = "%@ চ্যানেল";
+
+/* Conversion summary */
+"%@ → H.264, plays on every TV" = "%@ → H.264, সব TV-তে চলে";
+"%@ H.264 → 8-bit H.264" = "%@ H.264 → 8-বিট H.264";
+"interlaced → progressive" = "ইন্টারলেসড → প্রোগ্রেসিভ";
+"re-encoded for reliable playback" = "নির্ভরযোগ্য প্লেব্যাকের জন্য রি-এনকোড করা হয়েছে";
+"Video: %@ – passed through in original quality" = "ভিডিও: %@ – আসল কোয়ালিটিতে, কোনো পরিবর্তন ছাড়া";
+"Video: %@ → H.264 %@ (%@)" = "ভিডিও: %@ → H.264 %@ (%@)";
+"Audio: %@ – original" = "অডিও: %@ – আসল";
+"Audio: %@ → %@ %@" = "অডিও: %@ → %@ %@";
+"Subtitle: %@ – on by default" = "সাবটাইটেল: %@ – ডিফল্টভাবে চালু";
+"Subtitle: %@" = "সাবটাইটেল: %@";
+"Subtitle skipped: %@ (%@ is image-based and can't be converted)" = "সাবটাইটেল বাদ দেওয়া হয়েছে: %@ (%@ ছবি-ভিত্তিক, কনভার্ট করা যায় না)";
+
+/* Status */
+"Preparing…" = "প্রস্তুত করা হচ্ছে…";
+"Playing via AirPlay" = "AirPlay-তে চলছে";
+"Conversion stopped: %@" = "কনভার্সন থেমে গেছে: %@";
+"Prepared: %@ / %@" = "প্রস্তুত: %@ / %@";
+
+/* Window */
+"Open…" = "খুলুন…";
+"Open" = "খুলুন";
+"Open another file…" = "অন্য ফাইল খুলুন…";
+"AirPlay – choose your TV" = "AirPlay – আপনার TV বেছে নিন";
+"Drop a video here (MKV, MP4, AVI…)" = "এখানে একটি ভিডিও টেনে আনুন (MKV, MP4, AVI…)";
+"or open one with ⌘O, then pick your TV with the AirPlay button" = "অথবা ⌘O দিয়ে খুলুন, তারপর AirPlay বোতাম দিয়ে আপনার TV বেছে নিন";
+
+/* Menus */
+"Playback" = "প্লেব্যাক";
+"Original quality (HEVC, HDR, surround – for Apple TV 4K)" = "আসল কোয়ালিটি (HEVC, HDR, সারাউন্ড – Apple TV 4K-এর জন্য)";
+"Language" = "ভাষা";
+"System default" = "সিস্টেম ডিফল্ট";
+"The new language takes effect after a restart." = "রিস্টার্ট করার পর নতুন ভাষা চালু হবে।";
+"Restart Purrcast now? Playback stops." = "এখনই Purrcast রিস্টার্ট করবেন? প্লেব্যাক থেমে যাবে।";
+"Restart" = "রিস্টার্ট";
+"Later" = "পরে";
+
+/* Player, menus, playlist, media information */
+"Chapter %@" = "অধ্যায় %@";
+"File" = "ফাইল";
+"Format" = "ফরম্যাট";
+"Duration" = "সময়কাল";
+"Size" = "আকার";
+"Bitrate" = "বিটরেট";
+"General" = "সাধারণ";
+"Codec" = "কোডেক";
+"Title" = "শিরোনাম";
+"Resolution" = "রেজোলিউশন";
+"Frame rate" = "ফ্রেম রেট";
+"Pixel format" = "পিক্সেল ফরম্যাট";
+"Dynamic range" = "ডায়নামিক রেঞ্জ";
+"Channels" = "চ্যানেল";
+"Sample rate" = "স্যাম্পল রেট";
+"Video" = "ভিডিও";
+"Audio" = "অডিও";
+"Subtitle" = "সাবটাইটেল";
+"Stream %@: %@" = "স্ট্রিম %@: %@";
+"Purrcast" = "Purrcast";
+"Media Information" = "মিডিয়া তথ্য";
+"Open Network Stream…" = "নেটওয়ার্ক স্ট্রিম খুলুন…";
+"Open Recent" = "সাম্প্রতিক ফাইল খুলুন";
+"Clear Menu" = "মেনু পরিষ্কার করুন";
+"Add Subtitle File…" = "সাবটাইটেল ফাইল যোগ করুন…";
+"Save Playlist…" = "প্লেলিস্ট সেভ করুন…";
+"Play/Pause" = "চালান/পজ";
+"Stop" = "থামান";
+"Previous" = "আগেরটি";
+"Next" = "পরেরটি";
+"Jump Back 10 Seconds" = "১০ সেকেন্ড পিছিয়ে যান";
+"Jump Forward 10 Seconds" = "১০ সেকেন্ড এগিয়ে যান";
+"Jump Back 1 Minute" = "১ মিনিট পিছিয়ে যান";
+"Jump Forward 1 Minute" = "১ মিনিট এগিয়ে যান";
+"Jump to Time…" = "নির্দিষ্ট সময়ে যান…";
+"Next Frame" = "পরের ফ্রেম";
+"Chapters" = "অধ্যায়";
+"Faster" = "দ্রুত";
+"Slower" = "ধীরে";
+"Normal Speed" = "স্বাভাবিক গতি";
+"Set Loop Start (A)" = "লুপের শুরু সেট করুন (A)";
+"Set Loop End (B)" = "লুপের শেষ সেট করুন (B)";
+"Loop Off" = "লুপ বন্ধ করুন";
+"Repeat" = "রিপিট";
+"Off" = "বন্ধ";
+"All" = "সব";
+"One" = "একটি";
+"Shuffle" = "শাফল";
+"Volume Up" = "ভলিউম বাড়ান";
+"Volume Down" = "ভলিউম কমান";
+"Mute" = "মিউট";
+"Audio Track" = "অডিও ট্র্যাক";
+"Full Screen" = "পূর্ণ স্ক্রিন";
+"Float on Top" = "সবসময় উপরে";
+"Aspect" = "অ্যাসপেক্ট রেশিও";
+"Fit" = "ফিট";
+"Fill (Crop)" = "ভরাট (ক্রপ)";
+"Stretch" = "স্ট্রেচ";
+"Snapshot" = "স্ন্যাপশট";
+"Show Snapshots Folder" = "স্ন্যাপশট ফোল্ডার দেখান";
+"Subtitles" = "সাবটাইটেল";
+"Subtitle Track" = "সাবটাইটেল ট্র্যাক";
+"Next Subtitle Track" = "পরের সাবটাইটেল ট্র্যাক";
+"Subtitles Earlier (G)" = "সাবটাইটেল আগে (G)";
+"Subtitles Later (H)" = "সাবটাইটেল পরে (H)";
+"Reset Subtitle Delay" = "সাবটাইটেল ডিলে রিসেট করুন";
+"Playlist" = "প্লেলিস্ট";
+"%@ items" = "%@টি আইটেম";
+"Close" = "বন্ধ করুন";
+"Play" = "চালান";
+"Show in Finder" = "Finder-এ দেখান";
+"Remove from Playlist" = "প্লেলিস্ট থেকে সরান";
+"Drop videos or folders here" = "ভিডিও বা ফোল্ডার এখানে টেনে আনুন";
+"Add files or folders…" = "ফাইল বা ফোল্ডার যোগ করুন…";
+"Clear Playlist" = "প্লেলিস্ট খালি করুন";
+"Repeat: off" = "রিপিট: বন্ধ";
+"Repeat: all" = "রিপিট: সব";
+"Repeat: one" = "রিপিট: একটি";
+"Streaming" = "স্ট্রিমিং";
+"Nothing is playing." = "এখন কিছু চলছে না।";
+"Open Network Stream" = "নেটওয়ার্ক স্ট্রিম খুলুন";
+"HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – anything ffmpeg can open." = "HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – ffmpeg যা খুলতে পারে, সবই।";
+"Cancel" = "বাতিল";
+"Jump to Time" = "নির্দিষ্ট সময়ে যান";
+"Jump" = "যান";
+"Resumed at %@" = "%@ থেকে আবার চালু হল";
+"Speed: %@" = "গতি: %@";
+"Volume: %@" = "ভলিউম: %@";
+"Loop start: %@" = "লুপের শুরু: %@";
+"Looping %@ – %@" = "লুপ: %@ – %@";
+"Loop off" = "লুপ বন্ধ";
+"Snapshot saved: %@" = "স্ন্যাপশট সেভ হয়েছে: %@";
+"Couldn't save the snapshot." = "স্ন্যাপশট সেভ করা যায়নি।";
+"Subtitles off" = "সাবটাইটেল বন্ধ";
+"Adding subtitles…" = "সাবটাইটেল যোগ করা হচ্ছে…";
+"Subtitle delay: %@ ms" = "সাবটাইটেল ডিলে: %@ ms";
+"Play Playlist" = "প্লেলিস্ট চালান";
+"Recent" = "সাম্প্রতিক";
+"Next in Playlist" = "প্লেলিস্টে পরেরটি";
+"Start Over" = "শুরু থেকে চালান";
+"Jump back 10 seconds" = "১০ সেকেন্ড পিছিয়ে";
+"Play/Pause (Space)" = "চালান/পজ (স্পেস)";
+"Jump forward 10 seconds" = "১০ সেকেন্ড এগিয়ে";
+"Playback speed" = "প্লেব্যাকের গতি";
+"Playlist (⌘L)" = "প্লেলিস্ট (⌘L)";
+"Full Screen (⌘F)" = "পূর্ণ স্ক্রিন (⌘F)";
+"No audio tracks" = "কোনো অডিও ট্র্যাক নেই";
+"Audio track" = "অডিও ট্র্যাক";
+
+/* Network streams */
+"network stream – seekable anywhere" = "নেটওয়ার্ক স্ট্রিম – যেকোনো জায়গায় যাওয়া যায়";
+"Network HLS stream – played directly, without conversion" = "নেটওয়ার্ক HLS স্ট্রিম – রূপান্তর ছাড়াই সরাসরি চলছে";
+
+/* Chapters */
+"Previous Chapter" = "আগের অধ্যায়";
+"Next Chapter" = "পরের অধ্যায়";
+"Chapter: %@" = "অধ্যায়: %@";
+"Previous Chapter (⇧P)" = "আগের অধ্যায় (⇧P)";
+"Next Chapter (⇧N)" = "পরের অধ্যায় (⇧N)";
+
+/* Auto-hiding controls */
+"Hide Controls" = "নিয়ন্ত্রণ লুকান";
+"After %@ seconds" = "%@ সেকেন্ড পরে";
+"Never" = "কখনও না";
+
+/* Time display */
+"Show total length" = "মোট সময় দেখান";
+"Show remaining time" = "বাকি সময় দেখান";
+
+/* Picture in Picture, appearance */
+"Picture in Picture" = "পিকচার-ইন-পিকচার";
+"Playing in Picture in Picture" = "পিকচার-ইন-পিকচারে চলছে";
+"Appearance" = "চেহারা";
+"Light" = "হালকা";
+"Dark" = "গাঢ়";
+
+/* Help menu */
+"Open-Source Licenses" = "ওপেন-সোর্স লাইসেন্স";

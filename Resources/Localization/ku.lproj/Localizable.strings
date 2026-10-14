@@ -1,0 +1,203 @@
+/* Kurdish (Kurmanji) translation. Keys are the English texts; check: Resources/Localization/check.sh */
+
+/* Errors */
+"timed out" = "dem derbas bû";
+"Not found: %@. Install it with: brew install ffmpeg" = "Nehat dîtin: %@. Bi vê sazê bike: brew install ffmpeg";
+"Couldn't read the file: %@" = "Pel nehat xwendin: %@";
+"The file has no video track." = "Di pelê de şopa vîdyoyê tune.";
+"ffmpeg stopped with an error:\n%@" = "ffmpeg bi çewtiyekê rawestiya:\n%@";
+"Not enough free space for the temporary stream files (needs about %@, free: %@)." = "Ji bo pelên weşanê yên demkî cihê vala têr nake (nêzîkî %@ pêwîst e, vala: %@).";
+"The local stream server didn't start: %@" = "Servera weşanê ya herêmî dest pê nekir: %@";
+"Didn't start with the previous settings, retrying in a safer mode…" = "Bi mîhengên berê dest pê nekir, di modeke ewletir de dîsa tê ceribandin…";
+"Couldn't start playback:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log" = "Lêdan dest pê nekir:\n%@\n\nHûrgulî: ~/Library/Logs/Purrcast.log";
+"player error: %@" = "çewtiya lêdêr: %@";
+"playback didn't start within 20 seconds" = "lêdan di nav 20 çirkeyan de dest pê nekir";
+"Error" = "Çewtî";
+
+/* Tracks */
+"Audio %@" = "Deng %@";
+"Subtitle %@" = "Binnivîs %@";
+"(forced)" = "(mecbûrî)";
+"External subtitle" = "Binnivîsa derveyî";
+"(external)" = "(derveyî)";
+"unknown" = "nenas";
+"mono" = "mono";
+"stereo" = "stereo";
+"%@ channels" = "%@ kanal";
+
+/* Conversion summary */
+"%@ → H.264, plays on every TV" = "%@ → H.264, li ser her TV-yê dilîze";
+"%@ H.264 → 8-bit H.264" = "%@ H.264 → H.264 ya 8-bit";
+"interlaced → progressive" = "tevlihev → progresîv";
+"re-encoded for reliable playback" = "ji bo lêdana ewle ji nû ve hate kodkirin";
+"Video: %@ – passed through in original quality" = "Vîdyo: %@ – bi kalîteya resen derbas dibe";
+"Video: %@ → H.264 %@ (%@)" = "Vîdyo: %@ → H.264 %@ (%@)";
+"Audio: %@ – original" = "Deng: %@ – resen";
+"Audio: %@ → %@ %@" = "Deng: %@ → %@ %@";
+"Subtitle: %@ – on by default" = "Binnivîs: %@ – ji xwe ve vekirî ye";
+"Subtitle: %@" = "Binnivîs: %@";
+"Subtitle skipped: %@ (%@ is image-based and can't be converted)" = "Binnivîs hate derbaskirin: %@ (%@ li ser wêneyan e û nayê veguhertin)";
+
+/* Status */
+"Preparing…" = "Tê amadekirin…";
+"Playing via AirPlay" = "Bi AirPlay tê lêdan";
+"Conversion stopped: %@" = "Veguhertin rawestiya: %@";
+"Prepared: %@ / %@" = "Amade: %@ / %@";
+
+/* Window */
+"Open…" = "Veke…";
+"Open" = "Veke";
+"Open another file…" = "Pelekî din veke…";
+"AirPlay – choose your TV" = "AirPlay – TV-ya xwe hilbijêre";
+"Drop a video here (MKV, MP4, AVI…)" = "Vîdyoyekê bikişîne vir (MKV, MP4, AVI…)";
+"or open one with ⌘O, then pick your TV with the AirPlay button" = "an jî bi ⌘O veke, paşê bi bişkoka AirPlay TV-ya xwe hilbijêre";
+
+/* Menus */
+"Playback" = "Lêdan";
+"Original quality (HEVC, HDR, surround – for Apple TV 4K)" = "Kalîteya resen (HEVC, HDR, surround – ji bo Apple TV 4K)";
+"Language" = "Ziman";
+"System default" = "Zimanê pergalê";
+"The new language takes effect after a restart." = "Zimanê nû piştî ji nû ve destpêkirinê derbasdar dibe.";
+"Restart Purrcast now? Playback stops." = "Purrcast niha ji nû ve dest pê bike? Lêdan dê raweste.";
+"Restart" = "Ji nû ve dest pê bike";
+"Later" = "Paşê";
+
+/* Player, menus, playlist, media information */
+"Chapter %@" = "Beş %@";
+"File" = "Pel";
+"Format" = "Format";
+"Duration" = "Dirêjahî";
+"Size" = "Mezinahî";
+"Bitrate" = "Rêjeya bitan";
+"General" = "Giştî";
+"Codec" = "Kodek";
+"Title" = "Sernav";
+"Resolution" = "Çareserî";
+"Frame rate" = "Rêjeya çarçoveyan";
+"Pixel format" = "Formata pîkselan";
+"Dynamic range" = "Navbera dînamîk";
+"Channels" = "Kanal";
+"Sample rate" = "Rêjeya nimûneyan";
+"Video" = "Vîdyo";
+"Audio" = "Deng";
+"Subtitle" = "Binnivîs";
+"Stream %@: %@" = "Şop %@: %@";
+"Purrcast" = "Purrcast";
+"Media Information" = "Agahiyên medyayê";
+"Open Network Stream…" = "Weşana torê veke…";
+"Open Recent" = "Yên dawî veke";
+"Clear Menu" = "Menuyê paqij bike";
+"Add Subtitle File…" = "Pela binnivîsê lê zêde bike…";
+"Save Playlist…" = "Lîsteya lêdanê tomar bike…";
+"Play/Pause" = "Lêde/Bisekinîne";
+"Stop" = "Rawestîne";
+"Previous" = "Ya berê";
+"Next" = "Ya din";
+"Jump Back 10 Seconds" = "10 çirke paş de";
+"Jump Forward 10 Seconds" = "10 çirke pêş de";
+"Jump Back 1 Minute" = "1 deqe paş de";
+"Jump Forward 1 Minute" = "1 deqe pêş de";
+"Jump to Time…" = "Here demekê…";
+"Next Frame" = "Çarçoveya din";
+"Chapters" = "Beş";
+"Faster" = "Zûtir";
+"Slower" = "Hêdîtir";
+"Normal Speed" = "Leza normal";
+"Set Loop Start (A)" = "Destpêka xelekê diyar bike (A)";
+"Set Loop End (B)" = "Dawiya xelekê diyar bike (B)";
+"Loop Off" = "Xelekê bigire";
+"Repeat" = "Dubarekirin";
+"Off" = "Girtî";
+"All" = "Hemû";
+"One" = "Yek";
+"Shuffle" = "Tevlihev";
+"Volume Up" = "Deng bilind bike";
+"Volume Down" = "Deng nizm bike";
+"Mute" = "Bêdeng bike";
+"Audio Track" = "Şopa deng";
+"Full Screen" = "Dîmendera tijî";
+"Float on Top" = "Her tim li jor";
+"Aspect" = "Rêjeya dîmenê";
+"Fit" = "Lihevanîn";
+"Fill (Crop)" = "Tijîkirin (bi birrînê)";
+"Stretch" = "Kişandin";
+"Snapshot" = "Wêneya dîmenê";
+"Show Snapshots Folder" = "Peldanka wêneyan nîşan bide";
+"Subtitles" = "Binnivîs";
+"Subtitle Track" = "Şopa binnivîsê";
+"Next Subtitle Track" = "Şopa binnivîsê ya din";
+"Subtitles Earlier (G)" = "Binnivîs zûtir (G)";
+"Subtitles Later (H)" = "Binnivîs derengtir (H)";
+"Reset Subtitle Delay" = "Derengiya binnivîsê sifir bike";
+"Playlist" = "Lîsteya lêdanê";
+"%@ items" = "%@ hêman";
+"Close" = "Bigire";
+"Play" = "Lêde";
+"Show in Finder" = "Di Finder de nîşan bide";
+"Remove from Playlist" = "Ji lîsteya lêdanê rake";
+"Drop videos or folders here" = "Vîdyo an peldankan bikişîne vir";
+"Add files or folders…" = "Pel an peldankan lê zêde bike…";
+"Clear Playlist" = "Lîsteya lêdanê paqij bike";
+"Repeat: off" = "Dubarekirin: girtî";
+"Repeat: all" = "Dubarekirin: hemû";
+"Repeat: one" = "Dubarekirin: yek";
+"Streaming" = "Weşandin";
+"Nothing is playing." = "Tiştek nayê lêdan.";
+"Open Network Stream" = "Weşana torê veke";
+"HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – anything ffmpeg can open." = "HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – her tiştê ku ffmpeg dikare veke.";
+"Cancel" = "Betal bike";
+"Jump to Time" = "Here demekê";
+"Jump" = "Here";
+"Resumed at %@" = "Ji %@ berdewam kir";
+"Speed: %@" = "Lez: %@";
+"Volume: %@" = "Asta deng: %@";
+"Loop start: %@" = "Destpêka xelekê: %@";
+"Looping %@ – %@" = "Xelek %@ – %@";
+"Loop off" = "Xelek girtî";
+"Snapshot saved: %@" = "Wêne hate tomarkirin: %@";
+"Couldn't save the snapshot." = "Wêne nehat tomarkirin.";
+"Subtitles off" = "Binnivîs girtî";
+"Adding subtitles…" = "Binnivîs tê zêdekirin…";
+"Subtitle delay: %@ ms" = "Derengiya binnivîsê: %@ ms";
+"Play Playlist" = "Lîsteyê lêde";
+"Recent" = "Yên dawî";
+"Next in Playlist" = "Ya din di lîsteyê de";
+"Start Over" = "Ji serî ve";
+"Jump back 10 seconds" = "10 çirke paş de";
+"Play/Pause (Space)" = "Lêde/Bisekinîne (Valahî)";
+"Jump forward 10 seconds" = "10 çirke pêş de";
+"Playback speed" = "Leza lêdanê";
+"Playlist (⌘L)" = "Lîsteya lêdanê (⌘L)";
+"Full Screen (⌘F)" = "Dîmendera tijî (⌘F)";
+"No audio tracks" = "Şopa deng tune";
+"Audio track" = "Şopa deng";
+
+/* Network streams */
+"network stream – seekable anywhere" = "herikîna torê – dikare li her derê were bazdan";
+"Network HLS stream – played directly, without conversion" = "Herikîna HLS a torê – rasterast tê lêdan, bê veguherîn";
+
+/* Chapters */
+"Previous Chapter" = "Beşa berê";
+"Next Chapter" = "Beşa din";
+"Chapter: %@" = "Beş: %@";
+"Previous Chapter (⇧P)" = "Beşa berê (⇧P)";
+"Next Chapter (⇧N)" = "Beşa din (⇧N)";
+
+/* Auto-hiding controls */
+"Hide Controls" = "Kontrolan veşêre";
+"After %@ seconds" = "Piştî %@ çirkeyan";
+"Never" = "Qet";
+
+/* Time display */
+"Show total length" = "Dirêjahiya giştî nîşan bide";
+"Show remaining time" = "Dema mayî nîşan bide";
+
+/* Picture in Picture, appearance */
+"Picture in Picture" = "Wêne di wêneyê de";
+"Playing in Picture in Picture" = "Di moda wêne di wêneyê de tê lêdan";
+"Appearance" = "Xuyang";
+"Light" = "Ronî";
+"Dark" = "Tarî";
+
+/* Help menu */
+"Open-Source Licenses" = "Lîsansên çavkaniya vekirî";

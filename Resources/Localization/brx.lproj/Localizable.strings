@@ -1,0 +1,203 @@
+/* Bodo translation. Keys are the English texts; check: Resources/Localization/check.sh */
+
+/* Errors */
+"timed out" = "समाय जोबबाय";
+"Not found: %@. Install it with: brew install ffmpeg" = "मोनाखै: %@। बेखौ इन्स्टल खालाम: brew install ffmpeg";
+"Couldn't read the file: %@" = "फाइलखौ फरायनो हायाखै: %@";
+"The file has no video track." = "फाइलआव भिडिअ' ट्रेक गैया।";
+"ffmpeg stopped with an error:\n%@" = "ffmpeg भुलजों बन्द जाबाय:\n%@";
+"Not enough free space for the temporary stream files (needs about %@, free: %@)." = "अस्थायी स्ट्रिम फाइलफोरनि थाखाय लांदां जायगा खम (%@ बादि नांगोन, लांदां: %@)।";
+"The local stream server didn't start: %@" = "लोकेल स्ट्रिम सार्भार जागायाखै: %@";
+"Didn't start with the previous settings, retrying in a safer mode…" = "सिगांनि सेटिंफोरजों जागायाखै, गोबां रैखाथि मोडआव फिन नाजागासिनो दं…";
+"Couldn't start playback:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log" = "प्लेबेक जागायनो हायाखै:\n%@\n\nगुवारै: ~/Library/Logs/Purrcast.log";
+"player error: %@" = "प्लेयार भुल: %@";
+"playback didn't start within 20 seconds" = "20 सेकेन्डनि सिङाव प्लेबेक जागायाखै";
+"Error" = "भुल";
+
+/* Tracks */
+"Audio %@" = "अडिअ' %@";
+"Subtitle %@" = "सबटाइटेल %@";
+"(forced)" = "(जरुरि)";
+"External subtitle" = "बाहेरनि सबटाइटेल";
+"(external)" = "(बाहेरनि)";
+"unknown" = "मिथिजाया";
+"mono" = "मन'";
+"stereo" = "स्टेरिअ'";
+"%@ channels" = "%@ चेनेल";
+
+/* Conversion summary */
+"%@ → H.264, plays on every TV" = "%@ → H.264, गासै TV आव प्ले जायो";
+"%@ H.264 → 8-bit H.264" = "%@ H.264 → 8-बिट H.264";
+"interlaced → progressive" = "इन्टारलेस्ड → प्रग्रेसिभ";
+"re-encoded for reliable playback" = "प्लेबेक गेबें जानो थाखाय फिन एनक'ड खालामनाय";
+"Video: %@ – passed through in original quality" = "भिडिअ': %@ – मूल गुनाव, सोलायनाय गैया";
+"Video: %@ → H.264 %@ (%@)" = "भिडिअ': %@ → H.264 %@ (%@)";
+"Audio: %@ – original" = "अडिअ': %@ – मूल";
+"Audio: %@ → %@ %@" = "अडिअ': %@ → %@ %@";
+"Subtitle: %@ – on by default" = "सबटाइटेल: %@ – डिफल्टआव अन";
+"Subtitle: %@" = "सबटाइटेल: %@";
+"Subtitle skipped: %@ (%@ is image-based and can't be converted)" = "सबटाइटेल बाद होनाय: %@ (%@ सावगारि-आधारित, सोलायनो हाया)";
+
+/* Status */
+"Preparing…" = "थियारि खालामगासिनो दं…";
+"Playing via AirPlay" = "AirPlay जों प्ले जागासिनो दं";
+"Conversion stopped: %@" = "सोलायनाय बन्द जाबाय: %@";
+"Prepared: %@ / %@" = "थियारि: %@ / %@";
+
+/* Window */
+"Open…" = "खेव…";
+"Open" = "खेव";
+"Open another file…" = "गुबुन फाइल खेव…";
+"AirPlay – choose your TV" = "AirPlay – नोंथांनि TV सायख";
+"Drop a video here (MKV, MP4, AVI…)" = "भिडिअ' मोनसे बेयाव हो (MKV, MP4, AVI…)";
+"or open one with ⌘O, then pick your TV with the AirPlay button" = "एबा ⌘O जों खेव, उनाव AirPlay बुटामजों नोंथांनि TV सायख";
+
+/* Menus */
+"Playback" = "प्लेबेक";
+"Original quality (HEVC, HDR, surround – for Apple TV 4K)" = "मूल गुन (HEVC, HDR, सराउन्ड – Apple TV 4K नि थाखाय)";
+"Language" = "राव";
+"System default" = "सिस्टेम डिफल्ट";
+"The new language takes effect after a restart." = "फिन जागायनायनि उनाव गोदान राव मावफुंगोन।";
+"Restart Purrcast now? Playback stops." = "Purrcast खौ दानो फिन जागायगोना? प्लेबेक बन्द जागोन।";
+"Restart" = "फिन जागाय";
+"Later" = "उनाव";
+
+/* Player, menus, playlist, media information */
+"Chapter %@" = "खोन्दो %@";
+"File" = "फाइल";
+"Format" = "फरमेट";
+"Duration" = "समाय";
+"Size" = "आकार";
+"Bitrate" = "बिटरेट";
+"General" = "सरासनस्रा";
+"Codec" = "क'डेक";
+"Title" = "बिमुं";
+"Resolution" = "रेजलुसन";
+"Frame rate" = "फ्रेम रेट";
+"Pixel format" = "पिक्सेल फरमेट";
+"Dynamic range" = "डाइनामिक रेन्ज";
+"Channels" = "चेनेल";
+"Sample rate" = "सेम्पल रेट";
+"Video" = "भिडिअ'";
+"Audio" = "अडिअ'";
+"Subtitle" = "सबटाइटेल";
+"Stream %@: %@" = "स्ट्रिम %@: %@";
+"Purrcast" = "Purrcast";
+"Media Information" = "मिडिया फोरमायथि";
+"Open Network Stream…" = "नेटवर्क स्ट्रिम खेव…";
+"Open Recent" = "जोबथा फाइलफोर खेव";
+"Clear Menu" = "मेनु साफा खालाम";
+"Add Subtitle File…" = "सबटाइटेल फाइल दाजाब…";
+"Save Playlist…" = "प्लेलिस्ट थिना दोन…";
+"Play/Pause" = "प्ले/पज";
+"Stop" = "थाद";
+"Previous" = "सिगांनि";
+"Next" = "उननि";
+"Jump Back 10 Seconds" = "10 सेकेन्ड उनथि थां";
+"Jump Forward 10 Seconds" = "10 सेकेन्ड सिगांथि थां";
+"Jump Back 1 Minute" = "1 मिनिट उनथि थां";
+"Jump Forward 1 Minute" = "1 मिनिट सिगांथि थां";
+"Jump to Time…" = "समायाव थां…";
+"Next Frame" = "उननि फ्रेम";
+"Chapters" = "खोन्दोफोर";
+"Faster" = "गोख्रैसिन";
+"Slower" = "लासैसिन";
+"Normal Speed" = "सरासनस्रा गोख्रैथि";
+"Set Loop Start (A)" = "लुप जागायनाय फज (A)";
+"Set Loop End (B)" = "लुप जोबनाय फज (B)";
+"Loop Off" = "लुप बन्द खालाम";
+"Repeat" = "रिपिट";
+"Off" = "बन्द";
+"All" = "गासै";
+"One" = "मोनसे";
+"Shuffle" = "शफल";
+"Volume Up" = "भलिउम बांहो";
+"Volume Down" = "भलिउम खमायहो";
+"Mute" = "मिउट";
+"Audio Track" = "अडिअ' ट्रेक";
+"Full Screen" = "आबुं स्क्रिन";
+"Float on Top" = "सबसमाय सायाव";
+"Aspect" = "आस्पेक्ट रेसिअ'";
+"Fit" = "फिट";
+"Fill (Crop)" = "बुंफब (क्रप)";
+"Stretch" = "स्ट्रेच";
+"Snapshot" = "स्नेपसट";
+"Show Snapshots Folder" = "स्नेपसट फल्डार दिन्थि";
+"Subtitles" = "सबटाइटेलफोर";
+"Subtitle Track" = "सबटाइटेल ट्रेक";
+"Next Subtitle Track" = "उननि सबटाइटेल ट्रेक";
+"Subtitles Earlier (G)" = "सबटाइटेल सिगां (G)";
+"Subtitles Later (H)" = "सबटाइटेल उनाव (H)";
+"Reset Subtitle Delay" = "सबटाइटेल डिले रिसेट खालाम";
+"Playlist" = "प्लेलिस्ट";
+"%@ items" = "%@ आइटेम";
+"Close" = "बन्द खालाम";
+"Play" = "प्ले खालाम";
+"Show in Finder" = "Finder आव दिन्थि";
+"Remove from Playlist" = "प्लेलिस्ट निफ्राय एखो";
+"Drop videos or folders here" = "भिडिअ' एबा फल्डारफोर बेयाव हो";
+"Add files or folders…" = "फाइल एबा फल्डार दाजाब…";
+"Clear Playlist" = "प्लेलिस्ट साफा खालाम";
+"Repeat: off" = "रिपिट: बन्द";
+"Repeat: all" = "रिपिट: गासै";
+"Repeat: one" = "रिपिट: मोनसे";
+"Streaming" = "स्ट्रिमिं";
+"Nothing is playing." = "दानो जेबो प्ले जाया।";
+"Open Network Stream" = "नेटवर्क स्ट्रिम खेव";
+"HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – anything ffmpeg can open." = "HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – ffmpeg आ खेवनो हानाय जायखिजाया।";
+"Cancel" = "नेवसि";
+"Jump to Time" = "समायाव थां";
+"Jump" = "थां";
+"Resumed at %@" = "%@ निफ्राय फिन जागायबाय";
+"Speed: %@" = "गोख्रैथि: %@";
+"Volume: %@" = "भलिउम: %@";
+"Loop start: %@" = "लुप जागायनाय: %@";
+"Looping %@ – %@" = "लुप: %@ – %@";
+"Loop off" = "लुप बन्द";
+"Snapshot saved: %@" = "स्नेपसट थिना दोनबाय: %@";
+"Couldn't save the snapshot." = "स्नेपसट थिना दोननो हायाखै।";
+"Subtitles off" = "सबटाइटेल बन्द";
+"Adding subtitles…" = "सबटाइटेल दाजाबगासिनो दं…";
+"Subtitle delay: %@ ms" = "सबटाइटेल डिले: %@ ms";
+"Play Playlist" = "प्लेलिस्ट प्ले खालाम";
+"Recent" = "जोबथा फाइलफोर";
+"Next in Playlist" = "प्लेलिस्टआव उननि";
+"Start Over" = "गिबि निफ्राय प्ले खालाम";
+"Jump back 10 seconds" = "10 सेकेन्ड उनथि";
+"Play/Pause (Space)" = "प्ले/पज (स्पेस)";
+"Jump forward 10 seconds" = "10 सेकेन्ड सिगांथि";
+"Playback speed" = "प्लेबेक गोख्रैथि";
+"Playlist (⌘L)" = "प्लेलिस्ट (⌘L)";
+"Full Screen (⌘F)" = "आबुं स्क्रिन (⌘F)";
+"No audio tracks" = "अडिअ' ट्रेक गैया";
+"Audio track" = "अडिअ' ट्रेक";
+
+/* Network streams */
+"network stream – seekable anywhere" = "नेटवर्क स्ट्रिम – जायखौबो थाङो";
+"Network HLS stream – played directly, without conversion" = "नेटवर्क HLS स्ट्रिम – सोलायि गैयि सोजाबै सावरिदों";
+
+/* Chapters */
+"Previous Chapter" = "सिगांनि खोन्दो";
+"Next Chapter" = "उननि खोन्दो";
+"Chapter: %@" = "खोन्दो: %@";
+"Previous Chapter (⇧P)" = "सिगांनि खोन्दो (⇧P)";
+"Next Chapter (⇧N)" = "उननि खोन्दो (⇧N)";
+
+/* Auto-hiding controls */
+"Hide Controls" = "सिमां खौ दोनथुम";
+"After %@ seconds" = "%@ सेकेन्ड उननाव";
+"Never" = "माबोरबाव नङा";
+
+/* Time display */
+"Show total length" = "गासै समो दिन्थि";
+"Show remaining time" = "थां गोनां समो दिन्थि";
+
+/* Picture in Picture, appearance */
+"Picture in Picture" = "पिक्चार-इन-पिक्चार";
+"Playing in Picture in Picture" = "पिक्चार-इन-पिक्चारआव सावरिदों";
+"Appearance" = "महर";
+"Light" = "सोरांसिन";
+"Dark" = "एंखार";
+
+/* Help menu */
+"Open-Source Licenses" = "ओपेन सोर्स लाइसेन्स";

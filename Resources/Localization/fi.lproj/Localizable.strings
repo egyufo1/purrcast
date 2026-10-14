@@ -1,0 +1,203 @@
+/* Suomenkielinen käännös. Keys are the English texts; check: Resources/Localization/check.sh */
+
+/* Errors */
+"timed out" = "aikakatkaisu";
+"Not found: %@. Install it with: brew install ffmpeg" = "Ei löytynyt: %@. Asenna se komennolla: brew install ffmpeg";
+"Couldn't read the file: %@" = "Tiedoston lukeminen epäonnistui: %@";
+"The file has no video track." = "Tiedostossa ei ole videoraitaa.";
+"ffmpeg stopped with an error:\n%@" = "ffmpeg pysähtyi virheeseen:\n%@";
+"Not enough free space for the temporary stream files (needs about %@, free: %@)." = "Väliaikaisille striimitiedostoille ei ole tarpeeksi vapaata tilaa (tarvitaan noin %@, vapaana: %@).";
+"The local stream server didn't start: %@" = "Paikallinen striimipalvelin ei käynnistynyt: %@";
+"Didn't start with the previous settings, retrying in a safer mode…" = "Käynnistys ei onnistunut aiemmilla asetuksilla, yritetään uudelleen varmemmassa tilassa…";
+"Couldn't start playback:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log" = "Toiston aloittaminen epäonnistui:\n%@\n\nLisätiedot: ~/Library/Logs/Purrcast.log";
+"player error: %@" = "soittimen virhe: %@";
+"playback didn't start within 20 seconds" = "toisto ei alkanut 20 sekunnin kuluessa";
+"Error" = "Virhe";
+
+/* Tracks */
+"Audio %@" = "Ääni %@";
+"Subtitle %@" = "Tekstitys %@";
+"(forced)" = "(pakotettu)";
+"External subtitle" = "Ulkoinen tekstitys";
+"(external)" = "(ulkoinen)";
+"unknown" = "tuntematon";
+"mono" = "mono";
+"stereo" = "stereo";
+"%@ channels" = "%@ kanavaa";
+
+/* Conversion summary */
+"%@ → H.264, plays on every TV" = "%@ → H.264, toimii kaikissa televisioissa";
+"%@ H.264 → 8-bit H.264" = "%@ H.264 → 8-bittinen H.264";
+"interlaced → progressive" = "lomitettu → progressiivinen";
+"re-encoded for reliable playback" = "koodattu uudelleen varman toiston vuoksi";
+"Video: %@ – passed through in original quality" = "Video: %@ – välitetään alkuperäislaatuisena";
+"Video: %@ → H.264 %@ (%@)" = "Video: %@ → H.264 %@ (%@)";
+"Audio: %@ – original" = "Ääni: %@ – alkuperäinen";
+"Audio: %@ → %@ %@" = "Ääni: %@ → %@ %@";
+"Subtitle: %@ – on by default" = "Tekstitys: %@ – oletuksena päällä";
+"Subtitle: %@" = "Tekstitys: %@";
+"Subtitle skipped: %@ (%@ is image-based and can't be converted)" = "Tekstitys ohitettu: %@ (%@ on kuvapohjainen, eikä sitä voi muuntaa)";
+
+/* Status */
+"Preparing…" = "Valmistellaan…";
+"Playing via AirPlay" = "Toistetaan AirPlayn kautta";
+"Conversion stopped: %@" = "Muunto keskeytyi: %@";
+"Prepared: %@ / %@" = "Valmisteltu: %@ / %@";
+
+/* Window */
+"Open…" = "Avaa…";
+"Open" = "Avaa";
+"Open another file…" = "Avaa toinen tiedosto…";
+"AirPlay – choose your TV" = "AirPlay – valitse televisio";
+"Drop a video here (MKV, MP4, AVI…)" = "Pudota video tähän (MKV, MP4, AVI…)";
+"or open one with ⌘O, then pick your TV with the AirPlay button" = "tai avaa video: ⌘O, ja valitse sitten televisio AirPlay-painikkeella";
+
+/* Menus */
+"Playback" = "Toisto";
+"Original quality (HEVC, HDR, surround – for Apple TV 4K)" = "Alkuperäinen laatu (HEVC, HDR, tilaääni – Apple TV 4K:lle)";
+"Language" = "Kieli";
+"System default" = "Järjestelmän oletus";
+"The new language takes effect after a restart." = "Uusi kieli tulee käyttöön uudelleenkäynnistyksen jälkeen.";
+"Restart Purrcast now? Playback stops." = "Käynnistetäänkö Purrcast uudelleen nyt? Toisto pysähtyy.";
+"Restart" = "Käynnistä uudelleen";
+"Later" = "Myöhemmin";
+
+/* Player, menus, playlist, media information */
+"Chapter %@" = "Luku %@";
+"File" = "Tiedosto";
+"Format" = "Muoto";
+"Duration" = "Kesto";
+"Size" = "Koko";
+"Bitrate" = "Bittinopeus";
+"General" = "Yleiset";
+"Codec" = "Koodekki";
+"Title" = "Nimi";
+"Resolution" = "Tarkkuus";
+"Frame rate" = "Kuvataajuus";
+"Pixel format" = "Pikselimuoto";
+"Dynamic range" = "Dynamiikka-alue";
+"Channels" = "Kanavat";
+"Sample rate" = "Näytteenottotaajuus";
+"Video" = "Video";
+"Audio" = "Ääni";
+"Subtitle" = "Tekstitys";
+"Stream %@: %@" = "Virta %@: %@";
+"Purrcast" = "Purrcast";
+"Media Information" = "Mediatiedot";
+"Open Network Stream…" = "Avaa verkkovirta…";
+"Open Recent" = "Avaa viimeaikainen";
+"Clear Menu" = "Tyhjennä valikko";
+"Add Subtitle File…" = "Lisää tekstitystiedosto…";
+"Save Playlist…" = "Tallenna soittolista…";
+"Play/Pause" = "Toista/tauko";
+"Stop" = "Pysäytä";
+"Previous" = "Edellinen";
+"Next" = "Seuraava";
+"Jump Back 10 Seconds" = "Siirry 10 sekuntia taaksepäin";
+"Jump Forward 10 Seconds" = "Siirry 10 sekuntia eteenpäin";
+"Jump Back 1 Minute" = "Siirry 1 minuutti taaksepäin";
+"Jump Forward 1 Minute" = "Siirry 1 minuutti eteenpäin";
+"Jump to Time…" = "Siirry aikaan…";
+"Next Frame" = "Seuraava ruutu";
+"Chapters" = "Luvut";
+"Faster" = "Nopeammin";
+"Slower" = "Hitaammin";
+"Normal Speed" = "Normaali nopeus";
+"Set Loop Start (A)" = "Aseta silmukan alku (A)";
+"Set Loop End (B)" = "Aseta silmukan loppu (B)";
+"Loop Off" = "Poista silmukka käytöstä";
+"Repeat" = "Uudelleentoisto";
+"Off" = "Pois";
+"All" = "Kaikki";
+"One" = "Yksi";
+"Shuffle" = "Sekoita";
+"Volume Up" = "Lisää äänenvoimakkuutta";
+"Volume Down" = "Vähennä äänenvoimakkuutta";
+"Mute" = "Mykistä";
+"Audio Track" = "Ääniraita";
+"Full Screen" = "Koko näyttö";
+"Float on Top" = "Aina päällimmäisenä";
+"Aspect" = "Kuvasuhde";
+"Fit" = "Sovita";
+"Fill (Crop)" = "Täytä (rajaa)";
+"Stretch" = "Venytä";
+"Snapshot" = "Tilannekuva";
+"Show Snapshots Folder" = "Näytä tilannekuvakansio";
+"Subtitles" = "Tekstitykset";
+"Subtitle Track" = "Tekstitysraita";
+"Next Subtitle Track" = "Seuraava tekstitysraita";
+"Subtitles Earlier (G)" = "Tekstitys aiemmin (G)";
+"Subtitles Later (H)" = "Tekstitys myöhemmin (H)";
+"Reset Subtitle Delay" = "Nollaa tekstityksen viive";
+"Playlist" = "Soittolista";
+"%@ items" = "%@ kohdetta";
+"Close" = "Sulje";
+"Play" = "Toista";
+"Show in Finder" = "Näytä Finderissa";
+"Remove from Playlist" = "Poista soittolistalta";
+"Drop videos or folders here" = "Pudota videoita tai kansioita tähän";
+"Add files or folders…" = "Lisää tiedostoja tai kansioita…";
+"Clear Playlist" = "Tyhjennä soittolista";
+"Repeat: off" = "Uudelleentoisto: pois";
+"Repeat: all" = "Uudelleentoisto: kaikki";
+"Repeat: one" = "Uudelleentoisto: yksi";
+"Streaming" = "Striimaus";
+"Nothing is playing." = "Mitään ei toisteta.";
+"Open Network Stream" = "Avaa verkkovirta";
+"HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – anything ffmpeg can open." = "HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – mitä tahansa, minkä ffmpeg osaa avata.";
+"Cancel" = "Kumoa";
+"Jump to Time" = "Siirry aikaan";
+"Jump" = "Siirry";
+"Resumed at %@" = "Jatketaan kohdasta %@";
+"Speed: %@" = "Nopeus: %@";
+"Volume: %@" = "Äänenvoimakkuus: %@";
+"Loop start: %@" = "Silmukan alku: %@";
+"Looping %@ – %@" = "Silmukka %@ – %@";
+"Loop off" = "Silmukka pois";
+"Snapshot saved: %@" = "Tilannekuva tallennettu: %@";
+"Couldn't save the snapshot." = "Tilannekuvan tallentaminen epäonnistui.";
+"Subtitles off" = "Tekstitys pois";
+"Adding subtitles…" = "Lisätään tekstitystä…";
+"Subtitle delay: %@ ms" = "Tekstityksen viive: %@ ms";
+"Play Playlist" = "Toista soittolista";
+"Recent" = "Viimeaikaiset";
+"Next in Playlist" = "Seuraavana soittolistalla";
+"Start Over" = "Aloita alusta";
+"Jump back 10 seconds" = "10 sekuntia taaksepäin";
+"Play/Pause (Space)" = "Toista/tauko (välilyönti)";
+"Jump forward 10 seconds" = "10 sekuntia eteenpäin";
+"Playback speed" = "Toistonopeus";
+"Playlist (⌘L)" = "Soittolista (⌘L)";
+"Full Screen (⌘F)" = "Koko näyttö (⌘F)";
+"No audio tracks" = "Ei ääniraitoja";
+"Audio track" = "Ääniraita";
+
+/* Network streams */
+"network stream – seekable anywhere" = "verkkovirta – kelattavissa minne tahansa";
+"Network HLS stream – played directly, without conversion" = "HLS-verkkovirta – toistetaan suoraan ilman muunnosta";
+
+/* Chapters */
+"Previous Chapter" = "Edellinen luku";
+"Next Chapter" = "Seuraava luku";
+"Chapter: %@" = "Luku: %@";
+"Previous Chapter (⇧P)" = "Edellinen luku (⇧P)";
+"Next Chapter (⇧N)" = "Seuraava luku (⇧N)";
+
+/* Auto-hiding controls */
+"Hide Controls" = "Piilota säätimet";
+"After %@ seconds" = "%@ sekunnin kuluttua";
+"Never" = "Ei koskaan";
+
+/* Time display */
+"Show total length" = "Näytä kokonaiskesto";
+"Show remaining time" = "Näytä jäljellä oleva aika";
+
+/* Picture in Picture, appearance */
+"Picture in Picture" = "Kuva kuvassa";
+"Playing in Picture in Picture" = "Toistetaan kuva kuvassa -tilassa";
+"Appearance" = "Ulkoasu";
+"Light" = "Vaalea";
+"Dark" = "Tumma";
+
+/* Help menu */
+"Open-Source Licenses" = "Avoimen lähdekoodin lisenssit";

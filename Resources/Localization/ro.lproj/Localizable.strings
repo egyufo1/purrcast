@@ -1,0 +1,203 @@
+/* Romanian translation. Keys are the English texts; check: Resources/Localization/check.sh */
+
+/* Errors */
+"timed out" = "timp expirat";
+"Not found: %@. Install it with: brew install ffmpeg" = "Nu a fost găsit: %@. Instalează-l cu: brew install ffmpeg";
+"Couldn't read the file: %@" = "Fișierul nu a putut fi citit: %@";
+"The file has no video track." = "Fișierul nu conține nicio pistă video.";
+"ffmpeg stopped with an error:\n%@" = "ffmpeg s-a oprit cu o eroare:\n%@";
+"Not enough free space for the temporary stream files (needs about %@, free: %@)." = "Spațiu liber insuficient pentru fișierele temporare de streaming (necesar: aproximativ %@, liber: %@).";
+"The local stream server didn't start: %@" = "Serverul local de streaming nu a pornit: %@";
+"Didn't start with the previous settings, retrying in a safer mode…" = "Nu a pornit cu setările anterioare, se reîncearcă într-un mod mai sigur…";
+"Couldn't start playback:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log" = "Redarea nu a putut fi pornită:\n%@\n\nDetalii: ~/Library/Logs/Purrcast.log";
+"player error: %@" = "eroare player: %@";
+"playback didn't start within 20 seconds" = "redarea nu a pornit în 20 de secunde";
+"Error" = "Eroare";
+
+/* Tracks */
+"Audio %@" = "Audio %@";
+"Subtitle %@" = "Subtitrare %@";
+"(forced)" = "(forțată)";
+"External subtitle" = "Subtitrare externă";
+"(external)" = "(externă)";
+"unknown" = "necunoscută";
+"mono" = "mono";
+"stereo" = "stereo";
+"%@ channels" = "%@ canale";
+
+/* Conversion summary */
+"%@ → H.264, plays on every TV" = "%@ → H.264, merge pe orice televizor";
+"%@ H.264 → 8-bit H.264" = "%@ H.264 → H.264 pe 8 biți";
+"interlaced → progressive" = "întrețesut → progresiv";
+"re-encoded for reliable playback" = "recodat pentru o redare fiabilă";
+"Video: %@ – passed through in original quality" = "Video: %@ – transmis în calitatea originală";
+"Video: %@ → H.264 %@ (%@)" = "Video: %@ → H.264 %@ (%@)";
+"Audio: %@ – original" = "Audio: %@ – original";
+"Audio: %@ → %@ %@" = "Audio: %@ → %@ %@";
+"Subtitle: %@ – on by default" = "Subtitrare: %@ – activă implicit";
+"Subtitle: %@" = "Subtitrare: %@";
+"Subtitle skipped: %@ (%@ is image-based and can't be converted)" = "Subtitrare omisă: %@ (formatul %@ e bazat pe imagini și nu poate fi convertit)";
+
+/* Status */
+"Preparing…" = "Se pregătește…";
+"Playing via AirPlay" = "Redare prin AirPlay";
+"Conversion stopped: %@" = "Conversia s-a oprit: %@";
+"Prepared: %@ / %@" = "Pregătit: %@ / %@";
+
+/* Window */
+"Open…" = "Deschide…";
+"Open" = "Deschide";
+"Open another file…" = "Deschide alt fișier…";
+"AirPlay – choose your TV" = "AirPlay – alege televizorul";
+"Drop a video here (MKV, MP4, AVI…)" = "Trage un video aici (MKV, MP4, AVI…)";
+"or open one with ⌘O, then pick your TV with the AirPlay button" = "sau deschide unul cu ⌘O, apoi alege televizorul cu butonul AirPlay";
+
+/* Menus */
+"Playback" = "Redare";
+"Original quality (HEVC, HDR, surround – for Apple TV 4K)" = "Calitate originală (HEVC, HDR, surround – pentru Apple TV 4K)";
+"Language" = "Limbă";
+"System default" = "Limba sistemului";
+"The new language takes effect after a restart." = "Noua limbă se aplică după repornire.";
+"Restart Purrcast now? Playback stops." = "Repornești Purrcast acum? Redarea se va opri.";
+"Restart" = "Repornește";
+"Later" = "Mai târziu";
+
+/* Player, menus, playlist, media information */
+"Chapter %@" = "Capitolul %@";
+"File" = "Fișier";
+"Format" = "Format";
+"Duration" = "Durată";
+"Size" = "Dimensiune";
+"Bitrate" = "Rată de biți";
+"General" = "General";
+"Codec" = "Codec";
+"Title" = "Titlu";
+"Resolution" = "Rezoluție";
+"Frame rate" = "Rată de cadre";
+"Pixel format" = "Format pixeli";
+"Dynamic range" = "Gamă dinamică";
+"Channels" = "Canale";
+"Sample rate" = "Rată de eșantionare";
+"Video" = "Video";
+"Audio" = "Audio";
+"Subtitle" = "Subtitrare";
+"Stream %@: %@" = "Fluxul %@: %@";
+"Purrcast" = "Purrcast";
+"Media Information" = "Informații media";
+"Open Network Stream…" = "Deschide flux de rețea…";
+"Open Recent" = "Deschide recente";
+"Clear Menu" = "Golește meniul";
+"Add Subtitle File…" = "Adaugă fișier de subtitrare…";
+"Save Playlist…" = "Salvează lista de redare…";
+"Play/Pause" = "Redare/Pauză";
+"Stop" = "Oprește";
+"Previous" = "Anterior";
+"Next" = "Următor";
+"Jump Back 10 Seconds" = "Înapoi 10 secunde";
+"Jump Forward 10 Seconds" = "Înainte 10 secunde";
+"Jump Back 1 Minute" = "Înapoi 1 minut";
+"Jump Forward 1 Minute" = "Înainte 1 minut";
+"Jump to Time…" = "Salt la momentul…";
+"Next Frame" = "Cadrul următor";
+"Chapters" = "Capitole";
+"Faster" = "Mai repede";
+"Slower" = "Mai încet";
+"Normal Speed" = "Viteză normală";
+"Set Loop Start (A)" = "Setează începutul buclei (A)";
+"Set Loop End (B)" = "Setează sfârșitul buclei (B)";
+"Loop Off" = "Dezactivează bucla";
+"Repeat" = "Repetare";
+"Off" = "Dezactivată";
+"All" = "Toate";
+"One" = "Unul";
+"Shuffle" = "Amestecare";
+"Volume Up" = "Mărește volumul";
+"Volume Down" = "Micșorează volumul";
+"Mute" = "Fără sonor";
+"Audio Track" = "Pistă audio";
+"Full Screen" = "Ecran complet";
+"Float on Top" = "Mereu deasupra";
+"Aspect" = "Raport de aspect";
+"Fit" = "Potrivire";
+"Fill (Crop)" = "Umplere (decupare)";
+"Stretch" = "Întindere";
+"Snapshot" = "Captură de cadru";
+"Show Snapshots Folder" = "Afișează dosarul cu capturi";
+"Subtitles" = "Subtitrări";
+"Subtitle Track" = "Pistă de subtitrare";
+"Next Subtitle Track" = "Următoarea pistă de subtitrare";
+"Subtitles Earlier (G)" = "Subtitrare mai devreme (G)";
+"Subtitles Later (H)" = "Subtitrare mai târziu (H)";
+"Reset Subtitle Delay" = "Resetează întârzierea subtitrării";
+"Playlist" = "Listă de redare";
+"%@ items" = "%@ elemente";
+"Close" = "Închide";
+"Play" = "Redă";
+"Show in Finder" = "Afișează în Finder";
+"Remove from Playlist" = "Elimină din lista de redare";
+"Drop videos or folders here" = "Trage aici videoclipuri sau dosare";
+"Add files or folders…" = "Adaugă fișiere sau dosare…";
+"Clear Playlist" = "Golește lista de redare";
+"Repeat: off" = "Repetare: dezactivată";
+"Repeat: all" = "Repetare: toate";
+"Repeat: one" = "Repetare: unul";
+"Streaming" = "Streaming";
+"Nothing is playing." = "Nu se redă nimic.";
+"Open Network Stream" = "Deschide flux de rețea";
+"HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – anything ffmpeg can open." = "HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – orice poate deschide ffmpeg.";
+"Cancel" = "Anulează";
+"Jump to Time" = "Salt la moment";
+"Jump" = "Salt";
+"Resumed at %@" = "Reluat de la %@";
+"Speed: %@" = "Viteză: %@";
+"Volume: %@" = "Volum: %@";
+"Loop start: %@" = "Început buclă: %@";
+"Looping %@ – %@" = "Buclă %@ – %@";
+"Loop off" = "Buclă dezactivată";
+"Snapshot saved: %@" = "Captură salvată: %@";
+"Couldn't save the snapshot." = "Captura nu a putut fi salvată.";
+"Subtitles off" = "Subtitrare dezactivată";
+"Adding subtitles…" = "Se adaugă subtitrarea…";
+"Subtitle delay: %@ ms" = "Întârziere subtitrare: %@ ms";
+"Play Playlist" = "Redă lista";
+"Recent" = "Recente";
+"Next in Playlist" = "Următorul din listă";
+"Start Over" = "De la început";
+"Jump back 10 seconds" = "Înapoi 10 secunde";
+"Play/Pause (Space)" = "Redare/Pauză (Spațiu)";
+"Jump forward 10 seconds" = "Înainte 10 secunde";
+"Playback speed" = "Viteză de redare";
+"Playlist (⌘L)" = "Listă de redare (⌘L)";
+"Full Screen (⌘F)" = "Ecran complet (⌘F)";
+"No audio tracks" = "Nicio pistă audio";
+"Audio track" = "Pistă audio";
+
+/* Network streams */
+"network stream – seekable anywhere" = "flux de rețea – poți sări oriunde";
+"Network HLS stream – played directly, without conversion" = "Flux HLS de rețea – redat direct, fără conversie";
+
+/* Chapters */
+"Previous Chapter" = "Capitolul anterior";
+"Next Chapter" = "Capitolul următor";
+"Chapter: %@" = "Capitol: %@";
+"Previous Chapter (⇧P)" = "Capitolul anterior (⇧P)";
+"Next Chapter (⇧N)" = "Capitolul următor (⇧N)";
+
+/* Auto-hiding controls */
+"Hide Controls" = "Ascunde comenzile";
+"After %@ seconds" = "După %@ secunde";
+"Never" = "Niciodată";
+
+/* Time display */
+"Show total length" = "Arată durata totală";
+"Show remaining time" = "Arată timpul rămas";
+
+/* Picture in Picture, appearance */
+"Picture in Picture" = "Imagine în imagine";
+"Playing in Picture in Picture" = "Redare în modul imagine în imagine";
+"Appearance" = "Aspect";
+"Light" = "Luminos";
+"Dark" = "Întunecat";
+
+/* Help menu */
+"Open-Source Licenses" = "Licențe open source";

@@ -1,0 +1,203 @@
+/* Malayalam translation. Keys are the English texts; check: Resources/Localization/check.sh */
+
+/* Errors */
+"timed out" = "സമയപരിധി കഴിഞ്ഞു";
+"Not found: %@. Install it with: brew install ffmpeg" = "കണ്ടെത്തിയില്ല: %@. ഇങ്ങനെ ഇൻസ്റ്റാൾ ചെയ്യുക: brew install ffmpeg";
+"Couldn't read the file: %@" = "ഫയൽ വായിക്കാനായില്ല: %@";
+"The file has no video track." = "ഫയലിൽ വീഡിയോ ട്രാക്ക് ഇല്ല.";
+"ffmpeg stopped with an error:\n%@" = "ffmpeg ഒരു പിശകോടെ നിന്നു:\n%@";
+"Not enough free space for the temporary stream files (needs about %@, free: %@)." = "താൽക്കാലിക സ്ട്രീം ഫയലുകൾക്ക് ആവശ്യത്തിന് സ്ഥലമില്ല (ഏകദേശം %@ വേണം, ഒഴിവ്: %@).";
+"The local stream server didn't start: %@" = "ലോക്കൽ സ്ട്രീം സെർവർ ആരംഭിച്ചില്ല: %@";
+"Didn't start with the previous settings, retrying in a safer mode…" = "മുമ്പത്തെ ക്രമീകരണങ്ങളിൽ ആരംഭിച്ചില്ല, കൂടുതൽ സുരക്ഷിതമായ മോഡിൽ വീണ്ടും ശ്രമിക്കുന്നു…";
+"Couldn't start playback:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log" = "പ്ലേബാക്ക് ആരംഭിക്കാനായില്ല:\n%@\n\nവിശദാംശങ്ങൾ: ~/Library/Logs/Purrcast.log";
+"player error: %@" = "പ്ലേയർ പിശക്: %@";
+"playback didn't start within 20 seconds" = "20 സെക്കൻഡിനുള്ളിൽ പ്ലേബാക്ക് ആരംഭിച്ചില്ല";
+"Error" = "പിശക്";
+
+/* Tracks */
+"Audio %@" = "ഓഡിയോ %@";
+"Subtitle %@" = "സബ്‌ടൈറ്റിൽ %@";
+"(forced)" = "(നിർബന്ധിതം)";
+"External subtitle" = "ബാഹ്യ സബ്‌ടൈറ്റിൽ";
+"(external)" = "(ബാഹ്യം)";
+"unknown" = "അജ്ഞാതം";
+"mono" = "മോണോ";
+"stereo" = "സ്റ്റീരിയോ";
+"%@ channels" = "%@ ചാനലുകൾ";
+
+/* Conversion summary */
+"%@ → H.264, plays on every TV" = "%@ → H.264, എല്ലാ TV-യിലും പ്ലേ ആകും";
+"%@ H.264 → 8-bit H.264" = "%@ H.264 → 8-ബിറ്റ് H.264";
+"interlaced → progressive" = "ഇന്റർലേസ്ഡ് → പ്രോഗ്രസീവ്";
+"re-encoded for reliable playback" = "വിശ്വസനീയമായ പ്ലേബാക്കിനായി റീ-എൻകോഡ് ചെയ്തു";
+"Video: %@ – passed through in original quality" = "വീഡിയോ: %@ – യഥാർത്ഥ നിലവാരത്തിൽ, മാറ്റമില്ലാതെ";
+"Video: %@ → H.264 %@ (%@)" = "വീഡിയോ: %@ → H.264 %@ (%@)";
+"Audio: %@ – original" = "ഓഡിയോ: %@ – യഥാർത്ഥം";
+"Audio: %@ → %@ %@" = "ഓഡിയോ: %@ → %@ %@";
+"Subtitle: %@ – on by default" = "സബ്‌ടൈറ്റിൽ: %@ – ഡിഫോൾട്ടായി ഓൺ";
+"Subtitle: %@" = "സബ്‌ടൈറ്റിൽ: %@";
+"Subtitle skipped: %@ (%@ is image-based and can't be converted)" = "സബ്‌ടൈറ്റിൽ ഒഴിവാക്കി: %@ (%@ ചിത്രാധിഷ്ഠിതമാണ്, പരിവർത്തനം ചെയ്യാനാവില്ല)";
+
+/* Status */
+"Preparing…" = "തയ്യാറാക്കുന്നു…";
+"Playing via AirPlay" = "AirPlay വഴി പ്ലേ ചെയ്യുന്നു";
+"Conversion stopped: %@" = "പരിവർത്തനം നിന്നു: %@";
+"Prepared: %@ / %@" = "തയ്യാറായത്: %@ / %@";
+
+/* Window */
+"Open…" = "തുറക്കുക…";
+"Open" = "തുറക്കുക";
+"Open another file…" = "മറ്റൊരു ഫയൽ തുറക്കുക…";
+"AirPlay – choose your TV" = "AirPlay – നിങ്ങളുടെ TV തിരഞ്ഞെടുക്കുക";
+"Drop a video here (MKV, MP4, AVI…)" = "ഒരു വീഡിയോ ഇവിടെ വലിച്ചിടുക (MKV, MP4, AVI…)";
+"or open one with ⌘O, then pick your TV with the AirPlay button" = "അല്ലെങ്കിൽ ⌘O ഉപയോഗിച്ച് തുറക്കുക, തുടർന്ന് AirPlay ബട്ടണിൽ TV തിരഞ്ഞെടുക്കുക";
+
+/* Menus */
+"Playback" = "പ്ലേബാക്ക്";
+"Original quality (HEVC, HDR, surround – for Apple TV 4K)" = "യഥാർത്ഥ നിലവാരം (HEVC, HDR, സറൗണ്ട് – Apple TV 4K-യ്ക്ക്)";
+"Language" = "ഭാഷ";
+"System default" = "സിസ്റ്റം ഡിഫോൾട്ട്";
+"The new language takes effect after a restart." = "റീസ്റ്റാർട്ട് ചെയ്ത ശേഷം പുതിയ ഭാഷ പ്രാബല്യത്തിൽ വരും.";
+"Restart Purrcast now? Playback stops." = "Purrcast ഇപ്പോൾ റീസ്റ്റാർട്ട് ചെയ്യണോ? പ്ലേബാക്ക് നിൽക്കും.";
+"Restart" = "റീസ്റ്റാർട്ട്";
+"Later" = "പിന്നീട്";
+
+/* Player, menus, playlist, media information */
+"Chapter %@" = "അധ്യായം %@";
+"File" = "ഫയൽ";
+"Format" = "ഫോർമാറ്റ്";
+"Duration" = "ദൈർഘ്യം";
+"Size" = "വലുപ്പം";
+"Bitrate" = "ബിറ്റ്‌റേറ്റ്";
+"General" = "പൊതുവായത്";
+"Codec" = "കോഡെക്";
+"Title" = "ശീർഷകം";
+"Resolution" = "റെസല്യൂഷൻ";
+"Frame rate" = "ഫ്രെയിം റേറ്റ്";
+"Pixel format" = "പിക്സൽ ഫോർമാറ്റ്";
+"Dynamic range" = "ഡൈനാമിക് റേഞ്ച്";
+"Channels" = "ചാനലുകൾ";
+"Sample rate" = "സാമ്പിൾ റേറ്റ്";
+"Video" = "വീഡിയോ";
+"Audio" = "ഓഡിയോ";
+"Subtitle" = "സബ്‌ടൈറ്റിൽ";
+"Stream %@: %@" = "സ്ട്രീം %@: %@";
+"Purrcast" = "Purrcast";
+"Media Information" = "മീഡിയ വിവരങ്ങൾ";
+"Open Network Stream…" = "നെറ്റ്‌വർക്ക് സ്ട്രീം തുറക്കുക…";
+"Open Recent" = "സമീപകാല ഫയലുകൾ തുറക്കുക";
+"Clear Menu" = "മെനു മായ്ക്കുക";
+"Add Subtitle File…" = "സബ്‌ടൈറ്റിൽ ഫയൽ ചേർക്കുക…";
+"Save Playlist…" = "പ്ലേലിസ്റ്റ് സേവ് ചെയ്യുക…";
+"Play/Pause" = "പ്ലേ/പോസ്";
+"Stop" = "നിർത്തുക";
+"Previous" = "മുമ്പത്തേത്";
+"Next" = "അടുത്തത്";
+"Jump Back 10 Seconds" = "10 സെക്കൻഡ് പിന്നോട്ട് പോകുക";
+"Jump Forward 10 Seconds" = "10 സെക്കൻഡ് മുന്നോട്ട് പോകുക";
+"Jump Back 1 Minute" = "1 മിനിറ്റ് പിന്നോട്ട് പോകുക";
+"Jump Forward 1 Minute" = "1 മിനിറ്റ് മുന്നോട്ട് പോകുക";
+"Jump to Time…" = "നിശ്ചിത സമയത്തേക്ക് പോകുക…";
+"Next Frame" = "അടുത്ത ഫ്രെയിം";
+"Chapters" = "അധ്യായങ്ങൾ";
+"Faster" = "വേഗത്തിൽ";
+"Slower" = "പതുക്കെ";
+"Normal Speed" = "സാധാരണ വേഗത";
+"Set Loop Start (A)" = "ലൂപ്പ് തുടക്കം സജ്ജമാക്കുക (A)";
+"Set Loop End (B)" = "ലൂപ്പ് അവസാനം സജ്ജമാക്കുക (B)";
+"Loop Off" = "ലൂപ്പ് ഓഫാക്കുക";
+"Repeat" = "ആവർത്തനം";
+"Off" = "ഓഫ്";
+"All" = "എല്ലാം";
+"One" = "ഒന്ന്";
+"Shuffle" = "ഷഫിൾ";
+"Volume Up" = "വോളിയം കൂട്ടുക";
+"Volume Down" = "വോളിയം കുറയ്ക്കുക";
+"Mute" = "മ്യൂട്ട്";
+"Audio Track" = "ഓഡിയോ ട്രാക്ക്";
+"Full Screen" = "പൂർണ്ണ സ്ക്രീൻ";
+"Float on Top" = "എപ്പോഴും മുകളിൽ";
+"Aspect" = "വീക്ഷണാനുപാതം";
+"Fit" = "ഫിറ്റ്";
+"Fill (Crop)" = "നിറയ്ക്കുക (ക്രോപ്പ്)";
+"Stretch" = "വലിച്ചുനീട്ടുക";
+"Snapshot" = "സ്നാപ്പ്ഷോട്ട്";
+"Show Snapshots Folder" = "സ്നാപ്പ്ഷോട്ട് ഫോൾഡർ കാണിക്കുക";
+"Subtitles" = "സബ്‌ടൈറ്റിലുകൾ";
+"Subtitle Track" = "സബ്‌ടൈറ്റിൽ ട്രാക്ക്";
+"Next Subtitle Track" = "അടുത്ത സബ്‌ടൈറ്റിൽ ട്രാക്ക്";
+"Subtitles Earlier (G)" = "സബ്‌ടൈറ്റിൽ നേരത്തെ (G)";
+"Subtitles Later (H)" = "സബ്‌ടൈറ്റിൽ വൈകി (H)";
+"Reset Subtitle Delay" = "സബ്‌ടൈറ്റിൽ ഡിലേ റീസെറ്റ് ചെയ്യുക";
+"Playlist" = "പ്ലേലിസ്റ്റ്";
+"%@ items" = "%@ ഇനങ്ങൾ";
+"Close" = "അടയ്ക്കുക";
+"Play" = "പ്ലേ ചെയ്യുക";
+"Show in Finder" = "Finder-ൽ കാണിക്കുക";
+"Remove from Playlist" = "പ്ലേലിസ്റ്റിൽ നിന്ന് നീക്കം ചെയ്യുക";
+"Drop videos or folders here" = "വീഡിയോകളോ ഫോൾഡറുകളോ ഇവിടെ വലിച്ചിടുക";
+"Add files or folders…" = "ഫയലുകളോ ഫോൾഡറുകളോ ചേർക്കുക…";
+"Clear Playlist" = "പ്ലേലിസ്റ്റ് മായ്ക്കുക";
+"Repeat: off" = "ആവർത്തനം: ഓഫ്";
+"Repeat: all" = "ആവർത്തനം: എല്ലാം";
+"Repeat: one" = "ആവർത്തനം: ഒന്ന്";
+"Streaming" = "സ്ട്രീമിംഗ്";
+"Nothing is playing." = "ഇപ്പോൾ ഒന്നും പ്ലേ ചെയ്യുന്നില്ല.";
+"Open Network Stream" = "നെറ്റ്‌വർക്ക് സ്ട്രീം തുറക്കുക";
+"HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – anything ffmpeg can open." = "HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – ffmpeg-ന് തുറക്കാനാകുന്ന എന്തും.";
+"Cancel" = "റദ്ദാക്കുക";
+"Jump to Time" = "നിശ്ചിത സമയത്തേക്ക് പോകുക";
+"Jump" = "പോകുക";
+"Resumed at %@" = "%@ മുതൽ തുടരുന്നു";
+"Speed: %@" = "വേഗത: %@";
+"Volume: %@" = "വോളിയം: %@";
+"Loop start: %@" = "ലൂപ്പ് തുടക്കം: %@";
+"Looping %@ – %@" = "ലൂപ്പ്: %@ – %@";
+"Loop off" = "ലൂപ്പ് ഓഫ്";
+"Snapshot saved: %@" = "സ്നാപ്പ്ഷോട്ട് സേവ് ചെയ്തു: %@";
+"Couldn't save the snapshot." = "സ്നാപ്പ്ഷോട്ട് സേവ് ചെയ്യാനായില്ല.";
+"Subtitles off" = "സബ്‌ടൈറ്റിൽ ഓഫ്";
+"Adding subtitles…" = "സബ്‌ടൈറ്റിൽ ചേർക്കുന്നു…";
+"Subtitle delay: %@ ms" = "സബ്‌ടൈറ്റിൽ ഡിലേ: %@ ms";
+"Play Playlist" = "പ്ലേലിസ്റ്റ് പ്ലേ ചെയ്യുക";
+"Recent" = "സമീപകാലം";
+"Next in Playlist" = "പ്ലേലിസ്റ്റിൽ അടുത്തത്";
+"Start Over" = "തുടക്കം മുതൽ പ്ലേ ചെയ്യുക";
+"Jump back 10 seconds" = "10 സെക്കൻഡ് പിന്നോട്ട്";
+"Play/Pause (Space)" = "പ്ലേ/പോസ് (സ്പേസ്)";
+"Jump forward 10 seconds" = "10 സെക്കൻഡ് മുന്നോട്ട്";
+"Playback speed" = "പ്ലേബാക്ക് വേഗത";
+"Playlist (⌘L)" = "പ്ലേലിസ്റ്റ് (⌘L)";
+"Full Screen (⌘F)" = "പൂർണ്ണ സ്ക്രീൻ (⌘F)";
+"No audio tracks" = "ഓഡിയോ ട്രാക്കുകളില്ല";
+"Audio track" = "ഓഡിയോ ട്രാക്ക്";
+
+/* Network streams */
+"network stream – seekable anywhere" = "നെറ്റ്‌വർക്ക് സ്ട്രീം – എവിടേക്കും നീങ്ങാം";
+"Network HLS stream – played directly, without conversion" = "നെറ്റ്‌വർക്ക് HLS സ്ട്രീം – പരിവർത്തനം ഇല്ലാതെ നേരിട്ട് പ്ലേ ചെയ്യുന്നു";
+
+/* Chapters */
+"Previous Chapter" = "മുൻ അധ്യായം";
+"Next Chapter" = "അടുത്ത അധ്യായം";
+"Chapter: %@" = "അധ്യായം: %@";
+"Previous Chapter (⇧P)" = "മുൻ അധ്യായം (⇧P)";
+"Next Chapter (⇧N)" = "അടുത്ത അധ്യായം (⇧N)";
+
+/* Auto-hiding controls */
+"Hide Controls" = "നിയന്ത്രണങ്ങൾ മറയ്ക്കുക";
+"After %@ seconds" = "%@ സെക്കൻഡിന് ശേഷം";
+"Never" = "ഒരിക്കലുമില്ല";
+
+/* Time display */
+"Show total length" = "ആകെ ദൈർഘ്യം കാണിക്കുക";
+"Show remaining time" = "ശേഷിക്കുന്ന സമയം കാണിക്കുക";
+
+/* Picture in Picture, appearance */
+"Picture in Picture" = "പിക്ചർ-ഇൻ-പിക്ചർ";
+"Playing in Picture in Picture" = "പിക്ചർ-ഇൻ-പിക്ചറിൽ പ്ലേ ചെയ്യുന്നു";
+"Appearance" = "രൂപം";
+"Light" = "ലൈറ്റ്";
+"Dark" = "ഡാർക്ക്";
+
+/* Help menu */
+"Open-Source Licenses" = "ഓപ്പൺ സോഴ്സ് ലൈസൻസുകൾ";

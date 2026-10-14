@@ -1,0 +1,203 @@
+/* Kazakh translation. Keys are the English texts; check: Resources/Localization/check.sh */
+
+/* Errors */
+"timed out" = "күту уақыты бітті";
+"Not found: %@. Install it with: brew install ffmpeg" = "Табылмады: %@. Мына командамен орнатыңыз: brew install ffmpeg";
+"Couldn't read the file: %@" = "Файлды оқу мүмкін болмады: %@";
+"The file has no video track." = "Файлда бейне жолы жоқ.";
+"ffmpeg stopped with an error:\n%@" = "ffmpeg қатемен тоқтады:\n%@";
+"Not enough free space for the temporary stream files (needs about %@, free: %@)." = "Уақытша ағын файлдары үшін бос орын жеткіліксіз (шамамен %@ қажет, бос: %@).";
+"The local stream server didn't start: %@" = "Жергілікті ағын сервері іске қосылмады: %@";
+"Didn't start with the previous settings, retrying in a safer mode…" = "Алдыңғы баптаулармен іске қосылмады, қауіпсіздеу режимде қайта әрекет жасалуда…";
+"Couldn't start playback:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log" = "Ойнатуды бастау мүмкін болмады:\n%@\n\nТолығырақ: ~/Library/Logs/Purrcast.log";
+"player error: %@" = "ойнатқыш қатесі: %@";
+"playback didn't start within 20 seconds" = "ойнату 20 секунд ішінде басталмады";
+"Error" = "Қате";
+
+/* Tracks */
+"Audio %@" = "Аудио %@";
+"Subtitle %@" = "Субтитр %@";
+"(forced)" = "(мәжбүрлі)";
+"External subtitle" = "Сыртқы субтитр";
+"(external)" = "(сыртқы)";
+"unknown" = "белгісіз";
+"mono" = "моно";
+"stereo" = "стерео";
+"%@ channels" = "%@ арна";
+
+/* Conversion summary */
+"%@ → H.264, plays on every TV" = "%@ → H.264, кез келген теледидарда ойнайды";
+"%@ H.264 → 8-bit H.264" = "%@ H.264 → 8-биттік H.264";
+"interlaced → progressive" = "жоларалық → прогрессивті";
+"re-encoded for reliable playback" = "сенімді ойнату үшін қайта кодталды";
+"Video: %@ – passed through in original quality" = "Бейне: %@ – бастапқы сапада өткізіледі";
+"Video: %@ → H.264 %@ (%@)" = "Бейне: %@ → H.264 %@ (%@)";
+"Audio: %@ – original" = "Аудио: %@ – бастапқы";
+"Audio: %@ → %@ %@" = "Аудио: %@ → %@ %@";
+"Subtitle: %@ – on by default" = "Субтитр: %@ – әдепкі бойынша қосулы";
+"Subtitle: %@" = "Субтитр: %@";
+"Subtitle skipped: %@ (%@ is image-based and can't be converted)" = "Субтитр өткізіп жіберілді: %@ (%@ суретке негізделген, оны түрлендіру мүмкін емес)";
+
+/* Status */
+"Preparing…" = "Дайындалуда…";
+"Playing via AirPlay" = "AirPlay арқылы ойнатылуда";
+"Conversion stopped: %@" = "Түрлендіру тоқтады: %@";
+"Prepared: %@ / %@" = "Дайын: %@ / %@";
+
+/* Window */
+"Open…" = "Ашу…";
+"Open" = "Ашу";
+"Open another file…" = "Басқа файлды ашу…";
+"AirPlay – choose your TV" = "AirPlay – теледидарды таңдаңыз";
+"Drop a video here (MKV, MP4, AVI…)" = "Бейнені осында сүйреңіз (MKV, MP4, AVI…)";
+"or open one with ⌘O, then pick your TV with the AirPlay button" = "немесе ⌘O арқылы ашып, AirPlay батырмасымен теледидарды таңдаңыз";
+
+/* Menus */
+"Playback" = "Ойнату";
+"Original quality (HEVC, HDR, surround – for Apple TV 4K)" = "Бастапқы сапа (HEVC, HDR, surround – Apple TV 4K үшін)";
+"Language" = "Тіл";
+"System default" = "Жүйелік әдепкі";
+"The new language takes effect after a restart." = "Жаңа тіл қайта іске қосылғаннан кейін күшіне енеді.";
+"Restart Purrcast now? Playback stops." = "Purrcast қазір қайта іске қосылсын ба? Ойнату тоқтайды.";
+"Restart" = "Қайта іске қосу";
+"Later" = "Кейінірек";
+
+/* Player, menus, playlist, media information */
+"Chapter %@" = "%@-тарау";
+"File" = "Файл";
+"Format" = "Пішім";
+"Duration" = "Ұзақтығы";
+"Size" = "Өлшемі";
+"Bitrate" = "Бит жылдамдығы";
+"General" = "Жалпы";
+"Codec" = "Кодек";
+"Title" = "Атауы";
+"Resolution" = "Ажыратымдылық";
+"Frame rate" = "Кадр жиілігі";
+"Pixel format" = "Пиксель пішімі";
+"Dynamic range" = "Динамикалық ауқым";
+"Channels" = "Арналар";
+"Sample rate" = "Дискреттеу жиілігі";
+"Video" = "Бейне";
+"Audio" = "Аудио";
+"Subtitle" = "Субтитр";
+"Stream %@: %@" = "Ағын %@: %@";
+"Purrcast" = "Purrcast";
+"Media Information" = "Медиа ақпараты";
+"Open Network Stream…" = "Желілік ағынды ашу…";
+"Open Recent" = "Соңғыларды ашу";
+"Clear Menu" = "Мәзірді тазалау";
+"Add Subtitle File…" = "Субтитр файлын қосу…";
+"Save Playlist…" = "Ойнату тізімін сақтау…";
+"Play/Pause" = "Ойнату/Кідірту";
+"Stop" = "Тоқтату";
+"Previous" = "Алдыңғы";
+"Next" = "Келесі";
+"Jump Back 10 Seconds" = "10 секунд артқа";
+"Jump Forward 10 Seconds" = "10 секунд алға";
+"Jump Back 1 Minute" = "1 минут артқа";
+"Jump Forward 1 Minute" = "1 минут алға";
+"Jump to Time…" = "Уақытқа өту…";
+"Next Frame" = "Келесі кадр";
+"Chapters" = "Тараулар";
+"Faster" = "Жылдамырақ";
+"Slower" = "Баяуырақ";
+"Normal Speed" = "Қалыпты жылдамдық";
+"Set Loop Start (A)" = "Цикл басын орнату (A)";
+"Set Loop End (B)" = "Цикл соңын орнату (B)";
+"Loop Off" = "Циклді өшіру";
+"Repeat" = "Қайталау";
+"Off" = "Өшірулі";
+"All" = "Барлығы";
+"One" = "Біреуі";
+"Shuffle" = "Араластыру";
+"Volume Up" = "Дыбысты арттыру";
+"Volume Down" = "Дыбысты азайту";
+"Mute" = "Дыбысты өшіру";
+"Audio Track" = "Аудио жолы";
+"Full Screen" = "Толық экран";
+"Float on Top" = "Әрқашан үстінде";
+"Aspect" = "Пропорция";
+"Fit" = "Сыйдыру";
+"Fill (Crop)" = "Толтыру (кесумен)";
+"Stretch" = "Созу";
+"Snapshot" = "Кадр суреті";
+"Show Snapshots Folder" = "Кадр суреттері бумасын көрсету";
+"Subtitles" = "Субтитрлер";
+"Subtitle Track" = "Субтитр жолы";
+"Next Subtitle Track" = "Келесі субтитр жолы";
+"Subtitles Earlier (G)" = "Субтитрді ертерек (G)";
+"Subtitles Later (H)" = "Субтитрді кешірек (H)";
+"Reset Subtitle Delay" = "Субтитр кідірісін тастау";
+"Playlist" = "Ойнату тізімі";
+"%@ items" = "%@ элемент";
+"Close" = "Жабу";
+"Play" = "Ойнату";
+"Show in Finder" = "Finder ішінде көрсету";
+"Remove from Playlist" = "Ойнату тізімінен өшіру";
+"Drop videos or folders here" = "Бейнелерді не бумаларды осында сүйреңіз";
+"Add files or folders…" = "Файлдар не бумаларды қосу…";
+"Clear Playlist" = "Ойнату тізімін тазалау";
+"Repeat: off" = "Қайталау: өшірулі";
+"Repeat: all" = "Қайталау: барлығы";
+"Repeat: one" = "Қайталау: біреуі";
+"Streaming" = "Трансляция";
+"Nothing is playing." = "Ештеңе ойнатылмай тұр.";
+"Open Network Stream" = "Желілік ағынды ашу";
+"HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – anything ffmpeg can open." = "HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – ffmpeg аша алатынның бәрі.";
+"Cancel" = "Бас тарту";
+"Jump to Time" = "Уақытқа өту";
+"Jump" = "Өту";
+"Resumed at %@" = "%@ жерінен жалғасты";
+"Speed: %@" = "Жылдамдық: %@";
+"Volume: %@" = "Дыбыс деңгейі: %@";
+"Loop start: %@" = "Цикл басы: %@";
+"Looping %@ – %@" = "Цикл %@ – %@";
+"Loop off" = "Цикл өшірілді";
+"Snapshot saved: %@" = "Кадр суреті сақталды: %@";
+"Couldn't save the snapshot." = "Кадр суретін сақтау мүмкін болмады.";
+"Subtitles off" = "Субтитр өшірілді";
+"Adding subtitles…" = "Субтитр қосылуда…";
+"Subtitle delay: %@ ms" = "Субтитр кідірісі: %@ мс";
+"Play Playlist" = "Тізімді ойнату";
+"Recent" = "Соңғылар";
+"Next in Playlist" = "Тізімдегі келесі";
+"Start Over" = "Басынан бастау";
+"Jump back 10 seconds" = "10 секунд артқа";
+"Play/Pause (Space)" = "Ойнату/Кідірту (Бос орын)";
+"Jump forward 10 seconds" = "10 секунд алға";
+"Playback speed" = "Ойнату жылдамдығы";
+"Playlist (⌘L)" = "Ойнату тізімі (⌘L)";
+"Full Screen (⌘F)" = "Толық экран (⌘F)";
+"No audio tracks" = "Аудио жолдары жоқ";
+"Audio track" = "Аудио жолы";
+
+/* Network streams */
+"network stream – seekable anywhere" = "желілік ағын – кез келген жерге өтуге болады";
+"Network HLS stream – played directly, without conversion" = "HLS желілік ағыны – түрлендірусіз тікелей ойнатылады";
+
+/* Chapters */
+"Previous Chapter" = "Алдыңғы тарау";
+"Next Chapter" = "Келесі тарау";
+"Chapter: %@" = "Тарау: %@";
+"Previous Chapter (⇧P)" = "Алдыңғы тарау (⇧P)";
+"Next Chapter (⇧N)" = "Келесі тарау (⇧N)";
+
+/* Auto-hiding controls */
+"Hide Controls" = "Басқару элементтерін жасыру";
+"After %@ seconds" = "%@ секундтан кейін";
+"Never" = "Ешқашан";
+
+/* Time display */
+"Show total length" = "Жалпы ұзақтығын көрсету";
+"Show remaining time" = "Қалған уақытты көрсету";
+
+/* Picture in Picture, appearance */
+"Picture in Picture" = "Сурет ішіндегі сурет";
+"Playing in Picture in Picture" = "«Сурет ішіндегі сурет» режимінде ойнатылуда";
+"Appearance" = "Сыртқы түрі";
+"Light" = "Ашық";
+"Dark" = "Қараңғы";
+
+/* Help menu */
+"Open-Source Licenses" = "Ашық бастапқы код лицензиялары";

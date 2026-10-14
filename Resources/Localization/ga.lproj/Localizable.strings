@@ -1,0 +1,203 @@
+/* Aistriúchán Gaeilge. Keys are the English texts; check: Resources/Localization/check.sh */
+
+/* Errors */
+"timed out" = "imithe thar am";
+"Not found: %@. Install it with: brew install ffmpeg" = "Ní bhfuarthas: %@. Suiteáil é le: brew install ffmpeg";
+"Couldn't read the file: %@" = "Níorbh fhéidir an comhad a léamh: %@";
+"The file has no video track." = "Níl rian físe sa chomhad.";
+"ffmpeg stopped with an error:\n%@" = "Stop ffmpeg le hearráid:\n%@";
+"Not enough free space for the temporary stream files (needs about %@, free: %@)." = "Níl go leor spáis saor ann do na comhaid sruthaithe shealadacha (tá thart ar %@ ag teastáil, saor: %@).";
+"The local stream server didn't start: %@" = "Níor thosaigh an freastalaí sruthaithe áitiúil: %@";
+"Didn't start with the previous settings, retrying in a safer mode…" = "Níor thosaigh sé leis na socruithe roimhe seo, ag triail arís i mód níos sábháilte…";
+"Couldn't start playback:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log" = "Níorbh fhéidir an t-athsheinm a thosú:\n%@\n\nSonraí: ~/Library/Logs/Purrcast.log";
+"player error: %@" = "earráid seinnteora: %@";
+"playback didn't start within 20 seconds" = "níor thosaigh an t-athsheinm laistigh de 20 soicind";
+"Error" = "Earráid";
+
+/* Tracks */
+"Audio %@" = "Fuaim %@";
+"Subtitle %@" = "Fotheideal %@";
+"(forced)" = "(éigeantach)";
+"External subtitle" = "Fotheideal seachtrach";
+"(external)" = "(seachtrach)";
+"unknown" = "anaithnid";
+"mono" = "mona";
+"stereo" = "steirió";
+"%@ channels" = "%@ cainéal";
+
+/* Conversion summary */
+"%@ → H.264, plays on every TV" = "%@ → H.264, seinntear é ar gach teilifís";
+"%@ H.264 → 8-bit H.264" = "%@ H.264 → H.264 8-giotán";
+"interlaced → progressive" = "idirfhite → forchéimnitheach";
+"re-encoded for reliable playback" = "ath-ionchódaithe le haghaidh athsheinm iontaofa";
+"Video: %@ – passed through in original quality" = "Físeán: %@ – curtha ar aghaidh sa chaighdeán bunaidh";
+"Video: %@ → H.264 %@ (%@)" = "Físeán: %@ → H.264 %@ (%@)";
+"Audio: %@ – original" = "Fuaim: %@ – bunaidh";
+"Audio: %@ → %@ %@" = "Fuaim: %@ → %@ %@";
+"Subtitle: %@ – on by default" = "Fotheideal: %@ – ar siúl de réir réamhshocraithe";
+"Subtitle: %@" = "Fotheideal: %@";
+"Subtitle skipped: %@ (%@ is image-based and can't be converted)" = "Fotheideal fágtha ar lár: %@ (tá %@ bunaithe ar íomhánna agus ní féidir é a thiontú)";
+
+/* Status */
+"Preparing…" = "Á ullmhú…";
+"Playing via AirPlay" = "Á sheinm trí AirPlay";
+"Conversion stopped: %@" = "Stopadh an tiontú: %@";
+"Prepared: %@ / %@" = "Ullmhaithe: %@ / %@";
+
+/* Window */
+"Open…" = "Oscail…";
+"Open" = "Oscail";
+"Open another file…" = "Oscail comhad eile…";
+"AirPlay – choose your TV" = "AirPlay – roghnaigh do theilifís";
+"Drop a video here (MKV, MP4, AVI…)" = "Scaoil físeán anseo (MKV, MP4, AVI…)";
+"or open one with ⌘O, then pick your TV with the AirPlay button" = "nó oscail ceann le ⌘O, ansin roghnaigh do theilifís leis an gcnaipe AirPlay";
+
+/* Menus */
+"Playback" = "Athsheinm";
+"Original quality (HEVC, HDR, surround – for Apple TV 4K)" = "Caighdeán bunaidh (HEVC, HDR, fuaim timpeallach – do Apple TV 4K)";
+"Language" = "Teanga";
+"System default" = "Réamhshocrú an chórais";
+"The new language takes effect after a restart." = "Beidh an teanga nua i bhfeidhm tar éis atosú.";
+"Restart Purrcast now? Playback stops." = "Atosaigh Purrcast anois? Stopfaidh an t-athsheinm.";
+"Restart" = "Atosaigh";
+"Later" = "Ar ball";
+
+/* Player, menus, playlist, media information */
+"Chapter %@" = "Caibidil %@";
+"File" = "Comhad";
+"Format" = "Formáid";
+"Duration" = "Fad";
+"Size" = "Méid";
+"Bitrate" = "Ráta giotán";
+"General" = "Ginearálta";
+"Codec" = "Codec";
+"Title" = "Teideal";
+"Resolution" = "Taifeach";
+"Frame rate" = "Ráta frámaí";
+"Pixel format" = "Formáid picteilíní";
+"Dynamic range" = "Raon dinimiciúil";
+"Channels" = "Cainéil";
+"Sample rate" = "Ráta samplála";
+"Video" = "Físeán";
+"Audio" = "Fuaim";
+"Subtitle" = "Fotheideal";
+"Stream %@: %@" = "Sruth %@: %@";
+"Purrcast" = "Purrcast";
+"Media Information" = "Faisnéis faoin meán";
+"Open Network Stream…" = "Oscail sruth líonra…";
+"Open Recent" = "Oscail cinn le déanaí";
+"Clear Menu" = "Glan an roghchlár";
+"Add Subtitle File…" = "Cuir comhad fotheideal leis…";
+"Save Playlist…" = "Sábháil an seinmliosta…";
+"Play/Pause" = "Seinn/Sos";
+"Stop" = "Stop";
+"Previous" = "Roimhe seo";
+"Next" = "Ar aghaidh";
+"Jump Back 10 Seconds" = "Léim siar 10 soicind";
+"Jump Forward 10 Seconds" = "Léim ar aghaidh 10 soicind";
+"Jump Back 1 Minute" = "Léim siar 1 nóiméad";
+"Jump Forward 1 Minute" = "Léim ar aghaidh 1 nóiméad";
+"Jump to Time…" = "Léim go dtí am…";
+"Next Frame" = "An chéad fhráma eile";
+"Chapters" = "Caibidlí";
+"Faster" = "Níos tapúla";
+"Slower" = "Níos moille";
+"Normal Speed" = "Gnáthluas";
+"Set Loop Start (A)" = "Socraigh tús na lúibe (A)";
+"Set Loop End (B)" = "Socraigh deireadh na lúibe (B)";
+"Loop Off" = "Múch an lúb";
+"Repeat" = "Athdhéan";
+"Off" = "As";
+"All" = "Gach ceann";
+"One" = "Ceann amháin";
+"Shuffle" = "Seinn go randamach";
+"Volume Up" = "Ardaigh an fhuaim";
+"Volume Down" = "Ísligh an fhuaim";
+"Mute" = "Balbhaigh";
+"Audio Track" = "Rian fuaime";
+"Full Screen" = "Lánscáileán";
+"Float on Top" = "I gcónaí ar barr";
+"Aspect" = "Cóimheas treoíochta";
+"Fit" = "Oiriúnaigh";
+"Fill (Crop)" = "Líon (bearr)";
+"Stretch" = "Sín";
+"Snapshot" = "Seat";
+"Show Snapshots Folder" = "Taispeáin fillteán na seatanna";
+"Subtitles" = "Fotheidil";
+"Subtitle Track" = "Rian fotheideal";
+"Next Subtitle Track" = "An chéad rian fotheideal eile";
+"Subtitles Earlier (G)" = "Fotheidil níos luaithe (G)";
+"Subtitles Later (H)" = "Fotheidil níos déanaí (H)";
+"Reset Subtitle Delay" = "Athshocraigh moill na bhfotheideal";
+"Playlist" = "Seinmliosta";
+"%@ items" = "%@ mír";
+"Close" = "Dún";
+"Play" = "Seinn";
+"Show in Finder" = "Taispeáin in Finder";
+"Remove from Playlist" = "Bain den seinmliosta";
+"Drop videos or folders here" = "Scaoil físeáin nó fillteáin anseo";
+"Add files or folders…" = "Cuir comhaid nó fillteáin leis…";
+"Clear Playlist" = "Glan an seinmliosta";
+"Repeat: off" = "Athdhéan: as";
+"Repeat: all" = "Athdhéan: gach ceann";
+"Repeat: one" = "Athdhéan: ceann amháin";
+"Streaming" = "Sruthú";
+"Nothing is playing." = "Níl aon rud á sheinm.";
+"Open Network Stream" = "Oscail sruth líonra";
+"HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – anything ffmpeg can open." = "HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – aon rud is féidir le ffmpeg a oscailt.";
+"Cancel" = "Cealaigh";
+"Jump to Time" = "Léim go dtí am";
+"Jump" = "Léim";
+"Resumed at %@" = "Ag leanúint ar aghaidh ó %@";
+"Speed: %@" = "Luas: %@";
+"Volume: %@" = "Airde fuaime: %@";
+"Loop start: %@" = "Tús na lúibe: %@";
+"Looping %@ – %@" = "Lúb %@ – %@";
+"Loop off" = "Lúb as";
+"Snapshot saved: %@" = "Sábháladh an seat: %@";
+"Couldn't save the snapshot." = "Níorbh fhéidir an seat a shábháil.";
+"Subtitles off" = "Fotheidil as";
+"Adding subtitles…" = "Fotheidil á gcur leis…";
+"Subtitle delay: %@ ms" = "Moill fotheideal: %@ ms";
+"Play Playlist" = "Seinn an seinmliosta";
+"Recent" = "Le déanaí";
+"Next in Playlist" = "An chéad cheann eile sa seinmliosta";
+"Start Over" = "Ón tús";
+"Jump back 10 seconds" = "Siar 10 soicind";
+"Play/Pause (Space)" = "Seinn/Sos (Spás)";
+"Jump forward 10 seconds" = "Ar aghaidh 10 soicind";
+"Playback speed" = "Luas athsheinma";
+"Playlist (⌘L)" = "Seinmliosta (⌘L)";
+"Full Screen (⌘F)" = "Lánscáileán (⌘F)";
+"No audio tracks" = "Gan rianta fuaime";
+"Audio track" = "Rian fuaime";
+
+/* Network streams */
+"network stream – seekable anywhere" = "sruth líonra – is féidir léim áit ar bith";
+"Network HLS stream – played directly, without conversion" = "Sruth HLS líonra – á sheinm go díreach, gan tiontú";
+
+/* Chapters */
+"Previous Chapter" = "An chaibidil roimhe";
+"Next Chapter" = "An chéad chaibidil eile";
+"Chapter: %@" = "Caibidil: %@";
+"Previous Chapter (⇧P)" = "An chaibidil roimhe (⇧P)";
+"Next Chapter (⇧N)" = "An chéad chaibidil eile (⇧N)";
+
+/* Auto-hiding controls */
+"Hide Controls" = "Folaigh na rialuithe";
+"After %@ seconds" = "Tar éis %@ soicind";
+"Never" = "Choíche";
+
+/* Time display */
+"Show total length" = "Taispeáin an fad iomlán";
+"Show remaining time" = "Taispeáin an t-am atá fágtha";
+
+/* Picture in Picture, appearance */
+"Picture in Picture" = "Pictiúr i bPictiúr";
+"Playing in Picture in Picture" = "Á sheinm mar Phictiúr i bPictiúr";
+"Appearance" = "Cuma";
+"Light" = "Geal";
+"Dark" = "Dorcha";
+
+/* Help menu */
+"Open-Source Licenses" = "Ceadúnais foinse oscailte";

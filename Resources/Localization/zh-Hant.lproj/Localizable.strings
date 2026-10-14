@@ -1,0 +1,203 @@
+/* 繁體中文（台灣） – keys are the English texts; check: Resources/Localization/check.sh */
+
+/* Errors */
+"timed out" = "逾時";
+"Not found: %@. Install it with: brew install ffmpeg" = "找不到 %@。請使用以下指令安裝：brew install ffmpeg";
+"Couldn't read the file: %@" = "無法讀取檔案：%@";
+"The file has no video track." = "此檔案沒有影片軌道。";
+"ffmpeg stopped with an error:\n%@" = "ffmpeg 發生錯誤並已停止：\n%@";
+"Not enough free space for the temporary stream files (needs about %@, free: %@)." = "可用空間不足，無法存放暫存串流檔案（約需 %@，可用：%@）。";
+"The local stream server didn't start: %@" = "本機串流伺服器未能啟動：%@";
+"Didn't start with the previous settings, retrying in a safer mode…" = "使用先前的設定無法啟動，正在以較安全的模式重試⋯";
+"Couldn't start playback:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log" = "無法開始播放：\n%@\n\n詳細資訊：~/Library/Logs/Purrcast.log";
+"player error: %@" = "播放器錯誤：%@";
+"playback didn't start within 20 seconds" = "播放未在 20 秒內開始";
+"Error" = "錯誤";
+
+/* Tracks */
+"Audio %@" = "音訊 %@";
+"Subtitle %@" = "字幕 %@";
+"(forced)" = "（強制）";
+"External subtitle" = "外掛字幕";
+"(external)" = "（外掛）";
+"unknown" = "未知";
+"mono" = "單聲道";
+"stereo" = "立體聲";
+"%@ channels" = "%@ 聲道";
+
+/* Conversion summary */
+"%@ → H.264, plays on every TV" = "%@ → H.264，所有電視皆可播放";
+"%@ H.264 → 8-bit H.264" = "%@ H.264 → 8 位元 H.264";
+"interlaced → progressive" = "交錯式 → 漸進式";
+"re-encoded for reliable playback" = "重新編碼以確保穩定播放";
+"Video: %@ – passed through in original quality" = "影片：%@ – 以原始畫質直接傳送";
+"Video: %@ → H.264 %@ (%@)" = "影片：%@ → H.264 %@（%@）";
+"Audio: %@ – original" = "音訊：%@ – 原始";
+"Audio: %@ → %@ %@" = "音訊：%@ → %@ %@";
+"Subtitle: %@ – on by default" = "字幕：%@ – 預設開啟";
+"Subtitle: %@" = "字幕：%@";
+"Subtitle skipped: %@ (%@ is image-based and can't be converted)" = "已略過字幕：%@（%@ 為圖像字幕，無法轉換）";
+
+/* Status */
+"Preparing…" = "正在準備⋯";
+"Playing via AirPlay" = "正在透過 AirPlay 播放";
+"Conversion stopped: %@" = "轉換已停止：%@";
+"Prepared: %@ / %@" = "已準備：%@ / %@";
+
+/* Window */
+"Open…" = "打開⋯";
+"Open" = "打開";
+"Open another file…" = "打開其他檔案⋯";
+"AirPlay – choose your TV" = "AirPlay – 選擇電視";
+"Drop a video here (MKV, MP4, AVI…)" = "將影片拖移到這裡（MKV、MP4、AVI⋯）";
+"or open one with ⌘O, then pick your TV with the AirPlay button" = "或按 ⌘O 打開影片，再用 AirPlay 按鈕選擇電視";
+
+/* Menus */
+"Playback" = "播放";
+"Original quality (HEVC, HDR, surround – for Apple TV 4K)" = "原始畫質（HEVC、HDR、環繞音效 – 適用於 Apple TV 4K）";
+"Language" = "語言";
+"System default" = "系統預設";
+"The new language takes effect after a restart." = "新語言將在重新啟動後生效。";
+"Restart Purrcast now? Playback stops." = "要立即重新啟動 Purrcast 嗎？播放將會停止。";
+"Restart" = "重新啟動";
+"Later" = "稍後";
+
+/* Player, menus, playlist, media information */
+"Chapter %@" = "第 %@ 章";
+"File" = "檔案";
+"Format" = "格式";
+"Duration" = "長度";
+"Size" = "大小";
+"Bitrate" = "位元率";
+"General" = "一般";
+"Codec" = "編解碼器";
+"Title" = "標題";
+"Resolution" = "解析度";
+"Frame rate" = "影格速率";
+"Pixel format" = "像素格式";
+"Dynamic range" = "動態範圍";
+"Channels" = "聲道";
+"Sample rate" = "取樣率";
+"Video" = "影片";
+"Audio" = "音訊";
+"Subtitle" = "字幕";
+"Stream %@: %@" = "串流 %@：%@";
+"Purrcast" = "Purrcast";
+"Media Information" = "媒體資訊";
+"Open Network Stream…" = "打開網路串流⋯";
+"Open Recent" = "打開最近使用過的";
+"Clear Menu" = "清除選單";
+"Add Subtitle File…" = "加入字幕檔⋯";
+"Save Playlist…" = "儲存播放列表⋯";
+"Play/Pause" = "播放/暫停";
+"Stop" = "停止";
+"Previous" = "上一個";
+"Next" = "下一個";
+"Jump Back 10 Seconds" = "倒轉 10 秒";
+"Jump Forward 10 Seconds" = "快轉 10 秒";
+"Jump Back 1 Minute" = "倒轉 1 分鐘";
+"Jump Forward 1 Minute" = "快轉 1 分鐘";
+"Jump to Time…" = "跳至指定時間⋯";
+"Next Frame" = "下一個影格";
+"Chapters" = "章節";
+"Faster" = "加快";
+"Slower" = "減慢";
+"Normal Speed" = "正常速度";
+"Set Loop Start (A)" = "設定循環起點（A）";
+"Set Loop End (B)" = "設定循環終點（B）";
+"Loop Off" = "關閉循環";
+"Repeat" = "重複播放";
+"Off" = "關閉";
+"All" = "全部";
+"One" = "單一項目";
+"Shuffle" = "隨機播放";
+"Volume Up" = "提高音量";
+"Volume Down" = "降低音量";
+"Mute" = "靜音";
+"Audio Track" = "音軌";
+"Full Screen" = "全螢幕";
+"Float on Top" = "浮動於最上層";
+"Aspect" = "長寬比";
+"Fit" = "符合視窗";
+"Fill (Crop)" = "填滿（裁切）";
+"Stretch" = "延展";
+"Snapshot" = "快照";
+"Show Snapshots Folder" = "顯示快照檔案夾";
+"Subtitles" = "字幕";
+"Subtitle Track" = "字幕軌道";
+"Next Subtitle Track" = "下一個字幕軌道";
+"Subtitles Earlier (G)" = "字幕提前（G）";
+"Subtitles Later (H)" = "字幕延後（H）";
+"Reset Subtitle Delay" = "重設字幕延遲";
+"Playlist" = "播放列表";
+"%@ items" = "%@ 個項目";
+"Close" = "關閉";
+"Play" = "播放";
+"Show in Finder" = "在 Finder 中顯示";
+"Remove from Playlist" = "從播放列表移除";
+"Drop videos or folders here" = "將影片或檔案夾拖移到這裡";
+"Add files or folders…" = "加入檔案或檔案夾⋯";
+"Clear Playlist" = "清除播放列表";
+"Repeat: off" = "重複播放：關閉";
+"Repeat: all" = "重複播放：全部";
+"Repeat: one" = "重複播放：單一項目";
+"Streaming" = "串流";
+"Nothing is playing." = "目前沒有播放任何內容。";
+"Open Network Stream" = "打開網路串流";
+"HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – anything ffmpeg can open." = "HTTP、HTTPS、HLS、RTSP、RTMP、UDP⋯ – ffmpeg 能打開的都可以。";
+"Cancel" = "取消";
+"Jump to Time" = "跳至指定時間";
+"Jump" = "跳至";
+"Resumed at %@" = "已從 %@ 繼續播放";
+"Speed: %@" = "速度：%@";
+"Volume: %@" = "音量：%@";
+"Loop start: %@" = "循環起點：%@";
+"Looping %@ – %@" = "循環：%@ – %@";
+"Loop off" = "已關閉循環";
+"Snapshot saved: %@" = "已儲存快照：%@";
+"Couldn't save the snapshot." = "無法儲存快照。";
+"Subtitles off" = "已關閉字幕";
+"Adding subtitles…" = "正在加入字幕⋯";
+"Subtitle delay: %@ ms" = "字幕延遲：%@ 毫秒";
+"Play Playlist" = "播放播放列表";
+"Recent" = "最近播放";
+"Next in Playlist" = "播放列表中的下一個";
+"Start Over" = "從頭開始";
+"Jump back 10 seconds" = "倒轉 10 秒";
+"Play/Pause (Space)" = "播放/暫停（空白鍵）";
+"Jump forward 10 seconds" = "快轉 10 秒";
+"Playback speed" = "播放速度";
+"Playlist (⌘L)" = "播放列表（⌘L）";
+"Full Screen (⌘F)" = "全螢幕（⌘F）";
+"No audio tracks" = "沒有音軌";
+"Audio track" = "音軌";
+
+/* Network streams */
+"network stream – seekable anywhere" = "網路串流 – 可跳到任意位置";
+"Network HLS stream – played directly, without conversion" = "網路 HLS 串流 – 直接播放，不需轉換";
+
+/* Chapters */
+"Previous Chapter" = "上一章節";
+"Next Chapter" = "下一章節";
+"Chapter: %@" = "章節：%@";
+"Previous Chapter (⇧P)" = "上一章節 (⇧P)";
+"Next Chapter (⇧N)" = "下一章節 (⇧N)";
+
+/* Auto-hiding controls */
+"Hide Controls" = "隱藏控制列";
+"After %@ seconds" = "%@ 秒後";
+"Never" = "永不";
+
+/* Time display */
+"Show total length" = "顯示總長度";
+"Show remaining time" = "顯示剩餘時間";
+
+/* Picture in Picture, appearance */
+"Picture in Picture" = "子母畫面";
+"Playing in Picture in Picture" = "正在以子母畫面播放";
+"Appearance" = "外觀";
+"Light" = "淺色";
+"Dark" = "深色";
+
+/* Help menu */
+"Open-Source Licenses" = "開放原始碼授權";

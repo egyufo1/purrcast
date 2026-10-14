@@ -1,0 +1,203 @@
+/* မြန်မာ – keys are the English texts; check: Resources/Localization/check.sh */
+
+/* Errors */
+"timed out" = "အချိန်ကုန်သွားသည်";
+"Not found: %@. Install it with: brew install ffmpeg" = "%@ ကို ရှာမတွေ့ပါ။ ထည့်သွင်းရန်: brew install ffmpeg";
+"Couldn't read the file: %@" = "ဖိုင်ကို ဖတ်၍မရပါ: %@";
+"The file has no video track." = "ဤဖိုင်တွင် ဗီဒီယိုတရက် မပါဝင်ပါ။";
+"ffmpeg stopped with an error:\n%@" = "ffmpeg သည် အမှားဖြင့် ရပ်သွားသည်:\n%@";
+"Not enough free space for the temporary stream files (needs about %@, free: %@)." = "ယာယီ stream ဖိုင်များအတွက် နေရာလွတ် မလုံလောက်ပါ (%@ ခန့် လိုအပ်သည်၊ လွတ်နေသည်: %@)။";
+"The local stream server didn't start: %@" = "စက်တွင်း stream ဆာဗာ မစတင်နိုင်ပါ: %@";
+"Didn't start with the previous settings, retrying in a safer mode…" = "ယခင်ဆက်တင်များဖြင့် မစတင်နိုင်ပါ၊ ပိုလုံခြုံသော မုဒ်ဖြင့် ပြန်ကြိုးစားနေသည်…";
+"Couldn't start playback:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log" = "ဖွင့်ခြင်းကို မစတင်နိုင်ပါ:\n%@\n\nအသေးစိတ်: ~/Library/Logs/Purrcast.log";
+"player error: %@" = "ပလေယာ အမှား: %@";
+"playback didn't start within 20 seconds" = "၂၀ စက္ကန့်အတွင်း ဖွင့်ခြင်း မစတင်ပါ";
+"Error" = "အမှား";
+
+/* Tracks */
+"Audio %@" = "အသံ %@";
+"Subtitle %@" = "စာတန်းထိုး %@";
+"(forced)" = "(မဖြစ်မနေ)";
+"External subtitle" = "ပြင်ပ စာတန်းထိုး";
+"(external)" = "(ပြင်ပ)";
+"unknown" = "မသိ";
+"mono" = "မိုနို";
+"stereo" = "စတီရီယို";
+"%@ channels" = "%@ ချန်နယ်";
+
+/* Conversion summary */
+"%@ → H.264, plays on every TV" = "%@ → H.264၊ TV အားလုံးတွင် ဖွင့်နိုင်သည်";
+"%@ H.264 → 8-bit H.264" = "%@ H.264 → 8-bit H.264";
+"interlaced → progressive" = "interlaced → progressive";
+"re-encoded for reliable playback" = "သေချာစွာ ဖွင့်နိုင်ရန် ပြန်လည် encode လုပ်ထားသည်";
+"Video: %@ – passed through in original quality" = "ဗီဒီယို: %@ – မူရင်းအရည်အသွေးဖြင့် တိုက်ရိုက်ပို့သည်";
+"Video: %@ → H.264 %@ (%@)" = "ဗီဒီယို: %@ → H.264 %@ (%@)";
+"Audio: %@ – original" = "အသံ: %@ – မူရင်း";
+"Audio: %@ → %@ %@" = "အသံ: %@ → %@ %@";
+"Subtitle: %@ – on by default" = "စာတန်းထိုး: %@ – မူလအတိုင်း ဖွင့်ထားသည်";
+"Subtitle: %@" = "စာတန်းထိုး: %@";
+"Subtitle skipped: %@ (%@ is image-based and can't be converted)" = "စာတန်းထိုး ကျော်ထားသည်: %@ (%@ သည် ပုံအခြေပြု ဖြစ်၍ ပြောင်း၍မရပါ)";
+
+/* Status */
+"Preparing…" = "ပြင်ဆင်နေသည်…";
+"Playing via AirPlay" = "AirPlay ဖြင့် ဖွင့်နေသည်";
+"Conversion stopped: %@" = "ပြောင်းလဲခြင်း ရပ်သွားသည်: %@";
+"Prepared: %@ / %@" = "ပြင်ဆင်ပြီး: %@ / %@";
+
+/* Window */
+"Open…" = "ဖွင့်ရန်…";
+"Open" = "ဖွင့်ရန်";
+"Open another file…" = "အခြားဖိုင် ဖွင့်ရန်…";
+"AirPlay – choose your TV" = "AirPlay – သင့် TV ကို ရွေးပါ";
+"Drop a video here (MKV, MP4, AVI…)" = "ဗီဒီယိုကို ဤနေရာသို့ ဆွဲချပါ (MKV, MP4, AVI…)";
+"or open one with ⌘O, then pick your TV with the AirPlay button" = "သို့မဟုတ် ⌘O ဖြင့် ဖွင့်ပြီး AirPlay ခလုတ်ဖြင့် TV ကို ရွေးပါ";
+
+/* Menus */
+"Playback" = "ဖွင့်ခြင်း";
+"Original quality (HEVC, HDR, surround – for Apple TV 4K)" = "မူရင်းအရည်အသွေး (HEVC, HDR, surround – Apple TV 4K အတွက်)";
+"Language" = "ဘာသာစကား";
+"System default" = "စနစ်၏ မူလ";
+"The new language takes effect after a restart." = "ဘာသာစကားအသစ်သည် ပြန်လည်စတင်ပြီးနောက် အသက်ဝင်ပါမည်။";
+"Restart Purrcast now? Playback stops." = "Purrcast ကို ယခု ပြန်စမလား။ ဖွင့်နေခြင်း ရပ်သွားပါမည်။";
+"Restart" = "ပြန်စရန်";
+"Later" = "နောက်မှ";
+
+/* Player, menus, playlist, media information */
+"Chapter %@" = "အခန်း %@";
+"File" = "ဖိုင်";
+"Format" = "ဖော်မတ်";
+"Duration" = "ကြာချိန်";
+"Size" = "အရွယ်အစား";
+"Bitrate" = "ဘစ်နှုန်း";
+"General" = "အထွေထွေ";
+"Codec" = "ကိုဒက်";
+"Title" = "ခေါင်းစဉ်";
+"Resolution" = "ရုပ်ထွက်ပြတ်သားမှု";
+"Frame rate" = "ဖရိမ်နှုန်း";
+"Pixel format" = "ပစ်ဇယ်ဖော်မတ်";
+"Dynamic range" = "ဒိုင်နမစ်အတိုင်းအတာ";
+"Channels" = "ချန်နယ်များ";
+"Sample rate" = "နမူနာနှုန်း";
+"Video" = "ဗီဒီယို";
+"Audio" = "အသံ";
+"Subtitle" = "စာတန်းထိုး";
+"Stream %@: %@" = "စထရီမ် %@: %@";
+"Purrcast" = "Purrcast";
+"Media Information" = "မီဒီယာ အချက်အလက်";
+"Open Network Stream…" = "ကွန်ရက် စထရီမ် ဖွင့်ရန်…";
+"Open Recent" = "မကြာသေးမီက ဖွင့်ထားသည်များ";
+"Clear Menu" = "မီနူး ရှင်းလင်းရန်";
+"Add Subtitle File…" = "စာတန်းထိုးဖိုင် ထည့်ရန်…";
+"Save Playlist…" = "ဖွင့်စာရင်း သိမ်းရန်…";
+"Play/Pause" = "ဖွင့်/ခေတ္တရပ်";
+"Stop" = "ရပ်ရန်";
+"Previous" = "ယခင်";
+"Next" = "နောက်တစ်ခု";
+"Jump Back 10 Seconds" = "၁၀ စက္ကန့် နောက်ဆုတ်ရန်";
+"Jump Forward 10 Seconds" = "၁၀ စက္ကန့် ရှေ့ကျော်ရန်";
+"Jump Back 1 Minute" = "၁ မိနစ် နောက်ဆုတ်ရန်";
+"Jump Forward 1 Minute" = "၁ မိနစ် ရှေ့ကျော်ရန်";
+"Jump to Time…" = "အချိန်သို့ ခုန်ရန်…";
+"Next Frame" = "နောက်ဖရိမ်";
+"Chapters" = "အခန်းများ";
+"Faster" = "ပိုမြန်";
+"Slower" = "ပိုနှေး";
+"Normal Speed" = "ပုံမှန်အမြန်နှုန်း";
+"Set Loop Start (A)" = "အပိုင်းထပ်ဖွင့် စမှတ် (A)";
+"Set Loop End (B)" = "အပိုင်းထပ်ဖွင့် ဆုံးမှတ် (B)";
+"Loop Off" = "အပိုင်းထပ်ဖွင့်ခြင်း ပိတ်ရန်";
+"Repeat" = "ထပ်ဖွင့်ရန်";
+"Off" = "ပိတ်";
+"All" = "အားလုံး";
+"One" = "တစ်ခု";
+"Shuffle" = "ရောမွှေဖွင့်ရန်";
+"Volume Up" = "အသံ ချဲ့ရန်";
+"Volume Down" = "အသံ တိုးရန်";
+"Mute" = "အသံပိတ်ရန်";
+"Audio Track" = "အသံတရက်";
+"Full Screen" = "မျက်နှာပြင်အပြည့်";
+"Float on Top" = "အမြဲ အပေါ်ဆုံးတွင်";
+"Aspect" = "အချိုးအစား";
+"Fit" = "အံကိုက်";
+"Fill (Crop)" = "ဖြည့်ရန် (ဖြတ်တောက်)";
+"Stretch" = "ဆွဲဆန့်ရန်";
+"Snapshot" = "လျှပ်တစ်ပြက်ပုံ";
+"Show Snapshots Folder" = "လျှပ်တစ်ပြက်ပုံ ဖိုဒါ ပြရန်";
+"Subtitles" = "စာတန်းထိုးများ";
+"Subtitle Track" = "စာတန်းထိုးတရက်";
+"Next Subtitle Track" = "နောက် စာတန်းထိုးတရက်";
+"Subtitles Earlier (G)" = "စာတန်းထိုး စောစေရန် (G)";
+"Subtitles Later (H)" = "စာတန်းထိုး နောက်ကျစေရန် (H)";
+"Reset Subtitle Delay" = "စာတန်းထိုး နှောင့်နှေးချိန် ပြန်သတ်မှတ်ရန်";
+"Playlist" = "ဖွင့်စာရင်း";
+"%@ items" = "%@ ခု";
+"Close" = "ပိတ်ရန်";
+"Play" = "ဖွင့်ကြည့်ရန်";
+"Show in Finder" = "Finder တွင် ပြရန်";
+"Remove from Playlist" = "ဖွင့်စာရင်းမှ ဖယ်ရှားရန်";
+"Drop videos or folders here" = "ဗီဒီယိုများ သို့မဟုတ် ဖိုဒါများကို ဤနေရာသို့ ဆွဲချပါ";
+"Add files or folders…" = "ဖိုင်များ သို့မဟုတ် ဖိုဒါများ ထည့်ရန်…";
+"Clear Playlist" = "ဖွင့်စာရင်း ရှင်းလင်းရန်";
+"Repeat: off" = "ထပ်ဖွင့်: ပိတ်";
+"Repeat: all" = "ထပ်ဖွင့်: အားလုံး";
+"Repeat: one" = "ထပ်ဖွင့်: တစ်ခု";
+"Streaming" = "စထရီမင်း";
+"Nothing is playing." = "ဘာမှ ဖွင့်မထားပါ။";
+"Open Network Stream" = "ကွန်ရက် စထရီမ် ဖွင့်ရန်";
+"HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – anything ffmpeg can open." = "HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – ffmpeg ဖွင့်နိုင်သမျှ အားလုံး။";
+"Cancel" = "မလုပ်တော့ပါ";
+"Jump to Time" = "အချိန်သို့ ခုန်ရန်";
+"Jump" = "ခုန်ရန်";
+"Resumed at %@" = "%@ မှ ဆက်ဖွင့်နေသည်";
+"Speed: %@" = "အမြန်နှုန်း: %@";
+"Volume: %@" = "အသံအတိုးအကျယ်: %@";
+"Loop start: %@" = "အပိုင်းထပ်ဖွင့် စမှတ်: %@";
+"Looping %@ – %@" = "အပိုင်းထပ်ဖွင့်နေသည် %@ – %@";
+"Loop off" = "အပိုင်းထပ်ဖွင့်ခြင်း ပိတ်ထားသည်";
+"Snapshot saved: %@" = "လျှပ်တစ်ပြက်ပုံ သိမ်းပြီး: %@";
+"Couldn't save the snapshot." = "လျှပ်တစ်ပြက်ပုံ သိမ်း၍ မရပါ။";
+"Subtitles off" = "စာတန်းထိုး ပိတ်ထားသည်";
+"Adding subtitles…" = "စာတန်းထိုး ထည့်နေသည်…";
+"Subtitle delay: %@ ms" = "စာတန်းထိုး နှောင့်နှေးချိန်: %@ ms";
+"Play Playlist" = "ဖွင့်စာရင်းကို ဖွင့်ကြည့်ရန်";
+"Recent" = "မကြာသေးမီက";
+"Next in Playlist" = "ဖွင့်စာရင်းရှိ နောက်တစ်ခု";
+"Start Over" = "အစမှ ပြန်ဖွင့်ရန်";
+"Jump back 10 seconds" = "၁၀ စက္ကန့် နောက်ဆုတ်ရန်";
+"Play/Pause (Space)" = "ဖွင့်/ခေတ္တရပ် (Space)";
+"Jump forward 10 seconds" = "၁၀ စက္ကန့် ရှေ့ကျော်ရန်";
+"Playback speed" = "ဖွင့်သည့် အမြန်နှုန်း";
+"Playlist (⌘L)" = "ဖွင့်စာရင်း (⌘L)";
+"Full Screen (⌘F)" = "မျက်နှာပြင်အပြည့် (⌘F)";
+"No audio tracks" = "အသံတရက် မရှိပါ";
+"Audio track" = "အသံတရက်";
+
+/* Network streams */
+"network stream – seekable anywhere" = "ကွန်ရက် stream – မည်သည့်နေရာသို့မဆို ကျော်နိုင်သည်";
+"Network HLS stream – played directly, without conversion" = "ကွန်ရက် HLS stream – ပြောင်းလဲခြင်းမရှိဘဲ တိုက်ရိုက်ဖွင့်သည်";
+
+/* Chapters */
+"Previous Chapter" = "ယခင်အခန်း";
+"Next Chapter" = "နောက်အခန်း";
+"Chapter: %@" = "အခန်း - %@";
+"Previous Chapter (⇧P)" = "ယခင်အခန်း (⇧P)";
+"Next Chapter (⇧N)" = "နောက်အခန်း (⇧N)";
+
+/* Auto-hiding controls */
+"Hide Controls" = "ထိန်းချုပ်ခလုတ်များ ဖျောက်ရန်";
+"After %@ seconds" = "%@ စက္ကန့်အကြာ";
+"Never" = "ဘယ်တော့မှ";
+
+/* Time display */
+"Show total length" = "စုစုပေါင်းကြာချိန် ပြရန်";
+"Show remaining time" = "ကျန်ချိန် ပြရန်";
+
+/* Picture in Picture, appearance */
+"Picture in Picture" = "ပုံထဲမှပုံ";
+"Playing in Picture in Picture" = "ပုံထဲမှပုံ ပုံစံဖြင့် ဖွင့်နေသည်";
+"Appearance" = "အသွင်အပြင်";
+"Light" = "အလင်း";
+"Dark" = "အမှောင်";
+
+/* Help menu */
+"Open-Source Licenses" = "Open Source လိုင်စင်များ";

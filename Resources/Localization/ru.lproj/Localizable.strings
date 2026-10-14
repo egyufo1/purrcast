@@ -1,0 +1,203 @@
+/* Русский (ru). Keys are the English texts; check: Resources/Localization/check.sh */
+
+/* Errors */
+"timed out" = "превышено время ожидания";
+"Not found: %@. Install it with: brew install ffmpeg" = "Не найдено: %@. Установите командой: brew install ffmpeg";
+"Couldn't read the file: %@" = "Не удалось прочитать файл: %@";
+"The file has no video track." = "В файле нет видеодорожки.";
+"ffmpeg stopped with an error:\n%@" = "ffmpeg завершился с ошибкой:\n%@";
+"Not enough free space for the temporary stream files (needs about %@, free: %@)." = "Недостаточно свободного места для временных файлов потока (нужно около %@, свободно: %@).";
+"The local stream server didn't start: %@" = "Не удалось запустить локальный сервер трансляции: %@";
+"Didn't start with the previous settings, retrying in a safer mode…" = "С прежними настройками запуск не удался, повторная попытка в более безопасном режиме…";
+"Couldn't start playback:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log" = "Не удалось начать воспроизведение:\n%@\n\nПодробности: ~/Library/Logs/Purrcast.log";
+"player error: %@" = "ошибка плеера: %@";
+"playback didn't start within 20 seconds" = "воспроизведение не началось за 20 секунд";
+"Error" = "Ошибка";
+
+/* Tracks */
+"Audio %@" = "Аудио %@";
+"Subtitle %@" = "Субтитры %@";
+"(forced)" = "(принудительные)";
+"External subtitle" = "Внешние субтитры";
+"(external)" = "(внешние)";
+"unknown" = "неизвестно";
+"mono" = "моно";
+"stereo" = "стерео";
+"%@ channels" = "%@ кан.";
+
+/* Conversion summary */
+"%@ → H.264, plays on every TV" = "%@ → H.264, воспроизводится на любом телевизоре";
+"%@ H.264 → 8-bit H.264" = "%@ H.264 → 8-битный H.264";
+"interlaced → progressive" = "чересстрочная → прогрессивная";
+"re-encoded for reliable playback" = "перекодировано для надёжного воспроизведения";
+"Video: %@ – passed through in original quality" = "Видео: %@ – передаётся в исходном качестве";
+"Video: %@ → H.264 %@ (%@)" = "Видео: %@ → H.264 %@ (%@)";
+"Audio: %@ – original" = "Аудио: %@ – оригинал";
+"Audio: %@ → %@ %@" = "Аудио: %@ → %@ %@";
+"Subtitle: %@ – on by default" = "Субтитры: %@ – включены по умолчанию";
+"Subtitle: %@" = "Субтитры: %@";
+"Subtitle skipped: %@ (%@ is image-based and can't be converted)" = "Субтитры пропущены: %@ (%@ – графический формат, его нельзя конвертировать)";
+
+/* Status */
+"Preparing…" = "Подготовка…";
+"Playing via AirPlay" = "Воспроизведение через AirPlay";
+"Conversion stopped: %@" = "Конвертация прервана: %@";
+"Prepared: %@ / %@" = "Подготовлено: %@ / %@";
+
+/* Window */
+"Open…" = "Открыть…";
+"Open" = "Открыть";
+"Open another file…" = "Открыть другой файл…";
+"AirPlay – choose your TV" = "AirPlay – выберите телевизор";
+"Drop a video here (MKV, MP4, AVI…)" = "Перетащите видео сюда (MKV, MP4, AVI…)";
+"or open one with ⌘O, then pick your TV with the AirPlay button" = "или откройте его через ⌘O, затем выберите телевизор кнопкой AirPlay";
+
+/* Menus */
+"Playback" = "Воспроизведение";
+"Original quality (HEVC, HDR, surround – for Apple TV 4K)" = "Исходное качество (HEVC, HDR, объёмный звук – для Apple TV 4K)";
+"Language" = "Язык";
+"System default" = "Язык системы";
+"The new language takes effect after a restart." = "Новый язык будет применён после перезапуска.";
+"Restart Purrcast now? Playback stops." = "Перезапустить Purrcast сейчас? Воспроизведение остановится.";
+"Restart" = "Перезапустить";
+"Later" = "Позже";
+
+/* Player, menus, playlist, media information */
+"Chapter %@" = "Глава %@";
+"File" = "Файл";
+"Format" = "Формат";
+"Duration" = "Длительность";
+"Size" = "Размер";
+"Bitrate" = "Битрейт";
+"General" = "Общие";
+"Codec" = "Кодек";
+"Title" = "Название";
+"Resolution" = "Разрешение";
+"Frame rate" = "Частота кадров";
+"Pixel format" = "Формат пикселей";
+"Dynamic range" = "Динамический диапазон";
+"Channels" = "Каналы";
+"Sample rate" = "Частота дискретизации";
+"Video" = "Видео";
+"Audio" = "Аудио";
+"Subtitle" = "Субтитры";
+"Stream %@: %@" = "Поток %@: %@";
+"Purrcast" = "Purrcast";
+"Media Information" = "Информация о медиафайле";
+"Open Network Stream…" = "Открыть сетевой поток…";
+"Open Recent" = "Открыть недавние";
+"Clear Menu" = "Очистить меню";
+"Add Subtitle File…" = "Добавить файл субтитров…";
+"Save Playlist…" = "Сохранить плейлист…";
+"Play/Pause" = "Воспроизвести/пауза";
+"Stop" = "Остановить";
+"Previous" = "Предыдущий";
+"Next" = "Следующий";
+"Jump Back 10 Seconds" = "Назад на 10 секунд";
+"Jump Forward 10 Seconds" = "Вперёд на 10 секунд";
+"Jump Back 1 Minute" = "Назад на 1 минуту";
+"Jump Forward 1 Minute" = "Вперёд на 1 минуту";
+"Jump to Time…" = "Перейти ко времени…";
+"Next Frame" = "Следующий кадр";
+"Chapters" = "Главы";
+"Faster" = "Быстрее";
+"Slower" = "Медленнее";
+"Normal Speed" = "Обычная скорость";
+"Set Loop Start (A)" = "Задать начало фрагмента (A)";
+"Set Loop End (B)" = "Задать конец фрагмента (B)";
+"Loop Off" = "Отключить повтор фрагмента";
+"Repeat" = "Повтор";
+"Off" = "Выкл.";
+"All" = "Все";
+"One" = "Один";
+"Shuffle" = "Перемешать";
+"Volume Up" = "Громче";
+"Volume Down" = "Тише";
+"Mute" = "Выключить звук";
+"Audio Track" = "Аудиодорожка";
+"Full Screen" = "Полноэкранный режим";
+"Float on Top" = "Поверх всех окон";
+"Aspect" = "Соотношение сторон";
+"Fit" = "Вписать";
+"Fill (Crop)" = "Заполнить (обрезать)";
+"Stretch" = "Растянуть";
+"Snapshot" = "Снимок кадра";
+"Show Snapshots Folder" = "Показать папку со снимками";
+"Subtitles" = "Субтитры";
+"Subtitle Track" = "Дорожка субтитров";
+"Next Subtitle Track" = "Следующая дорожка субтитров";
+"Subtitles Earlier (G)" = "Субтитры раньше (G)";
+"Subtitles Later (H)" = "Субтитры позже (H)";
+"Reset Subtitle Delay" = "Сбросить задержку субтитров";
+"Playlist" = "Плейлист";
+"%@ items" = "Элементов: %@";
+"Close" = "Закрыть";
+"Play" = "Воспроизвести";
+"Show in Finder" = "Показать в Finder";
+"Remove from Playlist" = "Удалить из плейлиста";
+"Drop videos or folders here" = "Перетащите сюда видео или папки";
+"Add files or folders…" = "Добавить файлы или папки…";
+"Clear Playlist" = "Очистить плейлист";
+"Repeat: off" = "Повтор: выкл.";
+"Repeat: all" = "Повтор: все";
+"Repeat: one" = "Повтор: один";
+"Streaming" = "Трансляция";
+"Nothing is playing." = "Ничего не воспроизводится.";
+"Open Network Stream" = "Открыть сетевой поток";
+"HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – anything ffmpeg can open." = "HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – всё, что может открыть ffmpeg.";
+"Cancel" = "Отменить";
+"Jump to Time" = "Перейти ко времени";
+"Jump" = "Перейти";
+"Resumed at %@" = "Продолжено с %@";
+"Speed: %@" = "Скорость: %@";
+"Volume: %@" = "Громкость: %@";
+"Loop start: %@" = "Начало фрагмента: %@";
+"Looping %@ – %@" = "Повтор фрагмента %@ – %@";
+"Loop off" = "Повтор фрагмента выключен";
+"Snapshot saved: %@" = "Снимок сохранён: %@";
+"Couldn't save the snapshot." = "Не удалось сохранить снимок.";
+"Subtitles off" = "Субтитры выключены";
+"Adding subtitles…" = "Добавление субтитров…";
+"Subtitle delay: %@ ms" = "Задержка субтитров: %@ мс";
+"Play Playlist" = "Воспроизвести плейлист";
+"Recent" = "Недавние";
+"Next in Playlist" = "Далее в плейлисте";
+"Start Over" = "С начала";
+"Jump back 10 seconds" = "Назад на 10 секунд";
+"Play/Pause (Space)" = "Воспроизвести/пауза (пробел)";
+"Jump forward 10 seconds" = "Вперёд на 10 секунд";
+"Playback speed" = "Скорость воспроизведения";
+"Playlist (⌘L)" = "Плейлист (⌘L)";
+"Full Screen (⌘F)" = "Полноэкранный режим (⌘F)";
+"No audio tracks" = "Нет аудиодорожек";
+"Audio track" = "Аудиодорожка";
+
+/* Network streams */
+"network stream – seekable anywhere" = "сетевой поток – перемотка в любое место";
+"Network HLS stream – played directly, without conversion" = "Сетевой поток HLS – воспроизводится напрямую, без конвертации";
+
+/* Chapters */
+"Previous Chapter" = "Предыдущая глава";
+"Next Chapter" = "Следующая глава";
+"Chapter: %@" = "Глава: %@";
+"Previous Chapter (⇧P)" = "Предыдущая глава (⇧P)";
+"Next Chapter (⇧N)" = "Следующая глава (⇧N)";
+
+/* Auto-hiding controls */
+"Hide Controls" = "Скрывать элементы управления";
+"After %@ seconds" = "Через %@ с";
+"Never" = "Никогда";
+
+/* Time display */
+"Show total length" = "Показать общую длительность";
+"Show remaining time" = "Показать оставшееся время";
+
+/* Picture in Picture, appearance */
+"Picture in Picture" = "Картинка в картинке";
+"Playing in Picture in Picture" = "Воспроизведение в режиме «картинка в картинке»";
+"Appearance" = "Оформление";
+"Light" = "Светлое";
+"Dark" = "Тёмное";
+
+/* Help menu */
+"Open-Source Licenses" = "Лицензии открытого ПО";

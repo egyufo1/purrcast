@@ -1,0 +1,203 @@
+/* 日本語 – keys are the English texts; check: Resources/Localization/check.sh */
+
+/* Errors */
+"timed out" = "タイムアウトしました";
+"Not found: %@. Install it with: brew install ffmpeg" = "%@ が見つかりません。インストールするには：brew install ffmpeg";
+"Couldn't read the file: %@" = "ファイルを読み込めませんでした：%@";
+"The file has no video track." = "このファイルにはビデオトラックがありません。";
+"ffmpeg stopped with an error:\n%@" = "ffmpeg がエラーで停止しました：\n%@";
+"Not enough free space for the temporary stream files (needs about %@, free: %@)." = "一時ストリームファイル用の空き容量が足りません（必要：約 %@、空き：%@）。";
+"The local stream server didn't start: %@" = "ローカルストリームサーバを起動できませんでした：%@";
+"Didn't start with the previous settings, retrying in a safer mode…" = "前回の設定では開始できなかったため、より安全なモードで再試行しています…";
+"Couldn't start playback:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log" = "再生を開始できませんでした：\n%@\n\n詳細：~/Library/Logs/Purrcast.log";
+"player error: %@" = "プレーヤーエラー：%@";
+"playback didn't start within 20 seconds" = "20秒以内に再生が始まりませんでした";
+"Error" = "エラー";
+
+/* Tracks */
+"Audio %@" = "オーディオ %@";
+"Subtitle %@" = "字幕 %@";
+"(forced)" = "（強制）";
+"External subtitle" = "外部字幕";
+"(external)" = "（外部）";
+"unknown" = "不明";
+"mono" = "モノラル";
+"stereo" = "ステレオ";
+"%@ channels" = "%@ チャンネル";
+
+/* Conversion summary */
+"%@ → H.264, plays on every TV" = "%@ → H.264（どのテレビでも再生可能）";
+"%@ H.264 → 8-bit H.264" = "%@ H.264 → 8ビット H.264";
+"interlaced → progressive" = "インターレース → プログレッシブ";
+"re-encoded for reliable playback" = "確実に再生するため再エンコード";
+"Video: %@ – passed through in original quality" = "ビデオ：%@ – 元の画質のまま転送";
+"Video: %@ → H.264 %@ (%@)" = "ビデオ：%@ → H.264 %@（%@）";
+"Audio: %@ – original" = "オーディオ：%@ – オリジナル";
+"Audio: %@ → %@ %@" = "オーディオ：%@ → %@ %@";
+"Subtitle: %@ – on by default" = "字幕：%@ – デフォルトでオン";
+"Subtitle: %@" = "字幕：%@";
+"Subtitle skipped: %@ (%@ is image-based and can't be converted)" = "字幕をスキップ：%@（%@ は画像ベースのため変換できません）";
+
+/* Status */
+"Preparing…" = "準備中…";
+"Playing via AirPlay" = "AirPlayで再生中";
+"Conversion stopped: %@" = "変換が停止しました：%@";
+"Prepared: %@ / %@" = "準備済み：%@ / %@";
+
+/* Window */
+"Open…" = "開く…";
+"Open" = "開く";
+"Open another file…" = "別のファイルを開く…";
+"AirPlay – choose your TV" = "AirPlay – テレビを選択";
+"Drop a video here (MKV, MP4, AVI…)" = "ここにビデオをドロップ（MKV、MP4、AVI…）";
+"or open one with ⌘O, then pick your TV with the AirPlay button" = "または⌘Oで開いてから、AirPlayボタンでテレビを選択";
+
+/* Menus */
+"Playback" = "再生";
+"Original quality (HEVC, HDR, surround – for Apple TV 4K)" = "オリジナル画質（HEVC、HDR、サラウンド – Apple TV 4K用）";
+"Language" = "言語";
+"System default" = "システムのデフォルト";
+"The new language takes effect after a restart." = "新しい言語は再起動後に適用されます。";
+"Restart Purrcast now? Playback stops." = "Purrcastを今すぐ再起動しますか？再生は停止します。";
+"Restart" = "再起動";
+"Later" = "後で";
+
+/* Player, menus, playlist, media information */
+"Chapter %@" = "チャプター %@";
+"File" = "ファイル";
+"Format" = "フォーマット";
+"Duration" = "長さ";
+"Size" = "サイズ";
+"Bitrate" = "ビットレート";
+"General" = "一般";
+"Codec" = "コーデック";
+"Title" = "タイトル";
+"Resolution" = "解像度";
+"Frame rate" = "フレームレート";
+"Pixel format" = "ピクセルフォーマット";
+"Dynamic range" = "ダイナミックレンジ";
+"Channels" = "チャンネル";
+"Sample rate" = "サンプルレート";
+"Video" = "ビデオ";
+"Audio" = "オーディオ";
+"Subtitle" = "字幕";
+"Stream %@: %@" = "ストリーム %@：%@";
+"Purrcast" = "Purrcast";
+"Media Information" = "メディア情報";
+"Open Network Stream…" = "ネットワークストリームを開く…";
+"Open Recent" = "最近使った項目を開く";
+"Clear Menu" = "メニューを消去";
+"Add Subtitle File…" = "字幕ファイルを追加…";
+"Save Playlist…" = "プレイリストを保存…";
+"Play/Pause" = "再生/一時停止";
+"Stop" = "停止";
+"Previous" = "前へ";
+"Next" = "次へ";
+"Jump Back 10 Seconds" = "10秒戻る";
+"Jump Forward 10 Seconds" = "10秒進む";
+"Jump Back 1 Minute" = "1分戻る";
+"Jump Forward 1 Minute" = "1分進む";
+"Jump to Time…" = "指定時間へジャンプ…";
+"Next Frame" = "次のフレーム";
+"Chapters" = "チャプター";
+"Faster" = "速く";
+"Slower" = "遅く";
+"Normal Speed" = "標準速度";
+"Set Loop Start (A)" = "ループ開始点を設定（A）";
+"Set Loop End (B)" = "ループ終了点を設定（B）";
+"Loop Off" = "ループをオフ";
+"Repeat" = "リピート";
+"Off" = "オフ";
+"All" = "すべて";
+"One" = "1項目";
+"Shuffle" = "シャッフル";
+"Volume Up" = "音量を上げる";
+"Volume Down" = "音量を下げる";
+"Mute" = "消音";
+"Audio Track" = "オーディオトラック";
+"Full Screen" = "フルスクリーン";
+"Float on Top" = "常に手前に表示";
+"Aspect" = "アスペクト比";
+"Fit" = "フィット";
+"Fill (Crop)" = "フィル（トリミング）";
+"Stretch" = "引き伸ばし";
+"Snapshot" = "スナップショット";
+"Show Snapshots Folder" = "スナップショットフォルダを表示";
+"Subtitles" = "字幕";
+"Subtitle Track" = "字幕トラック";
+"Next Subtitle Track" = "次の字幕トラック";
+"Subtitles Earlier (G)" = "字幕を早める（G）";
+"Subtitles Later (H)" = "字幕を遅らせる（H）";
+"Reset Subtitle Delay" = "字幕の遅延をリセット";
+"Playlist" = "プレイリスト";
+"%@ items" = "%@ 項目";
+"Close" = "閉じる";
+"Play" = "再生";
+"Show in Finder" = "Finderに表示";
+"Remove from Playlist" = "プレイリストから削除";
+"Drop videos or folders here" = "ここにビデオやフォルダをドロップ";
+"Add files or folders…" = "ファイルまたはフォルダを追加…";
+"Clear Playlist" = "プレイリストを消去";
+"Repeat: off" = "リピート：オフ";
+"Repeat: all" = "リピート：すべて";
+"Repeat: one" = "リピート：1項目";
+"Streaming" = "ストリーミング";
+"Nothing is playing." = "再生中の項目はありません。";
+"Open Network Stream" = "ネットワークストリームを開く";
+"HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – anything ffmpeg can open." = "HTTP、HTTPS、HLS、RTSP、RTMP、UDP… – ffmpegで開けるものなら何でも。";
+"Cancel" = "キャンセル";
+"Jump to Time" = "指定時間へジャンプ";
+"Jump" = "ジャンプ";
+"Resumed at %@" = "%@ から再開";
+"Speed: %@" = "速度：%@";
+"Volume: %@" = "音量：%@";
+"Loop start: %@" = "ループ開始：%@";
+"Looping %@ – %@" = "ループ再生：%@ – %@";
+"Loop off" = "ループ：オフ";
+"Snapshot saved: %@" = "スナップショットを保存しました：%@";
+"Couldn't save the snapshot." = "スナップショットを保存できませんでした。";
+"Subtitles off" = "字幕：オフ";
+"Adding subtitles…" = "字幕を追加中…";
+"Subtitle delay: %@ ms" = "字幕の遅延：%@ ms";
+"Play Playlist" = "プレイリストを再生";
+"Recent" = "最近使った項目";
+"Next in Playlist" = "プレイリストの次の項目";
+"Start Over" = "最初から再生";
+"Jump back 10 seconds" = "10秒戻る";
+"Play/Pause (Space)" = "再生/一時停止（スペース）";
+"Jump forward 10 seconds" = "10秒進む";
+"Playback speed" = "再生速度";
+"Playlist (⌘L)" = "プレイリスト（⌘L）";
+"Full Screen (⌘F)" = "フルスクリーン（⌘F）";
+"No audio tracks" = "オーディオトラックなし";
+"Audio track" = "オーディオトラック";
+
+/* Network streams */
+"network stream – seekable anywhere" = "ネットワークストリーム – 任意の位置にシーク可能";
+"Network HLS stream – played directly, without conversion" = "ネットワークHLSストリーム – 変換せずに直接再生";
+
+/* Chapters */
+"Previous Chapter" = "前のチャプター";
+"Next Chapter" = "次のチャプター";
+"Chapter: %@" = "チャプター：%@";
+"Previous Chapter (⇧P)" = "前のチャプター (⇧P)";
+"Next Chapter (⇧N)" = "次のチャプター (⇧N)";
+
+/* Auto-hiding controls */
+"Hide Controls" = "コントロールを隠す";
+"After %@ seconds" = "%@ 秒後";
+"Never" = "しない";
+
+/* Time display */
+"Show total length" = "全体の長さを表示";
+"Show remaining time" = "残り時間を表示";
+
+/* Picture in Picture, appearance */
+"Picture in Picture" = "ピクチャ・イン・ピクチャ";
+"Playing in Picture in Picture" = "ピクチャ・イン・ピクチャで再生中";
+"Appearance" = "外観";
+"Light" = "ライト";
+"Dark" = "ダーク";
+
+/* Help menu */
+"Open-Source Licenses" = "オープンソースライセンス";

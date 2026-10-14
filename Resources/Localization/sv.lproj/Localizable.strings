@@ -1,0 +1,203 @@
+/* Svensk översättning. Keys are the English texts; check: Resources/Localization/check.sh */
+
+/* Errors */
+"timed out" = "tidsgränsen överskreds";
+"Not found: %@. Install it with: brew install ffmpeg" = "Hittades inte: %@. Installera med: brew install ffmpeg";
+"Couldn't read the file: %@" = "Kunde inte läsa filen: %@";
+"The file has no video track." = "Filen har inget videospår.";
+"ffmpeg stopped with an error:\n%@" = "ffmpeg avslutades med ett fel:\n%@";
+"Not enough free space for the temporary stream files (needs about %@, free: %@)." = "Inte tillräckligt med ledigt utrymme för de tillfälliga strömningsfilerna (behöver cirka %@, ledigt: %@).";
+"The local stream server didn't start: %@" = "Den lokala strömningsservern startade inte: %@";
+"Didn't start with the previous settings, retrying in a safer mode…" = "Startade inte med de tidigare inställningarna, försöker igen i ett säkrare läge…";
+"Couldn't start playback:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log" = "Kunde inte starta uppspelningen:\n%@\n\nDetaljer: ~/Library/Logs/Purrcast.log";
+"player error: %@" = "uppspelningsfel: %@";
+"playback didn't start within 20 seconds" = "uppspelningen startade inte inom 20 sekunder";
+"Error" = "Fel";
+
+/* Tracks */
+"Audio %@" = "Ljud %@";
+"Subtitle %@" = "Undertext %@";
+"(forced)" = "(tvingad)";
+"External subtitle" = "Extern undertext";
+"(external)" = "(extern)";
+"unknown" = "okänt";
+"mono" = "mono";
+"stereo" = "stereo";
+"%@ channels" = "%@ kanaler";
+
+/* Conversion summary */
+"%@ → H.264, plays on every TV" = "%@ → H.264, spelas upp på alla TV-apparater";
+"%@ H.264 → 8-bit H.264" = "%@ H.264 → 8-bitars H.264";
+"interlaced → progressive" = "sammanflätad → progressiv";
+"re-encoded for reliable playback" = "omkodad för säker uppspelning";
+"Video: %@ – passed through in original quality" = "Video: %@ – skickas vidare i originalkvalitet";
+"Video: %@ → H.264 %@ (%@)" = "Video: %@ → H.264 %@ (%@)";
+"Audio: %@ – original" = "Ljud: %@ – original";
+"Audio: %@ → %@ %@" = "Ljud: %@ → %@ %@";
+"Subtitle: %@ – on by default" = "Undertext: %@ – på som standard";
+"Subtitle: %@" = "Undertext: %@";
+"Subtitle skipped: %@ (%@ is image-based and can't be converted)" = "Undertext hoppades över: %@ (%@ är bildbaserad och kan inte konverteras)";
+
+/* Status */
+"Preparing…" = "Förbereder…";
+"Playing via AirPlay" = "Spelas upp via AirPlay";
+"Conversion stopped: %@" = "Konverteringen avbröts: %@";
+"Prepared: %@ / %@" = "Förberett: %@ / %@";
+
+/* Window */
+"Open…" = "Öppna…";
+"Open" = "Öppna";
+"Open another file…" = "Öppna en annan fil…";
+"AirPlay – choose your TV" = "AirPlay – välj din TV";
+"Drop a video here (MKV, MP4, AVI…)" = "Släpp en video här (MKV, MP4, AVI…)";
+"or open one with ⌘O, then pick your TV with the AirPlay button" = "eller öppna en med ⌘O och välj sedan din TV med AirPlay-knappen";
+
+/* Menus */
+"Playback" = "Uppspelning";
+"Original quality (HEVC, HDR, surround – for Apple TV 4K)" = "Originalkvalitet (HEVC, HDR, surround – för Apple TV 4K)";
+"Language" = "Språk";
+"System default" = "Systemstandard";
+"The new language takes effect after a restart." = "Det nya språket används efter en omstart.";
+"Restart Purrcast now? Playback stops." = "Vill du starta om Purrcast nu? Uppspelningen stoppas.";
+"Restart" = "Starta om";
+"Later" = "Senare";
+
+/* Player, menus, playlist, media information */
+"Chapter %@" = "Kapitel %@";
+"File" = "Fil";
+"Format" = "Format";
+"Duration" = "Längd";
+"Size" = "Storlek";
+"Bitrate" = "Bithastighet";
+"General" = "Allmänt";
+"Codec" = "Kodek";
+"Title" = "Titel";
+"Resolution" = "Upplösning";
+"Frame rate" = "Bildfrekvens";
+"Pixel format" = "Pixelformat";
+"Dynamic range" = "Dynamiskt omfång";
+"Channels" = "Kanaler";
+"Sample rate" = "Samplingsfrekvens";
+"Video" = "Video";
+"Audio" = "Ljud";
+"Subtitle" = "Undertext";
+"Stream %@: %@" = "Ström %@: %@";
+"Purrcast" = "Purrcast";
+"Media Information" = "Mediainformation";
+"Open Network Stream…" = "Öppna nätverksström…";
+"Open Recent" = "Öppna senaste";
+"Clear Menu" = "Rensa menyn";
+"Add Subtitle File…" = "Lägg till undertextfil…";
+"Save Playlist…" = "Spara spellista…";
+"Play/Pause" = "Spela/pausa";
+"Stop" = "Stoppa";
+"Previous" = "Föregående";
+"Next" = "Nästa";
+"Jump Back 10 Seconds" = "Hoppa bakåt 10 sekunder";
+"Jump Forward 10 Seconds" = "Hoppa framåt 10 sekunder";
+"Jump Back 1 Minute" = "Hoppa bakåt 1 minut";
+"Jump Forward 1 Minute" = "Hoppa framåt 1 minut";
+"Jump to Time…" = "Gå till tid…";
+"Next Frame" = "Nästa bildruta";
+"Chapters" = "Kapitel";
+"Faster" = "Snabbare";
+"Slower" = "Långsammare";
+"Normal Speed" = "Normal hastighet";
+"Set Loop Start (A)" = "Ange loopstart (A)";
+"Set Loop End (B)" = "Ange loopslut (B)";
+"Loop Off" = "Stäng av loop";
+"Repeat" = "Upprepa";
+"Off" = "Av";
+"All" = "Alla";
+"One" = "En";
+"Shuffle" = "Blanda";
+"Volume Up" = "Höj volymen";
+"Volume Down" = "Sänk volymen";
+"Mute" = "Ljud av";
+"Audio Track" = "Ljudspår";
+"Full Screen" = "Helskärm";
+"Float on Top" = "Alltid överst";
+"Aspect" = "Bildformat";
+"Fit" = "Anpassa";
+"Fill (Crop)" = "Fyll (beskär)";
+"Stretch" = "Sträck ut";
+"Snapshot" = "Ögonblicksbild";
+"Show Snapshots Folder" = "Visa mappen med ögonblicksbilder";
+"Subtitles" = "Undertexter";
+"Subtitle Track" = "Undertextspår";
+"Next Subtitle Track" = "Nästa undertextspår";
+"Subtitles Earlier (G)" = "Undertext tidigare (G)";
+"Subtitles Later (H)" = "Undertext senare (H)";
+"Reset Subtitle Delay" = "Återställ undertextfördröjning";
+"Playlist" = "Spellista";
+"%@ items" = "%@ objekt";
+"Close" = "Stäng";
+"Play" = "Spela upp";
+"Show in Finder" = "Visa i Finder";
+"Remove from Playlist" = "Ta bort från spellistan";
+"Drop videos or folders here" = "Släpp videor eller mappar här";
+"Add files or folders…" = "Lägg till filer eller mappar…";
+"Clear Playlist" = "Rensa spellistan";
+"Repeat: off" = "Upprepa: av";
+"Repeat: all" = "Upprepa: alla";
+"Repeat: one" = "Upprepa: en";
+"Streaming" = "Strömning";
+"Nothing is playing." = "Inget spelas upp.";
+"Open Network Stream" = "Öppna nätverksström";
+"HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – anything ffmpeg can open." = "HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – allt som ffmpeg kan öppna.";
+"Cancel" = "Avbryt";
+"Jump to Time" = "Gå till tid";
+"Jump" = "Gå";
+"Resumed at %@" = "Fortsätter från %@";
+"Speed: %@" = "Hastighet: %@";
+"Volume: %@" = "Volym: %@";
+"Loop start: %@" = "Loopstart: %@";
+"Looping %@ – %@" = "Loopar %@ – %@";
+"Loop off" = "Loop av";
+"Snapshot saved: %@" = "Ögonblicksbild sparad: %@";
+"Couldn't save the snapshot." = "Kunde inte spara ögonblicksbilden.";
+"Subtitles off" = "Undertext av";
+"Adding subtitles…" = "Lägger till undertext…";
+"Subtitle delay: %@ ms" = "Undertextfördröjning: %@ ms";
+"Play Playlist" = "Spela upp spellista";
+"Recent" = "Senaste";
+"Next in Playlist" = "Nästa i spellistan";
+"Start Over" = "Börja om";
+"Jump back 10 seconds" = "Bakåt 10 sekunder";
+"Play/Pause (Space)" = "Spela/pausa (mellanslag)";
+"Jump forward 10 seconds" = "Framåt 10 sekunder";
+"Playback speed" = "Uppspelningshastighet";
+"Playlist (⌘L)" = "Spellista (⌘L)";
+"Full Screen (⌘F)" = "Helskärm (⌘F)";
+"No audio tracks" = "Inga ljudspår";
+"Audio track" = "Ljudspår";
+
+/* Network streams */
+"network stream – seekable anywhere" = "nätverksström – kan spolas var som helst";
+"Network HLS stream – played directly, without conversion" = "HLS-nätverksström – spelas upp direkt, utan konvertering";
+
+/* Chapters */
+"Previous Chapter" = "Föregående kapitel";
+"Next Chapter" = "Nästa kapitel";
+"Chapter: %@" = "Kapitel: %@";
+"Previous Chapter (⇧P)" = "Föregående kapitel (⇧P)";
+"Next Chapter (⇧N)" = "Nästa kapitel (⇧N)";
+
+/* Auto-hiding controls */
+"Hide Controls" = "Dölj reglagen";
+"After %@ seconds" = "Efter %@ sekunder";
+"Never" = "Aldrig";
+
+/* Time display */
+"Show total length" = "Visa total längd";
+"Show remaining time" = "Visa återstående tid";
+
+/* Picture in Picture, appearance */
+"Picture in Picture" = "Bild-i-bild";
+"Playing in Picture in Picture" = "Spelas upp som bild-i-bild";
+"Appearance" = "Utseende";
+"Light" = "Ljust";
+"Dark" = "Mörkt";
+
+/* Help menu */
+"Open-Source Licenses" = "Licenser för öppen källkod";

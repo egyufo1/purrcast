@@ -1,0 +1,203 @@
+/* Norsk bokmål-oversettelse. Keys are the English texts; check: Resources/Localization/check.sh */
+
+/* Errors */
+"timed out" = "tidsavbrudd";
+"Not found: %@. Install it with: brew install ffmpeg" = "Ikke funnet: %@. Installer det med: brew install ffmpeg";
+"Couldn't read the file: %@" = "Kunne ikke lese filen: %@";
+"The file has no video track." = "Filen har ikke noe videospor.";
+"ffmpeg stopped with an error:\n%@" = "ffmpeg stoppet med en feil:\n%@";
+"Not enough free space for the temporary stream files (needs about %@, free: %@)." = "Ikke nok ledig plass til de midlertidige strømmefilene (trenger omtrent %@, ledig: %@).";
+"The local stream server didn't start: %@" = "Den lokale strømmeserveren startet ikke: %@";
+"Didn't start with the previous settings, retrying in a safer mode…" = "Startet ikke med de forrige innstillingene, prøver på nytt i en tryggere modus…";
+"Couldn't start playback:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log" = "Kunne ikke starte avspillingen:\n%@\n\nDetaljer: ~/Library/Logs/Purrcast.log";
+"player error: %@" = "avspillerfeil: %@";
+"playback didn't start within 20 seconds" = "avspillingen startet ikke innen 20 sekunder";
+"Error" = "Feil";
+
+/* Tracks */
+"Audio %@" = "Lyd %@";
+"Subtitle %@" = "Undertekst %@";
+"(forced)" = "(tvunget)";
+"External subtitle" = "Ekstern undertekst";
+"(external)" = "(ekstern)";
+"unknown" = "ukjent";
+"mono" = "mono";
+"stereo" = "stereo";
+"%@ channels" = "%@ kanaler";
+
+/* Conversion summary */
+"%@ → H.264, plays on every TV" = "%@ → H.264, spilles av på alle TV-er";
+"%@ H.264 → 8-bit H.264" = "%@ H.264 → 8-biters H.264";
+"interlaced → progressive" = "linjeflettet → progressiv";
+"re-encoded for reliable playback" = "omkodet for pålitelig avspilling";
+"Video: %@ – passed through in original quality" = "Video: %@ – sendes videre i originalkvalitet";
+"Video: %@ → H.264 %@ (%@)" = "Video: %@ → H.264 %@ (%@)";
+"Audio: %@ – original" = "Lyd: %@ – original";
+"Audio: %@ → %@ %@" = "Lyd: %@ → %@ %@";
+"Subtitle: %@ – on by default" = "Undertekst: %@ – på som standard";
+"Subtitle: %@" = "Undertekst: %@";
+"Subtitle skipped: %@ (%@ is image-based and can't be converted)" = "Undertekst hoppet over: %@ (%@ er bildebasert og kan ikke konverteres)";
+
+/* Status */
+"Preparing…" = "Forbereder…";
+"Playing via AirPlay" = "Spiller av via AirPlay";
+"Conversion stopped: %@" = "Konverteringen stoppet: %@";
+"Prepared: %@ / %@" = "Forberedt: %@ / %@";
+
+/* Window */
+"Open…" = "Åpne…";
+"Open" = "Åpne";
+"Open another file…" = "Åpne en annen fil…";
+"AirPlay – choose your TV" = "AirPlay – velg TV-en din";
+"Drop a video here (MKV, MP4, AVI…)" = "Slipp en video her (MKV, MP4, AVI…)";
+"or open one with ⌘O, then pick your TV with the AirPlay button" = "eller åpne en med ⌘O, og velg deretter TV-en med AirPlay-knappen";
+
+/* Menus */
+"Playback" = "Avspilling";
+"Original quality (HEVC, HDR, surround – for Apple TV 4K)" = "Originalkvalitet (HEVC, HDR, surround – for Apple TV 4K)";
+"Language" = "Språk";
+"System default" = "Systemstandard";
+"The new language takes effect after a restart." = "Det nye språket tas i bruk etter en omstart.";
+"Restart Purrcast now? Playback stops." = "Vil du starte Purrcast på nytt nå? Avspillingen stopper.";
+"Restart" = "Start på nytt";
+"Later" = "Senere";
+
+/* Player, menus, playlist, media information */
+"Chapter %@" = "Kapittel %@";
+"File" = "Fil";
+"Format" = "Format";
+"Duration" = "Varighet";
+"Size" = "Størrelse";
+"Bitrate" = "Bithastighet";
+"General" = "Generelt";
+"Codec" = "Kodek";
+"Title" = "Tittel";
+"Resolution" = "Oppløsning";
+"Frame rate" = "Bildefrekvens";
+"Pixel format" = "Pikselformat";
+"Dynamic range" = "Dynamisk område";
+"Channels" = "Kanaler";
+"Sample rate" = "Samplingsfrekvens";
+"Video" = "Video";
+"Audio" = "Lyd";
+"Subtitle" = "Undertekst";
+"Stream %@: %@" = "Strøm %@: %@";
+"Purrcast" = "Purrcast";
+"Media Information" = "Medieinformasjon";
+"Open Network Stream…" = "Åpne nettverksstrøm…";
+"Open Recent" = "Åpne nylig brukte";
+"Clear Menu" = "Tøm menyen";
+"Add Subtitle File…" = "Legg til undertekstfil…";
+"Save Playlist…" = "Lagre spilleliste…";
+"Play/Pause" = "Spill av/pause";
+"Stop" = "Stopp";
+"Previous" = "Forrige";
+"Next" = "Neste";
+"Jump Back 10 Seconds" = "Hopp 10 sekunder tilbake";
+"Jump Forward 10 Seconds" = "Hopp 10 sekunder frem";
+"Jump Back 1 Minute" = "Hopp 1 minutt tilbake";
+"Jump Forward 1 Minute" = "Hopp 1 minutt frem";
+"Jump to Time…" = "Gå til tidspunkt…";
+"Next Frame" = "Neste bilde";
+"Chapters" = "Kapitler";
+"Faster" = "Raskere";
+"Slower" = "Saktere";
+"Normal Speed" = "Normal hastighet";
+"Set Loop Start (A)" = "Angi løkkestart (A)";
+"Set Loop End (B)" = "Angi løkkeslutt (B)";
+"Loop Off" = "Slå av løkke";
+"Repeat" = "Gjenta";
+"Off" = "Av";
+"All" = "Alle";
+"One" = "Én";
+"Shuffle" = "Tilfeldig rekkefølge";
+"Volume Up" = "Høyere volum";
+"Volume Down" = "Lavere volum";
+"Mute" = "Demp";
+"Audio Track" = "Lydspor";
+"Full Screen" = "Fullskjerm";
+"Float on Top" = "Alltid øverst";
+"Aspect" = "Bildeformat";
+"Fit" = "Tilpass";
+"Fill (Crop)" = "Fyll (beskjær)";
+"Stretch" = "Strekk";
+"Snapshot" = "Øyeblikksbilde";
+"Show Snapshots Folder" = "Vis mappen med øyeblikksbilder";
+"Subtitles" = "Undertekster";
+"Subtitle Track" = "Undertekstspor";
+"Next Subtitle Track" = "Neste undertekstspor";
+"Subtitles Earlier (G)" = "Undertekster tidligere (G)";
+"Subtitles Later (H)" = "Undertekster senere (H)";
+"Reset Subtitle Delay" = "Nullstill undertekstforsinkelse";
+"Playlist" = "Spilleliste";
+"%@ items" = "%@ elementer";
+"Close" = "Lukk";
+"Play" = "Spill av";
+"Show in Finder" = "Vis i Finder";
+"Remove from Playlist" = "Fjern fra spillelisten";
+"Drop videos or folders here" = "Slipp videoer eller mapper her";
+"Add files or folders…" = "Legg til filer eller mapper…";
+"Clear Playlist" = "Tøm spillelisten";
+"Repeat: off" = "Gjenta: av";
+"Repeat: all" = "Gjenta: alle";
+"Repeat: one" = "Gjenta: én";
+"Streaming" = "Strømming";
+"Nothing is playing." = "Ingenting spilles av.";
+"Open Network Stream" = "Åpne nettverksstrøm";
+"HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – anything ffmpeg can open." = "HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – alt som ffmpeg kan åpne.";
+"Cancel" = "Avbryt";
+"Jump to Time" = "Gå til tidspunkt";
+"Jump" = "Gå";
+"Resumed at %@" = "Fortsetter fra %@";
+"Speed: %@" = "Hastighet: %@";
+"Volume: %@" = "Volum: %@";
+"Loop start: %@" = "Løkkestart: %@";
+"Looping %@ – %@" = "Løkke %@ – %@";
+"Loop off" = "Løkke av";
+"Snapshot saved: %@" = "Øyeblikksbilde lagret: %@";
+"Couldn't save the snapshot." = "Kunne ikke lagre øyeblikksbildet.";
+"Subtitles off" = "Undertekster av";
+"Adding subtitles…" = "Legger til undertekster…";
+"Subtitle delay: %@ ms" = "Undertekstforsinkelse: %@ ms";
+"Play Playlist" = "Spill av spillelisten";
+"Recent" = "Nylige";
+"Next in Playlist" = "Neste i spillelisten";
+"Start Over" = "Spill fra starten";
+"Jump back 10 seconds" = "10 sekunder tilbake";
+"Play/Pause (Space)" = "Spill av/pause (mellomrom)";
+"Jump forward 10 seconds" = "10 sekunder frem";
+"Playback speed" = "Avspillingshastighet";
+"Playlist (⌘L)" = "Spilleliste (⌘L)";
+"Full Screen (⌘F)" = "Fullskjerm (⌘F)";
+"No audio tracks" = "Ingen lydspor";
+"Audio track" = "Lydspor";
+
+/* Network streams */
+"network stream – seekable anywhere" = "nettverksstrøm – kan spoles hvor som helst";
+"Network HLS stream – played directly, without conversion" = "HLS-nettverksstrøm – spilles av direkte, uten konvertering";
+
+/* Chapters */
+"Previous Chapter" = "Forrige kapittel";
+"Next Chapter" = "Neste kapittel";
+"Chapter: %@" = "Kapittel: %@";
+"Previous Chapter (⇧P)" = "Forrige kapittel (⇧P)";
+"Next Chapter (⇧N)" = "Neste kapittel (⇧N)";
+
+/* Auto-hiding controls */
+"Hide Controls" = "Skjul kontroller";
+"After %@ seconds" = "Etter %@ sekunder";
+"Never" = "Aldri";
+
+/* Time display */
+"Show total length" = "Vis total lengde";
+"Show remaining time" = "Vis gjenværende tid";
+
+/* Picture in Picture, appearance */
+"Picture in Picture" = "Bilde-i-bilde";
+"Playing in Picture in Picture" = "Spilles av som bilde-i-bilde";
+"Appearance" = "Utseende";
+"Light" = "Lyst";
+"Dark" = "Mørkt";
+
+/* Help menu */
+"Open-Source Licenses" = "Lisenser for åpen kildekode";

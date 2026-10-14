@@ -1,0 +1,203 @@
+/* Traduzzione corsa. Keys are the English texts; check: Resources/Localization/check.sh */
+
+/* Errors */
+"timed out" = "tempu scadutu";
+"Not found: %@. Install it with: brew install ffmpeg" = "Micca trovu: %@. Installalu cù: brew install ffmpeg";
+"Couldn't read the file: %@" = "Impussibule di leghje u schedariu: %@";
+"The file has no video track." = "U schedariu ùn hà micca traccia video.";
+"ffmpeg stopped with an error:\n%@" = "ffmpeg s’hè firmatu cù un sbagliu:\n%@";
+"Not enough free space for the temporary stream files (needs about %@, free: %@)." = "Ùn ci hè micca abbastanza spaziu liberu per i schedarii di flussu tempuranii (ci vole circa %@, liberu: %@).";
+"The local stream server didn't start: %@" = "U servitore lucale di flussu ùn s’hè micca avviatu: %@";
+"Didn't start with the previous settings, retrying in a safer mode…" = "Ùn s’hè micca avviatu cù e preferenze di nanzu, novu tentativu in un modu più sicuru…";
+"Couldn't start playback:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log" = "Impussibule d’avvià a lettura:\n%@\n\nDettagli: ~/Library/Logs/Purrcast.log";
+"player error: %@" = "sbagliu di u lettore: %@";
+"playback didn't start within 20 seconds" = "a lettura ùn hè micca partuta in 20 seconde";
+"Error" = "Sbagliu";
+
+/* Tracks */
+"Audio %@" = "Audio %@";
+"Subtitle %@" = "Sottutitulu %@";
+"(forced)" = "(forzatu)";
+"External subtitle" = "Sottutitulu esternu";
+"(external)" = "(esternu)";
+"unknown" = "scunnisciutu";
+"mono" = "mono";
+"stereo" = "stereo";
+"%@ channels" = "%@ canali";
+
+/* Conversion summary */
+"%@ → H.264, plays on every TV" = "%@ → H.264, si leghje nant’à ogni TV";
+"%@ H.264 → 8-bit H.264" = "%@ H.264 → H.264 8 bit";
+"interlaced → progressive" = "interlacciatu → prugressivu";
+"re-encoded for reliable playback" = "ricudificatu per una lettura affidabile";
+"Video: %@ – passed through in original quality" = "Video: %@ – trasmessu in qualità originale";
+"Video: %@ → H.264 %@ (%@)" = "Video: %@ → H.264 %@ (%@)";
+"Audio: %@ – original" = "Audio: %@ – originale";
+"Audio: %@ → %@ %@" = "Audio: %@ → %@ %@";
+"Subtitle: %@ – on by default" = "Sottutitulu: %@ – attivu per difettu";
+"Subtitle: %@" = "Sottutitulu: %@";
+"Subtitle skipped: %@ (%@ is image-based and can't be converted)" = "Sottutitulu ignuratu: %@ (%@ hè basatu nant’à e fiure è ùn pò micca esse cunvertitu)";
+
+/* Status */
+"Preparing…" = "Preparazione…";
+"Playing via AirPlay" = "Lettura via AirPlay";
+"Conversion stopped: %@" = "Cunversione piantata: %@";
+"Prepared: %@ / %@" = "Preparatu: %@ / %@";
+
+/* Window */
+"Open…" = "Apre…";
+"Open" = "Apre";
+"Open another file…" = "Apre un altru schedariu…";
+"AirPlay – choose your TV" = "AirPlay – sceglie a to TV";
+"Drop a video here (MKV, MP4, AVI…)" = "Lascia quì un video (MKV, MP4, AVI…)";
+"or open one with ⌘O, then pick your TV with the AirPlay button" = "o apriscene unu cù ⌘O, po sceglie a to TV cù u buttone AirPlay";
+
+/* Menus */
+"Playback" = "Lettura";
+"Original quality (HEVC, HDR, surround – for Apple TV 4K)" = "Qualità originale (HEVC, HDR, surround – per Apple TV 4K)";
+"Language" = "Lingua";
+"System default" = "Predefinita di u sistema";
+"The new language takes effect after a restart." = "A nova lingua serà attiva dopu à un riavviu.";
+"Restart Purrcast now? Playback stops." = "Riavvià Purrcast avà? A lettura si ferma.";
+"Restart" = "Riavvià";
+"Later" = "Dopu";
+
+/* Player, menus, playlist, media information */
+"Chapter %@" = "Capitulu %@";
+"File" = "Schedariu";
+"Format" = "Furmatu";
+"Duration" = "Durata";
+"Size" = "Dimensione";
+"Bitrate" = "Debitu binariu";
+"General" = "Generale";
+"Codec" = "Codec";
+"Title" = "Titulu";
+"Resolution" = "Risuluzione";
+"Frame rate" = "Frequenza d’imagine";
+"Pixel format" = "Furmatu di pixel";
+"Dynamic range" = "Gamma dinamica";
+"Channels" = "Canali";
+"Sample rate" = "Frequenza di campiunamentu";
+"Video" = "Video";
+"Audio" = "Audio";
+"Subtitle" = "Sottutitulu";
+"Stream %@: %@" = "Flussu %@: %@";
+"Purrcast" = "Purrcast";
+"Media Information" = "Infurmazioni nant’à u media";
+"Open Network Stream…" = "Apre un flussu di reta…";
+"Open Recent" = "Apre un elementu recente";
+"Clear Menu" = "Viotà u listinu";
+"Add Subtitle File…" = "Aghjunghje un schedariu di sottutituli…";
+"Save Playlist…" = "Arregistrà a lista di lettura…";
+"Play/Pause" = "Leghje/Pausa";
+"Stop" = "Piantà";
+"Previous" = "Precedente";
+"Next" = "Seguente";
+"Jump Back 10 Seconds" = "Saltà 10 seconde in daretu";
+"Jump Forward 10 Seconds" = "Saltà 10 seconde in avanti";
+"Jump Back 1 Minute" = "Saltà 1 minuta in daretu";
+"Jump Forward 1 Minute" = "Saltà 1 minuta in avanti";
+"Jump to Time…" = "Andà à un mumentu…";
+"Next Frame" = "Quadru seguente";
+"Chapters" = "Capituli";
+"Faster" = "Più prestu";
+"Slower" = "Più pianu";
+"Normal Speed" = "Vitezza nurmale";
+"Set Loop Start (A)" = "Fissà u principiu di u ciclu (A)";
+"Set Loop End (B)" = "Fissà a fine di u ciclu (B)";
+"Loop Off" = "Disattivà u ciclu";
+"Repeat" = "Ripete";
+"Off" = "Spentu";
+"All" = "Tutti";
+"One" = "Unu";
+"Shuffle" = "Aleatoriu";
+"Volume Up" = "Alzà u volume";
+"Volume Down" = "Calà u volume";
+"Mute" = "Silenziu";
+"Audio Track" = "Traccia audio";
+"Full Screen" = "Screnu sanu";
+"Float on Top" = "Sempre davanti";
+"Aspect" = "Pruporzione";
+"Fit" = "Adattà";
+"Fill (Crop)" = "Riempie (taglià)";
+"Stretch" = "Allungà";
+"Snapshot" = "Istantania";
+"Show Snapshots Folder" = "Mustrà u cartulare di l’istantanie";
+"Subtitles" = "Sottutituli";
+"Subtitle Track" = "Traccia di sottutituli";
+"Next Subtitle Track" = "Traccia di sottutituli seguente";
+"Subtitles Earlier (G)" = "Sottutituli più prestu (G)";
+"Subtitles Later (H)" = "Sottutituli più tardi (H)";
+"Reset Subtitle Delay" = "Rimette à zeru u ritardu di i sottutituli";
+"Playlist" = "Lista di lettura";
+"%@ items" = "%@ elementi";
+"Close" = "Chjode";
+"Play" = "Leghje";
+"Show in Finder" = "Mustrà in Finder";
+"Remove from Playlist" = "Caccià da a lista di lettura";
+"Drop videos or folders here" = "Lascia quì video o cartulari";
+"Add files or folders…" = "Aghjunghje schedarii o cartulari…";
+"Clear Playlist" = "Viotà a lista di lettura";
+"Repeat: off" = "Ripete: spentu";
+"Repeat: all" = "Ripete: tutti";
+"Repeat: one" = "Ripete: unu";
+"Streaming" = "Diffusione";
+"Nothing is playing." = "Nunda in lettura.";
+"Open Network Stream" = "Apre un flussu di reta";
+"HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – anything ffmpeg can open." = "HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – tuttu ciò chì ffmpeg pò apre.";
+"Cancel" = "Abbandunà";
+"Jump to Time" = "Andà à un mumentu";
+"Jump" = "Andà";
+"Resumed at %@" = "Ripresa à %@";
+"Speed: %@" = "Vitezza: %@";
+"Volume: %@" = "Volume: %@";
+"Loop start: %@" = "Principiu di u ciclu: %@";
+"Looping %@ – %@" = "Ciclu %@ – %@";
+"Loop off" = "Ciclu spentu";
+"Snapshot saved: %@" = "Istantania arregistrata: %@";
+"Couldn't save the snapshot." = "Impussibule d’arregistrà l’istantania.";
+"Subtitles off" = "Sottutituli spenti";
+"Adding subtitles…" = "Aghjuntu di sottutituli…";
+"Subtitle delay: %@ ms" = "Ritardu di i sottutituli: %@ ms";
+"Play Playlist" = "Leghje a lista";
+"Recent" = "Recenti";
+"Next in Playlist" = "Seguente in a lista";
+"Start Over" = "Da u principiu";
+"Jump back 10 seconds" = "10 seconde in daretu";
+"Play/Pause (Space)" = "Leghje/Pausa (Spaziu)";
+"Jump forward 10 seconds" = "10 seconde in avanti";
+"Playback speed" = "Vitezza di lettura";
+"Playlist (⌘L)" = "Lista di lettura (⌘L)";
+"Full Screen (⌘F)" = "Screnu sanu (⌘F)";
+"No audio tracks" = "Nisuna traccia audio";
+"Audio track" = "Traccia audio";
+
+/* Network streams */
+"network stream – seekable anywhere" = "flussu di reta – si pò saltà in ogni locu";
+"Network HLS stream – played directly, without conversion" = "Flussu HLS di reta – lettu direttamente, senza cunversione";
+
+/* Chapters */
+"Previous Chapter" = "Capitulu precedente";
+"Next Chapter" = "Capitulu seguente";
+"Chapter: %@" = "Capitulu: %@";
+"Previous Chapter (⇧P)" = "Capitulu precedente (⇧P)";
+"Next Chapter (⇧N)" = "Capitulu seguente (⇧N)";
+
+/* Auto-hiding controls */
+"Hide Controls" = "Piattà i cumandi";
+"After %@ seconds" = "Dopu %@ seconde";
+"Never" = "Mai";
+
+/* Time display */
+"Show total length" = "Mustrà a durata tutale";
+"Show remaining time" = "Mustrà u tempu chì ferma";
+
+/* Picture in Picture, appearance */
+"Picture in Picture" = "Fiura in fiura";
+"Playing in Picture in Picture" = "Lettura in fiura in fiura";
+"Appearance" = "Aspettu";
+"Light" = "Chjaru";
+"Dark" = "Scuru";
+
+/* Help menu */
+"Open-Source Licenses" = "Licenze à fonte aperta";

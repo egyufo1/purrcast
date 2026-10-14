@@ -1,0 +1,201 @@
+/* Euskarazko itzulpena. Keys are the English texts; check: Resources/Localization/check.sh */
+
+/* Errors */
+"timed out" = "denbora-muga gainditu da";
+"Not found: %@. Install it with: brew install ffmpeg" = "Ez da aurkitu: %@. Instalatu honela: brew install ffmpeg";
+"Couldn't read the file: %@" = "Ezin izan da fitxategia irakurri: %@";
+"The file has no video track." = "Fitxategiak ez du bideo-pistarik.";
+"ffmpeg stopped with an error:\n%@" = "ffmpeg errore batekin gelditu da:\n%@";
+"Not enough free space for the temporary stream files (needs about %@, free: %@)." = "Ez dago behar adina leku libre aldi baterako streaming-fitxategietarako (%@ inguru behar dira, libre: %@).";
+"The local stream server didn't start: %@" = "Tokiko streaming-zerbitzaria ez da abiarazi: %@";
+"Didn't start with the previous settings, retrying in a safer mode…" = "Aurreko ezarpenekin ez da abiarazi; berriro saiatzen modu seguruago batean…";
+"Couldn't start playback:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log" = "Ezin izan da erreprodukzioa abiarazi:\n%@\n\nXehetasunak: ~/Library/Logs/Purrcast.log";
+"player error: %@" = "erreproduzitzailearen errorea: %@";
+"playback didn't start within 20 seconds" = "erreprodukzioa ez da 20 segundotan abiarazi";
+"Error" = "Errorea";
+
+/* Tracks */
+"Audio %@" = "Audioa %@";
+"Subtitle %@" = "Azpitituluak %@";
+"(forced)" = "(behartuak)";
+"External subtitle" = "Kanpoko azpitituluak";
+"(external)" = "(kanpokoak)";
+"unknown" = "ezezaguna";
+"mono" = "mono";
+"stereo" = "estereo";
+"%@ channels" = "%@ kanal";
+
+/* Conversion summary */
+"%@ → H.264, plays on every TV" = "%@ → H.264, edozein telebistatan erreproduzitzen da";
+"%@ H.264 → 8-bit H.264" = "%@ H.264 → 8 biteko H.264";
+"interlaced → progressive" = "tartekatua → progresiboa";
+"re-encoded for reliable playback" = "berriro kodetua erreprodukzio fidagarrirako";
+"Video: %@ – passed through in original quality" = "Bideoa: %@ – jatorrizko kalitatean bidalia";
+"Video: %@ → H.264 %@ (%@)" = "Bideoa: %@ → H.264 %@ (%@)";
+"Audio: %@ – original" = "Audioa: %@ – jatorrizkoa";
+"Audio: %@ → %@ %@" = "Audioa: %@ → %@ %@";
+"Subtitle: %@ – on by default" = "Azpitituluak: %@ – lehenespenez aktibatuta";
+"Subtitle: %@" = "Azpitituluak: %@";
+"Subtitle skipped: %@ (%@ is image-based and can't be converted)" = "Azpitituluak saltatuta: %@ (%@ irudietan oinarritzen da eta ezin da bihurtu)";
+
+/* Status */
+"Preparing…" = "Prestatzen…";
+"Playing via AirPlay" = "AirPlay bidez erreproduzitzen";
+"Conversion stopped: %@" = "Bihurketa gelditu da: %@";
+"Prepared: %@ / %@" = "Prestatuta: %@ / %@";
+
+/* Window */
+"Open…" = "Ireki…";
+"Open" = "Ireki";
+"Open another file…" = "Ireki beste fitxategi bat…";
+"AirPlay – choose your TV" = "AirPlay – aukeratu telebista";
+"Drop a video here (MKV, MP4, AVI…)" = "Arrastatu bideo bat hona (MKV, MP4, AVI…)";
+"or open one with ⌘O, then pick your TV with the AirPlay button" = "edo ireki bat ⌘O bidez, eta aukeratu telebista AirPlay botoiarekin";
+
+/* Menus */
+"Playback" = "Erreprodukzioa";
+"Original quality (HEVC, HDR, surround – for Apple TV 4K)" = "Jatorrizko kalitatea (HEVC, HDR, surround – Apple TV 4K-rako)";
+"Language" = "Hizkuntza";
+"System default" = "Sistemaren lehenetsia";
+"The new language takes effect after a restart." = "Hizkuntza berria berrabiarazi ondoren aplikatuko da.";
+"Restart Purrcast now? Playback stops." = "Purrcast orain berrabiarazi? Erreprodukzioa gelditu egingo da.";
+"Restart" = "Berrabiarazi";
+"Later" = "Geroago";
+
+/* Player, menus, playlist, media information */
+"Chapter %@" = "%@. kapitulua";
+"File" = "Fitxategia";
+"Format" = "Formatua";
+"Duration" = "Iraupena";
+"Size" = "Tamaina";
+"Bitrate" = "Bit-tasa";
+"General" = "Orokorra";
+"Codec" = "Kodeka";
+"Title" = "Izenburua";
+"Resolution" = "Bereizmena";
+"Frame rate" = "Fotograma-abiadura";
+"Pixel format" = "Pixel-formatua";
+"Dynamic range" = "Barruti dinamikoa";
+"Channels" = "Kanalak";
+"Sample rate" = "Laginketa-maiztasuna";
+"Video" = "Bideoa";
+"Audio" = "Audioa";
+"Subtitle" = "Azpitituluak";
+"Stream %@: %@" = "%@. jarioa: %@";
+"Purrcast" = "Purrcast";
+"Media Information" = "Multimedia-informazioa";
+"Open Network Stream…" = "Ireki sareko jarioa…";
+"Open Recent" = "Ireki azkenak";
+"Clear Menu" = "Garbitu menua";
+"Add Subtitle File…" = "Gehitu azpititulu-fitxategia…";
+"Save Playlist…" = "Gorde erreprodukzio-zerrenda…";
+"Play/Pause" = "Erreproduzitu/Pausatu";
+"Stop" = "Gelditu";
+"Previous" = "Aurrekoa";
+"Next" = "Hurrengoa";
+"Jump Back 10 Seconds" = "Atzera 10 segundo";
+"Jump Forward 10 Seconds" = "Aurrera 10 segundo";
+"Jump Back 1 Minute" = "Atzera minutu 1";
+"Jump Forward 1 Minute" = "Aurrera minutu 1";
+"Jump to Time…" = "Joan une jakin batera…";
+"Next Frame" = "Hurrengo fotograma";
+"Chapters" = "Kapituluak";
+"Faster" = "Azkarrago";
+"Slower" = "Motelago";
+"Normal Speed" = "Abiadura normala";
+"Set Loop Start (A)" = "Ezarri begiztaren hasiera (A)";
+"Set Loop End (B)" = "Ezarri begiztaren amaiera (B)";
+"Loop Off" = "Desaktibatu begizta";
+"Repeat" = "Errepikatu";
+"Off" = "Desaktibatuta";
+"All" = "Guztiak";
+"One" = "Bat";
+"Shuffle" = "Ausaz";
+"Volume Up" = "Igo bolumena";
+"Volume Down" = "Jaitsi bolumena";
+"Mute" = "Mututu";
+"Audio Track" = "Audio-pista";
+"Full Screen" = "Pantaila osoa";
+"Float on Top" = "Beti gainean";
+"Aspect" = "Aspektu-erlazioa";
+"Fit" = "Doitu";
+"Fill (Crop)" = "Bete (moztu)";
+"Stretch" = "Luzatu";
+"Snapshot" = "Pantaila-argazkia";
+"Show Snapshots Folder" = "Erakutsi pantaila-argazkien karpeta";
+"Subtitles" = "Azpitituluak";
+"Subtitle Track" = "Azpititulu-pista";
+"Next Subtitle Track" = "Hurrengo azpititulu-pista";
+"Subtitles Earlier (G)" = "Azpitituluak lehenago (G)";
+"Subtitles Later (H)" = "Azpitituluak geroago (H)";
+"Reset Subtitle Delay" = "Berrezarri azpitituluen atzerapena";
+"Playlist" = "Erreprodukzio-zerrenda";
+"%@ items" = "%@ elementu";
+"Close" = "Itxi";
+"Play" = "Erreproduzitu";
+"Show in Finder" = "Erakutsi Finder-en";
+"Remove from Playlist" = "Kendu erreprodukzio-zerrendatik";
+"Drop videos or folders here" = "Arrastatu bideoak edo karpetak hona";
+"Add files or folders…" = "Gehitu fitxategiak edo karpetak…";
+"Clear Playlist" = "Hustu erreprodukzio-zerrenda";
+"Repeat: off" = "Errepikatu: desaktibatuta";
+"Repeat: all" = "Errepikatu: guztiak";
+"Repeat: one" = "Errepikatu: bat";
+"Streaming" = "Transmisioa";
+"Nothing is playing." = "Ez da ezer erreproduzitzen ari.";
+"Open Network Stream" = "Ireki sareko jarioa";
+"HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – anything ffmpeg can open." = "HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – ffmpeg-ek ireki dezakeen edozer.";
+"Cancel" = "Utzi";
+"Jump to Time" = "Joan une jakin batera";
+"Jump" = "Joan";
+"Resumed at %@" = "Hemendik jarraituta: %@";
+"Speed: %@" = "Abiadura: %@";
+"Volume: %@" = "Bolumena: %@";
+"Loop start: %@" = "Begiztaren hasiera: %@";
+"Looping %@ – %@" = "Begizta: %@ – %@";
+"Loop off" = "Begizta desaktibatuta";
+"Snapshot saved: %@" = "Pantaila-argazkia gordeta: %@";
+"Couldn't save the snapshot." = "Ezin izan da pantaila-argazkia gorde.";
+"Subtitles off" = "Azpitituluak desaktibatuta";
+"Adding subtitles…" = "Azpitituluak gehitzen…";
+"Subtitle delay: %@ ms" = "Azpitituluen atzerapena: %@ ms";
+"Play Playlist" = "Erreproduzitu zerrenda";
+"Recent" = "Azkenak";
+"Next in Playlist" = "Hurrengoa zerrendan";
+"Start Over" = "Hasi berriro";
+"Jump back 10 seconds" = "Atzera 10 segundo";
+"Play/Pause (Space)" = "Erreproduzitu/Pausatu (zuriunea)";
+"Jump forward 10 seconds" = "Aurrera 10 segundo";
+"Playback speed" = "Erreprodukzio-abiadura";
+"Playlist (⌘L)" = "Erreprodukzio-zerrenda (⌘L)";
+"Full Screen (⌘F)" = "Pantaila osoa (⌘F)";
+"No audio tracks" = "Ez dago audio-pistarik";
+"Audio track" = "Audio-pista";
+"network stream – seekable anywhere" = "sareko jarioa – edozein puntura salto egin daiteke";
+"Network HLS stream – played directly, without conversion" = "HLS sareko jarioa – zuzenean erreproduzitzen da, bihurketarik gabe";
+
+/* Chapters */
+"Previous Chapter" = "Aurreko kapitulua";
+"Next Chapter" = "Hurrengo kapitulua";
+"Chapter: %@" = "Kapitulua: %@";
+"Previous Chapter (⇧P)" = "Aurreko kapitulua (⇧P)";
+"Next Chapter (⇧N)" = "Hurrengo kapitulua (⇧N)";
+
+/* Auto-hiding controls */
+"Hide Controls" = "Ezkutatu kontrolak";
+"After %@ seconds" = "%@ segundo ondoren";
+"Never" = "Inoiz ez";
+
+/* Time display */
+"Show total length" = "Erakutsi iraupen osoa";
+"Show remaining time" = "Erakutsi geratzen den denbora";
+
+/* Picture in Picture, appearance */
+"Picture in Picture" = "Irudia irudian";
+"Playing in Picture in Picture" = "Irudia irudian erreproduzitzen";
+"Appearance" = "Itxura";
+"Light" = "Argia";
+"Dark" = "Iluna";
+
+/* Help menu */
+"Open-Source Licenses" = "Kode irekiko lizentziak";

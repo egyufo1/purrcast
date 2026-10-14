@@ -1,0 +1,203 @@
+/* Albanian translation. Keys are the English texts; check: Resources/Localization/check.sh */
+
+/* Errors */
+"timed out" = "koha mbaroi";
+"Not found: %@. Install it with: brew install ffmpeg" = "Nuk u gjet: %@. Instaloje me: brew install ffmpeg";
+"Couldn't read the file: %@" = "Skedari nuk u lexua dot: %@";
+"The file has no video track." = "Skedari nuk ka pistë video.";
+"ffmpeg stopped with an error:\n%@" = "ffmpeg u ndal me një gabim:\n%@";
+"Not enough free space for the temporary stream files (needs about %@, free: %@)." = "Nuk ka hapësirë të mjaftueshme për skedarët e përkohshëm të transmetimit (duhen rreth %@, e lirë: %@).";
+"The local stream server didn't start: %@" = "Shërbyesi lokal i transmetimit nuk u nis: %@";
+"Didn't start with the previous settings, retrying in a safer mode…" = "Nuk u nis me rregullimet e mëparshme, po riprovohet në një mënyrë më të sigurt…";
+"Couldn't start playback:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log" = "Luajtja nuk u nis dot:\n%@\n\nHollësi: ~/Library/Logs/Purrcast.log";
+"player error: %@" = "gabim i luajtësit: %@";
+"playback didn't start within 20 seconds" = "luajtja nuk nisi brenda 20 sekondash";
+"Error" = "Gabim";
+
+/* Tracks */
+"Audio %@" = "Audio %@";
+"Subtitle %@" = "Titra %@";
+"(forced)" = "(e detyruar)";
+"External subtitle" = "Titra e jashtme";
+"(external)" = "(e jashtme)";
+"unknown" = "e panjohur";
+"mono" = "mono";
+"stereo" = "stereo";
+"%@ channels" = "%@ kanale";
+
+/* Conversion summary */
+"%@ → H.264, plays on every TV" = "%@ → H.264, luhet në çdo televizor";
+"%@ H.264 → 8-bit H.264" = "%@ H.264 → H.264 8-bit";
+"interlaced → progressive" = "i ndërthurur → progresiv";
+"re-encoded for reliable playback" = "rikoduar për luajtje të qëndrueshme";
+"Video: %@ – passed through in original quality" = "Video: %@ – kalon në cilësinë origjinale";
+"Video: %@ → H.264 %@ (%@)" = "Video: %@ → H.264 %@ (%@)";
+"Audio: %@ – original" = "Audio: %@ – origjinal";
+"Audio: %@ → %@ %@" = "Audio: %@ → %@ %@";
+"Subtitle: %@ – on by default" = "Titra: %@ – aktive si parazgjedhje";
+"Subtitle: %@" = "Titra: %@";
+"Subtitle skipped: %@ (%@ is image-based and can't be converted)" = "Titra u anashkalua: %@ (%@ bazohet në figura dhe s’mund të shndërrohet)";
+
+/* Status */
+"Preparing…" = "Po përgatitet…";
+"Playing via AirPlay" = "Po luhet përmes AirPlay";
+"Conversion stopped: %@" = "Shndërrimi u ndal: %@";
+"Prepared: %@ / %@" = "Përgatitur: %@ / %@";
+
+/* Window */
+"Open…" = "Hap…";
+"Open" = "Hap";
+"Open another file…" = "Hap një skedar tjetër…";
+"AirPlay – choose your TV" = "AirPlay – zgjidh televizorin";
+"Drop a video here (MKV, MP4, AVI…)" = "Tërhiq këtu një video (MKV, MP4, AVI…)";
+"or open one with ⌘O, then pick your TV with the AirPlay button" = "ose hap një me ⌘O, pastaj zgjidh televizorin me butonin AirPlay";
+
+/* Menus */
+"Playback" = "Luajtje";
+"Original quality (HEVC, HDR, surround – for Apple TV 4K)" = "Cilësi origjinale (HEVC, HDR, surround – për Apple TV 4K)";
+"Language" = "Gjuha";
+"System default" = "Parazgjedhja e sistemit";
+"The new language takes effect after a restart." = "Gjuha e re hyn në fuqi pas rinisjes.";
+"Restart Purrcast now? Playback stops." = "Të riniset Purrcast tani? Luajtja do të ndalet.";
+"Restart" = "Rinise";
+"Later" = "Më vonë";
+
+/* Player, menus, playlist, media information */
+"Chapter %@" = "Kapitulli %@";
+"File" = "Skedari";
+"Format" = "Formati";
+"Duration" = "Kohëzgjatja";
+"Size" = "Madhësia";
+"Bitrate" = "Shpejtësia e bitëve";
+"General" = "Të përgjithshme";
+"Codec" = "Kodeku";
+"Title" = "Titulli";
+"Resolution" = "Qartësia";
+"Frame rate" = "Shpejtësia e kuadrove";
+"Pixel format" = "Formati i pikselëve";
+"Dynamic range" = "Diapazoni dinamik";
+"Channels" = "Kanalet";
+"Sample rate" = "Shpejtësia e kampionimit";
+"Video" = "Video";
+"Audio" = "Audio";
+"Subtitle" = "Titra";
+"Stream %@: %@" = "Rrjedha %@: %@";
+"Purrcast" = "Purrcast";
+"Media Information" = "Të dhëna mediash";
+"Open Network Stream…" = "Hap rrjedhë rrjeti…";
+"Open Recent" = "Hap të fundit";
+"Clear Menu" = "Pastro menunë";
+"Add Subtitle File…" = "Shto skedar titrash…";
+"Save Playlist…" = "Ruaj listën e luajtjes…";
+"Play/Pause" = "Luaj/Pusho";
+"Stop" = "Ndal";
+"Previous" = "I mëparshmi";
+"Next" = "Pasuesi";
+"Jump Back 10 Seconds" = "Kthehu 10 sekonda pas";
+"Jump Forward 10 Seconds" = "Kalo 10 sekonda përpara";
+"Jump Back 1 Minute" = "Kthehu 1 minutë pas";
+"Jump Forward 1 Minute" = "Kalo 1 minutë përpara";
+"Jump to Time…" = "Kalo te koha…";
+"Next Frame" = "Kuadri pasues";
+"Chapters" = "Kapitujt";
+"Faster" = "Më shpejt";
+"Slower" = "Më ngadalë";
+"Normal Speed" = "Shpejtësi normale";
+"Set Loop Start (A)" = "Cakto fillimin e ciklit (A)";
+"Set Loop End (B)" = "Cakto fundin e ciklit (B)";
+"Loop Off" = "Çaktivizo ciklin";
+"Repeat" = "Përsëritje";
+"Off" = "Çaktivizuar";
+"All" = "Të gjitha";
+"One" = "Një";
+"Shuffle" = "Përzierje";
+"Volume Up" = "Rrit volumin";
+"Volume Down" = "Ul volumin";
+"Mute" = "Pa zë";
+"Audio Track" = "Pistë audio";
+"Full Screen" = "Ekran i plotë";
+"Float on Top" = "Gjithmonë sipër";
+"Aspect" = "Përpjesëtimi";
+"Fit" = "Përshtat";
+"Fill (Crop)" = "Mbush (me prerje)";
+"Stretch" = "Shtrije";
+"Snapshot" = "Fotografi kuadri";
+"Show Snapshots Folder" = "Shfaq dosjen e fotografive";
+"Subtitles" = "Titrat";
+"Subtitle Track" = "Pistë titrash";
+"Next Subtitle Track" = "Pista pasuese e titrave";
+"Subtitles Earlier (G)" = "Titrat më herët (G)";
+"Subtitles Later (H)" = "Titrat më vonë (H)";
+"Reset Subtitle Delay" = "Rivendos vonesën e titrave";
+"Playlist" = "Lista e luajtjes";
+"%@ items" = "%@ elemente";
+"Close" = "Mbyll";
+"Play" = "Luaj";
+"Show in Finder" = "Shfaqe në Finder";
+"Remove from Playlist" = "Hiqe nga lista e luajtjes";
+"Drop videos or folders here" = "Tërhiq këtu video ose dosje";
+"Add files or folders…" = "Shto skedarë ose dosje…";
+"Clear Playlist" = "Pastro listën e luajtjes";
+"Repeat: off" = "Përsëritje: çaktivizuar";
+"Repeat: all" = "Përsëritje: të gjitha";
+"Repeat: one" = "Përsëritje: një";
+"Streaming" = "Transmetimi";
+"Nothing is playing." = "S’po luhet asgjë.";
+"Open Network Stream" = "Hap rrjedhë rrjeti";
+"HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – anything ffmpeg can open." = "HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – çdo gjë që mund të hapë ffmpeg.";
+"Cancel" = "Anulo";
+"Jump to Time" = "Kalo te koha";
+"Jump" = "Kalo";
+"Resumed at %@" = "Vazhdoi nga %@";
+"Speed: %@" = "Shpejtësia: %@";
+"Volume: %@" = "Volumi: %@";
+"Loop start: %@" = "Fillimi i ciklit: %@";
+"Looping %@ – %@" = "Cikël %@ – %@";
+"Loop off" = "Cikli u çaktivizua";
+"Snapshot saved: %@" = "Fotografia u ruajt: %@";
+"Couldn't save the snapshot." = "Fotografia s’u ruajt dot.";
+"Subtitles off" = "Titrat u çaktivizuan";
+"Adding subtitles…" = "Po shtohen titrat…";
+"Subtitle delay: %@ ms" = "Vonesa e titrave: %@ ms";
+"Play Playlist" = "Luaj listën";
+"Recent" = "Së fundi";
+"Next in Playlist" = "Pasuesi në listë";
+"Start Over" = "Nga fillimi";
+"Jump back 10 seconds" = "10 sekonda pas";
+"Play/Pause (Space)" = "Luaj/Pusho (Hapësirë)";
+"Jump forward 10 seconds" = "10 sekonda përpara";
+"Playback speed" = "Shpejtësia e luajtjes";
+"Playlist (⌘L)" = "Lista e luajtjes (⌘L)";
+"Full Screen (⌘F)" = "Ekran i plotë (⌘F)";
+"No audio tracks" = "S’ka pista audio";
+"Audio track" = "Pistë audio";
+
+/* Network streams */
+"network stream – seekable anywhere" = "transmetim rrjeti – mund të kalosh kudo";
+"Network HLS stream – played directly, without conversion" = "Transmetim HLS rrjeti – luhet drejtpërdrejt, pa konvertim";
+
+/* Chapters */
+"Previous Chapter" = "Kapitulli i mëparshëm";
+"Next Chapter" = "Kapitulli tjetër";
+"Chapter: %@" = "Kapitulli: %@";
+"Previous Chapter (⇧P)" = "Kapitulli i mëparshëm (⇧P)";
+"Next Chapter (⇧N)" = "Kapitulli tjetër (⇧N)";
+
+/* Auto-hiding controls */
+"Hide Controls" = "Fshih kontrollet";
+"After %@ seconds" = "Pas %@ sekondash";
+"Never" = "Kurrë";
+
+/* Time display */
+"Show total length" = "Shfaq kohëzgjatjen e plotë";
+"Show remaining time" = "Shfaq kohën e mbetur";
+
+/* Picture in Picture, appearance */
+"Picture in Picture" = "Figurë në figurë";
+"Playing in Picture in Picture" = "Po luhet në figurë në figurë";
+"Appearance" = "Pamja";
+"Light" = "E çelët";
+"Dark" = "E errët";
+
+/* Help menu */
+"Open-Source Licenses" = "Licenca me burim të hapur";

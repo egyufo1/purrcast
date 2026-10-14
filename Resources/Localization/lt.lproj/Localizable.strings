@@ -1,0 +1,203 @@
+/* Lietuvių (lt). Keys are the English texts; check: Resources/Localization/check.sh */
+
+/* Errors */
+"timed out" = "baigėsi laukimo laikas";
+"Not found: %@. Install it with: brew install ffmpeg" = "Nerasta: %@. Įdiekite komanda: brew install ffmpeg";
+"Couldn't read the file: %@" = "Nepavyko nuskaityti failo: %@";
+"The file has no video track." = "Faile nėra vaizdo takelio.";
+"ffmpeg stopped with an error:\n%@" = "ffmpeg sustojo su klaida:\n%@";
+"Not enough free space for the temporary stream files (needs about %@, free: %@)." = "Nepakanka laisvos vietos laikiniesiems srauto failams (reikia apie %@, laisva: %@).";
+"The local stream server didn't start: %@" = "Nepavyko paleisti vietinio srautinio perdavimo serverio: %@";
+"Didn't start with the previous settings, retrying in a safer mode…" = "Su ankstesniais nustatymais nepasileido, bandoma iš naujo saugesniu režimu…";
+"Couldn't start playback:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log" = "Nepavyko pradėti atkūrimo:\n%@\n\nIšsamiau: ~/Library/Logs/Purrcast.log";
+"player error: %@" = "grotuvo klaida: %@";
+"playback didn't start within 20 seconds" = "atkūrimas neprasidėjo per 20 sekundžių";
+"Error" = "Klaida";
+
+/* Tracks */
+"Audio %@" = "Garsas %@";
+"Subtitle %@" = "Subtitrai %@";
+"(forced)" = "(priverstiniai)";
+"External subtitle" = "Išoriniai subtitrai";
+"(external)" = "(išoriniai)";
+"unknown" = "nežinoma";
+"mono" = "mono";
+"stereo" = "stereo";
+"%@ channels" = "%@ kanalai";
+
+/* Conversion summary */
+"%@ → H.264, plays on every TV" = "%@ → H.264, groja bet kuris televizorius";
+"%@ H.264 → 8-bit H.264" = "%@ H.264 → 8 bitų H.264";
+"interlaced → progressive" = "tarpueilinis → progresyvinis";
+"re-encoded for reliable playback" = "perkoduota patikimam atkūrimui";
+"Video: %@ – passed through in original quality" = "Vaizdas: %@ – perduodamas originalia kokybe";
+"Video: %@ → H.264 %@ (%@)" = "Vaizdas: %@ → H.264 %@ (%@)";
+"Audio: %@ – original" = "Garsas: %@ – originalas";
+"Audio: %@ → %@ %@" = "Garsas: %@ → %@ %@";
+"Subtitle: %@ – on by default" = "Subtitrai: %@ – įjungti pagal numatytuosius nustatymus";
+"Subtitle: %@" = "Subtitrai: %@";
+"Subtitle skipped: %@ (%@ is image-based and can't be converted)" = "Subtitrai praleisti: %@ (%@ yra vaizdinis formatas, jo konvertuoti negalima)";
+
+/* Status */
+"Preparing…" = "Ruošiama…";
+"Playing via AirPlay" = "Atkuriama per AirPlay";
+"Conversion stopped: %@" = "Konvertavimas nutrūko: %@";
+"Prepared: %@ / %@" = "Paruošta: %@ / %@";
+
+/* Window */
+"Open…" = "Atidaryti…";
+"Open" = "Atidaryti";
+"Open another file…" = "Atidaryti kitą failą…";
+"AirPlay – choose your TV" = "AirPlay – pasirinkite televizorių";
+"Drop a video here (MKV, MP4, AVI…)" = "Nutempkite vaizdo įrašą čia (MKV, MP4, AVI…)";
+"or open one with ⌘O, then pick your TV with the AirPlay button" = "arba atidarykite jį su ⌘O, tada mygtuku AirPlay pasirinkite televizorių";
+
+/* Menus */
+"Playback" = "Atkūrimas";
+"Original quality (HEVC, HDR, surround – for Apple TV 4K)" = "Originali kokybė (HEVC, HDR, erdvinis garsas – skirta Apple TV 4K)";
+"Language" = "Kalba";
+"System default" = "Sistemos kalba";
+"The new language takes effect after a restart." = "Nauja kalba įsigalios paleidus programą iš naujo.";
+"Restart Purrcast now? Playback stops." = "Paleisti Purrcast iš naujo dabar? Atkūrimas sustos.";
+"Restart" = "Paleisti iš naujo";
+"Later" = "Vėliau";
+
+/* Player, menus, playlist, media information */
+"Chapter %@" = "Skyrius %@";
+"File" = "Failas";
+"Format" = "Formatas";
+"Duration" = "Trukmė";
+"Size" = "Dydis";
+"Bitrate" = "Bitų sparta";
+"General" = "Bendra";
+"Codec" = "Kodekas";
+"Title" = "Pavadinimas";
+"Resolution" = "Raiška";
+"Frame rate" = "Kadrų dažnis";
+"Pixel format" = "Pikselių formatas";
+"Dynamic range" = "Dinaminis diapazonas";
+"Channels" = "Kanalai";
+"Sample rate" = "Diskretizavimo dažnis";
+"Video" = "Vaizdas";
+"Audio" = "Garsas";
+"Subtitle" = "Subtitrai";
+"Stream %@: %@" = "Srautas %@: %@";
+"Purrcast" = "Purrcast";
+"Media Information" = "Medijos informacija";
+"Open Network Stream…" = "Atidaryti tinklo srautą…";
+"Open Recent" = "Atidaryti naujausius";
+"Clear Menu" = "Išvalyti meniu";
+"Add Subtitle File…" = "Pridėti subtitrų failą…";
+"Save Playlist…" = "Įrašyti grojaraštį…";
+"Play/Pause" = "Groti/pristabdyti";
+"Stop" = "Stabdyti";
+"Previous" = "Ankstesnis";
+"Next" = "Kitas";
+"Jump Back 10 Seconds" = "Atgal 10 sekundžių";
+"Jump Forward 10 Seconds" = "Pirmyn 10 sekundžių";
+"Jump Back 1 Minute" = "Atgal 1 minutę";
+"Jump Forward 1 Minute" = "Pirmyn 1 minutę";
+"Jump to Time…" = "Pereiti į laiką…";
+"Next Frame" = "Kitas kadras";
+"Chapters" = "Skyriai";
+"Faster" = "Greičiau";
+"Slower" = "Lėčiau";
+"Normal Speed" = "Įprastas greitis";
+"Set Loop Start (A)" = "Nustatyti ciklo pradžią (A)";
+"Set Loop End (B)" = "Nustatyti ciklo pabaigą (B)";
+"Loop Off" = "Išjungti ciklą";
+"Repeat" = "Kartojimas";
+"Off" = "Išjungta";
+"All" = "Visi";
+"One" = "Vienas";
+"Shuffle" = "Maišyti";
+"Volume Up" = "Garsiau";
+"Volume Down" = "Tyliau";
+"Mute" = "Nutildyti";
+"Audio Track" = "Garso takelis";
+"Full Screen" = "Visas ekranas";
+"Float on Top" = "Visada viršuje";
+"Aspect" = "Kraštinių santykis";
+"Fit" = "Pritaikyti";
+"Fill (Crop)" = "Užpildyti (apkirpti)";
+"Stretch" = "Ištempti";
+"Snapshot" = "Ekrano nuotrauka";
+"Show Snapshots Folder" = "Rodyti ekrano nuotraukų aplanką";
+"Subtitles" = "Subtitrai";
+"Subtitle Track" = "Subtitrų takelis";
+"Next Subtitle Track" = "Kitas subtitrų takelis";
+"Subtitles Earlier (G)" = "Subtitrai anksčiau (G)";
+"Subtitles Later (H)" = "Subtitrai vėliau (H)";
+"Reset Subtitle Delay" = "Atstatyti subtitrų vėlavimą";
+"Playlist" = "Grojaraštis";
+"%@ items" = "Elementų: %@";
+"Close" = "Uždaryti";
+"Play" = "Groti";
+"Show in Finder" = "Rodyti Finder";
+"Remove from Playlist" = "Pašalinti iš grojaraščio";
+"Drop videos or folders here" = "Nutempkite vaizdo įrašus ar aplankus čia";
+"Add files or folders…" = "Pridėti failų ar aplankų…";
+"Clear Playlist" = "Išvalyti grojaraštį";
+"Repeat: off" = "Kartojimas: išjungtas";
+"Repeat: all" = "Kartojimas: visi";
+"Repeat: one" = "Kartojimas: vienas";
+"Streaming" = "Srautinis perdavimas";
+"Nothing is playing." = "Šiuo metu niekas negroja.";
+"Open Network Stream" = "Atidaryti tinklo srautą";
+"HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – anything ffmpeg can open." = "HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – viskas, ką gali atidaryti ffmpeg.";
+"Cancel" = "Atšaukti";
+"Jump to Time" = "Pereiti į laiką";
+"Jump" = "Pereiti";
+"Resumed at %@" = "Tęsiama nuo %@";
+"Speed: %@" = "Greitis: %@";
+"Volume: %@" = "Garsumas: %@";
+"Loop start: %@" = "Ciklo pradžia: %@";
+"Looping %@ – %@" = "Ciklas %@ – %@";
+"Loop off" = "Ciklas išjungtas";
+"Snapshot saved: %@" = "Ekrano nuotrauka įrašyta: %@";
+"Couldn't save the snapshot." = "Nepavyko įrašyti ekrano nuotraukos.";
+"Subtitles off" = "Subtitrai išjungti";
+"Adding subtitles…" = "Pridedami subtitrai…";
+"Subtitle delay: %@ ms" = "Subtitrų vėlavimas: %@ ms";
+"Play Playlist" = "Groti grojaraštį";
+"Recent" = "Naujausi";
+"Next in Playlist" = "Kitas grojaraštyje";
+"Start Over" = "Iš pradžių";
+"Jump back 10 seconds" = "Atgal 10 sekundžių";
+"Play/Pause (Space)" = "Groti/pristabdyti (tarpas)";
+"Jump forward 10 seconds" = "Pirmyn 10 sekundžių";
+"Playback speed" = "Atkūrimo greitis";
+"Playlist (⌘L)" = "Grojaraštis (⌘L)";
+"Full Screen (⌘F)" = "Visas ekranas (⌘F)";
+"No audio tracks" = "Nėra garso takelių";
+"Audio track" = "Garso takelis";
+
+/* Network streams */
+"network stream – seekable anywhere" = "tinklo srautas – galima persukti bet kur";
+"Network HLS stream – played directly, without conversion" = "HLS tinklo srautas – atkuriamas tiesiogiai, be konvertavimo";
+
+/* Chapters */
+"Previous Chapter" = "Ankstesnis skyrius";
+"Next Chapter" = "Kitas skyrius";
+"Chapter: %@" = "Skyrius: %@";
+"Previous Chapter (⇧P)" = "Ankstesnis skyrius (⇧P)";
+"Next Chapter (⇧N)" = "Kitas skyrius (⇧N)";
+
+/* Auto-hiding controls */
+"Hide Controls" = "Slėpti valdiklius";
+"After %@ seconds" = "Po %@ s";
+"Never" = "Niekada";
+
+/* Time display */
+"Show total length" = "Rodyti bendrą trukmę";
+"Show remaining time" = "Rodyti likusį laiką";
+
+/* Picture in Picture, appearance */
+"Picture in Picture" = "Vaizdas vaizde";
+"Playing in Picture in Picture" = "Leidžiama vaizdo vaizde režimu";
+"Appearance" = "Išvaizda";
+"Light" = "Šviesi";
+"Dark" = "Tamsi";
+
+/* Help menu */
+"Open-Source Licenses" = "Atvirojo kodo licencijos";

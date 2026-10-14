@@ -1,0 +1,201 @@
+/* Tradución ao galego. Keys are the English texts; check: Resources/Localization/check.sh */
+
+/* Errors */
+"timed out" = "tempo de espera esgotado";
+"Not found: %@. Install it with: brew install ffmpeg" = "Non se atopou: %@. Instálao con: brew install ffmpeg";
+"Couldn't read the file: %@" = "Non se puido ler o ficheiro: %@";
+"The file has no video track." = "O ficheiro non ten pista de vídeo.";
+"ffmpeg stopped with an error:\n%@" = "ffmpeg detívose cun erro:\n%@";
+"Not enough free space for the temporary stream files (needs about %@, free: %@)." = "Non hai espazo libre abondo para os ficheiros temporais de transmisión (cómpren uns %@, libre: %@).";
+"The local stream server didn't start: %@" = "O servidor de transmisión local non se iniciou: %@";
+"Didn't start with the previous settings, retrying in a safer mode…" = "Non se iniciou coa configuración anterior; tentando de novo nun modo máis seguro…";
+"Couldn't start playback:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log" = "Non se puido iniciar a reprodución:\n%@\n\nDetalles: ~/Library/Logs/Purrcast.log";
+"player error: %@" = "erro do reprodutor: %@";
+"playback didn't start within 20 seconds" = "a reprodución non comezou en 20 segundos";
+"Error" = "Erro";
+
+/* Tracks */
+"Audio %@" = "Audio %@";
+"Subtitle %@" = "Subtítulos %@";
+"(forced)" = "(forzados)";
+"External subtitle" = "Subtítulos externos";
+"(external)" = "(externos)";
+"unknown" = "descoñecido";
+"mono" = "mono";
+"stereo" = "estéreo";
+"%@ channels" = "%@ canles";
+
+/* Conversion summary */
+"%@ → H.264, plays on every TV" = "%@ → H.264, reprodúcese en calquera TV";
+"%@ H.264 → 8-bit H.264" = "%@ H.264 → H.264 de 8 bits";
+"interlaced → progressive" = "entrelazado → progresivo";
+"re-encoded for reliable playback" = "recodificado para unha reprodución fiable";
+"Video: %@ – passed through in original quality" = "Vídeo: %@ – enviado coa calidade orixinal";
+"Video: %@ → H.264 %@ (%@)" = "Vídeo: %@ → H.264 %@ (%@)";
+"Audio: %@ – original" = "Audio: %@ – orixinal";
+"Audio: %@ → %@ %@" = "Audio: %@ → %@ %@";
+"Subtitle: %@ – on by default" = "Subtítulos: %@ – activados por defecto";
+"Subtitle: %@" = "Subtítulos: %@";
+"Subtitle skipped: %@ (%@ is image-based and can't be converted)" = "Subtítulos omitidos: %@ (%@ está baseado en imaxes e non se pode converter)";
+
+/* Status */
+"Preparing…" = "Preparando…";
+"Playing via AirPlay" = "Reproducindo por AirPlay";
+"Conversion stopped: %@" = "Conversión detida: %@";
+"Prepared: %@ / %@" = "Preparado: %@ / %@";
+
+/* Window */
+"Open…" = "Abrir…";
+"Open" = "Abrir";
+"Open another file…" = "Abrir outro ficheiro…";
+"AirPlay – choose your TV" = "AirPlay – escolle a túa TV";
+"Drop a video here (MKV, MP4, AVI…)" = "Arrastra un vídeo aquí (MKV, MP4, AVI…)";
+"or open one with ⌘O, then pick your TV with the AirPlay button" = "ou abre un con ⌘O e despois escolle a TV co botón AirPlay";
+
+/* Menus */
+"Playback" = "Reprodución";
+"Original quality (HEVC, HDR, surround – for Apple TV 4K)" = "Calidade orixinal (HEVC, HDR, envolvente – para Apple TV 4K)";
+"Language" = "Idioma";
+"System default" = "Idioma do sistema";
+"The new language takes effect after a restart." = "O novo idioma aplicarase despois de reiniciar.";
+"Restart Purrcast now? Playback stops." = "Queres reiniciar Purrcast agora? A reprodución deterase.";
+"Restart" = "Reiniciar";
+"Later" = "Máis tarde";
+
+/* Player, menus, playlist, media information */
+"Chapter %@" = "Capítulo %@";
+"File" = "Ficheiro";
+"Format" = "Formato";
+"Duration" = "Duración";
+"Size" = "Tamaño";
+"Bitrate" = "Taxa de bits";
+"General" = "Xeral";
+"Codec" = "Códec";
+"Title" = "Título";
+"Resolution" = "Resolución";
+"Frame rate" = "Taxa de fotogramas";
+"Pixel format" = "Formato de píxel";
+"Dynamic range" = "Rango dinámico";
+"Channels" = "Canles";
+"Sample rate" = "Frecuencia de mostraxe";
+"Video" = "Vídeo";
+"Audio" = "Audio";
+"Subtitle" = "Subtítulos";
+"Stream %@: %@" = "Fluxo %@: %@";
+"Purrcast" = "Purrcast";
+"Media Information" = "Información multimedia";
+"Open Network Stream…" = "Abrir fluxo de rede…";
+"Open Recent" = "Abrir recentes";
+"Clear Menu" = "Limpar menú";
+"Add Subtitle File…" = "Engadir ficheiro de subtítulos…";
+"Save Playlist…" = "Gardar lista de reprodución…";
+"Play/Pause" = "Reproducir/Pausa";
+"Stop" = "Deter";
+"Previous" = "Anterior";
+"Next" = "Seguinte";
+"Jump Back 10 Seconds" = "Retroceder 10 segundos";
+"Jump Forward 10 Seconds" = "Avanzar 10 segundos";
+"Jump Back 1 Minute" = "Retroceder 1 minuto";
+"Jump Forward 1 Minute" = "Avanzar 1 minuto";
+"Jump to Time…" = "Ir a un momento…";
+"Next Frame" = "Fotograma seguinte";
+"Chapters" = "Capítulos";
+"Faster" = "Máis rápido";
+"Slower" = "Máis lento";
+"Normal Speed" = "Velocidade normal";
+"Set Loop Start (A)" = "Definir inicio do bucle (A)";
+"Set Loop End (B)" = "Definir fin do bucle (B)";
+"Loop Off" = "Desactivar bucle";
+"Repeat" = "Repetir";
+"Off" = "Desactivado";
+"All" = "Todos";
+"One" = "Un";
+"Shuffle" = "Aleatorio";
+"Volume Up" = "Subir volume";
+"Volume Down" = "Baixar volume";
+"Mute" = "Silenciar";
+"Audio Track" = "Pista de audio";
+"Full Screen" = "Pantalla completa";
+"Float on Top" = "Sempre enriba";
+"Aspect" = "Relación de aspecto";
+"Fit" = "Axustar";
+"Fill (Crop)" = "Encher (recortar)";
+"Stretch" = "Estirar";
+"Snapshot" = "Instantánea";
+"Show Snapshots Folder" = "Mostrar cartafol de instantáneas";
+"Subtitles" = "Subtítulos";
+"Subtitle Track" = "Pista de subtítulos";
+"Next Subtitle Track" = "Seguinte pista de subtítulos";
+"Subtitles Earlier (G)" = "Subtítulos antes (G)";
+"Subtitles Later (H)" = "Subtítulos despois (H)";
+"Reset Subtitle Delay" = "Restablecer atraso dos subtítulos";
+"Playlist" = "Lista de reprodución";
+"%@ items" = "%@ elementos";
+"Close" = "Pechar";
+"Play" = "Reproducir";
+"Show in Finder" = "Mostrar no Finder";
+"Remove from Playlist" = "Quitar da lista de reprodución";
+"Drop videos or folders here" = "Arrastra vídeos ou cartafoles aquí";
+"Add files or folders…" = "Engadir ficheiros ou cartafoles…";
+"Clear Playlist" = "Baleirar lista de reprodución";
+"Repeat: off" = "Repetir: desactivado";
+"Repeat: all" = "Repetir: todos";
+"Repeat: one" = "Repetir: un";
+"Streaming" = "Transmisión";
+"Nothing is playing." = "Non se está a reproducir nada.";
+"Open Network Stream" = "Abrir fluxo de rede";
+"HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – anything ffmpeg can open." = "HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – calquera cousa que poida abrir ffmpeg.";
+"Cancel" = "Cancelar";
+"Jump to Time" = "Ir a un momento";
+"Jump" = "Ir";
+"Resumed at %@" = "Retomado en %@";
+"Speed: %@" = "Velocidade: %@";
+"Volume: %@" = "Volume: %@";
+"Loop start: %@" = "Inicio do bucle: %@";
+"Looping %@ – %@" = "Bucle %@ – %@";
+"Loop off" = "Bucle desactivado";
+"Snapshot saved: %@" = "Instantánea gardada: %@";
+"Couldn't save the snapshot." = "Non se puido gardar a instantánea.";
+"Subtitles off" = "Subtítulos desactivados";
+"Adding subtitles…" = "Engadindo subtítulos…";
+"Subtitle delay: %@ ms" = "Atraso dos subtítulos: %@ ms";
+"Play Playlist" = "Reproducir lista";
+"Recent" = "Recentes";
+"Next in Playlist" = "Seguinte na lista";
+"Start Over" = "Comezar de novo";
+"Jump back 10 seconds" = "Retroceder 10 segundos";
+"Play/Pause (Space)" = "Reproducir/Pausa (espazo)";
+"Jump forward 10 seconds" = "Avanzar 10 segundos";
+"Playback speed" = "Velocidade de reprodución";
+"Playlist (⌘L)" = "Lista de reprodución (⌘L)";
+"Full Screen (⌘F)" = "Pantalla completa (⌘F)";
+"No audio tracks" = "Sen pistas de audio";
+"Audio track" = "Pista de audio";
+"network stream – seekable anywhere" = "fluxo de rede – pódese saltar a calquera punto";
+"Network HLS stream – played directly, without conversion" = "Fluxo de rede HLS – reprodúcese directamente, sen conversión";
+
+/* Chapters */
+"Previous Chapter" = "Capítulo anterior";
+"Next Chapter" = "Capítulo seguinte";
+"Chapter: %@" = "Capítulo: %@";
+"Previous Chapter (⇧P)" = "Capítulo anterior (⇧P)";
+"Next Chapter (⇧N)" = "Capítulo seguinte (⇧N)";
+
+/* Auto-hiding controls */
+"Hide Controls" = "Ocultar controis";
+"After %@ seconds" = "Despois de %@ segundos";
+"Never" = "Nunca";
+
+/* Time display */
+"Show total length" = "Amosar duración total";
+"Show remaining time" = "Amosar tempo restante";
+
+/* Picture in Picture, appearance */
+"Picture in Picture" = "Imaxe dentro de imaxe";
+"Playing in Picture in Picture" = "Reproducindo en imaxe dentro de imaxe";
+"Appearance" = "Aparencia";
+"Light" = "Claro";
+"Dark" = "Escuro";
+
+/* Help menu */
+"Open-Source Licenses" = "Licenzas de código aberto";

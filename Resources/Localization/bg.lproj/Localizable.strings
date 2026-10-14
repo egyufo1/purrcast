@@ -1,0 +1,203 @@
+/* Български (bg). Keys are the English texts; check: Resources/Localization/check.sh */
+
+/* Errors */
+"timed out" = "времето за изчакване изтече";
+"Not found: %@. Install it with: brew install ffmpeg" = "Не е намерен: %@. Инсталирай го с: brew install ffmpeg";
+"Couldn't read the file: %@" = "Файлът не може да бъде прочетен: %@";
+"The file has no video track." = "Файлът няма видео писта.";
+"ffmpeg stopped with an error:\n%@" = "ffmpeg спря с грешка:\n%@";
+"Not enough free space for the temporary stream files (needs about %@, free: %@)." = "Няма достатъчно свободно място за временните файлове на потока (нужни са около %@, свободни: %@).";
+"The local stream server didn't start: %@" = "Локалният сървър за поточно предаване не стартира: %@";
+"Didn't start with the previous settings, retrying in a safer mode…" = "С предишните настройки не тръгна, опитвам отново в по-безопасен режим…";
+"Couldn't start playback:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log" = "Възпроизвеждането не можа да започне:\n%@\n\nПодробности: ~/Library/Logs/Purrcast.log";
+"player error: %@" = "грешка на плейъра: %@";
+"playback didn't start within 20 seconds" = "възпроизвеждането не започна до 20 секунди";
+"Error" = "Грешка";
+
+/* Tracks */
+"Audio %@" = "Аудио %@";
+"Subtitle %@" = "Субтитри %@";
+"(forced)" = "(принудителни)";
+"External subtitle" = "Външни субтитри";
+"(external)" = "(външни)";
+"unknown" = "неизвестен";
+"mono" = "моно";
+"stereo" = "стерео";
+"%@ channels" = "%@ канала";
+
+/* Conversion summary */
+"%@ → H.264, plays on every TV" = "%@ → H.264, върви на всеки телевизор";
+"%@ H.264 → 8-bit H.264" = "%@ H.264 → 8-битов H.264";
+"interlaced → progressive" = "презредово → прогресивно";
+"re-encoded for reliable playback" = "прекодирано за надеждно възпроизвеждане";
+"Video: %@ – passed through in original quality" = "Видео: %@ – предава се в оригинално качество";
+"Video: %@ → H.264 %@ (%@)" = "Видео: %@ → H.264 %@ (%@)";
+"Audio: %@ – original" = "Аудио: %@ – оригинал";
+"Audio: %@ → %@ %@" = "Аудио: %@ → %@ %@";
+"Subtitle: %@ – on by default" = "Субтитри: %@ – включени по подразбиране";
+"Subtitle: %@" = "Субтитри: %@";
+"Subtitle skipped: %@ (%@ is image-based and can't be converted)" = "Пропуснати субтитри: %@ (%@ е графичен формат и не може да се конвертира)";
+
+/* Status */
+"Preparing…" = "Подготовка…";
+"Playing via AirPlay" = "Възпроизвеждане чрез AirPlay";
+"Conversion stopped: %@" = "Конвертирането спря: %@";
+"Prepared: %@ / %@" = "Подготвено: %@ / %@";
+
+/* Window */
+"Open…" = "Отвори…";
+"Open" = "Отвори";
+"Open another file…" = "Отвори друг файл…";
+"AirPlay – choose your TV" = "AirPlay – избери телевизор";
+"Drop a video here (MKV, MP4, AVI…)" = "Пусни видео тук (MKV, MP4, AVI…)";
+"or open one with ⌘O, then pick your TV with the AirPlay button" = "или го отвори с ⌘O, после избери телевизора с бутона AirPlay";
+
+/* Menus */
+"Playback" = "Възпроизвеждане";
+"Original quality (HEVC, HDR, surround – for Apple TV 4K)" = "Оригинално качество (HEVC, HDR, съраунд – за Apple TV 4K)";
+"Language" = "Език";
+"System default" = "Езикът на системата";
+"The new language takes effect after a restart." = "Новият език ще влезе в сила след рестартиране.";
+"Restart Purrcast now? Playback stops." = "Да рестартирам ли Purrcast сега? Възпроизвеждането ще спре.";
+"Restart" = "Рестартирай";
+"Later" = "По-късно";
+
+/* Player, menus, playlist, media information */
+"Chapter %@" = "Глава %@";
+"File" = "Файл";
+"Format" = "Формат";
+"Duration" = "Продължителност";
+"Size" = "Размер";
+"Bitrate" = "Битрейт";
+"General" = "Общи";
+"Codec" = "Кодек";
+"Title" = "Заглавие";
+"Resolution" = "Резолюция";
+"Frame rate" = "Кадрова честота";
+"Pixel format" = "Формат на пикселите";
+"Dynamic range" = "Динамичен обхват";
+"Channels" = "Канали";
+"Sample rate" = "Честота на дискретизация";
+"Video" = "Видео";
+"Audio" = "Аудио";
+"Subtitle" = "Субтитри";
+"Stream %@: %@" = "Поток %@: %@";
+"Purrcast" = "Purrcast";
+"Media Information" = "Информация за медията";
+"Open Network Stream…" = "Отвори мрежов поток…";
+"Open Recent" = "Отвори скорошни";
+"Clear Menu" = "Изчисти менюто";
+"Add Subtitle File…" = "Добави файл със субтитри…";
+"Save Playlist…" = "Запази списъка за изпълнение…";
+"Play/Pause" = "Пусни/пауза";
+"Stop" = "Спри";
+"Previous" = "Предишен";
+"Next" = "Следващ";
+"Jump Back 10 Seconds" = "Назад с 10 секунди";
+"Jump Forward 10 Seconds" = "Напред с 10 секунди";
+"Jump Back 1 Minute" = "Назад с 1 минута";
+"Jump Forward 1 Minute" = "Напред с 1 минута";
+"Jump to Time…" = "Прескочи до време…";
+"Next Frame" = "Следващ кадър";
+"Chapters" = "Глави";
+"Faster" = "По-бързо";
+"Slower" = "По-бавно";
+"Normal Speed" = "Нормална скорост";
+"Set Loop Start (A)" = "Задай начало на цикъла (A)";
+"Set Loop End (B)" = "Задай край на цикъла (B)";
+"Loop Off" = "Изключи цикъла";
+"Repeat" = "Повторение";
+"Off" = "Изключено";
+"All" = "Всички";
+"One" = "Един";
+"Shuffle" = "Разбъркано";
+"Volume Up" = "По-силно";
+"Volume Down" = "По-тихо";
+"Mute" = "Без звук";
+"Audio Track" = "Аудиописта";
+"Full Screen" = "Цял екран";
+"Float on Top" = "Винаги отгоре";
+"Aspect" = "Съотношение";
+"Fit" = "Вмести";
+"Fill (Crop)" = "Запълни (изрежи)";
+"Stretch" = "Разтегни";
+"Snapshot" = "Снимка на кадъра";
+"Show Snapshots Folder" = "Покажи папката със снимки";
+"Subtitles" = "Субтитри";
+"Subtitle Track" = "Писта със субтитри";
+"Next Subtitle Track" = "Следваща писта със субтитри";
+"Subtitles Earlier (G)" = "Субтитрите по-рано (G)";
+"Subtitles Later (H)" = "Субтитрите по-късно (H)";
+"Reset Subtitle Delay" = "Нулирай закъснението на субтитрите";
+"Playlist" = "Списък за изпълнение";
+"%@ items" = "Елементи: %@";
+"Close" = "Затвори";
+"Play" = "Пусни";
+"Show in Finder" = "Покажи във Finder";
+"Remove from Playlist" = "Премахни от списъка";
+"Drop videos or folders here" = "Пусни тук видеа или папки";
+"Add files or folders…" = "Добави файлове или папки…";
+"Clear Playlist" = "Изчисти списъка";
+"Repeat: off" = "Повторение: изключено";
+"Repeat: all" = "Повторение: всички";
+"Repeat: one" = "Повторение: един";
+"Streaming" = "Стрийминг";
+"Nothing is playing." = "Нищо не се възпроизвежда.";
+"Open Network Stream" = "Отвори мрежов поток";
+"HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – anything ffmpeg can open." = "HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – всичко, което ffmpeg може да отвори.";
+"Cancel" = "Отказ";
+"Jump to Time" = "Прескочи до време";
+"Jump" = "Прескочи";
+"Resumed at %@" = "Продължава от %@";
+"Speed: %@" = "Скорост: %@";
+"Volume: %@" = "Сила на звука: %@";
+"Loop start: %@" = "Начало на цикъла: %@";
+"Looping %@ – %@" = "Цикъл %@ – %@";
+"Loop off" = "Цикълът е изключен";
+"Snapshot saved: %@" = "Снимката е запазена: %@";
+"Couldn't save the snapshot." = "Снимката не можа да се запази.";
+"Subtitles off" = "Субтитрите са изключени";
+"Adding subtitles…" = "Добавяне на субтитри…";
+"Subtitle delay: %@ ms" = "Закъснение на субтитрите: %@ мс";
+"Play Playlist" = "Пусни списъка";
+"Recent" = "Скорошни";
+"Next in Playlist" = "Следва в списъка";
+"Start Over" = "Отначало";
+"Jump back 10 seconds" = "Назад с 10 секунди";
+"Play/Pause (Space)" = "Пусни/пауза (интервал)";
+"Jump forward 10 seconds" = "Напред с 10 секунди";
+"Playback speed" = "Скорост на възпроизвеждане";
+"Playlist (⌘L)" = "Списък за изпълнение (⌘L)";
+"Full Screen (⌘F)" = "Цял екран (⌘F)";
+"No audio tracks" = "Няма аудиописти";
+"Audio track" = "Аудиописта";
+
+/* Network streams */
+"network stream – seekable anywhere" = "мрежов поток – превъртане навсякъде";
+"Network HLS stream – played directly, without conversion" = "Мрежов HLS поток – възпроизвежда се директно, без конвертиране";
+
+/* Chapters */
+"Previous Chapter" = "Предишна глава";
+"Next Chapter" = "Следваща глава";
+"Chapter: %@" = "Глава: %@";
+"Previous Chapter (⇧P)" = "Предишна глава (⇧P)";
+"Next Chapter (⇧N)" = "Следваща глава (⇧N)";
+
+/* Auto-hiding controls */
+"Hide Controls" = "Скриване на контролите";
+"After %@ seconds" = "След %@ сек.";
+"Never" = "Никога";
+
+/* Time display */
+"Show total length" = "Показване на общата продължителност";
+"Show remaining time" = "Показване на оставащото време";
+
+/* Picture in Picture, appearance */
+"Picture in Picture" = "Картина в картината";
+"Playing in Picture in Picture" = "Възпроизвеждане в режим картина в картината";
+"Appearance" = "Облик";
+"Light" = "Светъл";
+"Dark" = "Тъмен";
+
+/* Help menu */
+"Open-Source Licenses" = "Лицензи с отворен код";

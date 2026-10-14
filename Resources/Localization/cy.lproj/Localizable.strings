@@ -1,0 +1,203 @@
+/* Cyfieithiad Cymraeg. Keys are the English texts; check: Resources/Localization/check.sh */
+
+/* Errors */
+"timed out" = "terfyn amser wedi dod i ben";
+"Not found: %@. Install it with: brew install ffmpeg" = "Heb ganfod: %@. Gosodwch ef gyda: brew install ffmpeg";
+"Couldn't read the file: %@" = "Methu darllen y ffeil: %@";
+"The file has no video track." = "Does dim trac fideo yn y ffeil.";
+"ffmpeg stopped with an error:\n%@" = "Daeth ffmpeg i ben gyda gwall:\n%@";
+"Not enough free space for the temporary stream files (needs about %@, free: %@)." = "Dim digon o le rhydd ar gyfer y ffeiliau ffrydio dros dro (angen tua %@, rhydd: %@).";
+"The local stream server didn't start: %@" = "Ni ddechreuodd y gweinydd ffrydio lleol: %@";
+"Didn't start with the previous settings, retrying in a safer mode…" = "Heb gychwyn gyda’r gosodiadau blaenorol, yn ceisio eto mewn modd mwy diogel…";
+"Couldn't start playback:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log" = "Methu cychwyn chwarae:\n%@\n\nManylion: ~/Library/Logs/Purrcast.log";
+"player error: %@" = "gwall chwaraewr: %@";
+"playback didn't start within 20 seconds" = "ni ddechreuodd chwarae o fewn 20 eiliad";
+"Error" = "Gwall";
+
+/* Tracks */
+"Audio %@" = "Sain %@";
+"Subtitle %@" = "Isdeitl %@";
+"(forced)" = "(gorfodol)";
+"External subtitle" = "Isdeitl allanol";
+"(external)" = "(allanol)";
+"unknown" = "anhysbys";
+"mono" = "mono";
+"stereo" = "stereo";
+"%@ channels" = "%@ sianel";
+
+/* Conversion summary */
+"%@ → H.264, plays on every TV" = "%@ → H.264, yn chwarae ar bob teledu";
+"%@ H.264 → 8-bit H.264" = "%@ H.264 → H.264 8-did";
+"interlaced → progressive" = "cydblethedig → cynyddol";
+"re-encoded for reliable playback" = "wedi’i ail-amgodio er mwyn chwarae’n ddibynadwy";
+"Video: %@ – passed through in original quality" = "Fideo: %@ – wedi’i basio drwodd yn yr ansawdd gwreiddiol";
+"Video: %@ → H.264 %@ (%@)" = "Fideo: %@ → H.264 %@ (%@)";
+"Audio: %@ – original" = "Sain: %@ – gwreiddiol";
+"Audio: %@ → %@ %@" = "Sain: %@ → %@ %@";
+"Subtitle: %@ – on by default" = "Isdeitl: %@ – ymlaen yn ddiofyn";
+"Subtitle: %@" = "Isdeitl: %@";
+"Subtitle skipped: %@ (%@ is image-based and can't be converted)" = "Hepgorwyd isdeitl: %@ (mae %@ yn seiliedig ar ddelweddau ac ni ellir ei drosi)";
+
+/* Status */
+"Preparing…" = "Yn paratoi…";
+"Playing via AirPlay" = "Yn chwarae drwy AirPlay";
+"Conversion stopped: %@" = "Daeth y trosi i ben: %@";
+"Prepared: %@ / %@" = "Wedi paratoi: %@ / %@";
+
+/* Window */
+"Open…" = "Agor…";
+"Open" = "Agor";
+"Open another file…" = "Agor ffeil arall…";
+"AirPlay – choose your TV" = "AirPlay – dewiswch eich teledu";
+"Drop a video here (MKV, MP4, AVI…)" = "Gollyngwch fideo yma (MKV, MP4, AVI…)";
+"or open one with ⌘O, then pick your TV with the AirPlay button" = "neu agorwch un gyda ⌘O, yna dewiswch eich teledu gyda’r botwm AirPlay";
+
+/* Menus */
+"Playback" = "Chwarae";
+"Original quality (HEVC, HDR, surround – for Apple TV 4K)" = "Ansawdd gwreiddiol (HEVC, HDR, sain amgylchynol – ar gyfer Apple TV 4K)";
+"Language" = "Iaith";
+"System default" = "Rhagosodiad y system";
+"The new language takes effect after a restart." = "Bydd yr iaith newydd yn dod i rym ar ôl ailgychwyn.";
+"Restart Purrcast now? Playback stops." = "Ailgychwyn Purrcast nawr? Bydd y chwarae’n stopio.";
+"Restart" = "Ailgychwyn";
+"Later" = "Nes ymlaen";
+
+/* Player, menus, playlist, media information */
+"Chapter %@" = "Pennod %@";
+"File" = "Ffeil";
+"Format" = "Fformat";
+"Duration" = "Hyd";
+"Size" = "Maint";
+"Bitrate" = "Cyfradd didau";
+"General" = "Cyffredinol";
+"Codec" = "Codec";
+"Title" = "Teitl";
+"Resolution" = "Cydraniad";
+"Frame rate" = "Cyfradd fframiau";
+"Pixel format" = "Fformat picseli";
+"Dynamic range" = "Ystod ddeinamig";
+"Channels" = "Sianeli";
+"Sample rate" = "Cyfradd samplu";
+"Video" = "Fideo";
+"Audio" = "Sain";
+"Subtitle" = "Isdeitl";
+"Stream %@: %@" = "Ffrwd %@: %@";
+"Purrcast" = "Purrcast";
+"Media Information" = "Gwybodaeth am y cyfrwng";
+"Open Network Stream…" = "Agor ffrwd rhwydwaith…";
+"Open Recent" = "Agor diweddar";
+"Clear Menu" = "Clirio’r ddewislen";
+"Add Subtitle File…" = "Ychwanegu ffeil isdeitlau…";
+"Save Playlist…" = "Cadw’r rhestr chwarae…";
+"Play/Pause" = "Chwarae/Saib";
+"Stop" = "Stopio";
+"Previous" = "Blaenorol";
+"Next" = "Nesaf";
+"Jump Back 10 Seconds" = "Neidio 10 eiliad yn ôl";
+"Jump Forward 10 Seconds" = "Neidio 10 eiliad ymlaen";
+"Jump Back 1 Minute" = "Neidio 1 munud yn ôl";
+"Jump Forward 1 Minute" = "Neidio 1 munud ymlaen";
+"Jump to Time…" = "Neidio i amser…";
+"Next Frame" = "Ffrâm nesaf";
+"Chapters" = "Penodau";
+"Faster" = "Cyflymach";
+"Slower" = "Arafach";
+"Normal Speed" = "Cyflymder arferol";
+"Set Loop Start (A)" = "Gosod dechrau’r ddolen (A)";
+"Set Loop End (B)" = "Gosod diwedd y ddolen (B)";
+"Loop Off" = "Diffodd y ddolen";
+"Repeat" = "Ailadrodd";
+"Off" = "I ffwrdd";
+"All" = "Y cyfan";
+"One" = "Un";
+"Shuffle" = "Cymysgu";
+"Volume Up" = "Codi’r sain";
+"Volume Down" = "Gostwng y sain";
+"Mute" = "Distewi";
+"Audio Track" = "Trac sain";
+"Full Screen" = "Sgrin lawn";
+"Float on Top" = "Bob amser ar y brig";
+"Aspect" = "Cymhareb agwedd";
+"Fit" = "Ffitio";
+"Fill (Crop)" = "Llenwi (tocio)";
+"Stretch" = "Ymestyn";
+"Snapshot" = "Ciplun";
+"Show Snapshots Folder" = "Dangos ffolder y cipluniau";
+"Subtitles" = "Isdeitlau";
+"Subtitle Track" = "Trac isdeitlau";
+"Next Subtitle Track" = "Trac isdeitlau nesaf";
+"Subtitles Earlier (G)" = "Isdeitlau’n gynharach (G)";
+"Subtitles Later (H)" = "Isdeitlau’n hwyrach (H)";
+"Reset Subtitle Delay" = "Ailosod oedi’r isdeitlau";
+"Playlist" = "Rhestr chwarae";
+"%@ items" = "%@ eitem";
+"Close" = "Cau";
+"Play" = "Chwarae";
+"Show in Finder" = "Dangos yn Finder";
+"Remove from Playlist" = "Tynnu o’r rhestr chwarae";
+"Drop videos or folders here" = "Gollyngwch fideos neu ffolderi yma";
+"Add files or folders…" = "Ychwanegu ffeiliau neu ffolderi…";
+"Clear Playlist" = "Clirio’r rhestr chwarae";
+"Repeat: off" = "Ailadrodd: i ffwrdd";
+"Repeat: all" = "Ailadrodd: y cyfan";
+"Repeat: one" = "Ailadrodd: un";
+"Streaming" = "Ffrydio";
+"Nothing is playing." = "Does dim byd yn chwarae.";
+"Open Network Stream" = "Agor ffrwd rhwydwaith";
+"HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – anything ffmpeg can open." = "HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – unrhyw beth y gall ffmpeg ei agor.";
+"Cancel" = "Diddymu";
+"Jump to Time" = "Neidio i amser";
+"Jump" = "Neidio";
+"Resumed at %@" = "Ailddechrau o %@";
+"Speed: %@" = "Cyflymder: %@";
+"Volume: %@" = "Lefel sain: %@";
+"Loop start: %@" = "Dechrau’r ddolen: %@";
+"Looping %@ – %@" = "Dolennu %@ – %@";
+"Loop off" = "Dolen i ffwrdd";
+"Snapshot saved: %@" = "Ciplun wedi’i gadw: %@";
+"Couldn't save the snapshot." = "Methu cadw’r ciplun.";
+"Subtitles off" = "Isdeitlau i ffwrdd";
+"Adding subtitles…" = "Yn ychwanegu isdeitlau…";
+"Subtitle delay: %@ ms" = "Oedi isdeitlau: %@ ms";
+"Play Playlist" = "Chwarae’r rhestr chwarae";
+"Recent" = "Diweddar";
+"Next in Playlist" = "Nesaf yn y rhestr chwarae";
+"Start Over" = "Dechrau eto";
+"Jump back 10 seconds" = "10 eiliad yn ôl";
+"Play/Pause (Space)" = "Chwarae/Saib (Bylchwr)";
+"Jump forward 10 seconds" = "10 eiliad ymlaen";
+"Playback speed" = "Cyflymder chwarae";
+"Playlist (⌘L)" = "Rhestr chwarae (⌘L)";
+"Full Screen (⌘F)" = "Sgrin lawn (⌘F)";
+"No audio tracks" = "Dim traciau sain";
+"Audio track" = "Trac sain";
+
+/* Network streams */
+"network stream – seekable anywhere" = "ffrwd rwydwaith – modd neidio i unrhyw le";
+"Network HLS stream – played directly, without conversion" = "Ffrwd HLS rwydwaith – yn chwarae’n uniongyrchol, heb drosi";
+
+/* Chapters */
+"Previous Chapter" = "Pennod flaenorol";
+"Next Chapter" = "Pennod nesaf";
+"Chapter: %@" = "Pennod: %@";
+"Previous Chapter (⇧P)" = "Pennod flaenorol (⇧P)";
+"Next Chapter (⇧N)" = "Pennod nesaf (⇧N)";
+
+/* Auto-hiding controls */
+"Hide Controls" = "Cuddio’r rheolyddion";
+"After %@ seconds" = "Ar ôl %@ eiliad";
+"Never" = "Byth";
+
+/* Time display */
+"Show total length" = "Dangos yr hyd cyfan";
+"Show remaining time" = "Dangos yr amser sy’n weddill";
+
+/* Picture in Picture, appearance */
+"Picture in Picture" = "Llun mewn Llun";
+"Playing in Picture in Picture" = "Yn chwarae fel llun mewn llun";
+"Appearance" = "Golwg";
+"Light" = "Golau";
+"Dark" = "Tywyll";
+
+/* Help menu */
+"Open-Source Licenses" = "Trwyddedau cod agored";

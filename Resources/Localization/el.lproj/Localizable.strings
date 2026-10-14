@@ -1,0 +1,203 @@
+/* Greek translation. Keys are the English texts; check: Resources/Localization/check.sh */
+
+/* Errors */
+"timed out" = "έληξε το χρονικό όριο";
+"Not found: %@. Install it with: brew install ffmpeg" = "Δεν βρέθηκε: %@. Εγκαταστήστε το με: brew install ffmpeg";
+"Couldn't read the file: %@" = "Δεν ήταν δυνατή η ανάγνωση του αρχείου: %@";
+"The file has no video track." = "Το αρχείο δεν περιέχει κομμάτι βίντεο.";
+"ffmpeg stopped with an error:\n%@" = "Το ffmpeg σταμάτησε με σφάλμα:\n%@";
+"Not enough free space for the temporary stream files (needs about %@, free: %@)." = "Δεν υπάρχει αρκετός ελεύθερος χώρος για τα προσωρινά αρχεία ροής (απαιτούνται περίπου %@, ελεύθερα: %@).";
+"The local stream server didn't start: %@" = "Ο τοπικός διακομιστής ροής δεν ξεκίνησε: %@";
+"Didn't start with the previous settings, retrying in a safer mode…" = "Δεν ξεκίνησε με τις προηγούμενες ρυθμίσεις, νέα προσπάθεια σε ασφαλέστερη λειτουργία…";
+"Couldn't start playback:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log" = "Δεν ήταν δυνατή η έναρξη της αναπαραγωγής:\n%@\n\nΛεπτομέρειες: ~/Library/Logs/Purrcast.log";
+"player error: %@" = "σφάλμα προγράμματος αναπαραγωγής: %@";
+"playback didn't start within 20 seconds" = "η αναπαραγωγή δεν ξεκίνησε μέσα σε 20 δευτερόλεπτα";
+"Error" = "Σφάλμα";
+
+/* Tracks */
+"Audio %@" = "Ήχος %@";
+"Subtitle %@" = "Υπότιτλος %@";
+"(forced)" = "(υποχρεωτικός)";
+"External subtitle" = "Εξωτερικός υπότιτλος";
+"(external)" = "(εξωτερικός)";
+"unknown" = "άγνωστη";
+"mono" = "μονοφωνικό";
+"stereo" = "στερεοφωνικό";
+"%@ channels" = "%@ κανάλια";
+
+/* Conversion summary */
+"%@ → H.264, plays on every TV" = "%@ → H.264, παίζει σε κάθε τηλεόραση";
+"%@ H.264 → 8-bit H.264" = "%@ H.264 → 8-bit H.264";
+"interlaced → progressive" = "πεπλεγμένο → προοδευτικό";
+"re-encoded for reliable playback" = "επανακωδικοποίηση για αξιόπιστη αναπαραγωγή";
+"Video: %@ – passed through in original quality" = "Βίντεο: %@ – χωρίς μετατροπή, στην αρχική ποιότητα";
+"Video: %@ → H.264 %@ (%@)" = "Βίντεο: %@ → H.264 %@ (%@)";
+"Audio: %@ – original" = "Ήχος: %@ – αρχικός";
+"Audio: %@ → %@ %@" = "Ήχος: %@ → %@ %@";
+"Subtitle: %@ – on by default" = "Υπότιτλος: %@ – ενεργός από προεπιλογή";
+"Subtitle: %@" = "Υπότιτλος: %@";
+"Subtitle skipped: %@ (%@ is image-based and can't be converted)" = "Παράλειψη υποτίτλου: %@ (το %@ βασίζεται σε εικόνες και δεν μετατρέπεται)";
+
+/* Status */
+"Preparing…" = "Προετοιμασία…";
+"Playing via AirPlay" = "Αναπαραγωγή μέσω AirPlay";
+"Conversion stopped: %@" = "Η μετατροπή διακόπηκε: %@";
+"Prepared: %@ / %@" = "Έτοιμα: %@ / %@";
+
+/* Window */
+"Open…" = "Άνοιγμα…";
+"Open" = "Άνοιγμα";
+"Open another file…" = "Άνοιγμα άλλου αρχείου…";
+"AirPlay – choose your TV" = "AirPlay – επιλέξτε τηλεόραση";
+"Drop a video here (MKV, MP4, AVI…)" = "Σύρετε εδώ ένα βίντεο (MKV, MP4, AVI…)";
+"or open one with ⌘O, then pick your TV with the AirPlay button" = "ή ανοίξτε ένα με ⌘O και επιλέξτε τηλεόραση με το κουμπί AirPlay";
+
+/* Menus */
+"Playback" = "Αναπαραγωγή";
+"Original quality (HEVC, HDR, surround – for Apple TV 4K)" = "Αρχική ποιότητα (HEVC, HDR, ήχος surround – για Apple TV 4K)";
+"Language" = "Γλώσσα";
+"System default" = "Προεπιλογή συστήματος";
+"The new language takes effect after a restart." = "Η νέα γλώσσα θα ισχύσει μετά από επανεκκίνηση.";
+"Restart Purrcast now? Playback stops." = "Επανεκκίνηση του Purrcast τώρα; Η αναπαραγωγή θα σταματήσει.";
+"Restart" = "Επανεκκίνηση";
+"Later" = "Αργότερα";
+
+/* Player, menus, playlist, media information */
+"Chapter %@" = "Κεφάλαιο %@";
+"File" = "Αρχείο";
+"Format" = "Μορφή";
+"Duration" = "Διάρκεια";
+"Size" = "Μέγεθος";
+"Bitrate" = "Ρυθμός bit";
+"General" = "Γενικά";
+"Codec" = "Κωδικοποιητής";
+"Title" = "Τίτλος";
+"Resolution" = "Ανάλυση";
+"Frame rate" = "Ρυθμός καρέ";
+"Pixel format" = "Μορφή εικονοστοιχείων";
+"Dynamic range" = "Δυναμικό εύρος";
+"Channels" = "Κανάλια";
+"Sample rate" = "Ρυθμός δειγματοληψίας";
+"Video" = "Βίντεο";
+"Audio" = "Ήχος";
+"Subtitle" = "Υπότιτλος";
+"Stream %@: %@" = "Ροή %@: %@";
+"Purrcast" = "Purrcast";
+"Media Information" = "Πληροφορίες πολυμέσων";
+"Open Network Stream…" = "Άνοιγμα ροής δικτύου…";
+"Open Recent" = "Άνοιγμα πρόσφατων";
+"Clear Menu" = "Εκκαθάριση μενού";
+"Add Subtitle File…" = "Προσθήκη αρχείου υποτίτλων…";
+"Save Playlist…" = "Αποθήκευση λίστας αναπαραγωγής…";
+"Play/Pause" = "Αναπαραγωγή/Παύση";
+"Stop" = "Διακοπή";
+"Previous" = "Προηγούμενο";
+"Next" = "Επόμενο";
+"Jump Back 10 Seconds" = "10 δευτερόλεπτα πίσω";
+"Jump Forward 10 Seconds" = "10 δευτερόλεπτα μπροστά";
+"Jump Back 1 Minute" = "1 λεπτό πίσω";
+"Jump Forward 1 Minute" = "1 λεπτό μπροστά";
+"Jump to Time…" = "Μετάβαση σε χρόνο…";
+"Next Frame" = "Επόμενο καρέ";
+"Chapters" = "Κεφάλαια";
+"Faster" = "Γρηγορότερα";
+"Slower" = "Πιο αργά";
+"Normal Speed" = "Κανονική ταχύτητα";
+"Set Loop Start (A)" = "Ορισμός αρχής βρόχου (A)";
+"Set Loop End (B)" = "Ορισμός τέλους βρόχου (B)";
+"Loop Off" = "Απενεργοποίηση βρόχου";
+"Repeat" = "Επανάληψη";
+"Off" = "Ανενεργή";
+"All" = "Όλα";
+"One" = "Ένα";
+"Shuffle" = "Τυχαία σειρά";
+"Volume Up" = "Αύξηση έντασης";
+"Volume Down" = "Μείωση έντασης";
+"Mute" = "Σίγαση";
+"Audio Track" = "Κομμάτι ήχου";
+"Full Screen" = "Πλήρης οθόνη";
+"Float on Top" = "Πάντα σε πρώτο πλάνο";
+"Aspect" = "Αναλογία διαστάσεων";
+"Fit" = "Προσαρμογή";
+"Fill (Crop)" = "Γέμισμα (με περικοπή)";
+"Stretch" = "Τέντωμα";
+"Snapshot" = "Στιγμιότυπο";
+"Show Snapshots Folder" = "Εμφάνιση φακέλου στιγμιοτύπων";
+"Subtitles" = "Υπότιτλοι";
+"Subtitle Track" = "Κομμάτι υποτίτλων";
+"Next Subtitle Track" = "Επόμενο κομμάτι υποτίτλων";
+"Subtitles Earlier (G)" = "Υπότιτλοι νωρίτερα (G)";
+"Subtitles Later (H)" = "Υπότιτλοι αργότερα (H)";
+"Reset Subtitle Delay" = "Επαναφορά καθυστέρησης υποτίτλων";
+"Playlist" = "Λίστα αναπαραγωγής";
+"%@ items" = "%@ στοιχεία";
+"Close" = "Κλείσιμο";
+"Play" = "Αναπαραγωγή";
+"Show in Finder" = "Εμφάνιση στο Finder";
+"Remove from Playlist" = "Αφαίρεση από τη λίστα αναπαραγωγής";
+"Drop videos or folders here" = "Σύρετε εδώ βίντεο ή φακέλους";
+"Add files or folders…" = "Προσθήκη αρχείων ή φακέλων…";
+"Clear Playlist" = "Εκκαθάριση λίστας αναπαραγωγής";
+"Repeat: off" = "Επανάληψη: ανενεργή";
+"Repeat: all" = "Επανάληψη: όλα";
+"Repeat: one" = "Επανάληψη: ένα";
+"Streaming" = "Μετάδοση ροής";
+"Nothing is playing." = "Δεν αναπαράγεται τίποτα.";
+"Open Network Stream" = "Άνοιγμα ροής δικτύου";
+"HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – anything ffmpeg can open." = "HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – οτιδήποτε μπορεί να ανοίξει το ffmpeg.";
+"Cancel" = "Ακύρωση";
+"Jump to Time" = "Μετάβαση σε χρόνο";
+"Jump" = "Μετάβαση";
+"Resumed at %@" = "Συνέχεια από %@";
+"Speed: %@" = "Ταχύτητα: %@";
+"Volume: %@" = "Ένταση: %@";
+"Loop start: %@" = "Αρχή βρόχου: %@";
+"Looping %@ – %@" = "Βρόχος %@ – %@";
+"Loop off" = "Βρόχος ανενεργός";
+"Snapshot saved: %@" = "Το στιγμιότυπο αποθηκεύτηκε: %@";
+"Couldn't save the snapshot." = "Δεν ήταν δυνατή η αποθήκευση του στιγμιότυπου.";
+"Subtitles off" = "Υπότιτλοι ανενεργοί";
+"Adding subtitles…" = "Προσθήκη υποτίτλων…";
+"Subtitle delay: %@ ms" = "Καθυστέρηση υποτίτλων: %@ ms";
+"Play Playlist" = "Αναπαραγωγή λίστας";
+"Recent" = "Πρόσφατα";
+"Next in Playlist" = "Επόμενο στη λίστα";
+"Start Over" = "Από την αρχή";
+"Jump back 10 seconds" = "10 δευτερόλεπτα πίσω";
+"Play/Pause (Space)" = "Αναπαραγωγή/Παύση (Διάστημα)";
+"Jump forward 10 seconds" = "10 δευτερόλεπτα μπροστά";
+"Playback speed" = "Ταχύτητα αναπαραγωγής";
+"Playlist (⌘L)" = "Λίστα αναπαραγωγής (⌘L)";
+"Full Screen (⌘F)" = "Πλήρης οθόνη (⌘F)";
+"No audio tracks" = "Δεν υπάρχουν κομμάτια ήχου";
+"Audio track" = "Κομμάτι ήχου";
+
+/* Network streams */
+"network stream – seekable anywhere" = "ροή δικτύου – μετακίνηση σε οποιοδήποτε σημείο";
+"Network HLS stream – played directly, without conversion" = "Ροή δικτύου HLS – αναπαράγεται απευθείας, χωρίς μετατροπή";
+
+/* Chapters */
+"Previous Chapter" = "Προηγούμενο κεφάλαιο";
+"Next Chapter" = "Επόμενο κεφάλαιο";
+"Chapter: %@" = "Κεφάλαιο: %@";
+"Previous Chapter (⇧P)" = "Προηγούμενο κεφάλαιο (⇧P)";
+"Next Chapter (⇧N)" = "Επόμενο κεφάλαιο (⇧N)";
+
+/* Auto-hiding controls */
+"Hide Controls" = "Απόκρυψη χειριστηρίων";
+"After %@ seconds" = "Μετά από %@ δευτερόλεπτα";
+"Never" = "Ποτέ";
+
+/* Time display */
+"Show total length" = "Εμφάνιση συνολικής διάρκειας";
+"Show remaining time" = "Εμφάνιση υπολειπόμενου χρόνου";
+
+/* Picture in Picture, appearance */
+"Picture in Picture" = "Εικόνα σε εικόνα";
+"Playing in Picture in Picture" = "Αναπαραγωγή σε εικόνα σε εικόνα";
+"Appearance" = "Εμφάνιση";
+"Light" = "Φωτεινή";
+"Dark" = "Σκοτεινή";
+
+/* Help menu */
+"Open-Source Licenses" = "Άδειες ανοιχτού κώδικα";

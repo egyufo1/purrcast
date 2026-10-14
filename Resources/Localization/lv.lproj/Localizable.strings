@@ -1,0 +1,203 @@
+/* Latviešu (lv). Keys are the English texts; check: Resources/Localization/check.sh */
+
+/* Errors */
+"timed out" = "iestājās noildze";
+"Not found: %@. Install it with: brew install ffmpeg" = "Nav atrasts: %@. Instalējiet ar: brew install ffmpeg";
+"Couldn't read the file: %@" = "Neizdevās nolasīt failu: %@";
+"The file has no video track." = "Failā nav video celiņa.";
+"ffmpeg stopped with an error:\n%@" = "ffmpeg darbība beidzās ar kļūdu:\n%@";
+"Not enough free space for the temporary stream files (needs about %@, free: %@)." = "Nepietiek brīvas vietas pagaidu straumes failiem (vajag apm. %@, brīvs: %@).";
+"The local stream server didn't start: %@" = "Neizdevās palaist lokālo straumēšanas serveri: %@";
+"Didn't start with the previous settings, retrying in a safer mode…" = "Ar iepriekšējiem iestatījumiem neizdevās palaist, mēģina vēlreiz drošākā režīmā…";
+"Couldn't start playback:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log" = "Neizdevās sākt atskaņošanu:\n%@\n\nDetaļas: ~/Library/Logs/Purrcast.log";
+"player error: %@" = "atskaņotāja kļūda: %@";
+"playback didn't start within 20 seconds" = "atskaņošana nesākās 20 sekunžu laikā";
+"Error" = "Kļūda";
+
+/* Tracks */
+"Audio %@" = "Audio %@";
+"Subtitle %@" = "Subtitri %@";
+"(forced)" = "(piespiedu)";
+"External subtitle" = "Ārējie subtitri";
+"(external)" = "(ārējie)";
+"unknown" = "nezināma";
+"mono" = "mono";
+"stereo" = "stereo";
+"%@ channels" = "%@ kanāli";
+
+/* Conversion summary */
+"%@ → H.264, plays on every TV" = "%@ → H.264, atskaņo jebkurš televizors";
+"%@ H.264 → 8-bit H.264" = "%@ H.264 → 8 bitu H.264";
+"interlaced → progressive" = "rindpārlēces → progresīvā";
+"re-encoded for reliable playback" = "pārkodēts drošai atskaņošanai";
+"Video: %@ – passed through in original quality" = "Video: %@ – oriģinālajā kvalitātē bez izmaiņām";
+"Video: %@ → H.264 %@ (%@)" = "Video: %@ → H.264 %@ (%@)";
+"Audio: %@ – original" = "Audio: %@ – oriģināls";
+"Audio: %@ → %@ %@" = "Audio: %@ → %@ %@";
+"Subtitle: %@ – on by default" = "Subtitri: %@ – ieslēgti pēc noklusējuma";
+"Subtitle: %@" = "Subtitri: %@";
+"Subtitle skipped: %@ (%@ is image-based and can't be converted)" = "Subtitri izlaisti: %@ (%@ ir attēlu formāts, to nevar konvertēt)";
+
+/* Status */
+"Preparing…" = "Sagatavo…";
+"Playing via AirPlay" = "Atskaņo, izmantojot AirPlay";
+"Conversion stopped: %@" = "Konvertēšana apturēta: %@";
+"Prepared: %@ / %@" = "Sagatavots: %@ / %@";
+
+/* Window */
+"Open…" = "Atvērt…";
+"Open" = "Atvērt";
+"Open another file…" = "Atvērt citu failu…";
+"AirPlay – choose your TV" = "AirPlay – izvēlieties televizoru";
+"Drop a video here (MKV, MP4, AVI…)" = "Ievelciet video šeit (MKV, MP4, AVI…)";
+"or open one with ⌘O, then pick your TV with the AirPlay button" = "vai atveriet to ar ⌘O, pēc tam ar AirPlay pogu izvēlieties televizoru";
+
+/* Menus */
+"Playback" = "Atskaņošana";
+"Original quality (HEVC, HDR, surround – for Apple TV 4K)" = "Oriģinālā kvalitāte (HEVC, HDR, telpiskā skaņa – Apple TV 4K ierīcei)";
+"Language" = "Valoda";
+"System default" = "Sistēmas valoda";
+"The new language takes effect after a restart." = "Jaunā valoda stāsies spēkā pēc restartēšanas.";
+"Restart Purrcast now? Playback stops." = "Restartēt Purrcast tagad? Atskaņošana apstāsies.";
+"Restart" = "Restartēt";
+"Later" = "Vēlāk";
+
+/* Player, menus, playlist, media information */
+"Chapter %@" = "%@. nodaļa";
+"File" = "Fails";
+"Format" = "Formāts";
+"Duration" = "Ilgums";
+"Size" = "Izmērs";
+"Bitrate" = "Bitu pārraides ātrums";
+"General" = "Vispārīgi";
+"Codec" = "Kodeks";
+"Title" = "Nosaukums";
+"Resolution" = "Izšķirtspēja";
+"Frame rate" = "Kadru nomaiņas ātrums";
+"Pixel format" = "Pikseļu formāts";
+"Dynamic range" = "Dinamiskais diapazons";
+"Channels" = "Kanāli";
+"Sample rate" = "Iztveršanas frekvence";
+"Video" = "Video";
+"Audio" = "Audio";
+"Subtitle" = "Subtitri";
+"Stream %@: %@" = "Straume %@: %@";
+"Purrcast" = "Purrcast";
+"Media Information" = "Multivides informācija";
+"Open Network Stream…" = "Atvērt tīkla straumi…";
+"Open Recent" = "Atvērt neseno";
+"Clear Menu" = "Notīrīt izvēlni";
+"Add Subtitle File…" = "Pievienot subtitru failu…";
+"Save Playlist…" = "Saglabāt atskaņošanas sarakstu…";
+"Play/Pause" = "Atskaņot/pauzēt";
+"Stop" = "Apturēt";
+"Previous" = "Iepriekšējais";
+"Next" = "Nākamais";
+"Jump Back 10 Seconds" = "Atpakaļ par 10 sekundēm";
+"Jump Forward 10 Seconds" = "Uz priekšu par 10 sekundēm";
+"Jump Back 1 Minute" = "Atpakaļ par 1 minūti";
+"Jump Forward 1 Minute" = "Uz priekšu par 1 minūti";
+"Jump to Time…" = "Pāriet uz laiku…";
+"Next Frame" = "Nākamais kadrs";
+"Chapters" = "Nodaļas";
+"Faster" = "Ātrāk";
+"Slower" = "Lēnāk";
+"Normal Speed" = "Normāls ātrums";
+"Set Loop Start (A)" = "Iestatīt cilpas sākumu (A)";
+"Set Loop End (B)" = "Iestatīt cilpas beigas (B)";
+"Loop Off" = "Izslēgt cilpu";
+"Repeat" = "Atkārtošana";
+"Off" = "Izslēgta";
+"All" = "Visi";
+"One" = "Viens";
+"Shuffle" = "Jaukt";
+"Volume Up" = "Skaļāk";
+"Volume Down" = "Klusāk";
+"Mute" = "Izslēgt skaņu";
+"Audio Track" = "Audio celiņš";
+"Full Screen" = "Pilnekrāna režīms";
+"Float on Top" = "Vienmēr virspusē";
+"Aspect" = "Malu attiecība";
+"Fit" = "Ietilpināt";
+"Fill (Crop)" = "Aizpildīt (apgriezt)";
+"Stretch" = "Izstiept";
+"Snapshot" = "Momentuzņēmums";
+"Show Snapshots Folder" = "Rādīt momentuzņēmumu mapi";
+"Subtitles" = "Subtitri";
+"Subtitle Track" = "Subtitru celiņš";
+"Next Subtitle Track" = "Nākamais subtitru celiņš";
+"Subtitles Earlier (G)" = "Subtitri agrāk (G)";
+"Subtitles Later (H)" = "Subtitri vēlāk (H)";
+"Reset Subtitle Delay" = "Atiestatīt subtitru aizturi";
+"Playlist" = "Atskaņošanas saraksts";
+"%@ items" = "Vienumi: %@";
+"Close" = "Aizvērt";
+"Play" = "Atskaņot";
+"Show in Finder" = "Rādīt programmā Finder";
+"Remove from Playlist" = "Noņemt no atskaņošanas saraksta";
+"Drop videos or folders here" = "Ievelciet šeit video vai mapes";
+"Add files or folders…" = "Pievienot failus vai mapes…";
+"Clear Playlist" = "Notīrīt atskaņošanas sarakstu";
+"Repeat: off" = "Atkārtošana: izslēgta";
+"Repeat: all" = "Atkārtošana: visi";
+"Repeat: one" = "Atkārtošana: viens";
+"Streaming" = "Straumēšana";
+"Nothing is playing." = "Nekas netiek atskaņots.";
+"Open Network Stream" = "Atvērt tīkla straumi";
+"HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – anything ffmpeg can open." = "HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – jebkas, ko ffmpeg spēj atvērt.";
+"Cancel" = "Atcelt";
+"Jump to Time" = "Pāriet uz laiku";
+"Jump" = "Pāriet";
+"Resumed at %@" = "Turpināts no %@";
+"Speed: %@" = "Ātrums: %@";
+"Volume: %@" = "Skaļums: %@";
+"Loop start: %@" = "Cilpas sākums: %@";
+"Looping %@ – %@" = "Cilpa %@ – %@";
+"Loop off" = "Cilpa izslēgta";
+"Snapshot saved: %@" = "Momentuzņēmums saglabāts: %@";
+"Couldn't save the snapshot." = "Neizdevās saglabāt momentuzņēmumu.";
+"Subtitles off" = "Subtitri izslēgti";
+"Adding subtitles…" = "Pievieno subtitrus…";
+"Subtitle delay: %@ ms" = "Subtitru aizture: %@ ms";
+"Play Playlist" = "Atskaņot sarakstu";
+"Recent" = "Nesenie";
+"Next in Playlist" = "Nākamais sarakstā";
+"Start Over" = "No sākuma";
+"Jump back 10 seconds" = "Atpakaļ par 10 sekundēm";
+"Play/Pause (Space)" = "Atskaņot/pauzēt (atstarpe)";
+"Jump forward 10 seconds" = "Uz priekšu par 10 sekundēm";
+"Playback speed" = "Atskaņošanas ātrums";
+"Playlist (⌘L)" = "Atskaņošanas saraksts (⌘L)";
+"Full Screen (⌘F)" = "Pilnekrāna režīms (⌘F)";
+"No audio tracks" = "Nav audio celiņu";
+"Audio track" = "Audio celiņš";
+
+/* Network streams */
+"network stream – seekable anywhere" = "tīkla straume – var pārtīt jebkur";
+"Network HLS stream – played directly, without conversion" = "HLS tīkla straume – atskaņota tieši, bez konvertēšanas";
+
+/* Chapters */
+"Previous Chapter" = "Iepriekšējā nodaļa";
+"Next Chapter" = "Nākamā nodaļa";
+"Chapter: %@" = "Nodaļa: %@";
+"Previous Chapter (⇧P)" = "Iepriekšējā nodaļa (⇧P)";
+"Next Chapter (⇧N)" = "Nākamā nodaļa (⇧N)";
+
+/* Auto-hiding controls */
+"Hide Controls" = "Paslēpt vadīklas";
+"After %@ seconds" = "Pēc %@ s";
+"Never" = "Nekad";
+
+/* Time display */
+"Show total length" = "Rādīt kopējo ilgumu";
+"Show remaining time" = "Rādīt atlikušo laiku";
+
+/* Picture in Picture, appearance */
+"Picture in Picture" = "Attēls attēlā";
+"Playing in Picture in Picture" = "Atskaņo režīmā attēls attēlā";
+"Appearance" = "Izskats";
+"Light" = "Gaišs";
+"Dark" = "Tumšs";
+
+/* Help menu */
+"Open-Source Licenses" = "Atvērtā koda licences";

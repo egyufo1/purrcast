@@ -1,0 +1,203 @@
+/* Santali translation. Keys are the English texts; check: Resources/Localization/check.sh */
+
+/* Errors */
+"timed out" = "ᱚᱠᱛᱚ ᱪᱟᱵᱟ ᱮᱱᱟ";
+"Not found: %@. Install it with: brew install ffmpeg" = "ᱵᱟᱝ ᱧᱟᱢ ᱞᱮᱱᱟ: %@᱾ ᱱᱚᱶᱟ ᱛᱮ ᱤᱱᱥᱴᱚᱞ ᱢᱮ: brew install ffmpeg";
+"Couldn't read the file: %@" = "ᱨᱮᱫ ᱵᱟᱝ ᱯᱟᱲᱦᱟᱣ ᱫᱟᱲᱮᱭᱟᱫᱼᱟ: %@";
+"The file has no video track." = "ᱨᱮᱫ ᱨᱮ ᱵᱷᱤᱰᱤᱭᱳ ᱴᱨᱮᱠ ᱵᱟᱹᱱᱩᱜᱼᱟ᱾";
+"ffmpeg stopped with an error:\n%@" = "ffmpeg ᱵᱷᱩᱞ ᱥᱟᱶ ᱵᱚᱸᱫᱚ ᱮᱱᱟ:\n%@";
+"Not enough free space for the temporary stream files (needs about %@, free: %@)." = "ᱚᱥᱛᱟᱭᱤ ᱥᱴᱨᱤᱢ ᱨᱮᱫ ᱠᱚ ᱞᱟᱹᱜᱤᱫ ᱠᱷᱟᱹᱞᱤ ᱡᱟᱭᱜᱟ ᱵᱟᱝ ᱥᱮᱴᱮᱨᱚᱜᱼᱟ (ᱠᱚᱢ ᱵᱮᱥᱤ %@ ᱞᱟᱹᱠᱛᱤ, ᱠᱷᱟᱹᱞᱤ: %@)᱾";
+"The local stream server didn't start: %@" = "ᱞᱚᱠᱟᱞ ᱥᱴᱨᱤᱢ ᱥᱟᱨᱵᱷᱟᱨ ᱵᱟᱝ ᱮᱦᱚᱵ ᱞᱮᱱᱟ: %@";
+"Didn't start with the previous settings, retrying in a safer mode…" = "ᱢᱟᱲᱟᱝ ᱥᱟᱡᱟᱣ ᱛᱮ ᱵᱟᱝ ᱮᱦᱚᱵ ᱞᱮᱱᱟ, ᱵᱟᱹᱲᱛᱤ ᱨᱩᱠᱷᱤᱭᱟᱹ ᱢᱳᱰ ᱨᱮ ᱫᱚᱦᱲᱟ ᱠᱩᱨᱩᱢᱩᱴᱩ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ…";
+"Couldn't start playback:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log" = "ᱯᱞᱮᱭᱵᱮᱠ ᱵᱟᱝ ᱮᱦᱚᱵ ᱫᱟᱲᱮᱭᱟᱫᱼᱟ:\n%@\n\nᱵᱤᱵᱨᱚᱬ: ~/Library/Logs/Purrcast.log";
+"player error: %@" = "ᱯᱞᱮᱭᱟᱨ ᱵᱷᱩᱞ: %@";
+"playback didn't start within 20 seconds" = "᱒᱐ ᱥᱮᱠᱮᱱᱰ ᱵᱷᱤᱛᱨᱤ ᱯᱞᱮᱭᱵᱮᱠ ᱵᱟᱝ ᱮᱦᱚᱵ ᱞᱮᱱᱟ";
+"Error" = "ᱵᱷᱩᱞ";
+
+/* Tracks */
+"Audio %@" = "ᱚᱰᱤᱭᱳ %@";
+"Subtitle %@" = "ᱥᱟᱵᱴᱟᱭᱴᱟᱞ %@";
+"(forced)" = "(ᱡᱚᱵᱚᱨᱫᱚᱥᱛᱤ)";
+"External subtitle" = "ᱵᱟᱦᱨᱮᱭᱟᱜ ᱥᱟᱵᱴᱟᱭᱴᱟᱞ";
+"(external)" = "(ᱵᱟᱦᱨᱮᱭᱟᱜ)";
+"unknown" = "ᱵᱟᱝ ᱵᱟᱰᱟᱭ";
+"mono" = "ᱢᱚᱱᱚ";
+"stereo" = "ᱥᱴᱮᱨᱤᱭᱳ";
+"%@ channels" = "%@ ᱪᱮᱱᱮᱞ";
+
+/* Conversion summary */
+"%@ → H.264, plays on every TV" = "%@ → H.264, ᱡᱷᱚᱛᱚ TV ᱨᱮ ᱪᱟᱞᱟᱜᱼᱟ";
+"%@ H.264 → 8-bit H.264" = "%@ H.264 → 8-ᱵᱤᱴ H.264";
+"interlaced → progressive" = "ᱤᱱᱴᱟᱨᱞᱮᱥᱰ → ᱯᱨᱚᱜᱨᱮᱥᱤᱵᱷ";
+"re-encoded for reliable playback" = "ᱯᱚᱛᱭᱟᱹᱣᱟᱱ ᱯᱞᱮᱭᱵᱮᱠ ᱞᱟᱹᱜᱤᱫ ᱫᱚᱦᱲᱟ ᱮᱱᱠᱳᱰ ᱟᱠᱟᱱᱟ";
+"Video: %@ – passed through in original quality" = "ᱵᱷᱤᱰᱤᱭᱳ: %@ – ᱢᱩᱞ ᱜᱩᱱ ᱨᱮ, ᱵᱟᱝ ᱵᱚᱫᱚᱞ ᱛᱮ";
+"Video: %@ → H.264 %@ (%@)" = "ᱵᱷᱤᱰᱤᱭᱳ: %@ → H.264 %@ (%@)";
+"Audio: %@ – original" = "ᱚᱰᱤᱭᱳ: %@ – ᱢᱩᱞ";
+"Audio: %@ → %@ %@" = "ᱚᱰᱤᱭᱳ: %@ → %@ %@";
+"Subtitle: %@ – on by default" = "ᱥᱟᱵᱴᱟᱭᱴᱟᱞ: %@ – ᱰᱤᱯᱷᱚᱞᱴ ᱛᱮ ᱪᱟᱹᱞᱩ";
+"Subtitle: %@" = "ᱥᱟᱵᱴᱟᱭᱴᱟᱞ: %@";
+"Subtitle skipped: %@ (%@ is image-based and can't be converted)" = "ᱥᱟᱵᱴᱟᱭᱴᱟᱞ ᱟᱲᱟᱜ ᱮᱱᱟ: %@ (%@ ᱫᱚ ᱪᱤᱛᱟᱹᱨ ᱞᱮᱠᱟᱱ ᱠᱟᱱᱟ, ᱵᱚᱫᱚᱞ ᱵᱟᱝ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ)";
+
+/* Status */
+"Preparing…" = "ᱛᱮᱭᱟᱨ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ…";
+"Playing via AirPlay" = "AirPlay ᱛᱮ ᱪᱟᱞᱟᱜ ᱠᱟᱱᱟ";
+"Conversion stopped: %@" = "ᱵᱚᱫᱚᱞ ᱵᱚᱸᱫᱚ ᱮᱱᱟ: %@";
+"Prepared: %@ / %@" = "ᱛᱮᱭᱟᱨ: %@ / %@";
+
+/* Window */
+"Open…" = "ᱡᱷᱤᱡᱽ…";
+"Open" = "ᱡᱷᱤᱡᱽ";
+"Open another file…" = "ᱮᱴᱟᱜ ᱨᱮᱫ ᱡᱷᱤᱡᱽ…";
+"AirPlay – choose your TV" = "AirPlay – ᱟᱢᱟᱜ TV ᱵᱟᱪᱷᱟᱣ ᱢᱮ";
+"Drop a video here (MKV, MP4, AVI…)" = "ᱢᱤᱫᱴᱟᱹᱝ ᱵᱷᱤᱰᱤᱭᱳ ᱱᱚᱸᱰᱮ ᱫᱚᱦᱚᱭ ᱢᱮ (MKV, MP4, AVI…)";
+"or open one with ⌘O, then pick your TV with the AirPlay button" = "ᱟᱨᱵᱟᱝ ⌘O ᱛᱮ ᱡᱷᱤᱡᱽ ᱢᱮ, ᱛᱟᱭᱚᱢ ᱛᱮ AirPlay ᱵᱩᱛᱟᱹᱢ ᱛᱮ ᱟᱢᱟᱜ TV ᱵᱟᱪᱷᱟᱣ ᱢᱮ";
+
+/* Menus */
+"Playback" = "ᱯᱞᱮᱭᱵᱮᱠ";
+"Original quality (HEVC, HDR, surround – for Apple TV 4K)" = "ᱢᱩᱞ ᱜᱩᱱ (HEVC, HDR, ᱥᱟᱨᱟᱣᱩᱱᱰ – Apple TV 4K ᱞᱟᱹᱜᱤᱫ)";
+"Language" = "ᱯᱟᱹᱨᱥᱤ";
+"System default" = "ᱥᱤᱥᱴᱚᱢ ᱰᱤᱯᱷᱚᱞᱴ";
+"The new language takes effect after a restart." = "ᱫᱚᱦᱲᱟ ᱮᱦᱚᱵ ᱛᱟᱭᱚᱢ ᱱᱟᱣᱟ ᱯᱟᱹᱨᱥᱤ ᱞᱟᱹᱜᱩ ᱦᱩᱭᱩᱜᱼᱟ᱾";
+"Restart Purrcast now? Playback stops." = "Purrcast ᱱᱤᱛ ᱫᱚᱦᱲᱟ ᱮᱦᱚᱵ ᱢᱮ? ᱯᱞᱮᱭᱵᱮᱠ ᱵᱚᱸᱫᱚᱜᱼᱟ᱾";
+"Restart" = "ᱫᱚᱦᱲᱟ ᱮᱦᱚᱵ";
+"Later" = "ᱛᱟᱭᱚᱢ ᱛᱮ";
+
+/* Player, menus, playlist, media information */
+"Chapter %@" = "ᱦᱟᱹᱴᱤᱧ %@";
+"File" = "ᱨᱮᱫ";
+"Format" = "ᱯᱷᱚᱨᱢᱟᱴ";
+"Duration" = "ᱚᱠᱛᱚ";
+"Size" = "ᱢᱟᱯ";
+"Bitrate" = "ᱵᱤᱴᱨᱮᱴ";
+"General" = "ᱥᱟᱫᱷᱟᱨᱚᱱ";
+"Codec" = "ᱠᱳᱰᱮᱠ";
+"Title" = "ᱧᱩᱛᱩᱢ";
+"Resolution" = "ᱨᱮᱡᱚᱞᱩᱥᱚᱱ";
+"Frame rate" = "ᱯᱷᱨᱮᱢ ᱨᱮᱴ";
+"Pixel format" = "ᱯᱤᱠᱥᱮᱞ ᱯᱷᱚᱨᱢᱟᱴ";
+"Dynamic range" = "ᱰᱟᱭᱱᱟᱢᱤᱠ ᱨᱮᱧᱡᱽ";
+"Channels" = "ᱪᱮᱱᱮᱞ";
+"Sample rate" = "ᱥᱮᱢᱯᱟᱞ ᱨᱮᱴ";
+"Video" = "ᱵᱷᱤᱰᱤᱭᱳ";
+"Audio" = "ᱚᱰᱤᱭᱳ";
+"Subtitle" = "ᱥᱟᱵᱴᱟᱭᱴᱟᱞ";
+"Stream %@: %@" = "ᱥᱴᱨᱤᱢ %@: %@";
+"Purrcast" = "Purrcast";
+"Media Information" = "ᱢᱤᱰᱤᱭᱟ ᱠᱷᱚᱵᱚᱨ";
+"Open Network Stream…" = "ᱱᱮᱴᱣᱟᱨᱠ ᱥᱴᱨᱤᱢ ᱡᱷᱤᱡᱽ…";
+"Open Recent" = "ᱱᱤᱛᱚᱜᱟᱜ ᱨᱮᱫ ᱡᱷᱤᱡᱽ";
+"Clear Menu" = "ᱢᱮᱱᱩ ᱯᱷᱟᱨᱪᱟ ᱢᱮ";
+"Add Subtitle File…" = "ᱥᱟᱵᱴᱟᱭᱴᱟᱞ ᱨᱮᱫ ᱥᱮᱞᱮᱫ ᱢᱮ…";
+"Save Playlist…" = "ᱯᱞᱮᱭᱞᱤᱥᱴ ᱥᱟᱺᱪᱟᱣ ᱢᱮ…";
+"Play/Pause" = "ᱪᱟᱞᱟᱣ/ᱛᱷᱟᱢᱟᱣ";
+"Stop" = "ᱵᱚᱸᱫᱚ";
+"Previous" = "ᱞᱟᱦᱟᱱᱛᱤ";
+"Next" = "ᱫᱟᱨᱟᱭ ᱛᱮ";
+"Jump Back 10 Seconds" = "᱑᱐ ᱥᱮᱠᱮᱱᱰ ᱛᱟᱭᱚᱢ ᱥᱮᱫ ᱥᱮᱱ ᱢᱮ";
+"Jump Forward 10 Seconds" = "᱑᱐ ᱥᱮᱠᱮᱱᱰ ᱞᱟᱦᱟ ᱥᱮᱫ ᱥᱮᱱ ᱢᱮ";
+"Jump Back 1 Minute" = "᱑ ᱢᱤᱱᱤᱴ ᱛᱟᱭᱚᱢ ᱥᱮᱫ ᱥᱮᱱ ᱢᱮ";
+"Jump Forward 1 Minute" = "᱑ ᱢᱤᱱᱤᱴ ᱞᱟᱦᱟ ᱥᱮᱫ ᱥᱮᱱ ᱢᱮ";
+"Jump to Time…" = "ᱚᱠᱛᱚ ᱨᱮ ᱥᱮᱱ ᱢᱮ…";
+"Next Frame" = "ᱫᱟᱨᱟᱭ ᱛᱮᱭᱟᱜ ᱯᱷᱨᱮᱢ";
+"Chapters" = "ᱦᱟᱹᱴᱤᱧ ᱠᱚ";
+"Faster" = "ᱵᱟᱹᱲᱛᱤ ᱞᱚᱜᱚᱱ";
+"Slower" = "ᱠᱚᱢ ᱞᱚᱜᱚᱱ";
+"Normal Speed" = "ᱥᱟᱫᱷᱟᱨᱚᱱ ᱜᱚᱛᱤ";
+"Set Loop Start (A)" = "ᱞᱩᱯ ᱮᱦᱚᱵ ᱥᱮᱴ ᱢᱮ (A)";
+"Set Loop End (B)" = "ᱞᱩᱯ ᱢᱩᱪᱟᱹᱫ ᱥᱮᱴ ᱢᱮ (B)";
+"Loop Off" = "ᱞᱩᱯ ᱵᱚᱸᱫᱚ ᱢᱮ";
+"Repeat" = "ᱫᱚᱦᱲᱟ ᱪᱟᱞᱟᱣ";
+"Off" = "ᱵᱚᱸᱫᱚ";
+"All" = "ᱡᱷᱚᱛᱚ";
+"One" = "ᱢᱤᱫᱴᱟᱹᱝ";
+"Shuffle" = "ᱮᱞᱚᱢᱮᱞᱚ";
+"Volume Up" = "ᱥᱟᱰᱮ ᱵᱟᱹᱲᱛᱤ ᱢᱮ";
+"Volume Down" = "ᱥᱟᱰᱮ ᱠᱚᱢ ᱢᱮ";
+"Mute" = "ᱥᱟᱰᱮ ᱵᱚᱸᱫᱚ";
+"Audio Track" = "ᱚᱰᱤᱭᱳ ᱴᱨᱮᱠ";
+"Full Screen" = "ᱯᱩᱨᱟᱹ ᱥᱠᱨᱤᱱ";
+"Float on Top" = "ᱡᱷᱚᱛᱚ ᱚᱠᱛᱚ ᱪᱮᱛᱟᱱ ᱨᱮ";
+"Aspect" = "ᱮᱥᱯᱮᱠᱴ ᱨᱮᱥᱤᱭᱳ";
+"Fit" = "ᱯᱷᱤᱴ";
+"Fill (Crop)" = "ᱯᱩᱨᱟᱹᱣ (ᱠᱨᱚᱯ)";
+"Stretch" = "ᱥᱴᱨᱮᱪ";
+"Snapshot" = "ᱥᱱᱮᱯᱥᱚᱴ";
+"Show Snapshots Folder" = "ᱥᱱᱮᱯᱥᱚᱴ ᱯᱷᱚᱞᱰᱟᱨ ᱫᱮᱠᱷᱟᱣ ᱢᱮ";
+"Subtitles" = "ᱥᱟᱵᱴᱟᱭᱴᱟᱞ ᱠᱚ";
+"Subtitle Track" = "ᱥᱟᱵᱴᱟᱭᱴᱟᱞ ᱴᱨᱮᱠ";
+"Next Subtitle Track" = "ᱫᱟᱨᱟᱭ ᱛᱮᱭᱟᱜ ᱥᱟᱵᱴᱟᱭᱴᱟᱞ ᱴᱨᱮᱠ";
+"Subtitles Earlier (G)" = "ᱥᱟᱵᱴᱟᱭᱴᱟᱞ ᱞᱟᱦᱟ ᱛᱮ (G)";
+"Subtitles Later (H)" = "ᱥᱟᱵᱴᱟᱭᱴᱟᱞ ᱛᱟᱭᱚᱢ ᱛᱮ (H)";
+"Reset Subtitle Delay" = "ᱥᱟᱵᱴᱟᱭᱴᱟᱞ ᱰᱤᱞᱮ ᱨᱤᱥᱮᱴ ᱢᱮ";
+"Playlist" = "ᱯᱞᱮᱭᱞᱤᱥᱴ";
+"%@ items" = "%@ ᱡᱤᱱᱤᱥ";
+"Close" = "ᱵᱚᱸᱫᱚ ᱢᱮ";
+"Play" = "ᱪᱟᱞᱟᱣ ᱢᱮ";
+"Show in Finder" = "Finder ᱨᱮ ᱫᱮᱠᱷᱟᱣ ᱢᱮ";
+"Remove from Playlist" = "ᱯᱞᱮᱭᱞᱤᱥᱴ ᱠᱷᱚᱱ ᱚᱪᱚᱜ ᱢᱮ";
+"Drop videos or folders here" = "ᱵᱷᱤᱰᱤᱭᱳ ᱥᱮ ᱯᱷᱚᱞᱰᱟᱨ ᱠᱚ ᱱᱚᱸᱰᱮ ᱫᱚᱦᱚᱭ ᱢᱮ";
+"Add files or folders…" = "ᱨᱮᱫ ᱥᱮ ᱯᱷᱚᱞᱰᱟᱨ ᱠᱚ ᱥᱮᱞᱮᱫ ᱢᱮ…";
+"Clear Playlist" = "ᱯᱞᱮᱭᱞᱤᱥᱴ ᱯᱷᱟᱨᱪᱟ ᱢᱮ";
+"Repeat: off" = "ᱫᱚᱦᱲᱟ ᱪᱟᱞᱟᱣ: ᱵᱚᱸᱫᱚ";
+"Repeat: all" = "ᱫᱚᱦᱲᱟ ᱪᱟᱞᱟᱣ: ᱡᱷᱚᱛᱚ";
+"Repeat: one" = "ᱫᱚᱦᱲᱟ ᱪᱟᱞᱟᱣ: ᱢᱤᱫᱴᱟᱹᱝ";
+"Streaming" = "ᱥᱴᱨᱤᱢᱤᱝ";
+"Nothing is playing." = "ᱱᱤᱛ ᱪᱮᱫ ᱦᱚᱸ ᱵᱟᱝ ᱪᱟᱞᱟᱜ ᱠᱟᱱᱟ᱾";
+"Open Network Stream" = "ᱱᱮᱴᱣᱟᱨᱠ ᱥᱴᱨᱤᱢ ᱡᱷᱤᱡᱽ";
+"HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – anything ffmpeg can open." = "HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – ffmpeg ᱡᱟᱦᱟᱸᱱᱟᱜ ᱡᱷᱤᱡᱽ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ, ᱚᱱᱟ ᱡᱷᱚᱛᱚ᱾";
+"Cancel" = "ᱵᱟᱹᱛᱤᱞ";
+"Jump to Time" = "ᱚᱠᱛᱚ ᱨᱮ ᱥᱮᱱ ᱢᱮ";
+"Jump" = "ᱥᱮᱱ ᱢᱮ";
+"Resumed at %@" = "%@ ᱠᱷᱚᱱ ᱫᱚᱦᱲᱟ ᱮᱦᱚᱵ ᱮᱱᱟ";
+"Speed: %@" = "ᱜᱚᱛᱤ: %@";
+"Volume: %@" = "ᱥᱟᱰᱮ: %@";
+"Loop start: %@" = "ᱞᱩᱯ ᱮᱦᱚᱵ: %@";
+"Looping %@ – %@" = "ᱞᱩᱯ: %@ – %@";
+"Loop off" = "ᱞᱩᱯ ᱵᱚᱸᱫᱚ";
+"Snapshot saved: %@" = "ᱥᱱᱮᱯᱥᱚᱴ ᱥᱟᱺᱪᱟᱣ ᱮᱱᱟ: %@";
+"Couldn't save the snapshot." = "ᱥᱱᱮᱯᱥᱚᱴ ᱵᱟᱝ ᱥᱟᱺᱪᱟᱣ ᱫᱟᱲᱮᱭᱟᱫᱼᱟ᱾";
+"Subtitles off" = "ᱥᱟᱵᱴᱟᱭᱴᱟᱞ ᱵᱚᱸᱫᱚ";
+"Adding subtitles…" = "ᱥᱟᱵᱴᱟᱭᱴᱟᱞ ᱥᱮᱞᱮᱫ ᱦᱩᱭᱩᱜ ᱠᱟᱱᱟ…";
+"Subtitle delay: %@ ms" = "ᱥᱟᱵᱴᱟᱭᱴᱟᱞ ᱰᱤᱞᱮ: %@ ms";
+"Play Playlist" = "ᱯᱞᱮᱭᱞᱤᱥᱴ ᱪᱟᱞᱟᱣ ᱢᱮ";
+"Recent" = "ᱱᱤᱛᱚᱜᱟᱜ";
+"Next in Playlist" = "ᱯᱞᱮᱭᱞᱤᱥᱴ ᱨᱮ ᱫᱟᱨᱟᱭ ᱛᱮ";
+"Start Over" = "ᱮᱦᱚᱵ ᱠᱷᱚᱱ ᱪᱟᱞᱟᱣ ᱢᱮ";
+"Jump back 10 seconds" = "᱑᱐ ᱥᱮᱠᱮᱱᱰ ᱛᱟᱭᱚᱢ ᱥᱮᱫ";
+"Play/Pause (Space)" = "ᱪᱟᱞᱟᱣ/ᱛᱷᱟᱢᱟᱣ (ᱥᱯᱮᱥ)";
+"Jump forward 10 seconds" = "᱑᱐ ᱥᱮᱠᱮᱱᱰ ᱞᱟᱦᱟ ᱥᱮᱫ";
+"Playback speed" = "ᱯᱞᱮᱭᱵᱮᱠ ᱜᱚᱛᱤ";
+"Playlist (⌘L)" = "ᱯᱞᱮᱭᱞᱤᱥᱴ (⌘L)";
+"Full Screen (⌘F)" = "ᱯᱩᱨᱟᱹ ᱥᱠᱨᱤᱱ (⌘F)";
+"No audio tracks" = "ᱚᱰᱤᱭᱳ ᱴᱨᱮᱠ ᱵᱟᱹᱱᱩᱜᱼᱟ";
+"Audio track" = "ᱚᱰᱤᱭᱳ ᱴᱨᱮᱠ";
+
+/* Network streams */
+"network stream – seekable anywhere" = "ᱱᱮᱴᱣᱟᱨᱠ ᱥᱴᱨᱤᱢ – ᱡᱟᱦᱟᱸ ᱥᱮᱱ ᱦᱚᱸ ᱪᱟᱞᱟᱜ ᱫᱟᱲᱮᱭᱟᱜᱼᱟ";
+"Network HLS stream – played directly, without conversion" = "ᱱᱮᱴᱣᱟᱨᱠ HLS ᱥᱴᱨᱤᱢ – ᱵᱚᱫᱚᱞ ᱵᱟᱝ ᱥᱚᱡᱷᱮ ᱪᱟᱞᱟᱜ ᱠᱟᱱᱟ";
+
+/* Chapters */
+"Previous Chapter" = "ᱢᱟᱲᱟᱝ ᱦᱟᱹᱴᱤᱧ";
+"Next Chapter" = "ᱛᱟᱭᱚᱢ ᱦᱟᱹᱴᱤᱧ";
+"Chapter: %@" = "ᱦᱟᱹᱴᱤᱧ: %@";
+"Previous Chapter (⇧P)" = "ᱢᱟᱲᱟᱝ ᱦᱟᱹᱴᱤᱧ (⇧P)";
+"Next Chapter (⇧N)" = "ᱛᱟᱭᱚᱢ ᱦᱟᱹᱴᱤᱧ (⇧N)";
+
+/* Auto-hiding controls */
+"Hide Controls" = "ᱠᱚᱵᱚᱡ ᱫᱟᱱᱟᱝ ᱢᱮ";
+"After %@ seconds" = "%@ ᱥᱮᱠᱮᱸᱰ ᱛᱟᱭᱚᱢ";
+"Never" = "ᱡᱟᱦᱟᱸᱭ ᱦᱚᱸ ᱵᱟᱝ";
+
+/* Time display */
+"Show total length" = "ᱡᱚᱛᱚ ᱚᱠᱛᱚ ᱫᱮᱠᱷᱟᱣ ᱢᱮ";
+"Show remaining time" = "ᱵᱟᱧᱪᱟᱣ ᱚᱠᱛᱚ ᱫᱮᱠᱷᱟᱣ ᱢᱮ";
+
+/* Picture in Picture, appearance */
+"Picture in Picture" = "ᱪᱤᱛᱟᱹᱨ ᱵᱷᱤᱛᱨᱤ ᱪᱤᱛᱟᱹᱨ";
+"Playing in Picture in Picture" = "ᱪᱤᱛᱟᱹᱨ ᱵᱷᱤᱛᱨᱤ ᱪᱤᱛᱟᱹᱨ ᱨᱮ ᱪᱟᱞᱟᱜ ᱠᱟᱱᱟ";
+"Appearance" = "ᱧᱮᱞ";
+"Light" = "ᱢᱟᱨᱥᱟᱞ";
+"Dark" = "ᱧᱩᱛ";
+
+/* Help menu */
+"Open-Source Licenses" = "ᱠᱷᱩᱞᱟᱹ ᱥᱚᱨᱥ ᱞᱟᱭᱤᱥᱮᱱᱥ";

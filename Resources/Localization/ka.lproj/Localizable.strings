@@ -1,0 +1,203 @@
+/* Georgian translation. Keys are the English texts; check: Resources/Localization/check.sh */
+
+/* Errors */
+"timed out" = "დრო ამოიწურა";
+"Not found: %@. Install it with: brew install ffmpeg" = "ვერ მოიძებნა: %@. დააყენე ბრძანებით: brew install ffmpeg";
+"Couldn't read the file: %@" = "ფაილის წაკითხვა ვერ მოხერხდა: %@";
+"The file has no video track." = "ფაილში ვიდეობილიკი არ არის.";
+"ffmpeg stopped with an error:\n%@" = "ffmpeg შეცდომით შეჩერდა:\n%@";
+"Not enough free space for the temporary stream files (needs about %@, free: %@)." = "დროებითი ნაკადის ფაილებისთვის საკმარისი თავისუფალი ადგილი არ არის (საჭიროა დაახლოებით %@, თავისუფალია: %@).";
+"The local stream server didn't start: %@" = "ლოკალური ნაკადის სერვერი არ გაეშვა: %@";
+"Didn't start with the previous settings, retrying in a safer mode…" = "წინა პარამეტრებით ვერ გაეშვა, ხელახლა ვცდი უფრო უსაფრთხო რეჟიმში…";
+"Couldn't start playback:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log" = "დაკვრის დაწყება ვერ მოხერხდა:\n%@\n\nდეტალები: ~/Library/Logs/Purrcast.log";
+"player error: %@" = "დამკვრელის შეცდომა: %@";
+"playback didn't start within 20 seconds" = "დაკვრა 20 წამში არ დაიწყო";
+"Error" = "შეცდომა";
+
+/* Tracks */
+"Audio %@" = "აუდიო %@";
+"Subtitle %@" = "სუბტიტრი %@";
+"(forced)" = "(იძულებითი)";
+"External subtitle" = "გარე სუბტიტრი";
+"(external)" = "(გარე)";
+"unknown" = "უცნობი";
+"mono" = "მონო";
+"stereo" = "სტერეო";
+"%@ channels" = "%@ არხი";
+
+/* Conversion summary */
+"%@ → H.264, plays on every TV" = "%@ → H.264, ნებისმიერ ტელევიზორზე იკვრება";
+"%@ H.264 → 8-bit H.264" = "%@ H.264 → 8-ბიტიანი H.264";
+"interlaced → progressive" = "ჩაწნული → პროგრესული";
+"re-encoded for reliable playback" = "გადაკოდირებულია საიმედო დაკვრისთვის";
+"Video: %@ – passed through in original quality" = "ვიდეო: %@ – გადაეცემა ორიგინალი ხარისხით";
+"Video: %@ → H.264 %@ (%@)" = "ვიდეო: %@ → H.264 %@ (%@)";
+"Audio: %@ – original" = "აუდიო: %@ – ორიგინალი";
+"Audio: %@ → %@ %@" = "აუდიო: %@ → %@ %@";
+"Subtitle: %@ – on by default" = "სუბტიტრი: %@ – ნაგულისხმევად ჩართულია";
+"Subtitle: %@" = "სუბტიტრი: %@";
+"Subtitle skipped: %@ (%@ is image-based and can't be converted)" = "სუბტიტრი გამოტოვებულია: %@ (%@ გამოსახულებებზეა დაფუძნებული და ვერ გარდაიქმნება)";
+
+/* Status */
+"Preparing…" = "მზადდება…";
+"Playing via AirPlay" = "იკვრება AirPlay-ით";
+"Conversion stopped: %@" = "გარდაქმნა შეჩერდა: %@";
+"Prepared: %@ / %@" = "მომზადებულია: %@ / %@";
+
+/* Window */
+"Open…" = "გახსნა…";
+"Open" = "გახსნა";
+"Open another file…" = "სხვა ფაილის გახსნა…";
+"AirPlay – choose your TV" = "AirPlay – აირჩიე ტელევიზორი";
+"Drop a video here (MKV, MP4, AVI…)" = "გადმოათრიე ვიდეო აქ (MKV, MP4, AVI…)";
+"or open one with ⌘O, then pick your TV with the AirPlay button" = "ან გახსენი ⌘O-ით, შემდეგ კი AirPlay ღილაკით აირჩიე ტელევიზორი";
+
+/* Menus */
+"Playback" = "დაკვრა";
+"Original quality (HEVC, HDR, surround – for Apple TV 4K)" = "ორიგინალი ხარისხი (HEVC, HDR, surround – Apple TV 4K-სთვის)";
+"Language" = "ენა";
+"System default" = "სისტემის ნაგულისხმევი";
+"The new language takes effect after a restart." = "ახალი ენა გადატვირთვის შემდეგ ამოქმედდება.";
+"Restart Purrcast now? Playback stops." = "გადავტვირთო Purrcast ახლავე? დაკვრა შეწყდება.";
+"Restart" = "გადატვირთვა";
+"Later" = "მოგვიანებით";
+
+/* Player, menus, playlist, media information */
+"Chapter %@" = "თავი %@";
+"File" = "ფაილი";
+"Format" = "ფორმატი";
+"Duration" = "ხანგრძლივობა";
+"Size" = "ზომა";
+"Bitrate" = "ბიტრეიტი";
+"General" = "ზოგადი";
+"Codec" = "კოდეკი";
+"Title" = "სათაური";
+"Resolution" = "გარჩევადობა";
+"Frame rate" = "კადრების სიხშირე";
+"Pixel format" = "პიქსელის ფორმატი";
+"Dynamic range" = "დინამიკური დიაპაზონი";
+"Channels" = "არხები";
+"Sample rate" = "დისკრეტიზაციის სიხშირე";
+"Video" = "ვიდეო";
+"Audio" = "აუდიო";
+"Subtitle" = "სუბტიტრი";
+"Stream %@: %@" = "ნაკადი %@: %@";
+"Purrcast" = "Purrcast";
+"Media Information" = "მედიის ინფორმაცია";
+"Open Network Stream…" = "ქსელური ნაკადის გახსნა…";
+"Open Recent" = "ბოლოს გახსნილი";
+"Clear Menu" = "მენიუს გასუფთავება";
+"Add Subtitle File…" = "სუბტიტრების ფაილის დამატება…";
+"Save Playlist…" = "დასაკრავი სიის შენახვა…";
+"Play/Pause" = "დაკვრა/პაუზა";
+"Stop" = "გაჩერება";
+"Previous" = "წინა";
+"Next" = "შემდეგი";
+"Jump Back 10 Seconds" = "10 წამით უკან";
+"Jump Forward 10 Seconds" = "10 წამით წინ";
+"Jump Back 1 Minute" = "1 წუთით უკან";
+"Jump Forward 1 Minute" = "1 წუთით წინ";
+"Jump to Time…" = "დროზე გადასვლა…";
+"Next Frame" = "შემდეგი კადრი";
+"Chapters" = "თავები";
+"Faster" = "უფრო სწრაფად";
+"Slower" = "უფრო ნელა";
+"Normal Speed" = "ნორმალური სიჩქარე";
+"Set Loop Start (A)" = "ციკლის დასაწყისი (A)";
+"Set Loop End (B)" = "ციკლის დასასრული (B)";
+"Loop Off" = "ციკლის გამორთვა";
+"Repeat" = "გამეორება";
+"Off" = "გამორთული";
+"All" = "ყველა";
+"One" = "ერთი";
+"Shuffle" = "შემთხვევითი რიგით";
+"Volume Up" = "ხმის აწევა";
+"Volume Down" = "ხმის დაწევა";
+"Mute" = "დადუმება";
+"Audio Track" = "აუდიობილიკი";
+"Full Screen" = "მთელ ეკრანზე";
+"Float on Top" = "ყოველთვის ზემოთ";
+"Aspect" = "გვერდების თანაფარდობა";
+"Fit" = "მორგება";
+"Fill (Crop)" = "შევსება (ჩამოჭრით)";
+"Stretch" = "გაჭიმვა";
+"Snapshot" = "კადრის გადაღება";
+"Show Snapshots Folder" = "გადაღებული კადრების საქაღალდე";
+"Subtitles" = "სუბტიტრები";
+"Subtitle Track" = "სუბტიტრების ბილიკი";
+"Next Subtitle Track" = "სუბტიტრების შემდეგი ბილიკი";
+"Subtitles Earlier (G)" = "სუბტიტრები ადრე (G)";
+"Subtitles Later (H)" = "სუბტიტრები გვიან (H)";
+"Reset Subtitle Delay" = "სუბტიტრების დაყოვნების განულება";
+"Playlist" = "დასაკრავი სია";
+"%@ items" = "%@ ელემენტი";
+"Close" = "დახურვა";
+"Play" = "დაკვრა";
+"Show in Finder" = "Finder-ში ჩვენება";
+"Remove from Playlist" = "დასაკრავი სიიდან ამოღება";
+"Drop videos or folders here" = "გადმოათრიე აქ ვიდეოები ან საქაღალდეები";
+"Add files or folders…" = "ფაილების ან საქაღალდეების დამატება…";
+"Clear Playlist" = "დასაკრავი სიის გასუფთავება";
+"Repeat: off" = "გამეორება: გამორთული";
+"Repeat: all" = "გამეორება: ყველა";
+"Repeat: one" = "გამეორება: ერთი";
+"Streaming" = "ნაკადური გადაცემა";
+"Nothing is playing." = "არაფერი იკვრება.";
+"Open Network Stream" = "ქსელური ნაკადის გახსნა";
+"HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – anything ffmpeg can open." = "HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – ყველაფერი, რისი გახსნაც ffmpeg-ს შეუძლია.";
+"Cancel" = "გაუქმება";
+"Jump to Time" = "დროზე გადასვლა";
+"Jump" = "გადასვლა";
+"Resumed at %@" = "გაგრძელდა აქედან: %@";
+"Speed: %@" = "სიჩქარე: %@";
+"Volume: %@" = "ხმა: %@";
+"Loop start: %@" = "ციკლის დასაწყისი: %@";
+"Looping %@ – %@" = "ციკლი %@ – %@";
+"Loop off" = "ციკლი გამორთულია";
+"Snapshot saved: %@" = "კადრი შენახულია: %@";
+"Couldn't save the snapshot." = "კადრის შენახვა ვერ მოხერხდა.";
+"Subtitles off" = "სუბტიტრები გამორთულია";
+"Adding subtitles…" = "სუბტიტრების დამატება…";
+"Subtitle delay: %@ ms" = "სუბტიტრების დაყოვნება: %@ ms";
+"Play Playlist" = "სიის დაკვრა";
+"Recent" = "ბოლოს გახსნილი";
+"Next in Playlist" = "შემდეგი სიაში";
+"Start Over" = "თავიდან";
+"Jump back 10 seconds" = "10 წამით უკან";
+"Play/Pause (Space)" = "დაკვრა/პაუზა (Space)";
+"Jump forward 10 seconds" = "10 წამით წინ";
+"Playback speed" = "დაკვრის სიჩქარე";
+"Playlist (⌘L)" = "დასაკრავი სია (⌘L)";
+"Full Screen (⌘F)" = "მთელ ეკრანზე (⌘F)";
+"No audio tracks" = "აუდიობილიკები არ არის";
+"Audio track" = "აუდიობილიკი";
+
+/* Network streams */
+"network stream – seekable anywhere" = "ქსელური ნაკადი – შეგიძლია ნებისმიერ ადგილზე გადახვიდე";
+"Network HLS stream – played directly, without conversion" = "ქსელური HLS ნაკადი – უკრავს პირდაპირ, გარდაქმნის გარეშე";
+
+/* Chapters */
+"Previous Chapter" = "წინა თავი";
+"Next Chapter" = "შემდეგი თავი";
+"Chapter: %@" = "თავი: %@";
+"Previous Chapter (⇧P)" = "წინა თავი (⇧P)";
+"Next Chapter (⇧N)" = "შემდეგი თავი (⇧N)";
+
+/* Auto-hiding controls */
+"Hide Controls" = "მართვის ელემენტების დამალვა";
+"After %@ seconds" = "%@ წამის შემდეგ";
+"Never" = "არასდროს";
+
+/* Time display */
+"Show total length" = "სრული ხანგრძლივობის ჩვენება";
+"Show remaining time" = "დარჩენილი დროის ჩვენება";
+
+/* Picture in Picture, appearance */
+"Picture in Picture" = "სურათი სურათში";
+"Playing in Picture in Picture" = "უკრავს რეჟიმში სურათი სურათში";
+"Appearance" = "იერსახე";
+"Light" = "ღია";
+"Dark" = "მუქი";
+
+/* Help menu */
+"Open-Source Licenses" = "ღია კოდის ლიცენზიები";

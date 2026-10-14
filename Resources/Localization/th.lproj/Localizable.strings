@@ -1,0 +1,203 @@
+/* ภาษาไทย – keys are the English texts; check: Resources/Localization/check.sh */
+
+/* Errors */
+"timed out" = "หมดเวลา";
+"Not found: %@. Install it with: brew install ffmpeg" = "ไม่พบ %@ ติดตั้งได้ด้วยคำสั่ง: brew install ffmpeg";
+"Couldn't read the file: %@" = "ไม่สามารถอ่านไฟล์ได้: %@";
+"The file has no video track." = "ไฟล์นี้ไม่มีแทร็กวิดีโอ";
+"ffmpeg stopped with an error:\n%@" = "ffmpeg หยุดทำงานเนื่องจากเกิดข้อผิดพลาด:\n%@";
+"Not enough free space for the temporary stream files (needs about %@, free: %@)." = "พื้นที่ว่างไม่พอสำหรับไฟล์สตรีมชั่วคราว (ต้องใช้ประมาณ %@, ว่างอยู่: %@)";
+"The local stream server didn't start: %@" = "เซิร์ฟเวอร์สตรีมในเครื่องไม่เริ่มทำงาน: %@";
+"Didn't start with the previous settings, retrying in a safer mode…" = "เริ่มด้วยการตั้งค่าเดิมไม่สำเร็จ กำลังลองใหม่ในโหมดที่ปลอดภัยกว่า…";
+"Couldn't start playback:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log" = "ไม่สามารถเริ่มเล่นได้:\n%@\n\nรายละเอียด: ~/Library/Logs/Purrcast.log";
+"player error: %@" = "ตัวเล่นผิดพลาด: %@";
+"playback didn't start within 20 seconds" = "การเล่นไม่เริ่มภายใน 20 วินาที";
+"Error" = "ข้อผิดพลาด";
+
+/* Tracks */
+"Audio %@" = "เสียง %@";
+"Subtitle %@" = "คำบรรยาย %@";
+"(forced)" = "(บังคับ)";
+"External subtitle" = "คำบรรยายภายนอก";
+"(external)" = "(ภายนอก)";
+"unknown" = "ไม่ทราบ";
+"mono" = "โมโน";
+"stereo" = "สเตอริโอ";
+"%@ channels" = "%@ ช่องสัญญาณ";
+
+/* Conversion summary */
+"%@ → H.264, plays on every TV" = "%@ → H.264 เล่นได้บนทีวีทุกเครื่อง";
+"%@ H.264 → 8-bit H.264" = "%@ H.264 → H.264 8 บิต";
+"interlaced → progressive" = "อินเทอร์เลซ → โปรเกรสซีฟ";
+"re-encoded for reliable playback" = "เข้ารหัสใหม่เพื่อให้เล่นได้อย่างเสถียร";
+"Video: %@ – passed through in original quality" = "วิดีโอ: %@ – ส่งต่อด้วยคุณภาพต้นฉบับ";
+"Video: %@ → H.264 %@ (%@)" = "วิดีโอ: %@ → H.264 %@ (%@)";
+"Audio: %@ – original" = "เสียง: %@ – ต้นฉบับ";
+"Audio: %@ → %@ %@" = "เสียง: %@ → %@ %@";
+"Subtitle: %@ – on by default" = "คำบรรยาย: %@ – เปิดเป็นค่าเริ่มต้น";
+"Subtitle: %@" = "คำบรรยาย: %@";
+"Subtitle skipped: %@ (%@ is image-based and can't be converted)" = "ข้ามคำบรรยาย: %@ (%@ เป็นแบบรูปภาพ จึงแปลงไม่ได้)";
+
+/* Status */
+"Preparing…" = "กำลังเตรียม…";
+"Playing via AirPlay" = "กำลังเล่นผ่าน AirPlay";
+"Conversion stopped: %@" = "การแปลงหยุดลง: %@";
+"Prepared: %@ / %@" = "เตรียมแล้ว: %@ / %@";
+
+/* Window */
+"Open…" = "เปิด…";
+"Open" = "เปิด";
+"Open another file…" = "เปิดไฟล์อื่น…";
+"AirPlay – choose your TV" = "AirPlay – เลือกทีวีของคุณ";
+"Drop a video here (MKV, MP4, AVI…)" = "ลากวิดีโอมาวางที่นี่ (MKV, MP4, AVI…)";
+"or open one with ⌘O, then pick your TV with the AirPlay button" = "หรือเปิดด้วย ⌘O แล้วเลือกทีวีด้วยปุ่ม AirPlay";
+
+/* Menus */
+"Playback" = "การเล่น";
+"Original quality (HEVC, HDR, surround – for Apple TV 4K)" = "คุณภาพต้นฉบับ (HEVC, HDR, เสียงรอบทิศทาง – สำหรับ Apple TV 4K)";
+"Language" = "ภาษา";
+"System default" = "ค่าเริ่มต้นของระบบ";
+"The new language takes effect after a restart." = "ภาษาใหม่จะมีผลหลังจากเริ่มแอปใหม่";
+"Restart Purrcast now? Playback stops." = "ต้องการเริ่ม Purrcast ใหม่ตอนนี้หรือไม่ การเล่นจะหยุดลง";
+"Restart" = "เริ่มใหม่";
+"Later" = "ภายหลัง";
+
+/* Player, menus, playlist, media information */
+"Chapter %@" = "บทที่ %@";
+"File" = "ไฟล์";
+"Format" = "รูปแบบ";
+"Duration" = "ระยะเวลา";
+"Size" = "ขนาด";
+"Bitrate" = "อัตราบิต";
+"General" = "ทั่วไป";
+"Codec" = "โคเดก";
+"Title" = "ชื่อเรื่อง";
+"Resolution" = "ความละเอียด";
+"Frame rate" = "อัตราเฟรม";
+"Pixel format" = "รูปแบบพิกเซล";
+"Dynamic range" = "ช่วงไดนามิก";
+"Channels" = "ช่องสัญญาณ";
+"Sample rate" = "อัตราสุ่มตัวอย่าง";
+"Video" = "วิดีโอ";
+"Audio" = "เสียง";
+"Subtitle" = "คำบรรยาย";
+"Stream %@: %@" = "สตรีม %@: %@";
+"Purrcast" = "Purrcast";
+"Media Information" = "ข้อมูลสื่อ";
+"Open Network Stream…" = "เปิดสตรีมเครือข่าย…";
+"Open Recent" = "เปิดรายการล่าสุด";
+"Clear Menu" = "ล้างเมนู";
+"Add Subtitle File…" = "เพิ่มไฟล์คำบรรยาย…";
+"Save Playlist…" = "บันทึกเพลย์ลิสต์…";
+"Play/Pause" = "เล่น/หยุดชั่วคราว";
+"Stop" = "หยุด";
+"Previous" = "ก่อนหน้า";
+"Next" = "ถัดไป";
+"Jump Back 10 Seconds" = "ย้อนกลับ 10 วินาที";
+"Jump Forward 10 Seconds" = "ข้ามไปข้างหน้า 10 วินาที";
+"Jump Back 1 Minute" = "ย้อนกลับ 1 นาที";
+"Jump Forward 1 Minute" = "ข้ามไปข้างหน้า 1 นาที";
+"Jump to Time…" = "ข้ามไปยังเวลา…";
+"Next Frame" = "เฟรมถัดไป";
+"Chapters" = "บท";
+"Faster" = "เร็วขึ้น";
+"Slower" = "ช้าลง";
+"Normal Speed" = "ความเร็วปกติ";
+"Set Loop Start (A)" = "ตั้งจุดเริ่มวนซ้ำ (A)";
+"Set Loop End (B)" = "ตั้งจุดสิ้นสุดวนซ้ำ (B)";
+"Loop Off" = "ปิดการวนซ้ำ";
+"Repeat" = "เล่นซ้ำ";
+"Off" = "ปิด";
+"All" = "ทั้งหมด";
+"One" = "หนึ่งรายการ";
+"Shuffle" = "สุ่ม";
+"Volume Up" = "เพิ่มเสียง";
+"Volume Down" = "ลดเสียง";
+"Mute" = "ปิดเสียง";
+"Audio Track" = "แทร็กเสียง";
+"Full Screen" = "เต็มหน้าจอ";
+"Float on Top" = "อยู่บนสุดเสมอ";
+"Aspect" = "อัตราส่วนภาพ";
+"Fit" = "พอดี";
+"Fill (Crop)" = "เติมเต็ม (ครอบตัด)";
+"Stretch" = "ยืด";
+"Snapshot" = "สแนปช็อต";
+"Show Snapshots Folder" = "แสดงโฟลเดอร์สแนปช็อต";
+"Subtitles" = "คำบรรยาย";
+"Subtitle Track" = "แทร็กคำบรรยาย";
+"Next Subtitle Track" = "แทร็กคำบรรยายถัดไป";
+"Subtitles Earlier (G)" = "คำบรรยายเร็วขึ้น (G)";
+"Subtitles Later (H)" = "คำบรรยายช้าลง (H)";
+"Reset Subtitle Delay" = "รีเซ็ตการหน่วงเวลาคำบรรยาย";
+"Playlist" = "เพลย์ลิสต์";
+"%@ items" = "%@ รายการ";
+"Close" = "ปิด";
+"Play" = "เล่น";
+"Show in Finder" = "แสดงใน Finder";
+"Remove from Playlist" = "เอาออกจากเพลย์ลิสต์";
+"Drop videos or folders here" = "ลากวิดีโอหรือโฟลเดอร์มาวางที่นี่";
+"Add files or folders…" = "เพิ่มไฟล์หรือโฟลเดอร์…";
+"Clear Playlist" = "ล้างเพลย์ลิสต์";
+"Repeat: off" = "เล่นซ้ำ: ปิด";
+"Repeat: all" = "เล่นซ้ำ: ทั้งหมด";
+"Repeat: one" = "เล่นซ้ำ: หนึ่งรายการ";
+"Streaming" = "การสตรีม";
+"Nothing is playing." = "ไม่มีสิ่งใดกำลังเล่นอยู่";
+"Open Network Stream" = "เปิดสตรีมเครือข่าย";
+"HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – anything ffmpeg can open." = "HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – อะไรก็ได้ที่ ffmpeg เปิดได้";
+"Cancel" = "ยกเลิก";
+"Jump to Time" = "ข้ามไปยังเวลา";
+"Jump" = "ข้ามไป";
+"Resumed at %@" = "เล่นต่อจาก %@";
+"Speed: %@" = "ความเร็ว: %@";
+"Volume: %@" = "ระดับเสียง: %@";
+"Loop start: %@" = "จุดเริ่มวนซ้ำ: %@";
+"Looping %@ – %@" = "กำลังวนซ้ำ %@ – %@";
+"Loop off" = "ปิดการวนซ้ำแล้ว";
+"Snapshot saved: %@" = "บันทึกสแนปช็อตแล้ว: %@";
+"Couldn't save the snapshot." = "ไม่สามารถบันทึกสแนปช็อตได้";
+"Subtitles off" = "ปิดคำบรรยายแล้ว";
+"Adding subtitles…" = "กำลังเพิ่มคำบรรยาย…";
+"Subtitle delay: %@ ms" = "การหน่วงเวลาคำบรรยาย: %@ ms";
+"Play Playlist" = "เล่นเพลย์ลิสต์";
+"Recent" = "ล่าสุด";
+"Next in Playlist" = "ถัดไปในเพลย์ลิสต์";
+"Start Over" = "เริ่มใหม่ตั้งแต่ต้น";
+"Jump back 10 seconds" = "ย้อนกลับ 10 วินาที";
+"Play/Pause (Space)" = "เล่น/หยุดชั่วคราว (Space)";
+"Jump forward 10 seconds" = "ข้ามไปข้างหน้า 10 วินาที";
+"Playback speed" = "ความเร็วในการเล่น";
+"Playlist (⌘L)" = "เพลย์ลิสต์ (⌘L)";
+"Full Screen (⌘F)" = "เต็มหน้าจอ (⌘F)";
+"No audio tracks" = "ไม่มีแทร็กเสียง";
+"Audio track" = "แทร็กเสียง";
+
+/* Network streams */
+"network stream – seekable anywhere" = "สตรีมเครือข่าย – ข้ามไปตำแหน่งใดก็ได้";
+"Network HLS stream – played directly, without conversion" = "สตรีม HLS ผ่านเครือข่าย – เล่นโดยตรง ไม่ต้องแปลง";
+
+/* Chapters */
+"Previous Chapter" = "บทก่อนหน้า";
+"Next Chapter" = "บทถัดไป";
+"Chapter: %@" = "บท: %@";
+"Previous Chapter (⇧P)" = "บทก่อนหน้า (⇧P)";
+"Next Chapter (⇧N)" = "บทถัดไป (⇧N)";
+
+/* Auto-hiding controls */
+"Hide Controls" = "ซ่อนตัวควบคุม";
+"After %@ seconds" = "หลัง %@ วินาที";
+"Never" = "ไม่ซ่อน";
+
+/* Time display */
+"Show total length" = "แสดงความยาวทั้งหมด";
+"Show remaining time" = "แสดงเวลาที่เหลือ";
+
+/* Picture in Picture, appearance */
+"Picture in Picture" = "ภาพซ้อนภาพ";
+"Playing in Picture in Picture" = "กำลังเล่นแบบภาพซ้อนภาพ";
+"Appearance" = "ลักษณะ";
+"Light" = "สว่าง";
+"Dark" = "มืด";
+
+/* Help menu */
+"Open-Source Licenses" = "สัญญาอนุญาตโอเพนซอร์ส";

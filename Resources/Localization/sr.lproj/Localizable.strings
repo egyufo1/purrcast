@@ -1,0 +1,203 @@
+/* Српски (sr). Keys are the English texts; check: Resources/Localization/check.sh */
+
+/* Errors */
+"timed out" = "истекло је време";
+"Not found: %@. Install it with: brew install ffmpeg" = "Није пронађено: %@. Инсталирај га командом: brew install ffmpeg";
+"Couldn't read the file: %@" = "Није могуће прочитати датотеку: %@";
+"The file has no video track." = "Датотека нема видео запис.";
+"ffmpeg stopped with an error:\n%@" = "ffmpeg се зауставио са грешком:\n%@";
+"Not enough free space for the temporary stream files (needs about %@, free: %@)." = "Нема довољно слободног простора за привремене датотеке стрима (потребно око %@, слободно: %@).";
+"The local stream server didn't start: %@" = "Локални сервер за стриминг се није покренуо: %@";
+"Didn't start with the previous settings, retrying in a safer mode…" = "Са претходним подешавањима није кренуло, покушавам поново у безбеднијем режиму…";
+"Couldn't start playback:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log" = "Репродукција није могла да почне:\n%@\n\nДетаљи: ~/Library/Logs/Purrcast.log";
+"player error: %@" = "грешка плејера: %@";
+"playback didn't start within 20 seconds" = "репродукција није почела у року од 20 секунди";
+"Error" = "Грешка";
+
+/* Tracks */
+"Audio %@" = "Звук %@";
+"Subtitle %@" = "Титлови %@";
+"(forced)" = "(принудни)";
+"External subtitle" = "Спољни титлови";
+"(external)" = "(спољни)";
+"unknown" = "непознато";
+"mono" = "моно";
+"stereo" = "стерео";
+"%@ channels" = "%@ канала";
+
+/* Conversion summary */
+"%@ → H.264, plays on every TV" = "%@ → H.264, ради на сваком ТВ-у";
+"%@ H.264 → 8-bit H.264" = "%@ H.264 → 8-битни H.264";
+"interlaced → progressive" = "преплетено → прогресивно";
+"re-encoded for reliable playback" = "поново кодирано за поуздану репродукцију";
+"Video: %@ – passed through in original quality" = "Видео: %@ – прослеђује се у оригиналном квалитету";
+"Video: %@ → H.264 %@ (%@)" = "Видео: %@ → H.264 %@ (%@)";
+"Audio: %@ – original" = "Звук: %@ – оригинал";
+"Audio: %@ → %@ %@" = "Звук: %@ → %@ %@";
+"Subtitle: %@ – on by default" = "Титлови: %@ – подразумевано укључени";
+"Subtitle: %@" = "Титлови: %@";
+"Subtitle skipped: %@ (%@ is image-based and can't be converted)" = "Титлови прескочени: %@ (%@ је сликовни формат и не може да се конвертује)";
+
+/* Status */
+"Preparing…" = "Припрема…";
+"Playing via AirPlay" = "Репродукција преко AirPlay-а";
+"Conversion stopped: %@" = "Конверзија прекинута: %@";
+"Prepared: %@ / %@" = "Припремљено: %@ / %@";
+
+/* Window */
+"Open…" = "Отвори…";
+"Open" = "Отвори";
+"Open another file…" = "Отвори другу датотеку…";
+"AirPlay – choose your TV" = "AirPlay – изабери ТВ";
+"Drop a video here (MKV, MP4, AVI…)" = "Превуци видео овде (MKV, MP4, AVI…)";
+"or open one with ⌘O, then pick your TV with the AirPlay button" = "или га отвори помоћу ⌘O, па AirPlay дугметом изабери ТВ";
+
+/* Menus */
+"Playback" = "Репродукција";
+"Original quality (HEVC, HDR, surround – for Apple TV 4K)" = "Оригинални квалитет (HEVC, HDR, просторни звук – за Apple TV 4K)";
+"Language" = "Језик";
+"System default" = "Језик система";
+"The new language takes effect after a restart." = "Нови језик ступа на снагу после поновног покретања.";
+"Restart Purrcast now? Playback stops." = "Поново покренути Purrcast сада? Репродукција ће се зауставити.";
+"Restart" = "Поново покрени";
+"Later" = "Касније";
+
+/* Player, menus, playlist, media information */
+"Chapter %@" = "Поглавље %@";
+"File" = "Датотека";
+"Format" = "Формат";
+"Duration" = "Трајање";
+"Size" = "Величина";
+"Bitrate" = "Брзина протока";
+"General" = "Опште";
+"Codec" = "Кодек";
+"Title" = "Наслов";
+"Resolution" = "Резолуција";
+"Frame rate" = "Брзина кадрова";
+"Pixel format" = "Формат пиксела";
+"Dynamic range" = "Динамички опсег";
+"Channels" = "Канали";
+"Sample rate" = "Фреквенција узорковања";
+"Video" = "Видео";
+"Audio" = "Звук";
+"Subtitle" = "Титлови";
+"Stream %@: %@" = "Ток %@: %@";
+"Purrcast" = "Purrcast";
+"Media Information" = "Информације о медију";
+"Open Network Stream…" = "Отвори мрежни ток…";
+"Open Recent" = "Отвори недавно";
+"Clear Menu" = "Очисти мени";
+"Add Subtitle File…" = "Додај датотеку титлова…";
+"Save Playlist…" = "Сачувај листу за репродукцију…";
+"Play/Pause" = "Пусти/паузирај";
+"Stop" = "Заустави";
+"Previous" = "Претходно";
+"Next" = "Следеће";
+"Jump Back 10 Seconds" = "Скочи 10 секунди уназад";
+"Jump Forward 10 Seconds" = "Скочи 10 секунди унапред";
+"Jump Back 1 Minute" = "Скочи 1 минут уназад";
+"Jump Forward 1 Minute" = "Скочи 1 минут унапред";
+"Jump to Time…" = "Скочи на време…";
+"Next Frame" = "Следећи кадар";
+"Chapters" = "Поглавља";
+"Faster" = "Брже";
+"Slower" = "Спорије";
+"Normal Speed" = "Нормална брзина";
+"Set Loop Start (A)" = "Постави почетак петље (A)";
+"Set Loop End (B)" = "Постави крај петље (B)";
+"Loop Off" = "Искључи петљу";
+"Repeat" = "Понављање";
+"Off" = "Искључено";
+"All" = "Све";
+"One" = "Једно";
+"Shuffle" = "Насумично";
+"Volume Up" = "Појачај звук";
+"Volume Down" = "Утишај звук";
+"Mute" = "Искључи звук";
+"Audio Track" = "Звучни запис";
+"Full Screen" = "Цео екран";
+"Float on Top" = "Увек на врху";
+"Aspect" = "Однос страница";
+"Fit" = "Уклопи";
+"Fill (Crop)" = "Попуни (исеци)";
+"Stretch" = "Развуци";
+"Snapshot" = "Снимак екрана";
+"Show Snapshots Folder" = "Прикажи фасциклу са снимцима екрана";
+"Subtitles" = "Титлови";
+"Subtitle Track" = "Запис титлова";
+"Next Subtitle Track" = "Следећи запис титлова";
+"Subtitles Earlier (G)" = "Титлови раније (G)";
+"Subtitles Later (H)" = "Титлови касније (H)";
+"Reset Subtitle Delay" = "Ресетуј кашњење титлова";
+"Playlist" = "Листа за репродукцију";
+"%@ items" = "Ставки: %@";
+"Close" = "Затвори";
+"Play" = "Пусти";
+"Show in Finder" = "Прикажи у Finder-у";
+"Remove from Playlist" = "Уклони са листе за репродукцију";
+"Drop videos or folders here" = "Превуци видео-снимке или фасцикле овде";
+"Add files or folders…" = "Додај датотеке или фасцикле…";
+"Clear Playlist" = "Очисти листу за репродукцију";
+"Repeat: off" = "Понављање: искључено";
+"Repeat: all" = "Понављање: све";
+"Repeat: one" = "Понављање: једно";
+"Streaming" = "Стримовање";
+"Nothing is playing." = "Ништа се не репродукује.";
+"Open Network Stream" = "Отвори мрежни ток";
+"HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – anything ffmpeg can open." = "HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – све што ffmpeg може да отвори.";
+"Cancel" = "Откажи";
+"Jump to Time" = "Скочи на време";
+"Jump" = "Скочи";
+"Resumed at %@" = "Настављено од %@";
+"Speed: %@" = "Брзина: %@";
+"Volume: %@" = "Јачина звука: %@";
+"Loop start: %@" = "Почетак петље: %@";
+"Looping %@ – %@" = "Петља %@ – %@";
+"Loop off" = "Петља искључена";
+"Snapshot saved: %@" = "Снимак екрана сачуван: %@";
+"Couldn't save the snapshot." = "Чување снимка екрана није успело.";
+"Subtitles off" = "Титлови искључени";
+"Adding subtitles…" = "Додавање титлова…";
+"Subtitle delay: %@ ms" = "Кашњење титлова: %@ мс";
+"Play Playlist" = "Пусти листу";
+"Recent" = "Недавно";
+"Next in Playlist" = "Следеће на листи";
+"Start Over" = "Испочетка";
+"Jump back 10 seconds" = "10 секунди уназад";
+"Play/Pause (Space)" = "Пусти/паузирај (размак)";
+"Jump forward 10 seconds" = "10 секунди унапред";
+"Playback speed" = "Брзина репродукције";
+"Playlist (⌘L)" = "Листа за репродукцију (⌘L)";
+"Full Screen (⌘F)" = "Цео екран (⌘F)";
+"No audio tracks" = "Нема звучних записа";
+"Audio track" = "Звучни запис";
+
+/* Network streams */
+"network stream – seekable anywhere" = "мрежни ток – премотавање било где";
+"Network HLS stream – played directly, without conversion" = "Мрежни HLS ток – репродукује се директно, без конверзије";
+
+/* Chapters */
+"Previous Chapter" = "Претходно поглавље";
+"Next Chapter" = "Следеће поглавље";
+"Chapter: %@" = "Поглавље: %@";
+"Previous Chapter (⇧P)" = "Претходно поглавље (⇧P)";
+"Next Chapter (⇧N)" = "Следеће поглавље (⇧N)";
+
+/* Auto-hiding controls */
+"Hide Controls" = "Сакриј контроле";
+"After %@ seconds" = "После %@ с";
+"Never" = "Никад";
+
+/* Time display */
+"Show total length" = "Прикажи укупно трајање";
+"Show remaining time" = "Прикажи преостало време";
+
+/* Picture in Picture, appearance */
+"Picture in Picture" = "Слика у слици";
+"Playing in Picture in Picture" = "Репродукција у режиму слика у слици";
+"Appearance" = "Изглед";
+"Light" = "Светло";
+"Dark" = "Тамно";
+
+/* Help menu */
+"Open-Source Licenses" = "Лиценце отвореног кода";

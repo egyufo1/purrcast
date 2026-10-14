@@ -1,0 +1,203 @@
+/* Íslensk þýðing. Keys are the English texts; check: Resources/Localization/check.sh */
+
+/* Errors */
+"timed out" = "tímamörk runnu út";
+"Not found: %@. Install it with: brew install ffmpeg" = "Fannst ekki: %@. Settu það upp með: brew install ffmpeg";
+"Couldn't read the file: %@" = "Ekki tókst að lesa skrána: %@";
+"The file has no video track." = "Skráin er ekki með neina myndrás.";
+"ffmpeg stopped with an error:\n%@" = "ffmpeg stöðvaðist með villu:\n%@";
+"Not enough free space for the temporary stream files (needs about %@, free: %@)." = "Ekki nóg laust pláss fyrir tímabundnu streymisskrárnar (þarf um %@, laust: %@).";
+"The local stream server didn't start: %@" = "Staðbundni streymisþjónninn ræstist ekki: %@";
+"Didn't start with the previous settings, retrying in a safer mode…" = "Ræstist ekki með fyrri stillingum, reyni aftur í öruggari ham…";
+"Couldn't start playback:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log" = "Ekki tókst að hefja spilun:\n%@\n\nNánar: ~/Library/Logs/Purrcast.log";
+"player error: %@" = "spilaravilla: %@";
+"playback didn't start within 20 seconds" = "spilun hófst ekki innan 20 sekúndna";
+"Error" = "Villa";
+
+/* Tracks */
+"Audio %@" = "Hljóð %@";
+"Subtitle %@" = "Skjátexti %@";
+"(forced)" = "(þvingaður)";
+"External subtitle" = "Ytri skjátexti";
+"(external)" = "(ytri)";
+"unknown" = "óþekkt";
+"mono" = "mónó";
+"stereo" = "steríó";
+"%@ channels" = "%@ rásir";
+
+/* Conversion summary */
+"%@ → H.264, plays on every TV" = "%@ → H.264, spilast á öllum sjónvörpum";
+"%@ H.264 → 8-bit H.264" = "%@ H.264 → 8 bita H.264";
+"interlaced → progressive" = "fléttuð → samfelld";
+"re-encoded for reliable playback" = "endurkóðað fyrir örugga spilun";
+"Video: %@ – passed through in original quality" = "Myndskeið: %@ – sent áfram í upprunalegum gæðum";
+"Video: %@ → H.264 %@ (%@)" = "Myndskeið: %@ → H.264 %@ (%@)";
+"Audio: %@ – original" = "Hljóð: %@ – upprunalegt";
+"Audio: %@ → %@ %@" = "Hljóð: %@ → %@ %@";
+"Subtitle: %@ – on by default" = "Skjátexti: %@ – sjálfgefið kveikt";
+"Subtitle: %@" = "Skjátexti: %@";
+"Subtitle skipped: %@ (%@ is image-based and can't be converted)" = "Skjátexta sleppt: %@ (%@ er myndrænt og ekki hægt að umbreyta)";
+
+/* Status */
+"Preparing…" = "Undirbý…";
+"Playing via AirPlay" = "Spilað með AirPlay";
+"Conversion stopped: %@" = "Umbreyting stöðvaðist: %@";
+"Prepared: %@ / %@" = "Undirbúið: %@ / %@";
+
+/* Window */
+"Open…" = "Opna…";
+"Open" = "Opna";
+"Open another file…" = "Opna aðra skrá…";
+"AirPlay – choose your TV" = "AirPlay – veldu sjónvarpið";
+"Drop a video here (MKV, MP4, AVI…)" = "Slepptu myndskeiði hér (MKV, MP4, AVI…)";
+"or open one with ⌘O, then pick your TV with the AirPlay button" = "eða opnaðu eitt með ⌘O og veldu svo sjónvarpið með AirPlay-hnappnum";
+
+/* Menus */
+"Playback" = "Spilun";
+"Original quality (HEVC, HDR, surround – for Apple TV 4K)" = "Upprunaleg gæði (HEVC, HDR, víðóma – fyrir Apple TV 4K)";
+"Language" = "Tungumál";
+"System default" = "Sjálfgefið í kerfinu";
+"The new language takes effect after a restart." = "Nýja tungumálið tekur gildi eftir endurræsingu.";
+"Restart Purrcast now? Playback stops." = "Endurræsa Purrcast núna? Spilun stöðvast.";
+"Restart" = "Endurræsa";
+"Later" = "Síðar";
+
+/* Player, menus, playlist, media information */
+"Chapter %@" = "Kafli %@";
+"File" = "Skrá";
+"Format" = "Snið";
+"Duration" = "Lengd";
+"Size" = "Stærð";
+"Bitrate" = "Bitahraði";
+"General" = "Almennt";
+"Codec" = "Merkjamál";
+"Title" = "Titill";
+"Resolution" = "Upplausn";
+"Frame rate" = "Rammatíðni";
+"Pixel format" = "Dílasnið";
+"Dynamic range" = "Birtusvið";
+"Channels" = "Rásir";
+"Sample rate" = "Sýnatökutíðni";
+"Video" = "Myndskeið";
+"Audio" = "Hljóð";
+"Subtitle" = "Skjátexti";
+"Stream %@: %@" = "Straumur %@: %@";
+"Purrcast" = "Purrcast";
+"Media Information" = "Upplýsingar um miðil";
+"Open Network Stream…" = "Opna netstraum…";
+"Open Recent" = "Opna nýlegt";
+"Clear Menu" = "Hreinsa valmynd";
+"Add Subtitle File…" = "Bæta við skjátextaskrá…";
+"Save Playlist…" = "Vista spilunarlista…";
+"Play/Pause" = "Spila/hlé";
+"Stop" = "Stöðva";
+"Previous" = "Fyrra";
+"Next" = "Næsta";
+"Jump Back 10 Seconds" = "Hoppa 10 sekúndur aftur";
+"Jump Forward 10 Seconds" = "Hoppa 10 sekúndur áfram";
+"Jump Back 1 Minute" = "Hoppa 1 mínútu aftur";
+"Jump Forward 1 Minute" = "Hoppa 1 mínútu áfram";
+"Jump to Time…" = "Fara á tíma…";
+"Next Frame" = "Næsti rammi";
+"Chapters" = "Kaflar";
+"Faster" = "Hraðar";
+"Slower" = "Hægar";
+"Normal Speed" = "Venjulegur hraði";
+"Set Loop Start (A)" = "Setja upphaf lykkju (A)";
+"Set Loop End (B)" = "Setja enda lykkju (B)";
+"Loop Off" = "Slökkva á lykkju";
+"Repeat" = "Endurtaka";
+"Off" = "Slökkt";
+"All" = "Allt";
+"One" = "Eitt";
+"Shuffle" = "Stokka";
+"Volume Up" = "Hækka hljóðstyrk";
+"Volume Down" = "Lækka hljóðstyrk";
+"Mute" = "Þagga";
+"Audio Track" = "Hljóðrás";
+"Full Screen" = "Fullur skjár";
+"Float on Top" = "Alltaf efst";
+"Aspect" = "Myndhlutfall";
+"Fit" = "Passa";
+"Fill (Crop)" = "Fylla (skera af)";
+"Stretch" = "Teygja";
+"Snapshot" = "Skyndimynd";
+"Show Snapshots Folder" = "Sýna möppu skyndimynda";
+"Subtitles" = "Skjátextar";
+"Subtitle Track" = "Skjátextarás";
+"Next Subtitle Track" = "Næsta skjátextarás";
+"Subtitles Earlier (G)" = "Skjátextar fyrr (G)";
+"Subtitles Later (H)" = "Skjátextar seinna (H)";
+"Reset Subtitle Delay" = "Endurstilla seinkun skjátexta";
+"Playlist" = "Spilunarlisti";
+"%@ items" = "%@ atriði";
+"Close" = "Loka";
+"Play" = "Spila";
+"Show in Finder" = "Sýna í Finder";
+"Remove from Playlist" = "Fjarlægja af spilunarlista";
+"Drop videos or folders here" = "Slepptu myndskeiðum eða möppum hér";
+"Add files or folders…" = "Bæta við skrám eða möppum…";
+"Clear Playlist" = "Hreinsa spilunarlista";
+"Repeat: off" = "Endurtaka: slökkt";
+"Repeat: all" = "Endurtaka: allt";
+"Repeat: one" = "Endurtaka: eitt";
+"Streaming" = "Streymi";
+"Nothing is playing." = "Ekkert í spilun.";
+"Open Network Stream" = "Opna netstraum";
+"HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – anything ffmpeg can open." = "HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – allt sem ffmpeg getur opnað.";
+"Cancel" = "Hætta við";
+"Jump to Time" = "Fara á tíma";
+"Jump" = "Fara";
+"Resumed at %@" = "Haldið áfram frá %@";
+"Speed: %@" = "Hraði: %@";
+"Volume: %@" = "Hljóðstyrkur: %@";
+"Loop start: %@" = "Upphaf lykkju: %@";
+"Looping %@ – %@" = "Lykkja %@ – %@";
+"Loop off" = "Slökkt á lykkju";
+"Snapshot saved: %@" = "Skyndimynd vistuð: %@";
+"Couldn't save the snapshot." = "Ekki tókst að vista skyndimyndina.";
+"Subtitles off" = "Slökkt á skjátexta";
+"Adding subtitles…" = "Bæti við skjátexta…";
+"Subtitle delay: %@ ms" = "Seinkun skjátexta: %@ ms";
+"Play Playlist" = "Spila lista";
+"Recent" = "Nýlegt";
+"Next in Playlist" = "Næst á lista";
+"Start Over" = "Byrja upp á nýtt";
+"Jump back 10 seconds" = "10 sekúndur aftur";
+"Play/Pause (Space)" = "Spila/hlé (bilslá)";
+"Jump forward 10 seconds" = "10 sekúndur áfram";
+"Playback speed" = "Spilunarhraði";
+"Playlist (⌘L)" = "Spilunarlisti (⌘L)";
+"Full Screen (⌘F)" = "Fullur skjár (⌘F)";
+"No audio tracks" = "Engar hljóðrásir";
+"Audio track" = "Hljóðrás";
+
+/* Network streams */
+"network stream – seekable anywhere" = "netstreymi – hægt að spóla hvert sem er";
+"Network HLS stream – played directly, without conversion" = "HLS-netstreymi – spilað beint, án umbreytingar";
+
+/* Chapters */
+"Previous Chapter" = "Fyrri kafli";
+"Next Chapter" = "Næsti kafli";
+"Chapter: %@" = "Kafli: %@";
+"Previous Chapter (⇧P)" = "Fyrri kafli (⇧P)";
+"Next Chapter (⇧N)" = "Næsti kafli (⇧N)";
+
+/* Auto-hiding controls */
+"Hide Controls" = "Fela stjórnhnappa";
+"After %@ seconds" = "Eftir %@ sekúndur";
+"Never" = "Aldrei";
+
+/* Time display */
+"Show total length" = "Sýna heildarlengd";
+"Show remaining time" = "Sýna tíma sem eftir er";
+
+/* Picture in Picture, appearance */
+"Picture in Picture" = "Mynd í mynd";
+"Playing in Picture in Picture" = "Spilað sem mynd í mynd";
+"Appearance" = "Útlit";
+"Light" = "Ljóst";
+"Dark" = "Dökkt";
+
+/* Help menu */
+"Open-Source Licenses" = "Leyfi opins hugbúnaðar";

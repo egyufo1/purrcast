@@ -1,0 +1,203 @@
+/* ភាសាខ្មែរ – keys are the English texts; check: Resources/Localization/check.sh */
+
+/* Errors */
+"timed out" = "អស់ពេល";
+"Not found: %@. Install it with: brew install ffmpeg" = "រកមិនឃើញ %@ ទេ។ ដំឡើងដោយប្រើ៖ brew install ffmpeg";
+"Couldn't read the file: %@" = "មិនអាចអានឯកសារបានទេ៖ %@";
+"The file has no video track." = "ឯកសារនេះគ្មានបទវីដេអូទេ។";
+"ffmpeg stopped with an error:\n%@" = "ffmpeg បានឈប់ដោយសារមានកំហុស៖\n%@";
+"Not enough free space for the temporary stream files (needs about %@, free: %@)." = "ទំហំទំនេរមិនគ្រប់គ្រាន់សម្រាប់ឯកសារស្ទ្រីមបណ្ដោះអាសន្នទេ (ត្រូវការប្រហែល %@, នៅទំនេរ៖ %@)។";
+"The local stream server didn't start: %@" = "ម៉ាស៊ីនមេស្ទ្រីមមូលដ្ឋានមិនបានចាប់ផ្ដើមទេ៖ %@";
+"Didn't start with the previous settings, retrying in a safer mode…" = "មិនអាចចាប់ផ្ដើមដោយការកំណត់មុនបានទេ កំពុងព្យាយាមម្ដងទៀតក្នុងរបៀបដែលមានសុវត្ថិភាពជាង…";
+"Couldn't start playback:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log" = "មិនអាចចាប់ផ្ដើមចាក់បានទេ៖\n%@\n\nព័ត៌មានលម្អិត៖ ~/Library/Logs/Purrcast.log";
+"player error: %@" = "កំហុសកម្មវិធីចាក់៖ %@";
+"playback didn't start within 20 seconds" = "ការចាក់មិនបានចាប់ផ្ដើមក្នុងរយៈពេល 20 វិនាទីទេ";
+"Error" = "កំហុស";
+
+/* Tracks */
+"Audio %@" = "សំឡេង %@";
+"Subtitle %@" = "អក្សររត់ %@";
+"(forced)" = "(បង្ខំ)";
+"External subtitle" = "អក្សររត់ខាងក្រៅ";
+"(external)" = "(ខាងក្រៅ)";
+"unknown" = "មិនស្គាល់";
+"mono" = "ម៉ូណូ";
+"stereo" = "ស្តេរ៉េអូ";
+"%@ channels" = "%@ ឆានែល";
+
+/* Conversion summary */
+"%@ → H.264, plays on every TV" = "%@ → H.264 ចាក់បានលើទូរទស្សន៍គ្រប់គ្រឿង";
+"%@ H.264 → 8-bit H.264" = "%@ H.264 → H.264 8 ប៊ីត";
+"interlaced → progressive" = "interlaced → progressive";
+"re-encoded for reliable playback" = "បានអ៊ិនកូដឡើងវិញដើម្បីឱ្យចាក់បានរលូន";
+"Video: %@ – passed through in original quality" = "វីដេអូ៖ %@ – បញ្ជូនបន្តក្នុងគុណភាពដើម";
+"Video: %@ → H.264 %@ (%@)" = "វីដេអូ៖ %@ → H.264 %@ (%@)";
+"Audio: %@ – original" = "សំឡេង៖ %@ – ដើម";
+"Audio: %@ → %@ %@" = "សំឡេង៖ %@ → %@ %@";
+"Subtitle: %@ – on by default" = "អក្សររត់៖ %@ – បើកតាមលំនាំដើម";
+"Subtitle: %@" = "អក្សររត់៖ %@";
+"Subtitle skipped: %@ (%@ is image-based and can't be converted)" = "បានរំលងអក្សររត់៖ %@ (%@ ជាប្រភេទរូបភាព មិនអាចបំប្លែងបានទេ)";
+
+/* Status */
+"Preparing…" = "កំពុងរៀបចំ…";
+"Playing via AirPlay" = "កំពុងចាក់តាម AirPlay";
+"Conversion stopped: %@" = "ការបំប្លែងបានឈប់៖ %@";
+"Prepared: %@ / %@" = "បានរៀបចំ៖ %@ / %@";
+
+/* Window */
+"Open…" = "បើក…";
+"Open" = "បើក";
+"Open another file…" = "បើកឯកសារផ្សេង…";
+"AirPlay – choose your TV" = "AirPlay – ជ្រើសរើសទូរទស្សន៍";
+"Drop a video here (MKV, MP4, AVI…)" = "ទម្លាក់វីដេអូនៅទីនេះ (MKV, MP4, AVI…)";
+"or open one with ⌘O, then pick your TV with the AirPlay button" = "ឬបើកដោយប្រើ ⌘O រួចជ្រើសរើសទូរទស្សន៍ដោយប្រើប៊ូតុង AirPlay";
+
+/* Menus */
+"Playback" = "ការចាក់";
+"Original quality (HEVC, HDR, surround – for Apple TV 4K)" = "គុណភាពដើម (HEVC, HDR, សំឡេងជុំវិញ – សម្រាប់ Apple TV 4K)";
+"Language" = "ភាសា";
+"System default" = "លំនាំដើមប្រព័ន្ធ";
+"The new language takes effect after a restart." = "ភាសាថ្មីនឹងមានប្រសិទ្ធភាពបន្ទាប់ពីចាប់ផ្ដើមឡើងវិញ។";
+"Restart Purrcast now? Playback stops." = "ចាប់ផ្ដើម Purrcast ឡើងវិញឥឡូវនេះឬ? ការចាក់នឹងឈប់។";
+"Restart" = "ចាប់ផ្ដើមឡើងវិញ";
+"Later" = "ពេលក្រោយ";
+
+/* Player, menus, playlist, media information */
+"Chapter %@" = "ជំពូក %@";
+"File" = "ឯកសារ";
+"Format" = "ទម្រង់";
+"Duration" = "រយៈពេល";
+"Size" = "ទំហំ";
+"Bitrate" = "អត្រាប៊ីត";
+"General" = "ទូទៅ";
+"Codec" = "កូដិក";
+"Title" = "ចំណងជើង";
+"Resolution" = "គុណភាពបង្ហាញ";
+"Frame rate" = "អត្រាហ្វ្រេម";
+"Pixel format" = "ទម្រង់ភីកសែល";
+"Dynamic range" = "ជួរឌីណាមិក";
+"Channels" = "ឆានែល";
+"Sample rate" = "អត្រាសំណាក";
+"Video" = "វីដេអូ";
+"Audio" = "សំឡេង";
+"Subtitle" = "អក្សររត់";
+"Stream %@: %@" = "ស្ទ្រីម %@៖ %@";
+"Purrcast" = "Purrcast";
+"Media Information" = "ព័ត៌មានមេឌៀ";
+"Open Network Stream…" = "បើកស្ទ្រីមបណ្ដាញ…";
+"Open Recent" = "បើកថ្មីៗ";
+"Clear Menu" = "សម្អាតម៉ឺនុយ";
+"Add Subtitle File…" = "បន្ថែមឯកសារអក្សររត់…";
+"Save Playlist…" = "រក្សាទុកបញ្ជីចាក់…";
+"Play/Pause" = "ចាក់/ផ្អាក";
+"Stop" = "បញ្ឈប់";
+"Previous" = "មុន";
+"Next" = "បន្ទាប់";
+"Jump Back 10 Seconds" = "ថយក្រោយ 10 វិនាទី";
+"Jump Forward 10 Seconds" = "ទៅមុខ 10 វិនាទី";
+"Jump Back 1 Minute" = "ថយក្រោយ 1 នាទី";
+"Jump Forward 1 Minute" = "ទៅមុខ 1 នាទី";
+"Jump to Time…" = "លោតទៅពេលវេលា…";
+"Next Frame" = "ហ្វ្រេមបន្ទាប់";
+"Chapters" = "ជំពូក";
+"Faster" = "លឿនជាងមុន";
+"Slower" = "យឺតជាងមុន";
+"Normal Speed" = "ល្បឿនធម្មតា";
+"Set Loop Start (A)" = "កំណត់ចំណុចចាប់ផ្ដើមរង្វិល (A)";
+"Set Loop End (B)" = "កំណត់ចំណុចបញ្ចប់រង្វិល (B)";
+"Loop Off" = "បិទរង្វិល";
+"Repeat" = "ចាក់ឡើងវិញ";
+"Off" = "បិទ";
+"All" = "ទាំងអស់";
+"One" = "មួយ";
+"Shuffle" = "ចាក់ចៃដន្យ";
+"Volume Up" = "បង្កើនសំឡេង";
+"Volume Down" = "បន្ថយសំឡេង";
+"Mute" = "បិទសំឡេង";
+"Audio Track" = "បទសំឡេង";
+"Full Screen" = "ពេញអេក្រង់";
+"Float on Top" = "នៅខាងលើជានិច្ច";
+"Aspect" = "សមាមាត្រ";
+"Fit" = "សមល្មម";
+"Fill (Crop)" = "បំពេញ (កាត់)";
+"Stretch" = "ទាញពង្រីក";
+"Snapshot" = "ថតរូបភាព";
+"Show Snapshots Folder" = "បង្ហាញថតឯកសាររូបថត";
+"Subtitles" = "អក្សររត់";
+"Subtitle Track" = "បទអក្សររត់";
+"Next Subtitle Track" = "បទអក្សររត់បន្ទាប់";
+"Subtitles Earlier (G)" = "អក្សររត់មុន (G)";
+"Subtitles Later (H)" = "អក្សររត់ក្រោយ (H)";
+"Reset Subtitle Delay" = "កំណត់ការពន្យារអក្សររត់ឡើងវិញ";
+"Playlist" = "បញ្ជីចាក់";
+"%@ items" = "%@ ធាតុ";
+"Close" = "បិទ";
+"Play" = "ចាក់";
+"Show in Finder" = "បង្ហាញក្នុង Finder";
+"Remove from Playlist" = "ដកចេញពីបញ្ជីចាក់";
+"Drop videos or folders here" = "ទម្លាក់វីដេអូ ឬថតឯកសារនៅទីនេះ";
+"Add files or folders…" = "បន្ថែមឯកសារ ឬថតឯកសារ…";
+"Clear Playlist" = "សម្អាតបញ្ជីចាក់";
+"Repeat: off" = "ចាក់ឡើងវិញ៖ បិទ";
+"Repeat: all" = "ចាក់ឡើងវិញ៖ ទាំងអស់";
+"Repeat: one" = "ចាក់ឡើងវិញ៖ មួយ";
+"Streaming" = "ការស្ទ្រីម";
+"Nothing is playing." = "មិនមានអ្វីកំពុងចាក់ទេ។";
+"Open Network Stream" = "បើកស្ទ្រីមបណ្ដាញ";
+"HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – anything ffmpeg can open." = "HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – អ្វីក៏ដោយដែល ffmpeg អាចបើកបាន។";
+"Cancel" = "បោះបង់";
+"Jump to Time" = "លោតទៅពេលវេលា";
+"Jump" = "លោត";
+"Resumed at %@" = "បន្តពី %@";
+"Speed: %@" = "ល្បឿន៖ %@";
+"Volume: %@" = "កម្រិតសំឡេង៖ %@";
+"Loop start: %@" = "ចំណុចចាប់ផ្ដើមរង្វិល៖ %@";
+"Looping %@ – %@" = "កំពុងចាក់រង្វិល %@ – %@";
+"Loop off" = "បានបិទរង្វិល";
+"Snapshot saved: %@" = "បានរក្សាទុករូបថត៖ %@";
+"Couldn't save the snapshot." = "មិនអាចរក្សាទុករូបថតបានទេ។";
+"Subtitles off" = "បានបិទអក្សររត់";
+"Adding subtitles…" = "កំពុងបន្ថែមអក្សររត់…";
+"Subtitle delay: %@ ms" = "ការពន្យារអក្សររត់៖ %@ ms";
+"Play Playlist" = "ចាក់បញ្ជីចាក់";
+"Recent" = "ថ្មីៗ";
+"Next in Playlist" = "បន្ទាប់ក្នុងបញ្ជីចាក់";
+"Start Over" = "ចាក់ពីដើម";
+"Jump back 10 seconds" = "ថយក្រោយ 10 វិនាទី";
+"Play/Pause (Space)" = "ចាក់/ផ្អាក (Space)";
+"Jump forward 10 seconds" = "ទៅមុខ 10 វិនាទី";
+"Playback speed" = "ល្បឿនចាក់";
+"Playlist (⌘L)" = "បញ្ជីចាក់ (⌘L)";
+"Full Screen (⌘F)" = "ពេញអេក្រង់ (⌘F)";
+"No audio tracks" = "គ្មានបទសំឡេង";
+"Audio track" = "បទសំឡេង";
+
+/* Network streams */
+"network stream – seekable anywhere" = "ស្ទ្រីមបណ្ដាញ – អាចរំលងទៅកន្លែងណាក៏បាន";
+"Network HLS stream – played directly, without conversion" = "ស្ទ្រីម HLS តាមបណ្ដាញ – ចាក់ដោយផ្ទាល់ ដោយមិនបំប្លែង";
+
+/* Chapters */
+"Previous Chapter" = "ជំពូកមុន";
+"Next Chapter" = "ជំពូកបន្ទាប់";
+"Chapter: %@" = "ជំពូក៖ %@";
+"Previous Chapter (⇧P)" = "ជំពូកមុន (⇧P)";
+"Next Chapter (⇧N)" = "ជំពូកបន្ទាប់ (⇧N)";
+
+/* Auto-hiding controls */
+"Hide Controls" = "លាក់ផ្ទាំងបញ្ជា";
+"After %@ seconds" = "ក្រោយ %@ វិនាទី";
+"Never" = "កុំលាក់";
+
+/* Time display */
+"Show total length" = "បង្ហាញរយៈពេលសរុប";
+"Show remaining time" = "បង្ហាញពេលនៅសល់";
+
+/* Picture in Picture, appearance */
+"Picture in Picture" = "រូបភាពក្នុងរូបភាព";
+"Playing in Picture in Picture" = "កំពុងចាក់ជារូបភាពក្នុងរូបភាព";
+"Appearance" = "រូបរាង";
+"Light" = "ភ្លឺ";
+"Dark" = "ងងឹត";
+
+/* Help menu */
+"Open-Source Licenses" = "អាជ្ញាប័ណ្ណកូដចំហ";

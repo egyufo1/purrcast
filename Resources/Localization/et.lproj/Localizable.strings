@@ -1,0 +1,203 @@
+/* Eesti (et). Keys are the English texts; check: Resources/Localization/check.sh */
+
+/* Errors */
+"timed out" = "aegus";
+"Not found: %@. Install it with: brew install ffmpeg" = "Ei leitud: %@. Paigalda käsuga: brew install ffmpeg";
+"Couldn't read the file: %@" = "Faili ei õnnestunud lugeda: %@";
+"The file has no video track." = "Failis pole videorada.";
+"ffmpeg stopped with an error:\n%@" = "ffmpeg peatus veaga:\n%@";
+"Not enough free space for the temporary stream files (needs about %@, free: %@)." = "Ajutiste voofailide jaoks pole piisavalt vaba ruumi (vaja umbes %@, vaba: %@).";
+"The local stream server didn't start: %@" = "Kohalik voogedastusserver ei käivitunud: %@";
+"Didn't start with the previous settings, retrying in a safer mode…" = "Eelmiste seadetega ei käivitunud, proovin uuesti turvalisemas režiimis…";
+"Couldn't start playback:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log" = "Taasesitust ei õnnestunud alustada:\n%@\n\nÜksikasjad: ~/Library/Logs/Purrcast.log";
+"player error: %@" = "mängija viga: %@";
+"playback didn't start within 20 seconds" = "taasesitus ei alanud 20 sekundi jooksul";
+"Error" = "Viga";
+
+/* Tracks */
+"Audio %@" = "Heli %@";
+"Subtitle %@" = "Subtiitrid %@";
+"(forced)" = "(sunnitud)";
+"External subtitle" = "Välised subtiitrid";
+"(external)" = "(välised)";
+"unknown" = "tundmatu";
+"mono" = "mono";
+"stereo" = "stereo";
+"%@ channels" = "%@ kanalit";
+
+/* Conversion summary */
+"%@ → H.264, plays on every TV" = "%@ → H.264, töötab igas teleris";
+"%@ H.264 → 8-bit H.264" = "%@ H.264 → 8-bitine H.264";
+"interlaced → progressive" = "ülerealaotus → progressiivne";
+"re-encoded for reliable playback" = "uuesti kodeeritud töökindlaks esituseks";
+"Video: %@ – passed through in original quality" = "Video: %@ – edastatakse originaalkvaliteediga";
+"Video: %@ → H.264 %@ (%@)" = "Video: %@ → H.264 %@ (%@)";
+"Audio: %@ – original" = "Heli: %@ – originaal";
+"Audio: %@ → %@ %@" = "Heli: %@ → %@ %@";
+"Subtitle: %@ – on by default" = "Subtiitrid: %@ – vaikimisi sees";
+"Subtitle: %@" = "Subtiitrid: %@";
+"Subtitle skipped: %@ (%@ is image-based and can't be converted)" = "Subtiitrid vahele jäetud: %@ (%@ on pildipõhine ega ole teisendatav)";
+
+/* Status */
+"Preparing…" = "Ettevalmistamine…";
+"Playing via AirPlay" = "Esitamine AirPlay kaudu";
+"Conversion stopped: %@" = "Teisendamine katkes: %@";
+"Prepared: %@ / %@" = "Ette valmistatud: %@ / %@";
+
+/* Window */
+"Open…" = "Ava…";
+"Open" = "Ava";
+"Open another file…" = "Ava teine fail…";
+"AirPlay – choose your TV" = "AirPlay – vali teler";
+"Drop a video here (MKV, MP4, AVI…)" = "Lohista video siia (MKV, MP4, AVI…)";
+"or open one with ⌘O, then pick your TV with the AirPlay button" = "või ava see klahvidega ⌘O ja vali siis AirPlay nupuga teler";
+
+/* Menus */
+"Playback" = "Taasesitus";
+"Original quality (HEVC, HDR, surround – for Apple TV 4K)" = "Originaalkvaliteet (HEVC, HDR, ruumiline heli – Apple TV 4K jaoks)";
+"Language" = "Keel";
+"System default" = "Süsteemi keel";
+"The new language takes effect after a restart." = "Uus keel rakendub pärast taaskäivitamist.";
+"Restart Purrcast now? Playback stops." = "Kas taaskäivitada Purrcast kohe? Taasesitus peatub.";
+"Restart" = "Taaskäivita";
+"Later" = "Hiljem";
+
+/* Player, menus, playlist, media information */
+"Chapter %@" = "Peatükk %@";
+"File" = "Fail";
+"Format" = "Vorming";
+"Duration" = "Kestus";
+"Size" = "Suurus";
+"Bitrate" = "Bitikiirus";
+"General" = "Üldine";
+"Codec" = "Koodek";
+"Title" = "Pealkiri";
+"Resolution" = "Eraldusvõime";
+"Frame rate" = "Kaadrisagedus";
+"Pixel format" = "Pikslivorming";
+"Dynamic range" = "Dünaamikaulatus";
+"Channels" = "Kanalid";
+"Sample rate" = "Diskreetimissagedus";
+"Video" = "Video";
+"Audio" = "Heli";
+"Subtitle" = "Subtiitrid";
+"Stream %@: %@" = "Voog %@: %@";
+"Purrcast" = "Purrcast";
+"Media Information" = "Meediumi teave";
+"Open Network Stream…" = "Ava võrguvoog…";
+"Open Recent" = "Ava hiljutine";
+"Clear Menu" = "Tühjenda menüü";
+"Add Subtitle File…" = "Lisa subtiitrifail…";
+"Save Playlist…" = "Salvesta esitusloend…";
+"Play/Pause" = "Esita/paus";
+"Stop" = "Peata";
+"Previous" = "Eelmine";
+"Next" = "Järgmine";
+"Jump Back 10 Seconds" = "10 sekundit tagasi";
+"Jump Forward 10 Seconds" = "10 sekundit edasi";
+"Jump Back 1 Minute" = "1 minut tagasi";
+"Jump Forward 1 Minute" = "1 minut edasi";
+"Jump to Time…" = "Mine ajale…";
+"Next Frame" = "Järgmine kaader";
+"Chapters" = "Peatükid";
+"Faster" = "Kiiremini";
+"Slower" = "Aeglasemalt";
+"Normal Speed" = "Tavakiirus";
+"Set Loop Start (A)" = "Määra korduslõigu algus (A)";
+"Set Loop End (B)" = "Määra korduslõigu lõpp (B)";
+"Loop Off" = "Korduslõik välja";
+"Repeat" = "Kordus";
+"Off" = "Väljas";
+"All" = "Kõik";
+"One" = "Üks";
+"Shuffle" = "Juhuesitus";
+"Volume Up" = "Valjemaks";
+"Volume Down" = "Vaiksemaks";
+"Mute" = "Vaigista";
+"Audio Track" = "Helirada";
+"Full Screen" = "Täisekraan";
+"Float on Top" = "Alati pealmine";
+"Aspect" = "Kuvasuhe";
+"Fit" = "Sobita";
+"Fill (Crop)" = "Täida (kärbi)";
+"Stretch" = "Venita";
+"Snapshot" = "Hetktõmmis";
+"Show Snapshots Folder" = "Näita hetktõmmiste kausta";
+"Subtitles" = "Subtiitrid";
+"Subtitle Track" = "Subtiitrirada";
+"Next Subtitle Track" = "Järgmine subtiitrirada";
+"Subtitles Earlier (G)" = "Subtiitrid varem (G)";
+"Subtitles Later (H)" = "Subtiitrid hiljem (H)";
+"Reset Subtitle Delay" = "Lähtesta subtiitrite viivitus";
+"Playlist" = "Esitusloend";
+"%@ items" = "Üksusi: %@";
+"Close" = "Sulge";
+"Play" = "Esita";
+"Show in Finder" = "Näita Finderis";
+"Remove from Playlist" = "Eemalda esitusloendist";
+"Drop videos or folders here" = "Lohista videod või kaustad siia";
+"Add files or folders…" = "Lisa faile või kaustu…";
+"Clear Playlist" = "Tühjenda esitusloend";
+"Repeat: off" = "Kordus: väljas";
+"Repeat: all" = "Kordus: kõik";
+"Repeat: one" = "Kordus: üks";
+"Streaming" = "Voogedastus";
+"Nothing is playing." = "Midagi ei esitata.";
+"Open Network Stream" = "Ava võrguvoog";
+"HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – anything ffmpeg can open." = "HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – kõik, mida ffmpeg avada suudab.";
+"Cancel" = "Tühista";
+"Jump to Time" = "Mine ajale";
+"Jump" = "Mine";
+"Resumed at %@" = "Jätkati kohast %@";
+"Speed: %@" = "Kiirus: %@";
+"Volume: %@" = "Helitugevus: %@";
+"Loop start: %@" = "Korduslõigu algus: %@";
+"Looping %@ – %@" = "Korduslõik %@ – %@";
+"Loop off" = "Korduslõik välja";
+"Snapshot saved: %@" = "Hetktõmmis salvestatud: %@";
+"Couldn't save the snapshot." = "Hetktõmmise salvestamine ebaõnnestus.";
+"Subtitles off" = "Subtiitrid väljas";
+"Adding subtitles…" = "Subtiitrite lisamine…";
+"Subtitle delay: %@ ms" = "Subtiitrite viivitus: %@ ms";
+"Play Playlist" = "Esita loend";
+"Recent" = "Hiljutised";
+"Next in Playlist" = "Järgmisena loendis";
+"Start Over" = "Algusest";
+"Jump back 10 seconds" = "10 sekundit tagasi";
+"Play/Pause (Space)" = "Esita/paus (tühik)";
+"Jump forward 10 seconds" = "10 sekundit edasi";
+"Playback speed" = "Esituskiirus";
+"Playlist (⌘L)" = "Esitusloend (⌘L)";
+"Full Screen (⌘F)" = "Täisekraan (⌘F)";
+"No audio tracks" = "Helirajad puuduvad";
+"Audio track" = "Helirada";
+
+/* Network streams */
+"network stream – seekable anywhere" = "võrguvoog – keritav suvalisse kohta";
+"Network HLS stream – played directly, without conversion" = "HLS-võrguvoog – esitatakse otse, ilma teisendamiseta";
+
+/* Chapters */
+"Previous Chapter" = "Eelmine peatükk";
+"Next Chapter" = "Järgmine peatükk";
+"Chapter: %@" = "Peatükk: %@";
+"Previous Chapter (⇧P)" = "Eelmine peatükk (⇧P)";
+"Next Chapter (⇧N)" = "Järgmine peatükk (⇧N)";
+
+/* Auto-hiding controls */
+"Hide Controls" = "Peida juhtnupud";
+"After %@ seconds" = "%@ s pärast";
+"Never" = "Mitte kunagi";
+
+/* Time display */
+"Show total length" = "Näita kogupikkust";
+"Show remaining time" = "Näita järelejäänud aega";
+
+/* Picture in Picture, appearance */
+"Picture in Picture" = "Pilt pildis";
+"Playing in Picture in Picture" = "Esitatakse pilt-pildis režiimis";
+"Appearance" = "Välimus";
+"Light" = "Hele";
+"Dark" = "Tume";
+
+/* Help menu */
+"Open-Source Licenses" = "Avatud lähtekoodi litsentsid";

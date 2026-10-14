@@ -1,0 +1,203 @@
+/* Treiñ e brezhoneg. Keys are the English texts; check: Resources/Localization/check.sh */
+
+/* Errors */
+"timed out" = "termen tremenet";
+"Not found: %@. Install it with: brew install ffmpeg" = "N’eo ket bet kavet: %@. Staliit anezhañ gant: brew install ffmpeg";
+"Couldn't read the file: %@" = "N’haller ket lenn ar restr: %@";
+"The file has no video track." = "N’eus roudenn video ebet er restr.";
+"ffmpeg stopped with an error:\n%@" = "Paouezet eo ffmpeg gant ur fazi:\n%@";
+"Not enough free space for the temporary stream files (needs about %@, free: %@)." = "N’eus ket a-walc’h a lec’h dieub evit ar restroù streaming padennek (ezhomm a zo eus %@ war-dro, dieub: %@).";
+"The local stream server didn't start: %@" = "N’eo ket loc’het ar servijer streaming lec’hel: %@";
+"Didn't start with the previous settings, retrying in a safer mode…" = "N’eo ket loc’het gant an arventennoù kent, klask en-dro en ur mod suroc’h…";
+"Couldn't start playback:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log" = "N’haller ket loc’hañ al lenn:\n%@\n\nMunudoù: ~/Library/Logs/Purrcast.log";
+"player error: %@" = "fazi al lenner: %@";
+"playback didn't start within 20 seconds" = "n’eo ket loc’het al lenn a-benn 20 eilenn";
+"Error" = "Fazi";
+
+/* Tracks */
+"Audio %@" = "Son %@";
+"Subtitle %@" = "Istitl %@";
+"(forced)" = "(rediet)";
+"External subtitle" = "Istitl diavaez";
+"(external)" = "(diavaez)";
+"unknown" = "dianav";
+"mono" = "mono";
+"stereo" = "stereo";
+"%@ channels" = "%@ kanol";
+
+/* Conversion summary */
+"%@ → H.264, plays on every TV" = "%@ → H.264, a vez lennet gant pep skinwel";
+"%@ H.264 → 8-bit H.264" = "%@ H.264 → H.264 8 bit";
+"interlaced → progressive" = "etrelinennet → progresivel";
+"re-encoded for reliable playback" = "adenkodet evit ul lenn fizius";
+"Video: %@ – passed through in original quality" = "Video: %@ – treuzkaset er perzhded orin";
+"Video: %@ → H.264 %@ (%@)" = "Video: %@ → H.264 %@ (%@)";
+"Audio: %@ – original" = "Son: %@ – orin";
+"Audio: %@ → %@ %@" = "Son: %@ → %@ %@";
+"Subtitle: %@ – on by default" = "Istitl: %@ – gweredekaet dre ziouer";
+"Subtitle: %@" = "Istitl: %@";
+"Subtitle skipped: %@ (%@ is image-based and can't be converted)" = "Istitl lezet a-gostez: %@ (%@ a zo diazezet war skeudennoù ha n’haller ket e amdreiñ)";
+
+/* Status */
+"Preparing…" = "O prientiñ…";
+"Playing via AirPlay" = "O lenn dre AirPlay";
+"Conversion stopped: %@" = "Paouezet eo an amdreiñ: %@";
+"Prepared: %@ / %@" = "Prientet: %@ / %@";
+
+/* Window */
+"Open…" = "Digeriñ…";
+"Open" = "Digeriñ";
+"Open another file…" = "Digeriñ ur restr all…";
+"AirPlay – choose your TV" = "AirPlay – dibabit ho skinwel";
+"Drop a video here (MKV, MP4, AVI…)" = "Lakait ur video amañ (MKV, MP4, AVI…)";
+"or open one with ⌘O, then pick your TV with the AirPlay button" = "pe digorit unan gant ⌘O, ha dibabit ho skinwel gant an afell AirPlay";
+
+/* Menus */
+"Playback" = "Lenn";
+"Original quality (HEVC, HDR, surround – for Apple TV 4K)" = "Perzhded orin (HEVC, HDR, son trowardroez – evit Apple TV 4K)";
+"Language" = "Yezh";
+"System default" = "Dre ziouer ar reizhiad";
+"The new language takes effect after a restart." = "Ar yezh nevez a vo arveret goude adloc’hañ.";
+"Restart Purrcast now? Playback stops." = "Adloc’hañ Purrcast bremañ? Paouez a raio al lenn.";
+"Restart" = "Adloc’hañ";
+"Later" = "Diwezhatoc’h";
+
+/* Player, menus, playlist, media information */
+"Chapter %@" = "Pennad %@";
+"File" = "Restr";
+"Format" = "Mentrezh";
+"Duration" = "Padelezh";
+"Size" = "Ment";
+"Bitrate" = "Feur bitoù";
+"General" = "Hollek";
+"Codec" = "Kodeg";
+"Title" = "Titl";
+"Resolution" = "Spisder";
+"Frame rate" = "Feur skeudennoù";
+"Pixel format" = "Mentrezh piksel";
+"Dynamic range" = "Ledander dinamek";
+"Channels" = "Kanolioù";
+"Sample rate" = "Feur standilhonañ";
+"Video" = "Video";
+"Audio" = "Son";
+"Subtitle" = "Istitl";
+"Stream %@: %@" = "Lanv %@: %@";
+"Purrcast" = "Purrcast";
+"Media Information" = "Titouroù ar media";
+"Open Network Stream…" = "Digeriñ ul lanv rouedad…";
+"Open Recent" = "Digeriñ ar re nevesañ";
+"Clear Menu" = "Skarzhañ al lañser";
+"Add Subtitle File…" = "Ouzhpennañ ur restr istitloù…";
+"Save Playlist…" = "Enrollañ ar roll lenn…";
+"Play/Pause" = "Lenn/Ehan";
+"Stop" = "Paouez";
+"Previous" = "A-raok";
+"Next" = "War-lerc’h";
+"Jump Back 10 Seconds" = "Lammat 10 eilenn war-gil";
+"Jump Forward 10 Seconds" = "Lammat 10 eilenn war-raok";
+"Jump Back 1 Minute" = "Lammat 1 vunutenn war-gil";
+"Jump Forward 1 Minute" = "Lammat 1 vunutenn war-raok";
+"Jump to Time…" = "Lammat d’ur mare…";
+"Next Frame" = "Skeudenn war-lerc’h";
+"Chapters" = "Pennadoù";
+"Faster" = "Buanoc’h";
+"Slower" = "Goustatoc’h";
+"Normal Speed" = "Tizh boas";
+"Set Loop Start (A)" = "Lakaat deroù ar vouklenn (A)";
+"Set Loop End (B)" = "Lakaat dibenn ar vouklenn (B)";
+"Loop Off" = "Lazhañ ar vouklenn";
+"Repeat" = "Adlenn";
+"Off" = "Lazhet";
+"All" = "An holl";
+"One" = "Unan";
+"Shuffle" = "Dre zegouezh";
+"Volume Up" = "Kreskiñ an ampled";
+"Volume Down" = "Digreskiñ an ampled";
+"Mute" = "Mudañ";
+"Audio Track" = "Roudenn son";
+"Full Screen" = "Skramm a-bezh";
+"Float on Top" = "Atav war-c’horre";
+"Aspect" = "Kenfeur";
+"Fit" = "Azasaat";
+"Fill (Crop)" = "Leuniañ (troc’hañ)";
+"Stretch" = "Astenn";
+"Snapshot" = "Tapadenn";
+"Show Snapshots Folder" = "Diskouez teuliad an tapadennoù";
+"Subtitles" = "Istitloù";
+"Subtitle Track" = "Roudenn istitloù";
+"Next Subtitle Track" = "Roudenn istitloù war-lerc’h";
+"Subtitles Earlier (G)" = "Istitloù abretoc’h (G)";
+"Subtitles Later (H)" = "Istitloù diwezhatoc’h (H)";
+"Reset Subtitle Delay" = "Adderaouekaat dale an istitloù";
+"Playlist" = "Roll lenn";
+"%@ items" = "%@ elfenn";
+"Close" = "Serriñ";
+"Play" = "Lenn";
+"Show in Finder" = "Diskouez e Finder";
+"Remove from Playlist" = "Dilemel eus ar roll lenn";
+"Drop videos or folders here" = "Lakait videoioù pe teuliadoù amañ";
+"Add files or folders…" = "Ouzhpennañ restroù pe teuliadoù…";
+"Clear Playlist" = "Skarzhañ ar roll lenn";
+"Repeat: off" = "Adlenn: lazhet";
+"Repeat: all" = "Adlenn: an holl";
+"Repeat: one" = "Adlenn: unan";
+"Streaming" = "Streaming";
+"Nothing is playing." = "Netra o vezañ lennet.";
+"Open Network Stream" = "Digeriñ ul lanv rouedad";
+"HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – anything ffmpeg can open." = "HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – kement tra a c’hall ffmpeg digeriñ.";
+"Cancel" = "Nullañ";
+"Jump to Time" = "Lammat d’ur mare";
+"Jump" = "Lammat";
+"Resumed at %@" = "Kendalc’het adalek %@";
+"Speed: %@" = "Tizh: %@";
+"Volume: %@" = "Ampled: %@";
+"Loop start: %@" = "Deroù ar vouklenn: %@";
+"Looping %@ – %@" = "Bouklenn %@ – %@";
+"Loop off" = "Bouklenn lazhet";
+"Snapshot saved: %@" = "Tapadenn enrollet: %@";
+"Couldn't save the snapshot." = "N’haller ket enrollañ an dapadenn.";
+"Subtitles off" = "Istitloù lazhet";
+"Adding subtitles…" = "Oc’h ouzhpennañ istitloù…";
+"Subtitle delay: %@ ms" = "Dale an istitloù: %@ ms";
+"Play Playlist" = "Lenn ar roll";
+"Recent" = "Nevesañ";
+"Next in Playlist" = "War-lerc’h er roll lenn";
+"Start Over" = "Adkregiñ";
+"Jump back 10 seconds" = "10 eilenn war-gil";
+"Play/Pause (Space)" = "Lenn/Ehan (Esaouenn)";
+"Jump forward 10 seconds" = "10 eilenn war-raok";
+"Playback speed" = "Tizh al lenn";
+"Playlist (⌘L)" = "Roll lenn (⌘L)";
+"Full Screen (⌘F)" = "Skramm a-bezh (⌘F)";
+"No audio tracks" = "Roudenn son ebet";
+"Audio track" = "Roudenn son";
+
+/* Network streams */
+"network stream – seekable anywhere" = "lanv rouedad – lammat e forzh pelec’h";
+"Network HLS stream – played directly, without conversion" = "Lanv HLS rouedad – lennet war-eeun, hep amdreiñ";
+
+/* Chapters */
+"Previous Chapter" = "Pennad kent";
+"Next Chapter" = "Pennad war-lerc’h";
+"Chapter: %@" = "Pennad: %@";
+"Previous Chapter (⇧P)" = "Pennad kent (⇧P)";
+"Next Chapter (⇧N)" = "Pennad war-lerc’h (⇧N)";
+
+/* Auto-hiding controls */
+"Hide Controls" = "Kuzhat ar reolerezh";
+"After %@ seconds" = "Goude %@ eilenn";
+"Never" = "Biken";
+
+/* Time display */
+"Show total length" = "Diskouez an hed a-bezh";
+"Show remaining time" = "Diskouez an amzer a chom";
+
+/* Picture in Picture, appearance */
+"Picture in Picture" = "Skeudenn er skeudenn";
+"Playing in Picture in Picture" = "O lenn e skeudenn er skeudenn";
+"Appearance" = "Neuz";
+"Light" = "Sklaer";
+"Dark" = "Teñval";
+
+/* Help menu */
+"Open-Source Licenses" = "Lañvazioù dieub";

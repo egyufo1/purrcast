@@ -1,0 +1,203 @@
+/* Hebrew translation. Keys are the English texts; check: Resources/Localization/check.sh */
+
+/* Errors */
+"timed out" = "תם הזמן הקצוב";
+"Not found: %@. Install it with: brew install ffmpeg" = "לא נמצא: %@. אפשר להתקין עם: brew install ffmpeg";
+"Couldn't read the file: %@" = "לא ניתן לקרוא את הקובץ: %@";
+"The file has no video track." = "אין בקובץ רצועת וידאו.";
+"ffmpeg stopped with an error:\n%@" = "‏ffmpeg נעצר עם שגיאה:\n%@";
+"Not enough free space for the temporary stream files (needs about %@, free: %@)." = "אין מספיק מקום פנוי לקובצי ההזרמה הזמניים (נדרשים כ־%@, פנויים: %@).";
+"The local stream server didn't start: %@" = "שרת ההזרמה המקומי לא הופעל: %@";
+"Didn't start with the previous settings, retrying in a safer mode…" = "לא הופעל עם ההגדרות הקודמות, מנסה שוב במצב בטוח יותר…";
+"Couldn't start playback:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log" = "לא ניתן להתחיל את הניגון:\n%@\n\nפרטים: ~/Library/Logs/Purrcast.log";
+"player error: %@" = "שגיאת נגן: %@";
+"playback didn't start within 20 seconds" = "הניגון לא התחיל תוך 20 שניות";
+"Error" = "שגיאה";
+
+/* Tracks */
+"Audio %@" = "שמע %@";
+"Subtitle %@" = "כתובית %@";
+"(forced)" = "(מאולצת)";
+"External subtitle" = "כתובית חיצונית";
+"(external)" = "(חיצונית)";
+"unknown" = "לא ידועה";
+"mono" = "מונו";
+"stereo" = "סטריאו";
+"%@ channels" = "%@ ערוצים";
+
+/* Conversion summary */
+"%@ → H.264, plays on every TV" = "%@ → H.264, מתנגן בכל טלוויזיה";
+"%@ H.264 → 8-bit H.264" = "%@ H.264 → H.264 ב־8 ביט";
+"interlaced → progressive" = "שזור → פרוגרסיבי";
+"re-encoded for reliable playback" = "קודד מחדש לניגון אמין";
+"Video: %@ – passed through in original quality" = "וידאו: %@ – מועבר באיכות המקורית";
+"Video: %@ → H.264 %@ (%@)" = "וידאו: %@ → H.264 %@ (%@)";
+"Audio: %@ – original" = "שמע: %@ – מקורי";
+"Audio: %@ → %@ %@" = "שמע: %@ → %@ %@";
+"Subtitle: %@ – on by default" = "כתובית: %@ – מופעלת כברירת מחדל";
+"Subtitle: %@" = "כתובית: %@";
+"Subtitle skipped: %@ (%@ is image-based and can't be converted)" = "כתובית דולגה: %@ (%@ מבוסס תמונות ולא ניתן להמיר אותו)";
+
+/* Status */
+"Preparing…" = "בהכנה…";
+"Playing via AirPlay" = "מתנגן דרך AirPlay";
+"Conversion stopped: %@" = "ההמרה נעצרה: %@";
+"Prepared: %@ / %@" = "מוכן: %@ / %@";
+
+/* Window */
+"Open…" = "פתיחה…";
+"Open" = "פתיחה";
+"Open another file…" = "פתיחת קובץ אחר…";
+"AirPlay – choose your TV" = "AirPlay – בחירת טלוויזיה";
+"Drop a video here (MKV, MP4, AVI…)" = "אפשר לגרור לכאן וידאו (MKV, MP4, AVI…)";
+"or open one with ⌘O, then pick your TV with the AirPlay button" = "או לפתוח אחד עם ⌘O, ואז לבחור טלוויזיה בכפתור AirPlay";
+
+/* Menus */
+"Playback" = "ניגון";
+"Original quality (HEVC, HDR, surround – for Apple TV 4K)" = "איכות מקורית (HEVC, HDR, סראונד – ל־Apple TV 4K)";
+"Language" = "שפה";
+"System default" = "ברירת המחדל של המערכת";
+"The new language takes effect after a restart." = "השפה החדשה תיכנס לתוקף לאחר הפעלה מחדש.";
+"Restart Purrcast now? Playback stops." = "להפעיל מחדש את Purrcast עכשיו? הניגון ייעצר.";
+"Restart" = "הפעלה מחדש";
+"Later" = "מאוחר יותר";
+
+/* Player, menus, playlist, media information */
+"Chapter %@" = "פרק %@";
+"File" = "קובץ";
+"Format" = "פורמט";
+"Duration" = "משך";
+"Size" = "גודל";
+"Bitrate" = "קצב סיביות";
+"General" = "כללי";
+"Codec" = "קודק";
+"Title" = "כותרת";
+"Resolution" = "רזולוציה";
+"Frame rate" = "קצב פריימים";
+"Pixel format" = "פורמט פיקסלים";
+"Dynamic range" = "טווח דינמי";
+"Channels" = "ערוצים";
+"Sample rate" = "קצב דגימה";
+"Video" = "וידאו";
+"Audio" = "שמע";
+"Subtitle" = "כתובית";
+"Stream %@: %@" = "זרם %@: %@";
+"Purrcast" = "Purrcast";
+"Media Information" = "מידע על המדיה";
+"Open Network Stream…" = "פתיחת זרם רשת…";
+"Open Recent" = "פתיחת פריט אחרון";
+"Clear Menu" = "ניקוי התפריט";
+"Add Subtitle File…" = "הוספת קובץ כתוביות…";
+"Save Playlist…" = "שמירת רשימת ההשמעה…";
+"Play/Pause" = "ניגון/השהיה";
+"Stop" = "עצירה";
+"Previous" = "הקודם";
+"Next" = "הבא";
+"Jump Back 10 Seconds" = "דילוג 10 שניות אחורה";
+"Jump Forward 10 Seconds" = "דילוג 10 שניות קדימה";
+"Jump Back 1 Minute" = "דילוג דקה אחורה";
+"Jump Forward 1 Minute" = "דילוג דקה קדימה";
+"Jump to Time…" = "מעבר לזמן…";
+"Next Frame" = "הפריים הבא";
+"Chapters" = "פרקים";
+"Faster" = "מהר יותר";
+"Slower" = "לאט יותר";
+"Normal Speed" = "מהירות רגילה";
+"Set Loop Start (A)" = "קביעת תחילת לולאה (A)";
+"Set Loop End (B)" = "קביעת סוף לולאה (B)";
+"Loop Off" = "ביטול לולאה";
+"Repeat" = "חזרה";
+"Off" = "כבוי";
+"All" = "הכול";
+"One" = "אחד";
+"Shuffle" = "ערבוב";
+"Volume Up" = "הגברת עוצמת השמע";
+"Volume Down" = "הנמכת עוצמת השמע";
+"Mute" = "השתקה";
+"Audio Track" = "רצועת שמע";
+"Full Screen" = "מסך מלא";
+"Float on Top" = "תמיד למעלה";
+"Aspect" = "יחס גובה־רוחב";
+"Fit" = "התאמה";
+"Fill (Crop)" = "מילוי (עם חיתוך)";
+"Stretch" = "מתיחה";
+"Snapshot" = "צילום פריים";
+"Show Snapshots Folder" = "הצגת תיקיית הצילומים";
+"Subtitles" = "כתוביות";
+"Subtitle Track" = "רצועת כתוביות";
+"Next Subtitle Track" = "רצועת הכתוביות הבאה";
+"Subtitles Earlier (G)" = "כתוביות מוקדם יותר (G)";
+"Subtitles Later (H)" = "כתוביות מאוחר יותר (H)";
+"Reset Subtitle Delay" = "איפוס השהיית הכתוביות";
+"Playlist" = "רשימת השמעה";
+"%@ items" = "%@ פריטים";
+"Close" = "סגירה";
+"Play" = "ניגון";
+"Show in Finder" = "הצגה ב־Finder";
+"Remove from Playlist" = "הסרה מרשימת ההשמעה";
+"Drop videos or folders here" = "אפשר לגרור לכאן סרטונים או תיקיות";
+"Add files or folders…" = "הוספת קבצים או תיקיות…";
+"Clear Playlist" = "ניקוי רשימת ההשמעה";
+"Repeat: off" = "חזרה: כבויה";
+"Repeat: all" = "חזרה: הכול";
+"Repeat: one" = "חזרה: אחד";
+"Streaming" = "הזרמה";
+"Nothing is playing." = "שום דבר לא מתנגן.";
+"Open Network Stream" = "פתיחת זרם רשת";
+"HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – anything ffmpeg can open." = "‏HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – כל מה ש־ffmpeg יכול לפתוח.";
+"Cancel" = "ביטול";
+"Jump to Time" = "מעבר לזמן";
+"Jump" = "מעבר";
+"Resumed at %@" = "הניגון חודש מ־%@";
+"Speed: %@" = "מהירות: %@";
+"Volume: %@" = "עוצמת שמע: %@";
+"Loop start: %@" = "תחילת לולאה: %@";
+"Looping %@ – %@" = "לולאה %@ – %@";
+"Loop off" = "הלולאה בוטלה";
+"Snapshot saved: %@" = "הצילום נשמר: %@";
+"Couldn't save the snapshot." = "לא ניתן לשמור את הצילום.";
+"Subtitles off" = "הכתוביות כבויות";
+"Adding subtitles…" = "הוספת כתוביות…";
+"Subtitle delay: %@ ms" = "השהיית כתוביות: %@ אלפיות שנייה";
+"Play Playlist" = "ניגון הרשימה";
+"Recent" = "אחרונים";
+"Next in Playlist" = "הבא ברשימה";
+"Start Over" = "מההתחלה";
+"Jump back 10 seconds" = "10 שניות אחורה";
+"Play/Pause (Space)" = "ניגון/השהיה (רווח)";
+"Jump forward 10 seconds" = "10 שניות קדימה";
+"Playback speed" = "מהירות ניגון";
+"Playlist (⌘L)" = "רשימת השמעה (⌘L)";
+"Full Screen (⌘F)" = "מסך מלא (⌘F)";
+"No audio tracks" = "אין רצועות שמע";
+"Audio track" = "רצועת שמע";
+
+/* Network streams */
+"network stream – seekable anywhere" = "זרם רשת – אפשר לדלג לכל מקום";
+"Network HLS stream – played directly, without conversion" = "‏זרם HLS ברשת – מושמע ישירות, ללא המרה";
+
+/* Chapters */
+"Previous Chapter" = "הפרק הקודם";
+"Next Chapter" = "הפרק הבא";
+"Chapter: %@" = "פרק: %@";
+"Previous Chapter (⇧P)" = "הפרק הקודם (⇧P)";
+"Next Chapter (⇧N)" = "הפרק הבא (⇧N)";
+
+/* Auto-hiding controls */
+"Hide Controls" = "הסתרת הפקדים";
+"After %@ seconds" = "אחרי %@ שניות";
+"Never" = "אף פעם";
+
+/* Time display */
+"Show total length" = "הצגת האורך הכולל";
+"Show remaining time" = "הצגת הזמן שנותר";
+
+/* Picture in Picture, appearance */
+"Picture in Picture" = "תמונה בתוך תמונה";
+"Playing in Picture in Picture" = "מושמע במצב תמונה בתוך תמונה";
+"Appearance" = "מראה";
+"Light" = "בהיר";
+"Dark" = "כהה";
+
+/* Help menu */
+"Open-Source Licenses" = "רישיונות קוד פתוח";

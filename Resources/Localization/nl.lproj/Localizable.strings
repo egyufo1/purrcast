@@ -1,0 +1,201 @@
+/* Nederlandse vertaling. Keys are the English texts; check: Resources/Localization/check.sh */
+
+/* Errors */
+"timed out" = "time-out";
+"Not found: %@. Install it with: brew install ffmpeg" = "Niet gevonden: %@. Installeer het met: brew install ffmpeg";
+"Couldn't read the file: %@" = "Kan het bestand niet lezen: %@";
+"The file has no video track." = "Het bestand heeft geen videospoor.";
+"ffmpeg stopped with an error:\n%@" = "ffmpeg is gestopt met een fout:\n%@";
+"Not enough free space for the temporary stream files (needs about %@, free: %@)." = "Niet genoeg vrije ruimte voor de tijdelijke streambestanden (ongeveer %@ nodig, vrij: %@).";
+"The local stream server didn't start: %@" = "De lokale streamserver is niet gestart: %@";
+"Didn't start with the previous settings, retrying in a safer mode…" = "Starten met de vorige instellingen mislukt, opnieuw proberen in een veiligere modus…";
+"Couldn't start playback:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log" = "Kan het afspelen niet starten:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log";
+"player error: %@" = "spelerfout: %@";
+"playback didn't start within 20 seconds" = "afspelen is niet binnen 20 seconden gestart";
+"Error" = "Fout";
+
+/* Tracks */
+"Audio %@" = "Audio %@";
+"Subtitle %@" = "Ondertiteling %@";
+"(forced)" = "(geforceerd)";
+"External subtitle" = "Externe ondertiteling";
+"(external)" = "(extern)";
+"unknown" = "onbekend";
+"mono" = "mono";
+"stereo" = "stereo";
+"%@ channels" = "%@ kanalen";
+
+/* Conversion summary */
+"%@ → H.264, plays on every TV" = "%@ → H.264, speelt af op elke tv";
+"%@ H.264 → 8-bit H.264" = "%@ H.264 → 8-bit H.264";
+"interlaced → progressive" = "interlaced → progressief";
+"re-encoded for reliable playback" = "opnieuw gecodeerd voor betrouwbaar afspelen";
+"Video: %@ – passed through in original quality" = "Video: %@ – doorgegeven in originele kwaliteit";
+"Video: %@ → H.264 %@ (%@)" = "Video: %@ → H.264 %@ (%@)";
+"Audio: %@ – original" = "Audio: %@ – origineel";
+"Audio: %@ → %@ %@" = "Audio: %@ → %@ %@";
+"Subtitle: %@ – on by default" = "Ondertiteling: %@ – standaard aan";
+"Subtitle: %@" = "Ondertiteling: %@";
+"Subtitle skipped: %@ (%@ is image-based and can't be converted)" = "Ondertiteling overgeslagen: %@ (%@ is beeldgebaseerd en kan niet worden omgezet)";
+
+/* Status */
+"Preparing…" = "Voorbereiden…";
+"Playing via AirPlay" = "Afspelen via AirPlay";
+"Conversion stopped: %@" = "Conversie gestopt: %@";
+"Prepared: %@ / %@" = "Voorbereid: %@ / %@";
+
+/* Window */
+"Open…" = "Open…";
+"Open" = "Open";
+"Open another file…" = "Ander bestand openen…";
+"AirPlay – choose your TV" = "AirPlay – kies je tv";
+"Drop a video here (MKV, MP4, AVI…)" = "Sleep hier een video naartoe (MKV, MP4, AVI…)";
+"or open one with ⌘O, then pick your TV with the AirPlay button" = "of open er een met ⌘O en kies dan je tv met de AirPlay-knop";
+
+/* Menus */
+"Playback" = "Afspelen";
+"Original quality (HEVC, HDR, surround – for Apple TV 4K)" = "Originele kwaliteit (HEVC, HDR, surround – voor Apple TV 4K)";
+"Language" = "Taal";
+"System default" = "Systeemstandaard";
+"The new language takes effect after a restart." = "De nieuwe taal wordt actief na een herstart.";
+"Restart Purrcast now? Playback stops." = "Purrcast nu opnieuw starten? Het afspelen stopt.";
+"Restart" = "Herstart";
+"Later" = "Later";
+
+/* Player, menus, playlist, media information */
+"Chapter %@" = "Hoofdstuk %@";
+"File" = "Bestand";
+"Format" = "Formaat";
+"Duration" = "Duur";
+"Size" = "Grootte";
+"Bitrate" = "Bitrate";
+"General" = "Algemeen";
+"Codec" = "Codec";
+"Title" = "Titel";
+"Resolution" = "Resolutie";
+"Frame rate" = "Framesnelheid";
+"Pixel format" = "Pixelformaat";
+"Dynamic range" = "Dynamisch bereik";
+"Channels" = "Kanalen";
+"Sample rate" = "Samplefrequentie";
+"Video" = "Video";
+"Audio" = "Audio";
+"Subtitle" = "Ondertiteling";
+"Stream %@: %@" = "Stream %@: %@";
+"Purrcast" = "Purrcast";
+"Media Information" = "Media-informatie";
+"Open Network Stream…" = "Netwerkstream openen…";
+"Open Recent" = "Open recent";
+"Clear Menu" = "Wis menu";
+"Add Subtitle File…" = "Ondertitelbestand toevoegen…";
+"Save Playlist…" = "Afspeellijst bewaren…";
+"Play/Pause" = "Afspelen/pauzeren";
+"Stop" = "Stop";
+"Previous" = "Vorige";
+"Next" = "Volgende";
+"Jump Back 10 Seconds" = "10 seconden terug";
+"Jump Forward 10 Seconds" = "10 seconden vooruit";
+"Jump Back 1 Minute" = "1 minuut terug";
+"Jump Forward 1 Minute" = "1 minuut vooruit";
+"Jump to Time…" = "Ga naar tijdstip…";
+"Next Frame" = "Volgend frame";
+"Chapters" = "Hoofdstukken";
+"Faster" = "Sneller";
+"Slower" = "Langzamer";
+"Normal Speed" = "Normale snelheid";
+"Set Loop Start (A)" = "Lusbegin instellen (A)";
+"Set Loop End (B)" = "Luseinde instellen (B)";
+"Loop Off" = "Lus uit";
+"Repeat" = "Herhaal";
+"Off" = "Uit";
+"All" = "Alles";
+"One" = "Eén";
+"Shuffle" = "Willekeurig";
+"Volume Up" = "Volume omhoog";
+"Volume Down" = "Volume omlaag";
+"Mute" = "Geluid uit";
+"Audio Track" = "Audiospoor";
+"Full Screen" = "Schermvullend";
+"Float on Top" = "Altijd bovenop";
+"Aspect" = "Beeldverhouding";
+"Fit" = "Passend";
+"Fill (Crop)" = "Vullen (bijsnijden)";
+"Stretch" = "Uitrekken";
+"Snapshot" = "Momentopname";
+"Show Snapshots Folder" = "Toon map met momentopnamen";
+"Subtitles" = "Ondertiteling";
+"Subtitle Track" = "Ondertitelingsspoor";
+"Next Subtitle Track" = "Volgend ondertitelingsspoor";
+"Subtitles Earlier (G)" = "Ondertiteling eerder (G)";
+"Subtitles Later (H)" = "Ondertiteling later (H)";
+"Reset Subtitle Delay" = "Ondertitelingsvertraging herstellen";
+"Playlist" = "Afspeellijst";
+"%@ items" = "%@ items";
+"Close" = "Sluit";
+"Play" = "Afspelen";
+"Show in Finder" = "Toon in Finder";
+"Remove from Playlist" = "Verwijderen uit afspeellijst";
+"Drop videos or folders here" = "Sleep video’s of mappen hierheen";
+"Add files or folders…" = "Bestanden of mappen toevoegen…";
+"Clear Playlist" = "Afspeellijst wissen";
+"Repeat: off" = "Herhaal: uit";
+"Repeat: all" = "Herhaal: alles";
+"Repeat: one" = "Herhaal: één";
+"Streaming" = "Streaming";
+"Nothing is playing." = "Er wordt niets afgespeeld.";
+"Open Network Stream" = "Netwerkstream openen";
+"HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – anything ffmpeg can open." = "HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – alles wat ffmpeg kan openen.";
+"Cancel" = "Annuleer";
+"Jump to Time" = "Ga naar tijdstip";
+"Jump" = "Ga";
+"Resumed at %@" = "Hervat bij %@";
+"Speed: %@" = "Snelheid: %@";
+"Volume: %@" = "Volume: %@";
+"Loop start: %@" = "Lusbegin: %@";
+"Looping %@ – %@" = "Lus %@ – %@";
+"Loop off" = "Lus uit";
+"Snapshot saved: %@" = "Momentopname bewaard: %@";
+"Couldn't save the snapshot." = "Kan de momentopname niet bewaren.";
+"Subtitles off" = "Ondertiteling uit";
+"Adding subtitles…" = "Ondertiteling toevoegen…";
+"Subtitle delay: %@ ms" = "Ondertitelingsvertraging: %@ ms";
+"Play Playlist" = "Afspeellijst afspelen";
+"Recent" = "Recent";
+"Next in Playlist" = "Volgende in afspeellijst";
+"Start Over" = "Opnieuw beginnen";
+"Jump back 10 seconds" = "10 seconden terug";
+"Play/Pause (Space)" = "Afspelen/pauzeren (spatiebalk)";
+"Jump forward 10 seconds" = "10 seconden vooruit";
+"Playback speed" = "Afspeelsnelheid";
+"Playlist (⌘L)" = "Afspeellijst (⌘L)";
+"Full Screen (⌘F)" = "Schermvullend (⌘F)";
+"No audio tracks" = "Geen audiosporen";
+"Audio track" = "Audiospoor";
+"network stream – seekable anywhere" = "netwerkstream – overal doorspoelbaar";
+"Network HLS stream – played directly, without conversion" = "HLS-netwerkstream – direct afgespeeld, zonder conversie";
+
+/* Chapters */
+"Previous Chapter" = "Vorig hoofdstuk";
+"Next Chapter" = "Volgend hoofdstuk";
+"Chapter: %@" = "Hoofdstuk: %@";
+"Previous Chapter (⇧P)" = "Vorig hoofdstuk (⇧P)";
+"Next Chapter (⇧N)" = "Volgend hoofdstuk (⇧N)";
+
+/* Auto-hiding controls */
+"Hide Controls" = "Bediening verbergen";
+"After %@ seconds" = "Na %@ seconden";
+"Never" = "Nooit";
+
+/* Time display */
+"Show total length" = "Totale duur tonen";
+"Show remaining time" = "Resterende tijd tonen";
+
+/* Picture in Picture, appearance */
+"Picture in Picture" = "Beeld-in-beeld";
+"Playing in Picture in Picture" = "Speelt af in beeld-in-beeld";
+"Appearance" = "Weergave";
+"Light" = "Licht";
+"Dark" = "Donker";
+
+/* Help menu */
+"Open-Source Licenses" = "Opensourcelicenties";

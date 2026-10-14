@@ -1,0 +1,203 @@
+/* Hrvatski (hr). Keys are the English texts; check: Resources/Localization/check.sh */
+
+/* Errors */
+"timed out" = "isteklo vrijeme";
+"Not found: %@. Install it with: brew install ffmpeg" = "Nije pronađeno: %@. Instaliraj ga naredbom: brew install ffmpeg";
+"Couldn't read the file: %@" = "Nije moguće pročitati datoteku: %@";
+"The file has no video track." = "Datoteka nema video zapisa.";
+"ffmpeg stopped with an error:\n%@" = "ffmpeg se zaustavio s greškom:\n%@";
+"Not enough free space for the temporary stream files (needs about %@, free: %@)." = "Nema dovoljno slobodnog prostora za privremene datoteke streama (potrebno oko %@, slobodno: %@).";
+"The local stream server didn't start: %@" = "Lokalni poslužitelj za streaming nije se pokrenuo: %@";
+"Didn't start with the previous settings, retrying in a safer mode…" = "S prethodnim postavkama nije se pokrenulo, pokušavam ponovno u sigurnijem načinu…";
+"Couldn't start playback:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log" = "Reprodukcija se nije mogla pokrenuti:\n%@\n\nPojedinosti: ~/Library/Logs/Purrcast.log";
+"player error: %@" = "greška reproduktora: %@";
+"playback didn't start within 20 seconds" = "reprodukcija nije počela unutar 20 sekundi";
+"Error" = "Greška";
+
+/* Tracks */
+"Audio %@" = "Zvuk %@";
+"Subtitle %@" = "Titlovi %@";
+"(forced)" = "(prisilni)";
+"External subtitle" = "Vanjski titlovi";
+"(external)" = "(vanjski)";
+"unknown" = "nepoznato";
+"mono" = "mono";
+"stereo" = "stereo";
+"%@ channels" = "%@ kanala";
+
+/* Conversion summary */
+"%@ → H.264, plays on every TV" = "%@ → H.264, reproducira ga svaki TV";
+"%@ H.264 → 8-bit H.264" = "%@ H.264 → 8-bitni H.264";
+"interlaced → progressive" = "isprepleteno → progresivno";
+"re-encoded for reliable playback" = "ponovno kodirano za pouzdanu reprodukciju";
+"Video: %@ – passed through in original quality" = "Video: %@ – prosljeđuje se u izvornoj kvaliteti";
+"Video: %@ → H.264 %@ (%@)" = "Video: %@ → H.264 %@ (%@)";
+"Audio: %@ – original" = "Zvuk: %@ – izvorni";
+"Audio: %@ → %@ %@" = "Zvuk: %@ → %@ %@";
+"Subtitle: %@ – on by default" = "Titlovi: %@ – zadano uključeni";
+"Subtitle: %@" = "Titlovi: %@";
+"Subtitle skipped: %@ (%@ is image-based and can't be converted)" = "Titlovi preskočeni: %@ (%@ je slikovni format i ne može se pretvoriti)";
+
+/* Status */
+"Preparing…" = "Priprema…";
+"Playing via AirPlay" = "Reprodukcija putem AirPlaya";
+"Conversion stopped: %@" = "Pretvorba prekinuta: %@";
+"Prepared: %@ / %@" = "Pripremljeno: %@ / %@";
+
+/* Window */
+"Open…" = "Otvori…";
+"Open" = "Otvori";
+"Open another file…" = "Otvori drugu datoteku…";
+"AirPlay – choose your TV" = "AirPlay – odaberi TV";
+"Drop a video here (MKV, MP4, AVI…)" = "Ispusti video ovdje (MKV, MP4, AVI…)";
+"or open one with ⌘O, then pick your TV with the AirPlay button" = "ili ga otvori s ⌘O, zatim tipkom AirPlay odaberi TV";
+
+/* Menus */
+"Playback" = "Reprodukcija";
+"Original quality (HEVC, HDR, surround – for Apple TV 4K)" = "Izvorna kvaliteta (HEVC, HDR, surround – za Apple TV 4K)";
+"Language" = "Jezik";
+"System default" = "Jezik sustava";
+"The new language takes effect after a restart." = "Novi jezik primjenjuje se nakon ponovnog pokretanja.";
+"Restart Purrcast now? Playback stops." = "Ponovno pokrenuti Purrcast sada? Reprodukcija će se zaustaviti.";
+"Restart" = "Ponovno pokreni";
+"Later" = "Kasnije";
+
+/* Player, menus, playlist, media information */
+"Chapter %@" = "Poglavlje %@";
+"File" = "Datoteka";
+"Format" = "Format";
+"Duration" = "Trajanje";
+"Size" = "Veličina";
+"Bitrate" = "Brzina prijenosa";
+"General" = "Općenito";
+"Codec" = "Kodek";
+"Title" = "Naslov";
+"Resolution" = "Razlučivost";
+"Frame rate" = "Broj sličica u sekundi";
+"Pixel format" = "Format piksela";
+"Dynamic range" = "Dinamički raspon";
+"Channels" = "Kanali";
+"Sample rate" = "Frekvencija uzorkovanja";
+"Video" = "Video";
+"Audio" = "Zvuk";
+"Subtitle" = "Titlovi";
+"Stream %@: %@" = "Tok %@: %@";
+"Purrcast" = "Purrcast";
+"Media Information" = "Informacije o mediju";
+"Open Network Stream…" = "Otvori mrežni tok…";
+"Open Recent" = "Otvori nedavno";
+"Clear Menu" = "Očisti izbornik";
+"Add Subtitle File…" = "Dodaj datoteku titlova…";
+"Save Playlist…" = "Spremi popis za reprodukciju…";
+"Play/Pause" = "Reproduciraj/pauziraj";
+"Stop" = "Zaustavi";
+"Previous" = "Prethodno";
+"Next" = "Sljedeće";
+"Jump Back 10 Seconds" = "Skoči 10 sekundi unatrag";
+"Jump Forward 10 Seconds" = "Skoči 10 sekundi naprijed";
+"Jump Back 1 Minute" = "Skoči 1 minutu unatrag";
+"Jump Forward 1 Minute" = "Skoči 1 minutu naprijed";
+"Jump to Time…" = "Skoči na vrijeme…";
+"Next Frame" = "Sljedeća sličica";
+"Chapters" = "Poglavlja";
+"Faster" = "Brže";
+"Slower" = "Sporije";
+"Normal Speed" = "Normalna brzina";
+"Set Loop Start (A)" = "Postavi početak petlje (A)";
+"Set Loop End (B)" = "Postavi kraj petlje (B)";
+"Loop Off" = "Isključi petlju";
+"Repeat" = "Ponavljanje";
+"Off" = "Isključeno";
+"All" = "Sve";
+"One" = "Jedno";
+"Shuffle" = "Nasumično";
+"Volume Up" = "Pojačaj glasnoću";
+"Volume Down" = "Smanji glasnoću";
+"Mute" = "Isključi zvuk";
+"Audio Track" = "Zvučni zapis";
+"Full Screen" = "Cijeli zaslon";
+"Float on Top" = "Uvijek na vrhu";
+"Aspect" = "Omjer slike";
+"Fit" = "Prilagodi";
+"Fill (Crop)" = "Ispuni (izreži)";
+"Stretch" = "Rastegni";
+"Snapshot" = "Snimka zaslona";
+"Show Snapshots Folder" = "Prikaži mapu sa snimkama zaslona";
+"Subtitles" = "Titlovi";
+"Subtitle Track" = "Zapis titlova";
+"Next Subtitle Track" = "Sljedeći zapis titlova";
+"Subtitles Earlier (G)" = "Titlovi ranije (G)";
+"Subtitles Later (H)" = "Titlovi kasnije (H)";
+"Reset Subtitle Delay" = "Poništi kašnjenje titlova";
+"Playlist" = "Popis za reprodukciju";
+"%@ items" = "Stavki: %@";
+"Close" = "Zatvori";
+"Play" = "Reproduciraj";
+"Show in Finder" = "Prikaži u Finderu";
+"Remove from Playlist" = "Ukloni s popisa za reprodukciju";
+"Drop videos or folders here" = "Ispusti videozapise ili mape ovdje";
+"Add files or folders…" = "Dodaj datoteke ili mape…";
+"Clear Playlist" = "Očisti popis za reprodukciju";
+"Repeat: off" = "Ponavljanje: isključeno";
+"Repeat: all" = "Ponavljanje: sve";
+"Repeat: one" = "Ponavljanje: jedno";
+"Streaming" = "Strujanje";
+"Nothing is playing." = "Ništa se ne reproducira.";
+"Open Network Stream" = "Otvori mrežni tok";
+"HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – anything ffmpeg can open." = "HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – sve što ffmpeg može otvoriti.";
+"Cancel" = "Odustani";
+"Jump to Time" = "Skoči na vrijeme";
+"Jump" = "Skoči";
+"Resumed at %@" = "Nastavljeno od %@";
+"Speed: %@" = "Brzina: %@";
+"Volume: %@" = "Glasnoća: %@";
+"Loop start: %@" = "Početak petlje: %@";
+"Looping %@ – %@" = "Petlja %@ – %@";
+"Loop off" = "Petlja isključena";
+"Snapshot saved: %@" = "Snimka zaslona spremljena: %@";
+"Couldn't save the snapshot." = "Spremanje snimke zaslona nije uspjelo.";
+"Subtitles off" = "Titlovi isključeni";
+"Adding subtitles…" = "Dodavanje titlova…";
+"Subtitle delay: %@ ms" = "Kašnjenje titlova: %@ ms";
+"Play Playlist" = "Reproduciraj popis";
+"Recent" = "Nedavno";
+"Next in Playlist" = "Sljedeće na popisu";
+"Start Over" = "Ispočetka";
+"Jump back 10 seconds" = "10 sekundi unatrag";
+"Play/Pause (Space)" = "Reproduciraj/pauziraj (razmaknica)";
+"Jump forward 10 seconds" = "10 sekundi naprijed";
+"Playback speed" = "Brzina reprodukcije";
+"Playlist (⌘L)" = "Popis za reprodukciju (⌘L)";
+"Full Screen (⌘F)" = "Cijeli zaslon (⌘F)";
+"No audio tracks" = "Nema zvučnih zapisa";
+"Audio track" = "Zvučni zapis";
+
+/* Network streams */
+"network stream – seekable anywhere" = "mrežni tok – premotavanje bilo kamo";
+"Network HLS stream – played directly, without conversion" = "Mrežni HLS tok – reproducira se izravno, bez pretvorbe";
+
+/* Chapters */
+"Previous Chapter" = "Prethodno poglavlje";
+"Next Chapter" = "Sljedeće poglavlje";
+"Chapter: %@" = "Poglavlje: %@";
+"Previous Chapter (⇧P)" = "Prethodno poglavlje (⇧P)";
+"Next Chapter (⇧N)" = "Sljedeće poglavlje (⇧N)";
+
+/* Auto-hiding controls */
+"Hide Controls" = "Sakrij kontrole";
+"After %@ seconds" = "Nakon %@ s";
+"Never" = "Nikad";
+
+/* Time display */
+"Show total length" = "Prikaži ukupno trajanje";
+"Show remaining time" = "Prikaži preostalo vrijeme";
+
+/* Picture in Picture, appearance */
+"Picture in Picture" = "Slika u slici";
+"Playing in Picture in Picture" = "Reprodukcija u načinu slika u slici";
+"Appearance" = "Izgled";
+"Light" = "Svijetlo";
+"Dark" = "Tamno";
+
+/* Help menu */
+"Open-Source Licenses" = "Licence otvorenog koda";

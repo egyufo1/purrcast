@@ -1,0 +1,203 @@
+/* Kabyle translation. Keys are the English texts; check: Resources/Localization/check.sh */
+
+/* Errors */
+"timed out" = "yekfa wakud";
+"Not found: %@. Install it with: brew install ffmpeg" = "Ur yettwaf ara: %@. Sebded-it s: brew install ffmpeg";
+"Couldn't read the file: %@" = "Ur yettwaɣra ara ufaylu: %@";
+"The file has no video track." = "Afaylu ur yesɛi ara abrid n uvidyu.";
+"ffmpeg stopped with an error:\n%@" = "ffmpeg yeḥbes s tuccḍa:\n%@";
+"Not enough free space for the temporary stream files (needs about %@, free: %@)." = "Ulac tallunt ilellin i yifuyla iskudanen n streaming (ilaq-d azal n %@, tilellit: %@).";
+"The local stream server didn't start: %@" = "Aqeddac adigan n streaming ur yebdi ara: %@";
+"Didn't start with the previous settings, retrying in a safer mode…" = "Ur yebdi ara s yiɣewwaṛen yezrin, aɛraḍ nniḍen s uskar yettwaḍemnen ugar…";
+"Couldn't start playback:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log" = "Ur tebdi ara teɣuri:\n%@\n\nTalqayt: ~/Library/Logs/Purrcast.log";
+"player error: %@" = "tuccḍa n umeɣri: %@";
+"playback didn't start within 20 seconds" = "taɣuri ur tebdi ara deg 20 n tsinin";
+"Error" = "Tuccḍa";
+
+/* Tracks */
+"Audio %@" = "Ameslaw %@";
+"Subtitle %@" = "Aduzwil %@";
+"(forced)" = "(yettwaḥettem)";
+"External subtitle" = "Aduzwil azɣaray";
+"(external)" = "(azɣaray)";
+"unknown" = "arussin";
+"mono" = "mono";
+"stereo" = "stereo";
+"%@ channels" = "%@ n yibuda";
+
+/* Conversion summary */
+"%@ → H.264, plays on every TV" = "%@ → H.264, iteddu ɣef yal TV";
+"%@ H.264 → 8-bit H.264" = "%@ H.264 → H.264 n 8-bit";
+"interlaced → progressive" = "entrelacé → progressif";
+"re-encoded for reliable playback" = "ales asettengel i teɣuri tameɣtut";
+"Video: %@ – passed through in original quality" = "Avidyu: %@ – yettwazen s tɣara taneṣlit";
+"Video: %@ → H.264 %@ (%@)" = "Avidyu: %@ → H.264 %@ (%@)";
+"Audio: %@ – original" = "Ameslaw: %@ – aneṣli";
+"Audio: %@ → %@ %@" = "Ameslaw: %@ → %@ %@";
+"Subtitle: %@ – on by default" = "Aduzwil: %@ – yermed s wudem amezwer";
+"Subtitle: %@" = "Aduzwil: %@";
+"Subtitle skipped: %@ (%@ is image-based and can't be converted)" = "Aduzwil yettwazgel: %@ (%@ yebna ɣef tugniwin, ur yettwaselkat ara)";
+
+/* Status */
+"Preparing…" = "Aheyyi…";
+"Playing via AirPlay" = "Taɣuri s AirPlay";
+"Conversion stopped: %@" = "Aselket yeḥbes: %@";
+"Prepared: %@ / %@" = "Yewjed: %@ / %@";
+
+/* Window */
+"Open…" = "Ldi…";
+"Open" = "Ldi";
+"Open another file…" = "Ldi afaylu-nniḍen…";
+"AirPlay – choose your TV" = "AirPlay – fren TV-k";
+"Drop a video here (MKV, MP4, AVI…)" = "Zuɣer avidyu ɣer da (MKV, MP4, AVI…)";
+"or open one with ⌘O, then pick your TV with the AirPlay button" = "neɣ ldi-t s ⌘O, sakin fren TV-k s tqeffalt n AirPlay";
+
+/* Menus */
+"Playback" = "Taɣuri";
+"Original quality (HEVC, HDR, surround – for Apple TV 4K)" = "Taɣara taneṣlit (HEVC, HDR, surround – i Apple TV 4K)";
+"Language" = "Tutlayt";
+"System default" = "Amezwer n unagraw";
+"The new language takes effect after a restart." = "Tutlayt tamaynut ad teddu deffir n walus n usenker.";
+"Restart Purrcast now? Playback stops." = "Ales asenker n Purrcast tura? Taɣuri ad teḥbes.";
+"Restart" = "Ales asenker";
+"Later" = "Ticki";
+
+/* Player, menus, playlist, media information */
+"Chapter %@" = "Ixef %@";
+"File" = "Afaylu";
+"Format" = "Amasal";
+"Duration" = "Tanzagt";
+"Size" = "Tiddi";
+"Bitrate" = "Aktum n yibiten";
+"General" = "Amatu";
+"Codec" = "Codec";
+"Title" = "Azwel";
+"Resolution" = "Tabadut";
+"Frame rate" = "Aktum n tugniwin";
+"Pixel format" = "Amasal n yipiksilen";
+"Dynamic range" = "Tazegrart tadinamikt";
+"Channels" = "Ibuda";
+"Sample rate" = "Aktum n tsefrurin";
+"Video" = "Avidyu";
+"Audio" = "Ameslaw";
+"Subtitle" = "Aduzwil";
+"Stream %@: %@" = "Abrid %@: %@";
+"Purrcast" = "Purrcast";
+"Media Information" = "Talɣut n umidya";
+"Open Network Stream…" = "Ldi asuddem n uẓeṭṭa…";
+"Open Recent" = "Ldi ineggura";
+"Clear Menu" = "Sfeḍ umuɣ";
+"Add Subtitle File…" = "Rnu afaylu n yiduzwilen…";
+"Save Playlist…" = "Sekles tabdart n tɣuri…";
+"Play/Pause" = "Urar/Asteɛfu";
+"Stop" = "Seḥbes";
+"Previous" = "Uzwir";
+"Next" = "Uḍfir";
+"Jump Back 10 Seconds" = "Uɣal 10 n tsinin ɣer deffir";
+"Jump Forward 10 Seconds" = "Ddu 10 n tsinin ɣer zdat";
+"Jump Back 1 Minute" = "Uɣal 1 n tesdidt ɣer deffir";
+"Jump Forward 1 Minute" = "Ddu 1 n tesdidt ɣer zdat";
+"Jump to Time…" = "Ddu ɣer wakud…";
+"Next Frame" = "Tugna tuḍfirt";
+"Chapters" = "Ixfawen";
+"Faster" = "Arurad ugar";
+"Slower" = "S ttawil ugar";
+"Normal Speed" = "Arurad amagnu";
+"Set Loop Start (A)" = "Sbadu tazwara n tuzzya (A)";
+"Set Loop End (B)" = "Sbadu taggara n tuzzya (B)";
+"Loop Off" = "Sens tuzzya";
+"Repeat" = "Allus";
+"Off" = "Yensa";
+"All" = "Akk";
+"One" = "Yiwen";
+"Shuffle" = "Taɣuri tagacurant";
+"Volume Up" = "Sali ableɣ";
+"Volume Down" = "Ssader ableɣ";
+"Mute" = "Sens imesli";
+"Audio Track" = "Abrid n umeslaw";
+"Full Screen" = "Agdil aččuran";
+"Float on Top" = "Yezga deg uksawen";
+"Aspect" = "Assaɣ n tugna";
+"Fit" = "Ṣeggem";
+"Fill (Crop)" = "Ačar (s ugzam)";
+"Stretch" = "Seɣzef";
+"Snapshot" = "Tuṭṭfa n tugna";
+"Show Snapshots Folder" = "Sken akaram n tuṭṭfiwin";
+"Subtitles" = "Iduzwilen";
+"Subtitle Track" = "Abrid n yiduzwilen";
+"Next Subtitle Track" = "Abrid n yiduzwilen uḍfir";
+"Subtitles Earlier (G)" = "Iduzwilen uqbel (G)";
+"Subtitles Later (H)" = "Iduzwilen deffir (H)";
+"Reset Subtitle Delay" = "Wennez aɛeṭṭel n yiduzwilen";
+"Playlist" = "Tabdart n tɣuri";
+"%@ items" = "%@ n yiferdisen";
+"Close" = "Mdel";
+"Play" = "Urar";
+"Show in Finder" = "Sken deg Finder";
+"Remove from Playlist" = "Kkes seg tebdart n tɣuri";
+"Drop videos or folders here" = "Zuɣer ɣer da ividyuten neɣ ikaramen";
+"Add files or folders…" = "Rnu ifuyla neɣ ikaramen…";
+"Clear Playlist" = "Sfeḍ tabdart n tɣuri";
+"Repeat: off" = "Allus: yensa";
+"Repeat: all" = "Allus: akk";
+"Repeat: one" = "Allus: yiwen";
+"Streaming" = "Streaming";
+"Nothing is playing." = "Ulac ayen yettwaɣren.";
+"Open Network Stream" = "Ldi asuddem n uẓeṭṭa";
+"HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – anything ffmpeg can open." = "HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – kra n wayen i yezmer ffmpeg ad t-yeldi.";
+"Cancel" = "Sefsex";
+"Jump to Time" = "Ddu ɣer wakud";
+"Jump" = "Ddu";
+"Resumed at %@" = "Yekemmel seg %@";
+"Speed: %@" = "Arurad: %@";
+"Volume: %@" = "Ableɣ: %@";
+"Loop start: %@" = "Tazwara n tuzzya: %@";
+"Looping %@ – %@" = "Tuzzya %@ – %@";
+"Loop off" = "Tuzzya tensa";
+"Snapshot saved: %@" = "Tuṭṭfa tettwasekles: %@";
+"Couldn't save the snapshot." = "Ur tettwasekles ara tuṭṭfa.";
+"Subtitles off" = "Iduzwilen nsan";
+"Adding subtitles…" = "Timerna n yiduzwilen…";
+"Subtitle delay: %@ ms" = "Aɛeṭṭel n yiduzwilen: %@ ms";
+"Play Playlist" = "Urar tabdart";
+"Recent" = "Ineggura";
+"Next in Playlist" = "Uḍfir deg tebdart";
+"Start Over" = "Seg tazwara";
+"Jump back 10 seconds" = "10 n tsinin ɣer deffir";
+"Play/Pause (Space)" = "Urar/Asteɛfu (Tallunt)";
+"Jump forward 10 seconds" = "10 n tsinin ɣer zdat";
+"Playback speed" = "Arurad n tɣuri";
+"Playlist (⌘L)" = "Tabdart n tɣuri (⌘L)";
+"Full Screen (⌘F)" = "Agdil aččuran (⌘F)";
+"No audio tracks" = "Ulac abrid n umeslaw";
+"Audio track" = "Abrid n umeslaw";
+
+/* Network streams */
+"network stream – seekable anywhere" = "asuddem n uẓeṭṭa – tzemreḍ ad tnegzeḍ ɣer yal amkan";
+"Network HLS stream – played directly, without conversion" = "Asuddem HLS n uẓeṭṭa – yettwaɣra srid, war abeddel";
+
+/* Chapters */
+"Previous Chapter" = "Ixef yezrin";
+"Next Chapter" = "Ixef d-iteddun";
+"Chapter: %@" = "Ixef: %@";
+"Previous Chapter (⇧P)" = "Ixef yezrin (⇧P)";
+"Next Chapter (⇧N)" = "Ixef d-iteddun (⇧N)";
+
+/* Auto-hiding controls */
+"Hide Controls" = "Ffer imsenqaden";
+"After %@ seconds" = "Deffir %@ n tsinin";
+"Never" = "Werǧin";
+
+/* Time display */
+"Show total length" = "Sken tanzagt tamatut";
+"Show remaining time" = "Sken akud i d-yeqqimen";
+
+/* Picture in Picture, appearance */
+"Picture in Picture" = "Tugna deg tugna";
+"Playing in Picture in Picture" = "Yettwaɣra s tugna deg tugna";
+"Appearance" = "Udem";
+"Light" = "Aceɛlal";
+"Dark" = "Aberkan";
+
+/* Help menu */
+"Open-Source Licenses" = "Turagin n uɣbalu yeldin";

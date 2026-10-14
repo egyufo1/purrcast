@@ -1,0 +1,203 @@
+/* Bahasa Indonesia – keys are the English texts; check: Resources/Localization/check.sh */
+
+/* Errors */
+"timed out" = "waktu habis";
+"Not found: %@. Install it with: brew install ffmpeg" = "%@ tidak ditemukan. Instal dengan: brew install ffmpeg";
+"Couldn't read the file: %@" = "Tidak dapat membaca file: %@";
+"The file has no video track." = "File tidak memiliki trek video.";
+"ffmpeg stopped with an error:\n%@" = "ffmpeg berhenti karena kesalahan:\n%@";
+"Not enough free space for the temporary stream files (needs about %@, free: %@)." = "Ruang kosong tidak cukup untuk file stream sementara (perlu sekitar %@, tersedia: %@).";
+"The local stream server didn't start: %@" = "Server stream lokal tidak dapat dimulai: %@";
+"Didn't start with the previous settings, retrying in a safer mode…" = "Gagal dimulai dengan pengaturan sebelumnya, mencoba lagi dalam mode yang lebih aman…";
+"Couldn't start playback:\n%@\n\nDetails: ~/Library/Logs/Purrcast.log" = "Tidak dapat memulai pemutaran:\n%@\n\nDetail: ~/Library/Logs/Purrcast.log";
+"player error: %@" = "kesalahan pemutar: %@";
+"playback didn't start within 20 seconds" = "pemutaran tidak dimulai dalam 20 detik";
+"Error" = "Kesalahan";
+
+/* Tracks */
+"Audio %@" = "Audio %@";
+"Subtitle %@" = "Subtitel %@";
+"(forced)" = "(paksa)";
+"External subtitle" = "Subtitel eksternal";
+"(external)" = "(eksternal)";
+"unknown" = "tidak diketahui";
+"mono" = "mono";
+"stereo" = "stereo";
+"%@ channels" = "%@ saluran";
+
+/* Conversion summary */
+"%@ → H.264, plays on every TV" = "%@ → H.264, dapat diputar di semua TV";
+"%@ H.264 → 8-bit H.264" = "%@ H.264 → H.264 8-bit";
+"interlaced → progressive" = "interlaced → progresif";
+"re-encoded for reliable playback" = "dienkode ulang agar pemutaran lancar";
+"Video: %@ – passed through in original quality" = "Video: %@ – diteruskan dengan kualitas asli";
+"Video: %@ → H.264 %@ (%@)" = "Video: %@ → H.264 %@ (%@)";
+"Audio: %@ – original" = "Audio: %@ – asli";
+"Audio: %@ → %@ %@" = "Audio: %@ → %@ %@";
+"Subtitle: %@ – on by default" = "Subtitel: %@ – aktif secara default";
+"Subtitle: %@" = "Subtitel: %@";
+"Subtitle skipped: %@ (%@ is image-based and can't be converted)" = "Subtitel dilewati: %@ (%@ berbasis gambar dan tidak dapat dikonversi)";
+
+/* Status */
+"Preparing…" = "Menyiapkan…";
+"Playing via AirPlay" = "Memutar melalui AirPlay";
+"Conversion stopped: %@" = "Konversi berhenti: %@";
+"Prepared: %@ / %@" = "Siap: %@ / %@";
+
+/* Window */
+"Open…" = "Buka…";
+"Open" = "Buka";
+"Open another file…" = "Buka file lain…";
+"AirPlay – choose your TV" = "AirPlay – pilih TV Anda";
+"Drop a video here (MKV, MP4, AVI…)" = "Letakkan video di sini (MKV, MP4, AVI…)";
+"or open one with ⌘O, then pick your TV with the AirPlay button" = "atau buka dengan ⌘O, lalu pilih TV dengan tombol AirPlay";
+
+/* Menus */
+"Playback" = "Pemutaran";
+"Original quality (HEVC, HDR, surround – for Apple TV 4K)" = "Kualitas asli (HEVC, HDR, surround – untuk Apple TV 4K)";
+"Language" = "Bahasa";
+"System default" = "Default sistem";
+"The new language takes effect after a restart." = "Bahasa baru akan berlaku setelah aplikasi dimulai ulang.";
+"Restart Purrcast now? Playback stops." = "Mulai ulang Purrcast sekarang? Pemutaran akan berhenti.";
+"Restart" = "Mulai Ulang";
+"Later" = "Nanti";
+
+/* Player, menus, playlist, media information */
+"Chapter %@" = "Bab %@";
+"File" = "File";
+"Format" = "Format";
+"Duration" = "Durasi";
+"Size" = "Ukuran";
+"Bitrate" = "Laju bit";
+"General" = "Umum";
+"Codec" = "Codec";
+"Title" = "Judul";
+"Resolution" = "Resolusi";
+"Frame rate" = "Laju bingkai";
+"Pixel format" = "Format piksel";
+"Dynamic range" = "Rentang dinamis";
+"Channels" = "Saluran";
+"Sample rate" = "Laju sampel";
+"Video" = "Video";
+"Audio" = "Audio";
+"Subtitle" = "Subtitel";
+"Stream %@: %@" = "Aliran %@: %@";
+"Purrcast" = "Purrcast";
+"Media Information" = "Informasi Media";
+"Open Network Stream…" = "Buka Aliran Jaringan…";
+"Open Recent" = "Buka Terbaru";
+"Clear Menu" = "Bersihkan Menu";
+"Add Subtitle File…" = "Tambahkan File Subtitel…";
+"Save Playlist…" = "Simpan Daftar Putar…";
+"Play/Pause" = "Putar/Jeda";
+"Stop" = "Hentikan";
+"Previous" = "Sebelumnya";
+"Next" = "Berikutnya";
+"Jump Back 10 Seconds" = "Mundur 10 Detik";
+"Jump Forward 10 Seconds" = "Maju 10 Detik";
+"Jump Back 1 Minute" = "Mundur 1 Menit";
+"Jump Forward 1 Minute" = "Maju 1 Menit";
+"Jump to Time…" = "Lompat ke Waktu…";
+"Next Frame" = "Bingkai Berikutnya";
+"Chapters" = "Bab";
+"Faster" = "Lebih Cepat";
+"Slower" = "Lebih Lambat";
+"Normal Speed" = "Kecepatan Normal";
+"Set Loop Start (A)" = "Atur Awal Pengulangan (A)";
+"Set Loop End (B)" = "Atur Akhir Pengulangan (B)";
+"Loop Off" = "Matikan Pengulangan";
+"Repeat" = "Ulangi";
+"Off" = "Mati";
+"All" = "Semua";
+"One" = "Satu";
+"Shuffle" = "Acak";
+"Volume Up" = "Naikkan Volume";
+"Volume Down" = "Turunkan Volume";
+"Mute" = "Bisukan";
+"Audio Track" = "Trek Audio";
+"Full Screen" = "Layar Penuh";
+"Float on Top" = "Selalu di Atas";
+"Aspect" = "Rasio Aspek";
+"Fit" = "Paskan";
+"Fill (Crop)" = "Isi (Potong)";
+"Stretch" = "Regangkan";
+"Snapshot" = "Jepretan";
+"Show Snapshots Folder" = "Tampilkan Folder Jepretan";
+"Subtitles" = "Subtitel";
+"Subtitle Track" = "Trek Subtitel";
+"Next Subtitle Track" = "Trek Subtitel Berikutnya";
+"Subtitles Earlier (G)" = "Subtitel Lebih Awal (G)";
+"Subtitles Later (H)" = "Subtitel Lebih Lambat (H)";
+"Reset Subtitle Delay" = "Atur Ulang Penundaan Subtitel";
+"Playlist" = "Daftar Putar";
+"%@ items" = "%@ item";
+"Close" = "Tutup";
+"Play" = "Putar";
+"Show in Finder" = "Tampilkan di Finder";
+"Remove from Playlist" = "Hapus dari Daftar Putar";
+"Drop videos or folders here" = "Letakkan video atau folder di sini";
+"Add files or folders…" = "Tambahkan file atau folder…";
+"Clear Playlist" = "Kosongkan Daftar Putar";
+"Repeat: off" = "Ulangi: mati";
+"Repeat: all" = "Ulangi: semua";
+"Repeat: one" = "Ulangi: satu";
+"Streaming" = "Streaming";
+"Nothing is playing." = "Tidak ada yang sedang diputar.";
+"Open Network Stream" = "Buka Aliran Jaringan";
+"HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – anything ffmpeg can open." = "HTTP, HTTPS, HLS, RTSP, RTMP, UDP… – apa pun yang bisa dibuka ffmpeg.";
+"Cancel" = "Batal";
+"Jump to Time" = "Lompat ke Waktu";
+"Jump" = "Lompat";
+"Resumed at %@" = "Dilanjutkan dari %@";
+"Speed: %@" = "Kecepatan: %@";
+"Volume: %@" = "Volume: %@";
+"Loop start: %@" = "Awal pengulangan: %@";
+"Looping %@ – %@" = "Mengulang %@ – %@";
+"Loop off" = "Pengulangan mati";
+"Snapshot saved: %@" = "Jepretan disimpan: %@";
+"Couldn't save the snapshot." = "Tidak dapat menyimpan jepretan.";
+"Subtitles off" = "Subtitel mati";
+"Adding subtitles…" = "Menambahkan subtitel…";
+"Subtitle delay: %@ ms" = "Penundaan subtitel: %@ ms";
+"Play Playlist" = "Putar Daftar Putar";
+"Recent" = "Terbaru";
+"Next in Playlist" = "Berikutnya di Daftar Putar";
+"Start Over" = "Mulai dari Awal";
+"Jump back 10 seconds" = "Mundur 10 detik";
+"Play/Pause (Space)" = "Putar/Jeda (Spasi)";
+"Jump forward 10 seconds" = "Maju 10 detik";
+"Playback speed" = "Kecepatan putar";
+"Playlist (⌘L)" = "Daftar Putar (⌘L)";
+"Full Screen (⌘F)" = "Layar Penuh (⌘F)";
+"No audio tracks" = "Tidak ada trek audio";
+"Audio track" = "Trek audio";
+
+/* Network streams */
+"network stream – seekable anywhere" = "aliran jaringan – bisa dilompati ke mana saja";
+"Network HLS stream – played directly, without conversion" = "Aliran HLS jaringan – diputar langsung, tanpa konversi";
+
+/* Chapters */
+"Previous Chapter" = "Bab Sebelumnya";
+"Next Chapter" = "Bab Berikutnya";
+"Chapter: %@" = "Bab: %@";
+"Previous Chapter (⇧P)" = "Bab Sebelumnya (⇧P)";
+"Next Chapter (⇧N)" = "Bab Berikutnya (⇧N)";
+
+/* Auto-hiding controls */
+"Hide Controls" = "Sembunyikan Kontrol";
+"After %@ seconds" = "Setelah %@ detik";
+"Never" = "Tidak Pernah";
+
+/* Time display */
+"Show total length" = "Tampilkan Durasi Total";
+"Show remaining time" = "Tampilkan Sisa Waktu";
+
+/* Picture in Picture, appearance */
+"Picture in Picture" = "Gambar dalam Gambar";
+"Playing in Picture in Picture" = "Diputar dalam Gambar dalam Gambar";
+"Appearance" = "Tampilan";
+"Light" = "Terang";
+"Dark" = "Gelap";
+
+/* Help menu */
+"Open-Source Licenses" = "Lisensi Sumber Terbuka";
