@@ -601,6 +601,7 @@ struct ControlBar: View {
         }
         .padding(.horizontal, 18).padding(.vertical, 14)
         .brutal(Theme.paper, offset: 5)
+        .overlayPreferenceValue(SeekTooltip.Key.self, SeekTooltip.overlay)
         .frame(maxWidth: 1000)
         .tint(Theme.ink)
     }
@@ -738,16 +739,13 @@ struct SeekBar: View {
                     .overlay(Rectangle().stroke(Theme.ink, lineWidth: 1.5))
                     .background(Rectangle().fill(Theme.ink).offset(x: 2, y: 2))
                     .offset(x: x(shown) - 6)
-                if let hoverX {
-                    Text(verbatim: tooltip(at: Double(hoverX / width) * duration))
-                        .font(Theme.mono(10, .semibold)).monospacedDigit().foregroundStyle(Theme.paper)
-                        .padding(.horizontal, 6).padding(.vertical, 3)
-                        .background(Theme.ink)
-                        .fixedSize()
-                        .offset(x: min(max(hoverX - 30, 0), width - 60), y: -24)
-                }
             }
             .frame(height: 22)
+            // The hover time is drawn by the control bar (SeekTooltip.overlay), above its border: drawn here, the
+            // bar's outline would run through the text.
+            .anchorPreference(key: SeekTooltip.Key.self, value: .point(CGPoint(x: hoverX ?? 0, y: 0))) { anchor in
+                hoverX.map { SeekTooltip(text: tooltip(at: Double($0 / width) * duration), anchor: anchor) }
+            }
             .contentShape(Rectangle())
             .gesture(DragGesture(minimumDistance: 0)
                 .onChanged { dragTime = Double(min(max($0.location.x / width, 0), 1)) * duration }
@@ -765,6 +763,32 @@ struct SeekBar: View {
     private func tooltip(at t: Double) -> String {
         let chapter = model.chapters.last { $0.start <= t }
         return [PlayerModel.time(t), chapter?.title].compactMap { $0 }.joined(separator: " · ")
+    }
+}
+
+/// The time under the mouse on the seek bar, shown above the control bar's outline.
+struct SeekTooltip {
+    let text: String
+    let anchor: Anchor<CGPoint>
+
+    struct Key: PreferenceKey {
+        static var defaultValue: SeekTooltip? { nil }
+        static func reduce(value: inout SeekTooltip?, nextValue: () -> SeekTooltip?) { value = value ?? nextValue() }
+    }
+
+    static func overlay(_ tooltip: SeekTooltip?) -> some View {
+        GeometryReader { geo in
+            if let tooltip {
+                let point = geo[tooltip.anchor]
+                Text(verbatim: tooltip.text)
+                    .font(Theme.mono(10, .semibold)).monospacedDigit().foregroundStyle(Theme.paper)
+                    .padding(.horizontal, 6).padding(.vertical, 3)
+                    .background(Theme.ink)
+                    .fixedSize()
+                    .position(x: min(max(point.x, 36), geo.size.width - 36), y: point.y - 13)
+            }
+        }
+        .allowsHitTesting(false)
     }
 }
 
