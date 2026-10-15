@@ -201,3 +201,7 @@
 
 /* Help menu */
 "Open-Source Licenses" = "Giấy phép mã nguồn mở";
+
+/* Recent files */
+"Clear" = "Xóa";
+"Remove from Recent" = "Xóa khỏi gần đây";

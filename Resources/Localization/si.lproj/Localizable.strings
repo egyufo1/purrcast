@@ -201,3 +201,7 @@
 
 /* Help menu */
 "Open-Source Licenses" = "විවෘත කේත බලපත්‍ර";
+
+/* Recent files */
+"Clear" = "හිස් කරන්න";
+"Remove from Recent" = "මෑත ඒවායින් ඉවත් කරන්න";

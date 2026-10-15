@@ -201,3 +201,7 @@
 
 /* Help menu */
 "Open-Source Licenses" = "Ceadachasan bun-tùs fosgailte";
+
+/* Recent files */
+"Clear" = "Falamhaich";
+"Remove from Recent" = "Thoir air falbh o na faidhlichean o chionn goirid";

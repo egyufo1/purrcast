@@ -201,3 +201,7 @@
 
 /* Help menu */
 "Open-Source Licenses" = "Licence open source";
+
+/* Recent files */
+"Clear" = "Vymazat";
+"Remove from Recent" = "Odebrat z nedávných";

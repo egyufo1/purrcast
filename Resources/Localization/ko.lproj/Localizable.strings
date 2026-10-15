@@ -201,3 +201,7 @@
 
 /* Help menu */
 "Open-Source Licenses" = "오픈 소스 라이선스";
+
+/* Recent files */
+"Clear" = "지우기";
+"Remove from Recent" = "최근 항목에서 제거";

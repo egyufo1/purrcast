@@ -199,3 +199,7 @@
 
 /* Help menu */
 "Open-Source Licenses" = "Licences open source";
+
+/* Recent files */
+"Clear" = "Effacer";
+"Remove from Recent" = "Retirer des récents";

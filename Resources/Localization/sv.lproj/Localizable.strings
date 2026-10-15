@@ -201,3 +201,7 @@
 
 /* Help menu */
 "Open-Source Licenses" = "Licenser för öppen källkod";
+
+/* Recent files */
+"Clear" = "Rensa";
+"Remove from Recent" = "Ta bort från senaste";

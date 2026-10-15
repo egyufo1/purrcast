@@ -201,3 +201,7 @@
 
 /* Help menu */
 "Open-Source Licenses" = "Nyílt forrású licencek";
+
+/* Recent files */
+"Clear" = "Törlés";
+"Remove from Recent" = "Eltávolítás a legutóbbiak közül";

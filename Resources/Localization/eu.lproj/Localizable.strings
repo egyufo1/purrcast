@@ -199,3 +199,7 @@
 
 /* Help menu */
 "Open-Source Licenses" = "Kode irekiko lizentziak";
+
+/* Recent files */
+"Clear" = "Garbitu";
+"Remove from Recent" = "Kendu azkenetatik";

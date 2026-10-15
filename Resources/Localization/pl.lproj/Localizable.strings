@@ -201,3 +201,7 @@
 
 /* Help menu */
 "Open-Source Licenses" = "Licencje open source";
+
+/* Recent files */
+"Clear" = "Wyczyść";
+"Remove from Recent" = "Usuń z ostatnich";

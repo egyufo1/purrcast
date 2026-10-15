@@ -201,3 +201,7 @@
 
 /* Help menu */
 "Open-Source Licenses" = "Лицензии открытого ПО";
+
+/* Recent files */
+"Clear" = "Очистить";
+"Remove from Recent" = "Удалить из недавних";

@@ -201,3 +201,7 @@
 
 /* Help menu */
 "Open-Source Licenses" = "អាជ្ញាប័ណ្ណកូដចំហ";
+
+/* Recent files */
+"Clear" = "សម្អាត";
+"Remove from Recent" = "ដកចេញពីថ្មីៗ";

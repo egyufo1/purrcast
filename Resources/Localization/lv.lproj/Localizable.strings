@@ -201,3 +201,7 @@
 
 /* Help menu */
 "Open-Source Licenses" = "Atvērtā koda licences";
+
+/* Recent files */
+"Clear" = "Notīrīt";
+"Remove from Recent" = "Noņemt no nesenajiem";

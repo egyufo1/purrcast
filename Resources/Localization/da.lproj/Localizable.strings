@@ -201,3 +201,7 @@
 
 /* Help menu */
 "Open-Source Licenses" = "Open source-licenser";
+
+/* Recent files */
+"Clear" = "Ryd";
+"Remove from Recent" = "Fjern fra seneste";

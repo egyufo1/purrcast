@@ -201,3 +201,7 @@
 
 /* Help menu */
 "Open-Source Licenses" = "Odprtokodne licence";
+
+/* Recent files */
+"Clear" = "Počisti";
+"Remove from Recent" = "Odstrani iz nedavnih";

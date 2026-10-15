@@ -707,6 +707,11 @@ final class PlayerModel: ObservableObject {
         if url.isFileURL { NSDocumentController.shared.noteNewRecentDocumentURL(url) }
     }
 
+    func removeRecent(_ url: URL) {
+        recentURLs.removeAll { $0 == url }
+        UserDefaults.standard.set(recentURLs.map(\.absoluteString), forKey: "recent")
+    }
+
     func clearRecent() {
         recentURLs = []
         UserDefaults.standard.removeObject(forKey: "recent")

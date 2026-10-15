@@ -201,3 +201,7 @@
 
 /* Help menu */
 "Open-Source Licenses" = "רישיונות קוד פתוח";
+
+/* Recent files */
+"Clear" = "ניקוי";
+"Remove from Recent" = "הסרה מהאחרונים";

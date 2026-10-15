@@ -199,3 +199,7 @@
 
 /* Help menu */
 "Open-Source Licenses" = "Llicències de codi obert";
+
+/* Recent files */
+"Clear" = "Neteja";
+"Remove from Recent" = "Elimina dels recents";

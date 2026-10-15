@@ -201,3 +201,7 @@
 
 /* Help menu */
 "Open-Source Licenses" = "Atvirojo kodo licencijos";
+
+/* Recent files */
+"Clear" = "Išvalyti";
+"Remove from Recent" = "Pašalinti iš paskiausių";

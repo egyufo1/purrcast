@@ -201,3 +201,7 @@
 
 /* Help menu */
 "Open-Source Licenses" = "تراخيص المصادر المفتوحة";
+
+/* Recent files */
+"Clear" = "مسح";
+"Remove from Recent" = "إزالة من الأخيرة";

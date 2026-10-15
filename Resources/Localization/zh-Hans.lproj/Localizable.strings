@@ -201,3 +201,7 @@
 
 /* Help menu */
 "Open-Source Licenses" = "开源许可";
+
+/* Recent files */
+"Clear" = "清除";
+"Remove from Recent" = "从最近使用中移除";

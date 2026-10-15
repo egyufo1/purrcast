@@ -201,3 +201,7 @@
 
 /* Help menu */
 "Open-Source Licenses" = "Ceadúnais foinse oscailte";
+
+/* Recent files */
+"Clear" = "Glan";
+"Remove from Recent" = "Bain de na cinn is déanaí";

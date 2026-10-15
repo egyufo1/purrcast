@@ -286,22 +286,41 @@ struct IdleView: View {
 
                 if !model.recentURLs.isEmpty {
                     VStack(alignment: .leading, spacing: 2) {
-                        Text("Recent").font(Theme.mono(11)).textCase(.uppercase).tracking(0.7).foregroundStyle(Theme.muted)
-                            .padding(.bottom, 6)
-                        ForEach(Array(model.recentURLs.prefix(4).enumerated()), id: \.offset) { i, url in
-                            Button { model.open([url]) } label: {
-                                HStack(spacing: 10) {
-                                    Text(verbatim: String(format: "%02d", i + 1)).font(Theme.mono(11)).foregroundStyle(Theme.muted)
-                                    Text(verbatim: url.isFileURL ? url.lastPathComponent : url.absoluteString)
-                                        .font(Theme.sans(13)).lineLimit(1).truncationMode(.middle)
-                                    Spacer()
-                                    Image(systemName: "arrow.up.right").font(.system(size: 10, weight: .bold))
-                                }
-                                .padding(.vertical, 6)
-                                .overlay(alignment: .bottom) { Rectangle().fill(Theme.ink.opacity(0.18)).frame(height: 1) }
-                                .contentShape(Rectangle())
+                        HStack {
+                            Text("Recent").font(Theme.mono(11)).textCase(.uppercase).tracking(0.7).foregroundStyle(Theme.muted)
+                            Spacer()
+                            Button { model.clearRecent() } label: {
+                                Text("Clear").font(Theme.mono(11)).textCase(.uppercase).tracking(0.7).underline()
+                                    .foregroundStyle(Theme.muted).contentShape(Rectangle())
                             }
-                            .buttonStyle(HoverRowStyle())
+                            .buttonStyle(PressStyle())
+                        }
+                        .padding(.bottom, 6)
+                        ForEach(Array(model.recentURLs.prefix(4).enumerated()), id: \.offset) { i, url in
+                            HStack(spacing: 4) {
+                                Button { model.open([url]) } label: {
+                                    HStack(spacing: 10) {
+                                        Text(verbatim: String(format: "%02d", i + 1)).font(Theme.mono(11)).foregroundStyle(Theme.muted)
+                                        Text(verbatim: url.isFileURL ? url.lastPathComponent : url.absoluteString)
+                                            .font(Theme.sans(13)).lineLimit(1).truncationMode(.middle)
+                                        Spacer()
+                                        Image(systemName: "arrow.up.right").font(.system(size: 10, weight: .bold))
+                                    }
+                                    .padding(.vertical, 6)
+                                    .contentShape(Rectangle())
+                                }
+                                .buttonStyle(HoverRowStyle())
+                                Button { model.removeRecent(url) } label: {
+                                    Image(systemName: "xmark").font(.system(size: 9, weight: .bold)).foregroundStyle(Theme.muted)
+                                        .frame(width: 22, height: 22).contentShape(Rectangle())
+                                }
+                                .buttonStyle(PressStyle())
+                                .help(Text("Remove from Recent"))
+                            }
+                            .overlay(alignment: .bottom) { Rectangle().fill(Theme.ink.opacity(0.18)).frame(height: 1) }
+                            .contextMenu {
+                                Button("Remove from Recent") { model.removeRecent(url) }
+                            }
                         }
                     }
                     .frame(maxWidth: 420)

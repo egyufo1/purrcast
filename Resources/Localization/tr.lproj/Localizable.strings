@@ -201,3 +201,7 @@
 
 /* Help menu */
 "Open-Source Licenses" = "Açık Kaynak Lisansları";
+
+/* Recent files */
+"Clear" = "Temizle";
+"Remove from Recent" = "Son kullanılanlardan kaldır";

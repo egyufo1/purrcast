@@ -201,3 +201,7 @@
 
 /* Help menu */
 "Open-Source Licenses" = "オープンソースライセンス";
+
+/* Recent files */
+"Clear" = "消去";
+"Remove from Recent" = "最近の項目から削除";

@@ -201,3 +201,7 @@
 
 /* Help menu */
 "Open-Source Licenses" = "Lisensar for open kjeldekode";
+
+/* Recent files */
+"Clear" = "Tøm";
+"Remove from Recent" = "Fjern frå nylege";

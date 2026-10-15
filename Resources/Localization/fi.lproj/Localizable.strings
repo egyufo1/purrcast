@@ -201,3 +201,7 @@
 
 /* Help menu */
 "Open-Source Licenses" = "Avoimen lähdekoodin lisenssit";
+
+/* Recent files */
+"Clear" = "Tyhjennä";
+"Remove from Recent" = "Poista viimeisimmistä";

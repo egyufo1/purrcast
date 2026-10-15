@@ -201,3 +201,7 @@
 
 /* Help menu */
 "Open-Source Licenses" = "ওপেন-সোর্স লাইসেন্স";
+
+/* Recent files */
+"Clear" = "পরিষ্কার করুন";
+"Remove from Recent" = "সাম্প্রতিক থেকে সরান";

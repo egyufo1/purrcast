@@ -201,3 +201,7 @@
 
 /* Help menu */
 "Open-Source Licenses" = "สัญญาอนุญาตโอเพนซอร์ส";
+
+/* Recent files */
+"Clear" = "ล้าง";
+"Remove from Recent" = "เอาออกจากรายการล่าสุด";

@@ -201,3 +201,7 @@
 
 /* Help menu */
 "Open-Source Licenses" = "Avatud lähtekoodi litsentsid";
+
+/* Recent files */
+"Clear" = "Tühjenda";
+"Remove from Recent" = "Eemalda hiljutistest";

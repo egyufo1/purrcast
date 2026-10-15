@@ -201,3 +201,7 @@
 
 /* Help menu */
 "Open-Source Licenses" = "Licéncias de còdi dobèrt";
+
+/* Recent files */
+"Clear" = "Escafar";
+"Remove from Recent" = "Levar dels recents";

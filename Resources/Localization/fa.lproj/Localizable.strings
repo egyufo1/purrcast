@@ -201,3 +201,7 @@
 
 /* Help menu */
 "Open-Source Licenses" = "مجوزهای متن‌باز";
+
+/* Recent files */
+"Clear" = "پاک کردن";
+"Remove from Recent" = "حذف از موارد اخیر";

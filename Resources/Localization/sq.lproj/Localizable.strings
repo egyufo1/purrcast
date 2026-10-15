@@ -201,3 +201,7 @@
 
 /* Help menu */
 "Open-Source Licenses" = "Licenca me burim të hapur";
+
+/* Recent files */
+"Clear" = "Pastro";
+"Remove from Recent" = "Hiqe nga të fundit";

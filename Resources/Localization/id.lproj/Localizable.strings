@@ -201,3 +201,7 @@
 
 /* Help menu */
 "Open-Source Licenses" = "Lisensi Sumber Terbuka";
+
+/* Recent files */
+"Clear" = "Bersihkan";
+"Remove from Recent" = "Hapus dari terbaru";

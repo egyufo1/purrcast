@@ -201,3 +201,7 @@
 
 /* Help menu */
 "Open-Source Licenses" = "Άδειες ανοιχτού κώδικα";
+
+/* Recent files */
+"Clear" = "Εκκαθάριση";
+"Remove from Recent" = "Αφαίρεση από τα πρόσφατα";

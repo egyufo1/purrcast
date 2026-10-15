@@ -201,3 +201,7 @@
 
 /* Help menu */
 "Open-Source Licenses" = "ღია კოდის ლიცენზიები";
+
+/* Recent files */
+"Clear" = "გასუფთავება";
+"Remove from Recent" = "ბოლოდროინდელებიდან წაშლა";

@@ -201,3 +201,7 @@
 
 /* Help menu */
 "Open-Source Licenses" = "Licențe open source";
+
+/* Recent files */
+"Clear" = "Golește";
+"Remove from Recent" = "Elimină din recente";
