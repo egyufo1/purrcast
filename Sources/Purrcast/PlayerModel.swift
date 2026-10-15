@@ -84,8 +84,8 @@ final class PlayerModel: ObservableObject {
     @Published var showPlaylist = UserDefaults.standard.bool(forKey: "showPlaylist") {
         didSet { UserDefaults.standard.set(showPlaylist, forKey: "showPlaylist") }
     }
-    @Published var showOpenURL = false
-    @Published var showGoTo = false
+    @Published var showOpenURL = false { didSet { if showOpenURL { showMainWindow() } } }
+    @Published var showGoTo = false { didSet { if showGoTo { showMainWindow() } } }
     @Published private(set) var loopA: Double?
     @Published private(set) var loopB: Double?
     @Published private(set) var recentURLs: [URL] = (UserDefaults.standard.stringArray(forKey: "recent") ?? []).compactMap(URL.init(string:))
@@ -131,6 +131,19 @@ final class PlayerModel: ObservableObject {
         NSApp.windows.first { $0.identifier?.rawValue.hasPrefix("main") == true } ?? NSApp.mainWindow
     }
 
+    /// Shows the player window, reopening it if it was closed (the app keeps running without it).
+    func showMainWindow() {
+        if let window = mainWindow {
+            window.makeKeyAndOrderFront(nil)
+        } else {
+            openMainWindow?()
+        }
+        NSApp.activate(ignoringOtherApps: true)
+    }
+
+    /// SwiftUI's openWindow(id: "main"), handed over by the menu bar (scene actions only exist in views).
+    var openMainWindow: (() -> Void)?
+
     // MARK: - Opening
 
     func showOpenPanel() {
@@ -143,6 +156,7 @@ final class PlayerModel: ObservableObject {
 
     /// Adds files / folders / playlists / URLs to the playlist and plays the first of them.
     func open(_ urls: [URL]) {
+        showMainWindow()
         let added = playlist.add(urls)
         if let first = added.first { play(first) }
     }

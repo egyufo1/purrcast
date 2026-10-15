@@ -40,6 +40,8 @@ struct PlayerCommands: Commands {
     @AppStorage("appearance") private var appearance = "system"
 
     var body: some Commands {
+        // Lets the model reopen the closed player window (Dock click, opening a file); not observed, no re-render.
+        let _ = (model.openMainWindow = { [openWindow] in openWindow(id: "main") })
         CommandGroup(replacing: .newItem) {
             Button("Open…") { model.showOpenPanel() }.keyboardShortcut("o")
             Button("Open Network Stream…") { model.showOpenURL = true }.keyboardShortcut("n")
@@ -204,6 +206,15 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
             NSApp.activate(ignoringOtherApps: true)
         }
 
+        NotificationCenter.default.addObserver(forName: NSWindow.willCloseNotification, object: nil, queue: .main) { note in
+            guard let window = note.object as? NSWindow, window.identifier?.rawValue.hasPrefix("main") == true else { return }
+            MainActor.assumeIsolated {
+                let model = PlayerModel.shared
+                if model.isPictureInPicture { model.togglePictureInPicture() }
+                if model.phase != .idle { model.stopPlayback() }
+            }
+        }
+
         let files = CommandLine.arguments.dropFirst().filter { !$0.hasPrefix("-") && FileManager.default.fileExists(atPath: $0) }
         if !files.isEmpty { PlayerModel.shared.open(files.map { URL(fileURLWithPath: $0) }) }
     }
@@ -212,7 +223,15 @@ final class AppDelegate: NSObject, NSApplicationDelegate {
         PlayerModel.shared.open(urls)
     }
 
-    func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool { true }
+    /// Like VLC and other Mac apps: closing the window stops playback but keeps the app running (Dock, menu bar);
+    /// ⌘Q quits.
+    func applicationShouldTerminateAfterLastWindowClosed(_ sender: NSApplication) -> Bool { false }
+
+    /// Dock icon clicked while the window is closed: bring it back.
+    func applicationShouldHandleReopen(_ sender: NSApplication, hasVisibleWindows flag: Bool) -> Bool {
+        if !flag { PlayerModel.shared.showMainWindow() }
+        return true
+    }
 
     func applicationWillTerminate(_ notification: Notification) {
         PlayerModel.shared.shutdown()
